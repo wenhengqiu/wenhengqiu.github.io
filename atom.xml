@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>恒仔工作室</title>
+  <subtitle>让你重新爱上那只写代码的猴子</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-04-29T02:54:33.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>恒仔工作室</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>致Cecilia</title>
+    <link href="http://yoursite.com/2016/04/28/%E8%87%B4Cecilia/"/>
+    <id>http://yoursite.com/2016/04/28/致Cecilia/</id>
+    <published>2016-04-28T11:51:04.000Z</published>
+    <updated>2016-04-29T02:54:33.000Z</updated>
+    
+    <content type="html">&lt;p&gt;大二，便甚少碰代码，回想起来，那段混乱的日子里，你是唯一的亮光；&lt;/p&gt;
+&lt;p&gt;大三上，从创业的failure与Kumamoto的failure中缓过来，决定重新开始；&lt;/p&gt;
+&lt;p&gt;大三下的现在，花了半年的时间调整，忙着修gpa，忙着点技能，忙着将拉下的东西重新补上；&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大二，便甚少碰代码，回想起来，那段混乱的日子里，你是唯一的亮光；&lt;/p&gt;
+&lt;p&gt;大三上，从创业的failure与Kumamoto的failure中缓过来，决定重新开始；&lt;/p&gt;
+&lt;p&gt;大三下的现在，花了半年的时间调整，忙着修gpa，忙着点技能，忙着将拉下的东西重新补上；&lt;/
+    
+    </summary>
+    
+    
+      <category term="吃货女票" scheme="http://yoursite.com/tags/%E5%90%83%E8%B4%A7%E5%A5%B3%E7%A5%A8/"/>
+    
+  </entry>
+  
+</feed>
