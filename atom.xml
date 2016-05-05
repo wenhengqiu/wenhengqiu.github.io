@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-05T13:37:43.000Z</updated>
+  <updated>2016-05-05T13:44:01.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   
   <entry>
     <title>用Swift实现笑脸</title>
-    <link href="http://yoursite.com/2016/05/02/%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B2/"/>
-    <id>http://yoursite.com/2016/05/02/测试用例2/</id>
+    <link href="http://yoursite.com/2016/05/02/%E7%94%A8Swift%E5%AE%9E%E7%8E%B0%E7%AC%91%E8%84%B8/"/>
+    <id>http://yoursite.com/2016/05/02/用Swift实现笑脸/</id>
     <published>2016-05-02T02:56:55.000Z</published>
-    <updated>2016-05-05T13:37:43.000Z</updated>
+    <updated>2016-05-05T13:44:01.000Z</updated>
     
-    <content type="html">&lt;p&gt;###实现效果：&lt;br&gt;1、一个简单线条组成的笑脸（可变成不高兴脸）&lt;br&gt;2、旋转屏幕实现redraw效果&lt;/p&gt;
-&lt;p&gt;###Swift 及 storyboard知识点：&lt;br&gt;1、UIViewController 及 UIView的布局&lt;br&gt;2、CGFloat CGPoint、UIColor的使用&lt;br&gt;3、UIBezierPath的使用&lt;/p&gt;
+    <content type="html">&lt;p&gt;实现效果：&lt;br&gt;1、一个简单线条组成的笑脸（可变成不高兴脸）&lt;br&gt;2、旋转屏幕实现redraw效果&lt;/p&gt;
+&lt;p&gt;Swift 及 storyboard知识点：&lt;br&gt;1、UIViewController 及 UIView的布局&lt;br&gt;2、CGFloat CGPoint、UIColor的使用&lt;br&gt;3、UIBezierPath的使用&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160505212042430&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -34,36 +34,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;###实现效果：&lt;br&gt;1、一个简单线条组成的笑脸（可变成不高兴脸）&lt;br&gt;2、旋转屏幕实现redraw效果&lt;/p&gt;
-&lt;p&gt;###Swift 及 storyboard知识点：&lt;br&gt;1、UIViewController 及 UIView的布局&lt;br&gt;2、CGFloat CG
-    
-    </summary>
-    
-    
-      <category term="iOS开发" scheme="http://yoursite.com/tags/iOS%E5%BC%80%E5%8F%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用Swift实现笑脸</title>
-    <link href="http://yoursite.com/2016/05/02/%E7%94%A8Swift%E5%AE%9E%E7%8E%B0%E7%AC%91%E8%84%B8/"/>
-    <id>http://yoursite.com/2016/05/02/用Swift实现笑脸/</id>
-    <published>2016-05-02T02:56:55.000Z</published>
-    <updated>2016-05-05T13:36:00.000Z</updated>
-    
-    <content type="html">&lt;p&gt;###实现效果：&lt;br&gt;1、一个简单线条组成的笑脸（可变成不高兴脸）&lt;br&gt;2、旋转屏幕实现redraw效果&lt;/p&gt;
-&lt;p&gt;###Swift 及 storyboard知识点：&lt;br&gt;1、UIViewController 及 UIView的布局&lt;br&gt;2、CGFloat CGPoint、UIColor的使用&lt;br&gt;3、UIBezierPath的使用&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160505212042430&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160505212126165&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;###实现效果：&lt;br&gt;1、一个简单线条组成的笑脸（可变成不高兴脸）&lt;br&gt;2、旋转屏幕实现redraw效果&lt;/p&gt;
-&lt;p&gt;###Swift 及 storyboard知识点：&lt;br&gt;1、UIViewController 及 UIView的布局&lt;br&gt;2、CGFloat CG
+      &lt;p&gt;实现效果：&lt;br&gt;1、一个简单线条组成的笑脸（可变成不高兴脸）&lt;br&gt;2、旋转屏幕实现redraw效果&lt;/p&gt;
+&lt;p&gt;Swift 及 storyboard知识点：&lt;br&gt;1、UIViewController 及 UIView的布局&lt;br&gt;2、CGFloat CGPoint、
     
     </summary>
     
