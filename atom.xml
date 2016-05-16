@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-05T13:54:56.000Z</updated>
+  <updated>2016-05-16T05:48:15.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>将Macbook的光驱位升级成SSD</title>
+    <link href="http://yoursite.com/2016/05/16/%E5%B0%86Macbook%E7%9A%84%E5%85%89%E9%A9%B1%E4%BD%8D%E5%8D%87%E7%BA%A7%E6%88%90SSD/"/>
+    <id>http://yoursite.com/2016/05/16/将Macbook的光驱位升级成SSD/</id>
+    <published>2016-05-16T05:42:24.000Z</published>
+    <updated>2016-05-16T05:48:15.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Macbook描述：&lt;br&gt;Macbook Pro（13-inch, Mid 2012）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;效果描述：&lt;/p&gt;
+&lt;h2 id=&quot;1、将Macbook-Pro的光驱替换成SSD&quot;&gt;&lt;a href=&quot;#1、将Macbook-Pro的光驱替换成SSD&quot; class=&quot;headerlink&quot; title=&quot;1、将Macbook Pro的光驱替换成SSD&quot;&gt;&lt;/a&gt;1、将Macbook Pro的光驱替换成SSD&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160516125924736&quot; alt=&quot;即将安装的SSD&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160516124942628&quot; alt=&quot;安装前的MBP&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/u014491743/article/details/51424507&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;具体步骤请点这里&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Macbook描述：&lt;br&gt;Macbook Pro（13-inch, Mid 2012）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;效果描述：&lt;/p&gt;
+&lt;h2 id=&quot;1、将Macbook-Pro的光驱替换成SSD&quot;&gt;&lt;a href=&quot;#1、将Macbook-Pro的光驱替换成SSD&quot; cl
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>用Swift实现笑脸</title>
@@ -48,8 +77,8 @@
   
   <entry>
     <title>Swift写简易计算机</title>
-    <link href="http://yoursite.com/2016/05/02/%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B/"/>
-    <id>http://yoursite.com/2016/05/02/测试用例/</id>
+    <link href="http://yoursite.com/2016/05/02/Swift%E5%86%99%E7%AE%80%E6%98%93%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    <id>http://yoursite.com/2016/05/02/Swift写简易计算机/</id>
     <published>2016-05-02T02:53:10.000Z</published>
     <updated>2016-05-05T13:55:24.000Z</updated>
     
