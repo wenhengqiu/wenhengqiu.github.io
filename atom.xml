@@ -109,37 +109,6 @@
   </entry>
   
   <entry>
-    <title>Swift写简易计算机</title>
-    <link href="http://yoursite.com/2016/05/02/%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B/"/>
-    <id>http://yoursite.com/2016/05/02/测试用例/</id>
-    <published>2016-05-02T02:53:10.000Z</published>
-    <updated>2016-05-16T05:48:41.000Z</updated>
-    
-    <content type="html">&lt;p&gt;实验环境：&lt;br&gt;Xcode v6.4   &amp;amp; OS X Yosemite 10.10&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;功能描述：&lt;br&gt;1、实现加减乘除＋根号（结果display为Double型）&lt;/p&gt;
-&lt;h2 id=&quot;2、边界适应：各元素之间的距离固定，且适应手机旋转（Roate）&quot;&gt;&lt;a href=&quot;#2、边界适应：各元素之间的距离固定，且适应手机旋转（Roate）&quot; class=&quot;headerlink&quot; title=&quot;2、边界适应：各元素之间的距离固定，且适应手机旋转（Roate）&quot;&gt;&lt;/a&gt;2、边界适应：各元素之间的距离固定，且适应手机旋转（Roate）&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160408214714403&quot; alt=&quot;旋转后的计算器&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160408221348616&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/u014491743/article/details/51100312&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;具体代码请点这里&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;实验环境：&lt;br&gt;Xcode v6.4   &amp;amp; OS X Yosemite 10.10&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;功能描述：&lt;br&gt;1、实现加减乘除＋根号（结果display为Double型）&lt;/p&gt;
-&lt;h2 id=&quot;2、边界适应：各元素之间的距离固定，且适应手机旋转
-    
-    </summary>
-    
-    
-      <category term="iOS开发" scheme="http://yoursite.com/tags/iOS%E5%BC%80%E5%8F%91/"/>
-    
-  </entry>
-  
-  <entry>
     <title>致Cecilia</title>
     <link href="http://yoursite.com/2016/04/28/%E8%87%B4Cecilia/"/>
     <id>http://yoursite.com/2016/04/28/致Cecilia/</id>
