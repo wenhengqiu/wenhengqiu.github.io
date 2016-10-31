@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-10-01T14:49:12.000Z</updated>
+  <updated>2016-10-31T02:45:09.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,183 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>可视化设计Assignment01</title>
+    <link href="http://yoursite.com/2016/10/31/%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%BE%E8%AE%A1Assignment01/"/>
+    <id>http://yoursite.com/2016/10/31/可视化设计Assignment01/</id>
+    <published>2016-10-31T02:09:10.000Z</published>
+    <updated>2016-10-31T02:45:09.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;p&gt;一、Assignment设计要求：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your task is to design a static (i.e., single image) visualization that you believe effectively communicates the data and provide a short write-up (no more than 4 paragraphs) describing your design. While you must use the data set given, note that you are free to transform the data as you see fit. You are also free to incorporate external data as you see fit. Your chart image should be interpretable without recourse to your short write-up. Do not forget to include title, axis labels or legends as needed!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;二、设计理由：&lt;br&gt;1、目的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;清晰地展示三种抗生素对16种细菌的不同效果&lt;/li&gt;
+&lt;li&gt;突出在Positive Gram与Positive Gram最有效的抗生素&lt;br&gt;2、数据的特点：&lt;/li&gt;
+&lt;li&gt;涉及两种对象（抗生素与细菌），一种属性（Gram Staning）&lt;/li&gt;
+&lt;li&gt;数据的波动幅度较大（0.001 ~ 870），分组数据有不同的波动范围&lt;br&gt;3、尝试的可视化形式（最后选择Split Bars）：&lt;/li&gt;
+&lt;li&gt;Stacked Bars&lt;/li&gt;
+&lt;li&gt;Lines Chart&lt;/li&gt;
+&lt;li&gt;Column Chart&lt;/li&gt;
+&lt;li&gt;同心圆模式（他人作品）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;三、原始数据：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Bacteria&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Penicilin&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Streptomycin&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Streptomycin&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Gram Staining&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Aerobacter aerogenes&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;870&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1.6&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;negative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Brucella abortus&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.02&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;negative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Brucella anthracis&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.001&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.01&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.007&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;positive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Diplococcus pneumoniae&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.005&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;11&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;positive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Escherichia coli&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;100&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.4&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;negative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Klebsiella pneumoniae&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;850&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1.2&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;negative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Mycobacterium tuberculosis&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;800&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;5&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;negative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Proteus vulgaris&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;3&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;negative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Pseudomonas aeruginosa&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;850&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.4&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;negative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Salmonella (Eberthella) typhosa&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.4&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.008&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;negative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Salmonella schottmuelleri&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.8&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.09&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;negative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Staphylococcus albus&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.007&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.001&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;positive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Staphylococcus aureus&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.03&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.03&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.001&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;positive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Streptococcus fecalis&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.1&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;positive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Streptococcus hemolyticus&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.001&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;14&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;positive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Streptococcus viridans&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;0.005&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;40&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;positive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;|:—–:|&lt;br&gt;|It illustrates the most effective antibiotic on negative or positive gram|&lt;br&gt;|Showing the effectiveness of three antibiotics on 16 different bacteria|&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20161031102813296&quot; alt=&quot;Split Bars设计&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;一、Assignment设计要求：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your task is to design a static (i.e., single image) visualization that you believe effectivel
+    
+    </summary>
+    
+    
+      <category term="设计" scheme="http://yoursite.com/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>新闻类APP对比</title>
     <link href="http://yoursite.com/2016/10/01/%E6%96%B0%E9%97%BB%E7%B1%BBAPP%E5%AF%B9%E6%AF%94/"/>
     <id>http://yoursite.com/2016/10/01/新闻类APP对比/</id>
     <published>2016-10-01T08:37:16.000Z</published>
-    <updated>2016-10-01T14:49:12.000Z</updated>
+    <updated>2016-10-01T14:53:38.000Z</updated>
     
     <content type="html">&lt;hr&gt;
 &lt;p&gt;探究问题：&lt;br&gt;01：阅读类APP对用户体验影响最大的因素有哪些？&lt;br&gt;02：我认为设计优秀的几款APP？&lt;br&gt;03：分析今日头条、腾讯新闻、网易新闻、UC头条这几款产品的用户人群以及产品有哪些差异化设计？&lt;br&gt;04：哪些方式可以让用户明显感知到推荐的内容是“为你个性化推荐”？&lt;/p&gt;

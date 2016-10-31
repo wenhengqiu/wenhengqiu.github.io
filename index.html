@@ -243,6 +243,212 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-可视化设计Assignment01" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/10/31/可视化设计Assignment01/" class="article-date">
+      <time datetime="2016-10-31T02:09:10.000Z" itemprop="datePublished">2016-10-31</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/10/31/可视化设计Assignment01/">可视化设计Assignment01</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <hr>
+<p>一、Assignment设计要求：</p>
+<blockquote>
+<p>Your task is to design a static (i.e., single image) visualization that you believe effectively communicates the data and provide a short write-up (no more than 4 paragraphs) describing your design. While you must use the data set given, note that you are free to transform the data as you see fit. You are also free to incorporate external data as you see fit. Your chart image should be interpretable without recourse to your short write-up. Do not forget to include title, axis labels or legends as needed!</p>
+</blockquote>
+<hr>
+<p>二、设计理由：<br>1、目的：</p>
+<ul>
+<li>清晰地展示三种抗生素对16种细菌的不同效果</li>
+<li>突出在Positive Gram与Positive Gram最有效的抗生素<br>2、数据的特点：</li>
+<li>涉及两种对象（抗生素与细菌），一种属性（Gram Staning）</li>
+<li>数据的波动幅度较大（0.001 ~ 870），分组数据有不同的波动范围<br>3、尝试的可视化形式（最后选择Split Bars）：</li>
+<li>Stacked Bars</li>
+<li>Lines Chart</li>
+<li>Column Chart</li>
+<li>同心圆模式（他人作品）</li>
+</ul>
+<hr>
+<p>三、原始数据：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Bacteria</th>
+<th style="text-align:center">Penicilin</th>
+<th style="text-align:center"></th>
+<th style="text-align:center">Streptomycin</th>
+<th style="text-align:center">Streptomycin</th>
+<th></th>
+<th>Gram Staining</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Aerobacter aerogenes</td>
+<td style="text-align:center">870</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1.6</td>
+<td style="text-align:center">negative</td>
+</tr>
+<tr>
+<td style="text-align:center">Brucella abortus</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">0.02</td>
+<td style="text-align:center">negative</td>
+</tr>
+<tr>
+<td style="text-align:center">Brucella anthracis</td>
+<td style="text-align:center">0.001</td>
+<td style="text-align:center">0.01</td>
+<td style="text-align:center">0.007</td>
+<td style="text-align:center">positive</td>
+</tr>
+<tr>
+<td style="text-align:center">Diplococcus pneumoniae</td>
+<td style="text-align:center">0.005</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">positive</td>
+</tr>
+<tr>
+<td style="text-align:center">Escherichia coli</td>
+<td style="text-align:center">100</td>
+<td style="text-align:center">0.4</td>
+<td style="text-align:center">0.1</td>
+<td style="text-align:center">negative</td>
+</tr>
+<tr>
+<td style="text-align:center">Klebsiella pneumoniae</td>
+<td style="text-align:center">850</td>
+<td style="text-align:center">1.2</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">negative</td>
+</tr>
+<tr>
+<td style="text-align:center">Mycobacterium tuberculosis</td>
+<td style="text-align:center">800</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">negative</td>
+</tr>
+<tr>
+<td style="text-align:center">Proteus vulgaris</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">0.1</td>
+<td style="text-align:center">0.1</td>
+<td style="text-align:center">negative</td>
+</tr>
+<tr>
+<td style="text-align:center">Pseudomonas aeruginosa</td>
+<td style="text-align:center">850</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">0.4</td>
+<td style="text-align:center">negative</td>
+</tr>
+<tr>
+<td style="text-align:center">Salmonella (Eberthella) typhosa</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0.4</td>
+<td style="text-align:center">0.008</td>
+<td style="text-align:center">negative</td>
+</tr>
+<tr>
+<td style="text-align:center">Salmonella schottmuelleri</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">0.8</td>
+<td style="text-align:center">0.09</td>
+<td style="text-align:center">negative</td>
+</tr>
+<tr>
+<td style="text-align:center">Staphylococcus albus</td>
+<td style="text-align:center">0.007</td>
+<td style="text-align:center">0.1</td>
+<td style="text-align:center">0.001</td>
+<td style="text-align:center">positive</td>
+</tr>
+<tr>
+<td style="text-align:center">Staphylococcus aureus</td>
+<td style="text-align:center">0.03</td>
+<td style="text-align:center">0.03</td>
+<td style="text-align:center">0.001</td>
+<td style="text-align:center">positive</td>
+</tr>
+<tr>
+<td style="text-align:center">Streptococcus fecalis</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0.1</td>
+<td style="text-align:center">positive</td>
+</tr>
+<tr>
+<td style="text-align:center">Streptococcus hemolyticus</td>
+<td style="text-align:center">0.001</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">positive</td>
+</tr>
+<tr>
+<td style="text-align:center">Streptococcus viridans</td>
+<td style="text-align:center">0.005</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">40</td>
+<td style="text-align:center">positive</td>
+</tr>
+</tbody>
+</table>
+<p>|:—–:|<br>|It illustrates the most effective antibiotic on negative or positive gram|<br>|Showing the effectiveness of three antibiotics on 16 different bacteria|</p>
+<p><img src="http://img.blog.csdn.net/20161031102813296" alt="Split Bars设计"></p>
+<hr>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/设计/">设计</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-新闻类APP对比" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
