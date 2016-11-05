@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-05T15:34:18.000Z</updated>
+  <updated>2016-11-05T15:44:47.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/11/05/FirstTableauChart/"/>
     <id>http://yoursite.com/2016/11/05/FirstTableauChart/</id>
     <published>2016-11-05T15:18:12.000Z</published>
-    <updated>2016-11-05T15:34:18.000Z</updated>
+    <updated>2016-11-05T15:44:47.000Z</updated>
     
     <content type="html">&lt;body&gt;&lt;br&gt;&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1478358602653&quot; style=&quot;position: relative&quot;&gt;&lt;br&gt;&lt;noscript&gt;&lt;br&gt;&lt;a href=&quot;#&quot;&gt;&lt;br&gt;&lt;img alt=&quot;Dashboard 1 &quot; src=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;ML&amp;#47;MLC_Split_Tableau&amp;#47;Dashboard1&amp;#47;1_rss.png&quot; style=&quot;border: none&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;/noscript&gt;&lt;br&gt;&lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;&lt;br&gt;&lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot;&gt;&lt;br&gt;&lt;param name=&quot;site_root&quot; value=&quot;&quot;&gt;&lt;br&gt;&lt;param name=&quot;name&quot; value=&quot;MLC_Split_Tableau&amp;#47;Dashboard1&quot;&gt;&lt;br&gt;&lt;param name=&quot;tabs&quot; value=&quot;no&quot;&gt;&lt;param name=&quot;toolbar&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;static_image&quot; value=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;ML&amp;#47;MLC_Split_Tableau&amp;#47;Dashboard1&amp;#47;1.png&quot;&gt;&lt;br&gt;&lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;display_count&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;/object&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;script type=&quot;text/javascript&quot;&gt;&lt;br&gt;var divElement = document.getElementById(‘viz1478358602653’);&lt;br&gt;var vizElement = divElement.getElementsByTagName(‘object’)[0];                    vizElement.style.width=’1004px’;vizElement.style.height=’869px’;&lt;br&gt;var scriptElement = document.createElement(‘script’);&lt;br&gt;scriptElement.src = ‘&lt;a href=&quot;https://public.tableau.com/javascripts/api/viz_v1.js&quot;&gt;https://public.tableau.com/javascripts/api/viz_v1.js&lt;/a&gt;‘;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);&lt;br&gt;&lt;/script&gt;&lt;br&gt;&lt;/body&gt;
 </content>
@@ -41,13 +41,48 @@
     <link href="http://yoursite.com/2016/11/01/Matlab%E5%88%9D%E7%BA%A7%E6%9E%84%E5%9B%BE/"/>
     <id>http://yoursite.com/2016/11/01/Matlab初级构图/</id>
     <published>2016-11-01T12:25:33.000Z</published>
-    <updated>2016-11-01T12:29:49.000Z</updated>
+    <updated>2016-11-05T15:36:07.000Z</updated>
     
     <content type="html">&lt;p&gt;知识点：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Plotting&lt;/li&gt;
 &lt;li&gt;Graphical Object Properties&lt;/li&gt;
 &lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;plot()&lt;/li&gt;
+&lt;li&gt;legend是图例&lt;/li&gt;
+&lt;li&gt;xlabel ylabel title&lt;/li&gt;
+&lt;li&gt;Using Latex: text() &amp;amp; annotation()&lt;/li&gt;
+&lt;li&gt;Figure Adjustment: Several properties [Font,Font Size,Line width,Axis limit,Tick position,Tick label]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Graphical Objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Figure object&lt;/li&gt;
+&lt;li&gt;Axes object&lt;ul&gt;
+&lt;li&gt;Line Object: Fetch or Modify the object’s properties&lt;ul&gt;
+&lt;li&gt;Identifying the Handle of An object: Upon Creation, Utility functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fetch or Modify the object’s properties&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;get()&lt;/li&gt;
+&lt;li&gt;set():set(gca,’XLim’,[0,2*pi]);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Marker Specification&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Face and edge colors of the markder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Multiple Figure&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Figure: Position,Siza&lt;/li&gt;
+&lt;li&gt;Several Plots in One Figure: subplot(m,n,1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;x=0:0.5:4&lt;em&gt;pi;&lt;br&gt;y=sin(x);  h=cos(x);  w=1./(1+exp(-x));&lt;br&gt;g=(1/(2&lt;/em&gt;pi&lt;em&gt;2)^0.5).&lt;/em&gt;exp((-1.&lt;em&gt;(x-2&lt;/em&gt;pi).^2)./(2*2^2));&lt;br&gt;plot(x,y,’bd-‘,x,h,’gp:’,x,w,’ro-‘,x,g,’c^-‘);&lt;br&gt;xlabel(‘t = 0 to 4\pi’);&lt;br&gt;ylabel(‘Different valus of 4 functions’);&lt;br&gt;title(‘Four kinds of function’);&lt;br&gt;legend(‘sin(x)’,’cos(x)’,’Sigmoid’,’Gauss function’);&lt;br&gt;str=’$$ sin(x) $$’;&lt;br&gt;text(2.9,0.4,str,’Interpreter’,’latex’);&lt;br&gt;annotation(‘arrow’,’X’,[2.9,2.6],’Y’,[0.35,0.18]);  &lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -57,7 +92,10 @@
 &lt;li&gt;Basic Plotting&lt;/li&gt;
 &lt;li&gt;Graphical Object Properties&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;ul&gt;
+&lt;li&gt;plot()&lt;/li&gt;
+&lt;li&gt;legend是图例&lt;/li&gt;
+&lt;li&gt;xlabel ylabe
     
     </summary>
     

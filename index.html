@@ -333,6 +333,41 @@
 <li>Basic Plotting</li>
 <li>Graphical Object Properties</li>
 </ul>
+<ul>
+<li>plot()</li>
+<li>legend是图例</li>
+<li>xlabel ylabel title</li>
+<li>Using Latex: text() &amp; annotation()</li>
+<li>Figure Adjustment: Several properties [Font,Font Size,Line width,Axis limit,Tick position,Tick label]</li>
+</ul>
+<ul>
+<li>Graphical Objects</li>
+</ul>
+<ul>
+<li>Figure object</li>
+<li>Axes object<ul>
+<li>Line Object: Fetch or Modify the object’s properties<ul>
+<li>Identifying the Handle of An object: Upon Creation, Utility functions</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Fetch or Modify the object’s properties</p>
+<ul>
+<li>get()</li>
+<li>set():set(gca,’XLim’,[0,2*pi]);</li>
+</ul>
+<p>Marker Specification</p>
+<ul>
+<li>Face and edge colors of the markder</li>
+</ul>
+<p>Multiple Figure</p>
+<ul>
+<li>Figure: Position,Siza</li>
+<li>Several Plots in One Figure: subplot(m,n,1)</li>
+</ul>
+<p>x=0:0.5:4<em>pi;<br>y=sin(x);  h=cos(x);  w=1./(1+exp(-x));<br>g=(1/(2</em>pi<em>2)^0.5).</em>exp((-1.<em>(x-2</em>pi).^2)./(2*2^2));<br>plot(x,y,’bd-‘,x,h,’gp:’,x,w,’ro-‘,x,g,’c^-‘);<br>xlabel(‘t = 0 to 4\pi’);<br>ylabel(‘Different valus of 4 functions’);<br>title(‘Four kinds of function’);<br>legend(‘sin(x)’,’cos(x)’,’Sigmoid’,’Gauss function’);<br>str=’$$ sin(x) $$’;<br>text(2.9,0.4,str,’Interpreter’,’latex’);<br>annotation(‘arrow’,’X’,[2.9,2.6],’Y’,[0.35,0.18]);  </p>
 
       
     </div>
