@@ -23,15 +23,15 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/%E8%AE%BE%E8%AE%A1/</loc>
-        <lastmod>2016-10-31T03:56:35.000Z</lastmod>
+        <loc>http://yoursite.com/tags/Matlab/</loc>
+        <lastmod>2016-11-01T12:29:49.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/Matlab/</loc>
-        <lastmod>2016-11-01T12:29:49.000Z</lastmod>
+        <loc>http://yoursite.com/tags/%E8%AE%BE%E8%AE%A1/</loc>
+        <lastmod>2016-11-05T15:06:06.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
