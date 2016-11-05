@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-05T15:44:47.000Z</updated>
+  <updated>2016-11-05T16:02:04.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,14 +20,14 @@
     <link href="http://yoursite.com/2016/11/05/FirstTableauChart/"/>
     <id>http://yoursite.com/2016/11/05/FirstTableauChart/</id>
     <published>2016-11-05T15:18:12.000Z</published>
-    <updated>2016-11-05T15:44:47.000Z</updated>
+    <updated>2016-11-05T16:02:04.000Z</updated>
     
-    <content type="html">&lt;body&gt;&lt;br&gt;&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1478358602653&quot; style=&quot;position: relative&quot;&gt;&lt;br&gt;&lt;noscript&gt;&lt;br&gt;&lt;a href=&quot;#&quot;&gt;&lt;br&gt;&lt;img alt=&quot;Dashboard 1 &quot; src=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;ML&amp;#47;MLC_Split_Tableau&amp;#47;Dashboard1&amp;#47;1_rss.png&quot; style=&quot;border: none&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;/noscript&gt;&lt;br&gt;&lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;&lt;br&gt;&lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot;&gt;&lt;br&gt;&lt;param name=&quot;site_root&quot; value=&quot;&quot;&gt;&lt;br&gt;&lt;param name=&quot;name&quot; value=&quot;MLC_Split_Tableau&amp;#47;Dashboard1&quot;&gt;&lt;br&gt;&lt;param name=&quot;tabs&quot; value=&quot;no&quot;&gt;&lt;param name=&quot;toolbar&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;static_image&quot; value=&quot;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;ML&amp;#47;MLC_Split_Tableau&amp;#47;Dashboard1&amp;#47;1.png&quot;&gt;&lt;br&gt;&lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;param name=&quot;display_count&quot; value=&quot;yes&quot;&gt;&lt;br&gt;&lt;/object&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;script type=&quot;text/javascript&quot;&gt;&lt;br&gt;var divElement = document.getElementById(‘viz1478358602653’);&lt;br&gt;var vizElement = divElement.getElementsByTagName(‘object’)[0];                    vizElement.style.width=’1004px’;vizElement.style.height=’869px’;&lt;br&gt;var scriptElement = document.createElement(‘script’);&lt;br&gt;scriptElement.src = ‘&lt;a href=&quot;https://public.tableau.com/javascripts/api/viz_v1.js&quot;&gt;https://public.tableau.com/javascripts/api/viz_v1.js&lt;/a&gt;‘;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);&lt;br&gt;&lt;/script&gt;&lt;br&gt;&lt;/body&gt;
+    <content type="html">&lt;p&gt;[iframe src=”&lt;a href=&quot;https://public.tableau.com/views/MLC_Split_Tableau/Dashboard1?:showVizHome=no&amp;amp;:embed=true&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://public.tableau.com/views/MLC_Split_Tableau/Dashboard1?:showVizHome=no&amp;amp;:embed=true&lt;/a&gt;“]&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;body&gt;&lt;br&gt;&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1478358602653&quot; style=&quot;position: relative&quot;&gt;&lt;br&gt;&lt;noscript&gt;&lt;br&gt;&lt;a href=&quot;#&quot;&gt;&lt;br&gt;&lt;img alt=&quot;Dashb
+      &lt;p&gt;[iframe src=”&lt;a href=&quot;https://public.tableau.com/views/MLC_Split_Tableau/Dashboard1?:showVizHome=no&amp;amp;:embed=true&quot; target=&quot;_blank&quot; rel=
     
     </summary>
     
