@@ -112,7 +112,7 @@
     <link href="http://yoursite.com/2016/10/31/%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%BE%E8%AE%A1Assignment01/"/>
     <id>http://yoursite.com/2016/10/31/可视化设计Assignment01/</id>
     <published>2016-10-31T02:09:10.000Z</published>
-    <updated>2016-11-05T15:17:30.000Z</updated>
+    <updated>2016-11-05T16:35:42.000Z</updated>
     
     <content type="html">&lt;hr&gt;
 &lt;p&gt;一、Assignment设计要求：&lt;/p&gt;
@@ -276,13 +276,13 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://img.blog.csdn.net/20161031102813296&quot; alt=&quot;Split Bars设计&quot;&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;div&gt;
+&lt;!--直接居中不需要用div，用div会产生多余的板块--&gt;
+&lt;center&gt;&lt;br&gt;&lt;img src=&quot;http://img.blog.csdn.net/20161031102813296&quot; alt=&quot;Split Bars设计&quot;&gt;&lt;br&gt;&lt;/center&gt;
 
 
 
 &lt;hr&gt;
-&lt;/div&gt;</content>
+</content>
     
     <summary type="html">
     
