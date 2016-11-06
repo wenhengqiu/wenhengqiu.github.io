@@ -273,14 +273,28 @@
         <hr>
 <p>一、实现效果：将Tableau Public嵌入到Hexo的文章页面</p>
 <hr>
-<p>二、技巧注意：</p>
+<p>二、主要过程：</p>
+<ul>
+<li>在Tableau上制作好表格后，将其发布于Tableau Public中</li>
+<li>登录Tableau Public，并获得分享的URL，修改其中参数</li>
+<li>使用iframe，将其加入post的文章中（.md）</li>
+</ul>
+<hr>
+<p>三、技巧注意：</p>
 <ul>
 <li>Tableau public原url刪除？之后的参数，改成:showVizHome=no&amp;:embed=true</li>
 <li>iframe属性width的参数是pixels</li>
-<li>修改Tableau Dashboard发布时的Size大小：【Custom size：width &amp;&amp; height】</li>
+<li>修改Tableau Dashboard发布时的Size大小：【Custom size：width,height】</li>
 </ul>
 <hr>
-<iframe src="https://public.tableau.com/views/MLC_Split_Tableau/Dashboard1?:showVizHome=no&:embed=true" height="500" width="500"><br></iframe>
+<p>四、遗留问题：</p>
+<ul>
+<li>未能解决iframe的自适应问题</li>
+</ul>
+<hr>
+<iframe src="https://public.tableau.com/views/MLC_Split_Tableau/Dashboard1?:showVizHome=no&:embed=true" height="400" width="500"><br></iframe>
+
+<hr>
 
       
     </div>

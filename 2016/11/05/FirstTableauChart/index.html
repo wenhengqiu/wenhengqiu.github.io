@@ -7,32 +7,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="一、实现效果：将Tableau Public嵌入到Hexo的文章页面
 
-二、技巧注意：
+二、主要过程：
 
-Tableau public原url刪除？之后的参数，改成:showVizHome=no&amp;amp;:embed=true
-iframe属性width的参数是pixels
-修改Tableau Dashboard发布时的Size大小：【Custom size：width &amp;amp;&amp;amp; height】">
+在Tableau上制作好表格后，将其发布于Tableau Public中
+登录Tableau Public，并获得分享的URL，修改其中参数
+使用iframe，将其加入post的文章中（.md）
+
+
+三、技巧注意：
+
+Tableau public原url刪除？之后的参数，改成:showVizHome=no&amp;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="FirstTableauChart">
 <meta property="og:url" content="http://yoursite.com/2016/11/05/FirstTableauChart/index.html">
 <meta property="og:site_name" content="恒仔工作室">
 <meta property="og:description" content="一、实现效果：将Tableau Public嵌入到Hexo的文章页面
 
-二、技巧注意：
+二、主要过程：
 
-Tableau public原url刪除？之后的参数，改成:showVizHome=no&amp;amp;:embed=true
-iframe属性width的参数是pixels
-修改Tableau Dashboard发布时的Size大小：【Custom size：width &amp;amp;&amp;amp; height】">
-<meta property="og:updated_time" content="2016-11-06T02:51:00.000Z">
+在Tableau上制作好表格后，将其发布于Tableau Public中
+登录Tableau Public，并获得分享的URL，修改其中参数
+使用iframe，将其加入post的文章中（.md）
+
+
+三、技巧注意：
+
+Tableau public原url刪除？之后的参数，改成:showVizHome=no&amp;">
+<meta property="og:updated_time" content="2016-11-06T02:58:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="FirstTableauChart">
 <meta name="twitter:description" content="一、实现效果：将Tableau Public嵌入到Hexo的文章页面
 
-二、技巧注意：
+二、主要过程：
 
-Tableau public原url刪除？之后的参数，改成:showVizHome=no&amp;amp;:embed=true
-iframe属性width的参数是pixels
-修改Tableau Dashboard发布时的Size大小：【Custom size：width &amp;amp;&amp;amp; height】">
+在Tableau上制作好表格后，将其发布于Tableau Public中
+登录Tableau Public，并获得分享的URL，修改其中参数
+使用iframe，将其加入post的文章中（.md）
+
+
+三、技巧注意：
+
+Tableau public原url刪除？之后的参数，改成:showVizHome=no&amp;">
   
     <link rel="alternative" href="/atom.xml" title="恒仔工作室" type="application/atom+xml">
   
@@ -296,14 +311,28 @@ iframe属性width的参数是pixels
         <hr>
 <p>一、实现效果：将Tableau Public嵌入到Hexo的文章页面</p>
 <hr>
-<p>二、技巧注意：</p>
+<p>二、主要过程：</p>
+<ul>
+<li>在Tableau上制作好表格后，将其发布于Tableau Public中</li>
+<li>登录Tableau Public，并获得分享的URL，修改其中参数</li>
+<li>使用iframe，将其加入post的文章中（.md）</li>
+</ul>
+<hr>
+<p>三、技巧注意：</p>
 <ul>
 <li>Tableau public原url刪除？之后的参数，改成:showVizHome=no&amp;:embed=true</li>
 <li>iframe属性width的参数是pixels</li>
-<li>修改Tableau Dashboard发布时的Size大小：【Custom size：width &amp;&amp; height】</li>
+<li>修改Tableau Dashboard发布时的Size大小：【Custom size：width,height】</li>
 </ul>
 <hr>
-<iframe src="https://public.tableau.com/views/MLC_Split_Tableau/Dashboard1?:showVizHome=no&:embed=true" height="500" width="500"><br></iframe>
+<p>四、遗留问题：</p>
+<ul>
+<li>未能解决iframe的自适应问题</li>
+</ul>
+<hr>
+<iframe src="https://public.tableau.com/views/MLC_Split_Tableau/Dashboard1?:showVizHome=no&:embed=true" height="400" width="500"><br></iframe>
+
+<hr>
 
       
     </div>
