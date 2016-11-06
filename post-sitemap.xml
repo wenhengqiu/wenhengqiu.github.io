@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2016/11/05/FirstTableauChart/</loc>
+        <lastmod>2016-11-06T03:02:55.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2016/04/28/%E8%87%B4Cecilia/</loc>
         <lastmod>2016-11-06T03:00:33.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,14 +25,6 @@
     <url>
         <loc>http://yoursite.com/2016/05/16/%E5%B0%86Macbook%E7%9A%84%E5%85%89%E9%A9%B1%E4%BD%8D%E5%8D%87%E7%BA%A7%E6%88%90SSD/</loc>
         <lastmod>2016-11-06T03:00:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2016/11/05/FirstTableauChart/</loc>
-        <lastmod>2016-11-06T03:00:05.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

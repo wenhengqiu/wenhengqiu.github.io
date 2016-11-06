@@ -23,13 +23,6 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/Tableau/</loc>
-        <lastmod>2016-11-06T03:00:05.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite.com/tags/MacbookPro/</loc>
         <lastmod>2016-11-06T03:00:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -39,6 +32,13 @@
     <url>
         <loc>http://yoursite.com/tags/CissySit/</loc>
         <lastmod>2016-11-06T03:00:33.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Tableau/</loc>
+        <lastmod>2016-11-06T03:02:55.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
