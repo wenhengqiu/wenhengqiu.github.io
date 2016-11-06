@@ -2,22 +2,8 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://yoursite.com/tags/%E5%90%83%E8%B4%A7%E5%A5%B3%E7%A5%A8/</loc>
-        <lastmod>2016-04-29T02:54:33.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite.com/tags/iOS%E5%BC%80%E5%8F%91/</loc>
         <lastmod>2016-05-16T05:50:13.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/tags/%E6%90%9E%E6%90%9EMacbookPro/</loc>
-        <lastmod>2016-05-16T05:53:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -31,7 +17,28 @@
 
     <url>
         <loc>http://yoursite.com/tags/%E8%AE%BE%E8%AE%A1/</loc>
-        <lastmod>2016-11-06T02:58:44.000Z</lastmod>
+        <lastmod>2016-11-05T16:35:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Tableau/</loc>
+        <lastmod>2016-11-06T03:00:05.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/MacbookPro/</loc>
+        <lastmod>2016-11-06T03:00:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/CissySit/</loc>
+        <lastmod>2016-11-06T03:00:33.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

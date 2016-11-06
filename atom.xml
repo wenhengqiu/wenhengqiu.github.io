@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-06T02:58:44.000Z</updated>
+  <updated>2016-11-06T03:00:05.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/11/05/FirstTableauChart/"/>
     <id>http://yoursite.com/2016/11/05/FirstTableauChart/</id>
     <published>2016-11-05T15:18:12.000Z</published>
-    <updated>2016-11-06T02:58:44.000Z</updated>
+    <updated>2016-11-06T03:00:05.000Z</updated>
     
     <content type="html">&lt;hr&gt;
 &lt;p&gt;一、实现效果：将Tableau Public嵌入到Hexo的文章页面&lt;/p&gt;
@@ -44,7 +44,7 @@
 &lt;li&gt;未能解决iframe的自适应问题&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;iframe src=&quot;https://public.tableau.com/views/MLC_Split_Tableau/Dashboard1?:showVizHome=no&amp;:embed=true&quot; height=&quot;400&quot; width=&quot;500&quot;&gt;&lt;br&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://public.tableau.com/views/MLC_Split_Tableau/Dashboard1?:showVizHome=no&amp;:embed=true&quot; height=&quot;490&quot; width=&quot;500&quot;&gt;&lt;br&gt;&lt;/iframe&gt;
 
 &lt;hr&gt;
 </content>
@@ -62,7 +62,7 @@
     </summary>
     
     
-      <category term="设计" scheme="http://yoursite.com/tags/%E8%AE%BE%E8%AE%A1/"/>
+      <category term="Tableau" scheme="http://yoursite.com/tags/Tableau/"/>
     
   </entry>
   
@@ -441,7 +441,7 @@
     <link href="http://yoursite.com/2016/05/16/%E5%B0%86Macbook%E7%9A%84%E5%85%89%E9%A9%B1%E4%BD%8D%E5%8D%87%E7%BA%A7%E6%88%90SSD/"/>
     <id>http://yoursite.com/2016/05/16/将Macbook的光驱位升级成SSD/</id>
     <published>2016-05-16T05:42:24.000Z</published>
-    <updated>2016-05-16T05:53:20.000Z</updated>
+    <updated>2016-11-06T03:00:20.000Z</updated>
     
     <content type="html">&lt;p&gt;Macbook描述：&lt;br&gt;1、Macbook Pro（13-inch, Mid 2012）&lt;/p&gt;
 &lt;hr&gt;
@@ -465,7 +465,7 @@
     </summary>
     
     
-      <category term="搞搞MacbookPro" scheme="http://yoursite.com/tags/%E6%90%9E%E6%90%9EMacbookPro/"/>
+      <category term="MacbookPro" scheme="http://yoursite.com/tags/MacbookPro/"/>
     
   </entry>
   
@@ -536,7 +536,7 @@
     <link href="http://yoursite.com/2016/04/28/%E8%87%B4Cecilia/"/>
     <id>http://yoursite.com/2016/04/28/致Cecilia/</id>
     <published>2016-04-28T11:51:04.000Z</published>
-    <updated>2016-04-29T02:54:33.000Z</updated>
+    <updated>2016-11-06T03:00:33.000Z</updated>
     
     <content type="html">&lt;p&gt;大二，便甚少碰代码，回想起来，那段混乱的日子里，你是唯一的亮光；&lt;/p&gt;
 &lt;p&gt;大三上，从创业的failure与Kumamoto的failure中缓过来，决定重新开始；&lt;/p&gt;
@@ -552,7 +552,7 @@
     </summary>
     
     
-      <category term="吃货女票" scheme="http://yoursite.com/tags/%E5%90%83%E8%B4%A7%E5%A5%B3%E7%A5%A8/"/>
+      <category term="CissySit" scheme="http://yoursite.com/tags/CissySit/"/>
     
   </entry>
   
