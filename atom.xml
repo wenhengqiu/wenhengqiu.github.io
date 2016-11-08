@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-06T13:01:07.000Z</updated>
+  <updated>2016-11-08T15:26:10.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,102 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《虚拟现实-引领未来的人机交互革命》</title>
+    <link href="http://yoursite.com/2016/11/08/%E8%AF%BB%E5%90%8E%E6%84%9F2/"/>
+    <id>http://yoursite.com/2016/11/08/读后感2/</id>
+    <published>2016-11-08T14:46:18.000Z</published>
+    <updated>2016-11-08T15:26:10.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;h2 id=&quot;书籍介绍：&quot;&gt;&lt;a href=&quot;#书籍介绍：&quot; class=&quot;headerlink&quot; title=&quot;书籍介绍：&quot;&gt;&lt;/a&gt;书籍介绍：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;本书作者为王寒、卿伟龙、王赵翔、蓝天共同著作（据书本介绍是国内和硅谷的极客）。&lt;/li&gt;
+&lt;li&gt;今年早些时候，我蹭同学的Samsung Gear，感觉十分震撼：Holy shit，This is the future！！！随后到IRC Lab体验Microsoft HoLoLens和HTC Vive，那种沉浸式的体验着实让人痴迷。&lt;/li&gt;
+&lt;li&gt;本着看杂志的心态从图书馆借了此书，了解一下VR的现状也蛮好的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;技术介绍&quot;&gt;&lt;a href=&quot;#技术介绍&quot; class=&quot;headerlink&quot; title=&quot;技术介绍&quot;&gt;&lt;/a&gt;技术介绍&lt;/h2&gt;&lt;p&gt;1、立体显示技术&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;偏振光分光3D显示（Polarized 3D）&lt;/li&gt;
+&lt;li&gt;图像分色立体显示（Anaglyph 3D）&lt;/li&gt;
+&lt;li&gt;杜比图像分色（Dolby 3D）&lt;/li&gt;
+&lt;li&gt;分时显示（Active shutter 3D system）&lt;/li&gt;
+&lt;li&gt;HMD头戴显示技术&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2、多感知自然交互技术&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动作捕捉（Motion Capture）&lt;/li&gt;
+&lt;li&gt;3D光感应&lt;/li&gt;
+&lt;li&gt;眼动追踪&lt;/li&gt;
+&lt;li&gt;语音交互&lt;/li&gt;
+&lt;li&gt;触觉技术（Haptic Technology）&lt;/li&gt;
+&lt;li&gt;嗅觉及其他感觉交互技术&lt;/li&gt;
+&lt;li&gt;数据手套和数据衣&lt;/li&gt;
+&lt;li&gt;模拟设施&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3、3D建模&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3D计算机建模&lt;/li&gt;
+&lt;li&gt;3D摄像机&lt;/li&gt;
+&lt;li&gt;360度全景拍摄&lt;/li&gt;
+&lt;li&gt;3D扫描&lt;/li&gt;
+&lt;li&gt;虚拟现实引擎&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;4、3D全息投影&lt;br&gt;5、随机接口&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;产品介紹&quot;&gt;&lt;a href=&quot;#产品介紹&quot; class=&quot;headerlink&quot; title=&quot;产品介紹&quot;&gt;&lt;/a&gt;产品介紹&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;VR头戴设备&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;AR头戴设备&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;其他设备&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Oculus Rift&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Google Glass&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Leap Motion&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;HTC Vive&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Magic Leap&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Virtuix Omni&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Sony PlayStation VR&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Microsoft HoLoLens&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;诺亦腾&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Samsung Gear VR&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Meta Glass&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;Sixense STEM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;本科的专业是Software，算是CS科班出身，却时长觉得对技术一无所知，对科技的未来也只能管中窥豹了。Pokemon Go火热的时候，有幸在泰国开服的第一天到达泰国，于是当了泰国第一批玩这AR游戏的人，即使其中的AR技术并不惊人，但其所造成的影响也是绝无仅有的。&lt;/li&gt;
+&lt;li&gt;作者带我浏览了一遍当前VR领域的产品以及他对VR的一切预想和判断，而我对VR在教育、社交和游戏的领域较为感兴趣。设想一下，要是无论身在何处，都能体会沉浸式的公开课，而非仅对着屏幕。当你需要与同学交流时，身边的那个人早已准备与你交流。对于高等教育，教授与同学同等重要，而这些VR都可以同时提供，那该是多么改变世界的事情。&lt;/li&gt;
+&lt;li&gt;AI和VR的热潮并不让人惊讶，但其未来发展的结果，却让人憧憬万分。&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;书籍介绍：&quot;&gt;&lt;a href=&quot;#书籍介绍：&quot; class=&quot;headerlink&quot; title=&quot;书籍介绍：&quot;&gt;&lt;/a&gt;书籍介绍：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;本书作者为王寒、卿伟龙、王赵翔、蓝天共同著作（据书本介绍是国内和硅谷的极客）。&lt;/li&gt;
+&lt;l
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>《在你身邊 为你设计2》</title>

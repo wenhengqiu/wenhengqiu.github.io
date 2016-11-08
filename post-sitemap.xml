@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2016/11/08/%E8%AF%BB%E5%90%8E%E6%84%9F2/</loc>
+        <lastmod>2016-11-08T15:26:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2016/11/06/%E8%AF%BB%E5%90%8E%E6%84%9F1/</loc>
         <lastmod>2016-11-06T13:01:07.000Z</lastmod>
         <changefreq>weekly</changefreq>
