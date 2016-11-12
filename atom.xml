@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-09T10:23:54.000Z</updated>
+  <updated>2016-11-12T14:24:03.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《视界.无界--写给UI设计师的设计书》</title>
+    <link href="http://yoursite.com/2016/11/12/%E8%AF%BB%E5%90%8E%E6%84%9F4/"/>
+    <id>http://yoursite.com/2016/11/12/读后感4/</id>
+    <published>2016-11-12T12:51:27.000Z</published>
+    <updated>2016-11-12T14:24:03.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;h2 id=&quot;书籍介绍：&quot;&gt;&lt;a href=&quot;#书籍介绍：&quot; class=&quot;headerlink&quot; title=&quot;书籍介绍：&quot;&gt;&lt;/a&gt;书籍介绍：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;本书作者是王涵，一个UI设计培训师&lt;/li&gt;
+&lt;li&gt;这本书没有什么高深的，说是写给设计师的书，通篇读下来感觉就是普通的UI设计基础&lt;/li&gt;
+&lt;li&gt;但本书还是有值得称赞的地方，书本身的设计在中国一堆青春网络书的陪衬下，简直不能更优秀&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;书籍摘录：&quot;&gt;&lt;a href=&quot;#书籍摘录：&quot; class=&quot;headerlink&quot; title=&quot;书籍摘录：&quot;&gt;&lt;/a&gt;书籍摘录：&lt;/h2&gt;&lt;p&gt;1、收集创意&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;收藏这点实在是太需要了，前段时间我在为书签和电脑无序而感到无奈，因为积累得越来越多，便有种忘了为什么收藏的原因了。读到这些文字的时候，我又忽然明白，对于收藏的网站资源，你需要一个管理的原则，例如：每个chrome的书签folder不超过两个子folder，这样查看的时候便不会太过繁琐以致不愿意去查看。&lt;blockquote&gt;
+&lt;p&gt;即使有再好的记忆力，仍然不能保证你想要的创意信手拈来。&lt;br&gt;设计师们应当拥有的第一个好习惯，一定是收集创意。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2、管理资源&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我有整理资源的习惯，但对于视频资源，我采取的原则是看完就删，这一习惯慢慢蔓延到其他格式的文件，但仔细想想，删除资源容易，但积累起来则是一个不小的困难。所以我得准备多几个硬盘来存我的文件了。&lt;blockquote&gt;
+&lt;p&gt;只需要比随便存储多花10s的分类时间，就能让自己收获更多的事件在创意思考上。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3、来源收藏&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这里有一点说道，淘汰相对不需要的网站。对我自己来说，收藏的东西不轻易删除，却忽略了日积月累之后的冗杂，不剔除落后的便难以focus好的上面。&lt;blockquote&gt;
+&lt;p&gt;无论从哪里下载或者发现了哪些优秀的素材，记得先把来源地址收藏到自己的浏览器中。然后经过日积月累的观察和筛选，不断地保留优秀的网站平台，淘汰相对不需要的平台&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;总结：&quot;&gt;&lt;a href=&quot;#总结：&quot; class=&quot;headerlink&quot; title=&quot;总结：&quot;&gt;&lt;/a&gt;总结：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;这本书挺舒服的，内容也容易理解，其中一些浅显的道理亦是作者日积月累的经验，若是从事设计行业，这本书也值得收藏，并时常阅读。&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;书籍介绍：&quot;&gt;&lt;a href=&quot;#书籍介绍：&quot; class=&quot;headerlink&quot; title=&quot;书籍介绍：&quot;&gt;&lt;/a&gt;书籍介绍：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;本书作者是王涵，一个UI设计培训师&lt;/li&gt;
+&lt;li&gt;这本书没有什么高深的，说是写给设计师的书
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>《走进2050--注意力、互联网与人工智能》</title>
