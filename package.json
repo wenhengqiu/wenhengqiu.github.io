@@ -1,0 +1,8 @@
+{
+  "name": "dataloop-research",
+  "version": "1.0.0",
+  "description": "数据闭环研究中心 - 自动驾驶、具身智能、大模型技术对比",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
