@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时间轴 | 数据闭环文章中心</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border);
+            transform: translateX(-50%);
+        }
+        .timeline-item {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 50%;
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .timeline-item:nth-child(even) {
+            justify-content: flex-start;
+            padding-right: 0;
+            padding-left: 50%;
+        }
+        .timeline-content {
+            background: var(--lighter);
+            padding: 20px;
+            border-radius: var(--radius);
+            box-shadow: 0 2px 12px var(--shadow);
+            max-width: 400px;
+            margin-right: 30px;
+        }
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-right: 0;
+            margin-left: 30px;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 16px;
+            height: 16px;
+            background: var(--primary);
+            border-radius: 50%;
+            border: 3px solid var(--lighter);
+            box-shadow: 0 0 0 3px var(--primary);
+        }
+        .timeline-date {
+            font-size: 0.85rem;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .timeline-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .timeline-desc {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                justify-content: flex-start;
+                padding-left: 50px;
+                padding-right: 0;
+            }
+            .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                margin-left: 0;
+                margin-right: 0;
+                max-width: 100%;
+            }
+            .timeline-dot {
+                left: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">🔄</span>
+                    <span class="logo-text">数据闭环<br><small>文章中心</small></span>
+                </div>
+                <button class="sidebar-toggle" id="sidebar-toggle">✕</button>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <div class="nav-title">每日更新</div>
+                    <a href="index.html" class="nav-item">
+                        <span class="nav-icon">📰</span>
+                        <span class="nav-text">每日必读</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">行业研究</div>
+                    <a href="research.html?cat=autonomous" class="nav-item">
+                        <span class="nav-icon">🚗</span>
+                        <span class="nav-text">自动驾驶</span>
+                    </a>
+                    <a href="research.html?cat=robotics" class="nav-item">
+                        <span class="nav-icon">🤖</span>
+                        <span class="nav-text">具身智能</span>
+                    </a>
+                    <a href="research.html?cat=llm" class="nav-item">
+                        <span class="nav-icon">🧠</span>
+                        <span class="nav-text">大模型</span>
+                    </a>
+                    <a href="research.html" class="nav-item">
+                        <span class="nav-icon">📚</span>
+                        <span class="nav-text">全部研究</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">工具</div>
+                    <a href="timeline.html" class="nav-item active">
+                        <span class="nav-icon">📅</span>
+                        <span class="nav-text">时间轴</span>
+                    </a>
+                    <a href="bookmarks.html" class="nav-item">
+                        <span class="nav-icon">🔖</span>
+                        <span class="nav-text">收藏夹</span>
+                        <span class="nav-badge" id="bookmark-count">0</span>
+                    </a>
+                    <a href="dashboard.html" class="nav-item">
+                        <span class="nav-icon">📊</span>
+                        <span class="nav-text">数据看板</span>
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>最后更新: <span id="last-update">--</span></p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <button class="menu-toggle" id="menu-toggle">☰</button>
+                <div class="header-title">
+                    <h1>时间轴</h1>
+                    <p class="header-subtitle">行业重大事件回顾</p>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="content">
+                <!-- Filter -->
+                <section class="filter-bar">
+                    <div class="filter-group">
+                        <button class="filter-btn active" data-filter="all">全部</button>
+                        <button class="filter-btn" data-filter="product">产品发布</button>
+                        <button class="filter-btn" data-filter="funding">融资并购</button>
+                        <button class="filter-btn" data-filter="breakthrough">技术突破</button>
+                    </div>
+                </section>
+
+                <!-- Timeline -->
+                <section class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2026年3月13日</div>
+                            <div class="timeline-title">OpenAI 发布 GPT-5.4</div>
+                            <div class="timeline-desc">新一代大模型强化专业工作与智能体能力</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2026年3月13日</div>
+                            <div class="timeline-title">Waymo 完成 160 亿美元融资</div>
+                            <div class="timeline-desc">公司估值达 1260 亿美元，加速全球扩张</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2026年3月12日</div>
+                            <div class="timeline-title">Figure AI 发布 Helix VLA</div>
+                            <div class="timeline-desc">端到端人形机器人控制模型，支持语言指令定义技能</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2026年3月10日</div>
+                            <div class="timeline-title">DeepMind 发布 Gemini 1.5 Pro</div>
+                            <div class="timeline-desc">支持 1000 万 token 上下文窗口，可处理整本书籍</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2026年3月6日</div>
+                            <div class="timeline-title">小鹏宣布智驾达到 L4 级别</div>
+                            <div class="timeline-desc">越过 L3 直达 L4，被称为中国智驾的 DeepSeek</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2026年2月</div>
+                            <div class="timeline-title">Waymo 开启第 10 个商业运营城市</div>
+                            <div class="timeline-desc">同时在达拉斯、休斯顿、圣安东尼奥、奥兰多四城开放</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            initSidebar();
+            updateBookmarkCount();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>收藏夹 | 数据闭环文章中心</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">🔄</span>
+                    <span class="logo-text">数据闭环<br><small>文章中心</small></span>
+                </div>
+                <button class="sidebar-toggle" id="sidebar-toggle">✕</button>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <div class="nav-title">每日更新</div>
+                    <a href="index.html" class="nav-item">
+                        <span class="nav-icon">📰</span>
+                        <span class="nav-text">每日必读</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">行业研究</div>
+                    <a href="research.html?cat=autonomous" class="nav-item">
+                        <span class="nav-icon">🚗</span>
+                        <span class="nav-text">自动驾驶</span>
+                    </a>
+                    <a href="research.html?cat=robotics" class="nav-item">
+                        <span class="nav-icon">🤖</span>
+                        <span class="nav-text">具身智能</span>
+                    </a>
+                    <a href="research.html?cat=llm" class="nav-item">
+                        <span class="nav-icon">🧠</span>
+                        <span class="nav-text">大模型</span>
+                    </a>
+                    <a href="research.html" class="nav-item">
+                        <span class="nav-icon">📚</span>
+                        <span class="nav-text">全部研究</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">工具</div>
+                    <a href="timeline.html" class="nav-item">
+                        <span class="nav-icon">📅</span>
+                        <span class="nav-text">时间轴</span>
+                    </a>
+                    <a href="bookmarks.html" class="nav-item active">
+                        <span class="nav-icon">🔖</span>
+                        <span class="nav-text">收藏夹</span>
+                        <span class="nav-badge" id="bookmark-count">0</span>
+                    </a>
+                    <a href="dashboard.html" class="nav-item">
+                        <span class="nav-icon">📊</span>
+                        <span class="nav-text">数据看板</span>
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>最后更新: <span id="last-update">--</span></p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <button class="menu-toggle" id="menu-toggle">☰</button>
+                <div class="header-title">
+                    <h1>收藏夹</h1>
+                    <p class="header-subtitle">我的收藏文章</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-secondary" onclick="exportBookmarks()">导出收藏</button>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="content">
+                <!-- Empty State -->
+                <div class="empty-state" id="empty-state">
+                    <div class="empty-state-icon">🔖</div>
+                    <div class="empty-state-title">暂无收藏文章</div>
+                    <p>浏览每日必读时点击 ☆ 收藏感兴趣的文章</p>
+                    <a href="index.html" class="btn btn-primary" style="margin-top: 20px;">去浏览文章</a>
+                </div>
+
+                <!-- Bookmarks List -->
+                <div class="news-grid" id="bookmarks-grid" style="display: none;">
+                    <!-- Dynamic content -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+    <script>
+        // Load bookmarks
+        function loadBookmarks() {
+            const bookmarks = Storage.get('bookmarks');
+            const emptyState = $('#empty-state');
+            const grid = $('#bookmarks-grid');
+            
+            if (bookmarks.length === 0) {
+                emptyState.style.display = 'block';
+                grid.style.display = 'none';
+                return;
+            }
+            
+            emptyState.style.display = 'none';
+            grid.style.display = 'grid';
+            
+            grid.innerHTML = bookmarks.map(article => `
+                <article class="news-card" data-id="${article.id}">
+                    <div class="card-header">
+                        <div class="card-tags">
+                            <span class="tag ${article.category}">${getCategoryName(article.category)}</span>
+                        </div>
+                        <div class="card-time">${article.display_date || article.publish_date}</div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">${article.title}</h3>
+                        <p class="card-summary">${article.summary}</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-source">
+                            <div class="source-icon">${article.source?.name?.[0] || '?'}</div>
+                            <span>${article.source?.name || '未知来源'}</span>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-icon bookmark-btn active" 
+                                    onclick="event.stopPropagation(); removeBookmark('${article.id}')">
+                                ★
+                            </button>
+                            <a href="${article.original_url || article.url}" target="_blank" class="btn btn-primary" onclick="event.stopPropagation()">阅读</a>
+                        </div>
+                    </div>
+                </article>
+            `).join('');
+        }
+        
+        // Remove bookmark
+        function removeBookmark(id) {
+            Storage.removeBookmark(id);
+            showToast('已取消收藏');
+            loadBookmarks();
+        }
+        
+        // Export bookmarks
+        function exportBookmarks() {
+            const bookmarks = Storage.get('bookmarks');
+            if (bookmarks.length === 0) {
+                showToast('没有可导出的收藏');
+                return;
+            }
+            
+            const dataStr = JSON.stringify(bookmarks, null, 2);
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `bookmarks-${new Date().toISOString().split('T')[0]}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            showToast('收藏已导出');
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            initSidebar();
+            updateBookmarkCount();
+            loadBookmarks();
+        });
+    </script>
+</body>
+</html>

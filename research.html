@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行业研究 | 数据闭环文章中心</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">🔄</span>
+                    <span class="logo-text">数据闭环<br><small>文章中心</small></span>
+                </div>
+                <button class="sidebar-toggle" id="sidebar-toggle">✕</button>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <div class="nav-title">每日更新</div>
+                    <a href="index.html" class="nav-item">
+                        <span class="nav-icon">📰</span>
+                        <span class="nav-text">每日必读</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">行业研究</div>
+                    <a href="research.html?cat=autonomous" class="nav-item">
+                        <span class="nav-icon">🚗</span>
+                        <span class="nav-text">自动驾驶</span>
+                    </a>
+                    <a href="research.html?cat=robotics" class="nav-item">
+                        <span class="nav-icon">🤖</span>
+                        <span class="nav-text">具身智能</span>
+                    </a>
+                    <a href="research.html?cat=llm" class="nav-item">
+                        <span class="nav-icon">🧠</span>
+                        <span class="nav-text">大模型</span>
+                    </a>
+                    <a href="research.html" class="nav-item active">
+                        <span class="nav-icon">📚</span>
+                        <span class="nav-text">全部研究</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">工具</div>
+                    <a href="timeline.html" class="nav-item">
+                        <span class="nav-icon">📅</span>
+                        <span class="nav-text">时间轴</span>
+                    </a>
+                    <a href="bookmarks.html" class="nav-item">
+                        <span class="nav-icon">🔖</span>
+                        <span class="nav-text">收藏夹</span>
+                        <span class="nav-badge" id="bookmark-count">0</span>
+                    </a>
+                    <a href="dashboard.html" class="nav-item">
+                        <span class="nav-icon">📊</span>
+                        <span class="nav-text">数据看板</span>
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>最后更新: <span id="last-update">--</span></p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <button class="menu-toggle" id="menu-toggle">☰</button>
+                <div class="header-title">
+                    <h1>行业研究</h1>
+                    <p class="header-subtitle">深度分析与技术解读</p>
+                </div>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <input type="text" placeholder="搜索研究文章..." id="search-input">
+                    </div>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="content">
+                <!-- Category Cards -->
+                <section class="category-grid">
+                    <a href="research.html?cat=autonomous" class="category-card">
+                        <div class="category-icon">🚗</div>
+                        <h3>自动驾驶</h3>
+                        <p>Tesla、Waymo、小鹏、华为等公司的技术路线与商业模式分析</p>
+                        <span class="category-count">12 篇文章</span>
+                    </a>
+                    <a href="research.html?cat=robotics" class="category-card">
+                        <div class="category-icon">🤖</div>
+                        <h3>具身智能</h3>
+                        <p>Figure AI、Optimus、智元、宇树等人形机器人研究</p>
+                        <span class="category-count">8 篇文章</span>
+                    </a>
+                    <a href="research.html?cat=llm" class="category-card">
+                        <div class="category-icon">🧠</div>
+                        <h3>大模型</h3>
+                        <p>OpenAI、Google、智谱、月之暗面等大模型技术解析</p>
+                        <span class="category-count">15 篇文章</span>
+                    </a>
+                </section>
+
+                <!-- Featured Articles -->
+                <section class="section">
+                    <div class="section-header">
+                        <h2>精选研究</h2>
+                        <a href="research.html" class="btn btn-text">查看全部 →</a>
+                    </div>
+                    <div class="article-list" id="research-list">
+                        <div class="article-item">
+                            <div class="article-item-icon">🚗</div>
+                            <div class="article-item-content">
+                                <h4>Waymo 第六代自动驾驶系统技术解析</h4>
+                                <p>深入分析 Waymo 最新一代自动驾驶系统的架构设计、传感器配置和算法优化...</p>
+                                <div class="article-item-meta">
+                                    <span>🏢 Waymo</span>
+                                    <span>📅 2026-03-10</span>
+                                    <span>⏱️ 15分钟阅读</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-item-icon">🤖</div>
+                            <div class="article-item-content">
+                                <h4>Figure AI Helix VLA 模型架构详解</h4>
+                                <p>端到端视觉-语言-动作模型的设计思路、训练方法和应用场景分析...</p>
+                                <div class="article-item-meta">
+                                    <span>🏢 Figure AI</span>
+                                    <span>📅 2026-03-12</span>
+                                    <span>⏱️ 12分钟阅读</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-item-icon">🧠</div>
+                            <div class="article-item-content">
+                                <h4>GPT-5.4 技术架构与能力边界分析</h4>
+                                <p>解析 GPT-5.4 的模型架构改进、训练数据规模和智能体能力实现...</p>
+                                <div class="article-item-meta">
+                                    <span>🏢 OpenAI</span>
+                                    <span>📅 2026-03-13</span>
+                                    <span>⏱️ 18分钟阅读</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Research Topics -->
+                <section class="section">
+                    <div class="section-header">
+                        <h2>研究专题</h2>
+                    </div>
+                    <div class="topic-grid">
+                        <div class="topic-card">
+                            <div class="topic-image">🔄</div>
+                            <h4>数据闭环通用架构</h4>
+                            <p>从数据采集到模型部署的完整技术栈</p>
+                            <span class="topic-count">5 篇文章</span>
+                        </div>
+                        <div class="topic-card">
+                            <div class="topic-image">🎯</div>
+                            <h4>端到端自动驾驶</h4>
+                            <p>纯视觉与多传感器融合方案对比</p>
+                            <span class="topic-count">8 篇文章</span>
+                        </div>
+                        <div class="topic-card">
+                            <div class="topic-image">🎓</div>
+                            <h4>RLHF 与模型对齐</h4>
+                            <p>大模型训练中的强化学习方法</p>
+                            <span class="topic-count">6 篇文章</span>
+                        </div>
+                        <div class="topic-card">
+                            <div class="topic-image">🔧</div>
+                            <h4>Sim2Real 迁移</h4>
+                            <p>仿真到现实的机器人技能迁移</p>
+                            <span class="topic-count">4 篇文章</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+    <script>
+        // Initialize sidebar
+        document.addEventListener('DOMContentLoaded', () => {
+            initSidebar();
+            updateBookmarkCount();
+        });
+    </script>
+</body>
+</html>
