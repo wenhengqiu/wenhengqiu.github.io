@@ -193,7 +193,7 @@ function generateNewsCard(article) {
                             onclick="event.stopPropagation(); toggleBookmark('${article.id}')">
                         ${isBookmarked ? '★' : '☆'}
                     </button>
-                    <a href="${article.original_url}" target="_blank" class="btn btn-primary" onclick="event.stopPropagation()">阅读</a>
+                    <a href="${article.original_url || article.url}" target="_blank" class="btn btn-primary" onclick="event.stopPropagation()">阅读</a>
                 </div>
             </div>
         </article>
@@ -274,7 +274,7 @@ function generateArticleDetail(article) {
             ${article.content || `<p>${article.summary}</p>`}
         </div>
         <div class="article-actions">
-            <a href="${article.original_url}" target="_blank" class="btn btn-primary">阅读原文</a>
+            <a href="${article.original_url || article.url}" target="_blank" class="btn btn-primary">阅读原文</a>
             <button class="btn btn-secondary" onclick="toggleBookmarkFromModal('${article.id}')">
                 <span id="modal-bookmark-icon">${isBookmarked ? '★' : '☆'}</span>
                 <span id="modal-bookmark-text">${isBookmarked ? '已收藏' : '收藏'}</span>
