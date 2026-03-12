@@ -1,0 +1,302 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-03-13",
+  "categories": [
+    {
+      "id": "research_papers",
+      "name": "科研论文",
+      "icon": "📄",
+      "description": "顶级会议论文和预印本平台"
+    },
+    {
+      "id": "official",
+      "name": "官方发布",
+      "icon": "🏢",
+      "description": "公司和研究机构官方博客"
+    },
+    {
+      "id": "tech_media",
+      "name": "科技媒体",
+      "icon": "📰",
+      "description": "科技新闻和行业分析"
+    },
+    {
+      "id": "investment",
+      "name": "投资创业",
+      "icon": "💰",
+      "description": "融资、创业和市场动态"
+    },
+    {
+      "id": "opensource",
+      "name": "开源社区",
+      "icon": "🌟",
+      "description": "开源项目和技术社区"
+    },
+    {
+      "id": "policy",
+      "name": "政策法规",
+      "icon": "⚖️",
+      "description": "AI政策和监管动态"
+    }
+  ],
+  "sources": [
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "url": "https://arxiv.org",
+      "category": "research_papers",
+      "type": "rss",
+      "rss_url": "http://export.arxiv.org/rss/cs.AI",
+      "update_frequency": "daily",
+      "language": "en",
+      "priority": 10,
+      "active": true
+    },
+    {
+      "id": "paperswithcode",
+      "name": "Papers With Code",
+      "url": "https://paperswithcode.com",
+      "category": "research_papers",
+      "type": "rss",
+      "rss_url": "https://paperswithcode.com/rss",
+      "update_frequency": "daily",
+      "language": "en",
+      "priority": 9,
+      "active": true
+    },
+    {
+      "id": "openai_blog",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog",
+      "category": "official",
+      "type": "rss",
+      "rss_url": "https://openai.com/blog/rss.xml",
+      "update_frequency": "weekly",
+      "language": "en",
+      "priority": 10,
+      "active": true
+    },
+    {
+      "id": "google_ai",
+      "name": "Google AI Blog",
+      "url": "https://ai.googleblog.com",
+      "category": "official",
+      "type": "rss",
+      "rss_url": "http://ai.googleblog.com/feeds/posts/default",
+      "update_frequency": "weekly",
+      "language": "en",
+      "priority": 9,
+      "active": true
+    },
+    {
+      "id": "deepmind",
+      "name": "DeepMind Blog",
+      "url": "https://deepmind.google/discover/blog",
+      "category": "official",
+      "type": "rss",
+      "rss_url": "https://deepmind.google/discover/blog/rss.xml",
+      "update_frequency": "weekly",
+      "language": "en",
+      "priority": 9,
+      "active": true
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "category": "official",
+      "type": "rss",
+      "rss_url": "https://www.anthropic.com/news/rss.xml",
+      "update_frequency": "weekly",
+      "language": "en",
+      "priority": 8,
+      "active": true
+    },
+    {
+      "id": "meta_ai",
+      "name": "Meta AI",
+      "url": "https://ai.meta.com/blog",
+      "category": "official",
+      "type": "rss",
+      "rss_url": "https://ai.meta.com/blog/rss",
+      "update_frequency": "weekly",
+      "language": "en",
+      "priority": 8,
+      "active": true
+    },
+    {
+      "id": "tesla_ai",
+      "name": "Tesla AI",
+      "url": "https://www.tesla.com/AI",
+      "category": "official",
+      "type": "manual",
+      "update_frequency": "monthly",
+      "language": "en",
+      "priority": 8,
+      "active": true
+    },
+    {
+      "id": "waymo_blog",
+      "name": "Waymo Blog",
+      "url": "https://waymo.com/blog",
+      "category": "official",
+      "type": "rss",
+      "rss_url": "https://waymo.com/blog/rss.xml",
+      "update_frequency": "weekly",
+      "language": "en",
+      "priority": 8,
+      "active": true
+    },
+    {
+      "id": "figure_ai",
+      "name": "Figure AI",
+      "url": "https://www.figure.ai/news",
+      "category": "official",
+      "type": "manual",
+      "update_frequency": "weekly",
+      "language": "en",
+      "priority": 8,
+      "active": true
+    },
+    {
+      "id": "jiqizhixin",
+      "name": "机器之心",
+      "url": "https://www.jiqizhixin.com",
+      "category": "tech_media",
+      "type": "rss",
+      "rss_url": "https://www.jiqizhixin.com/rss",
+      "update_frequency": "daily",
+      "language": "zh",
+      "priority": 10,
+      "active": true
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "url": "https://www.qbitai.com",
+      "category": "tech_media",
+      "type": "rss",
+      "rss_url": "https://www.qbitai.com/feed",
+      "update_frequency": "daily",
+      "language": "zh",
+      "priority": 10,
+      "active": true
+    },
+    {
+      "id": "leiphone",
+      "name": "雷锋网",
+      "url": "https://www.leiphone.com",
+      "category": "tech_media",
+      "type": "rss",
+      "rss_url": "https://www.leiphone.com/feed",
+      "update_frequency": "daily",
+      "language": "zh",
+      "priority": 9,
+      "active": true
+    },
+    {
+      "id": "pingwest",
+      "name": "品玩",
+      "url": "https://www.pingwest.com",
+      "category": "tech_media",
+      "type": "rss",
+      "rss_url": "https://www.pingwest.com/feed",
+      "update_frequency": "daily",
+      "language": "zh",
+      "priority": 9,
+      "active": true
+    },
+    {
+      "id": "36kr",
+      "name": "36氪",
+      "url": "https://36kr.com",
+      "category": "tech_media",
+      "type": "rss",
+      "rss_url": "https://36kr.com/feed",
+      "update_frequency": "daily",
+      "language": "zh",
+      "priority": 8,
+      "active": true
+    },
+    {
+      "id": "techcrunch_ai",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence",
+      "category": "tech_media",
+      "type": "rss",
+      "rss_url": "https://techcrunch.com/category/artificial-intelligence/feed",
+      "update_frequency": "daily",
+      "language": "en",
+      "priority": 8,
+      "active": true
+    },
+    {
+      "id": "mit_tech_review",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence",
+      "category": "tech_media",
+      "type": "rss",
+      "rss_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "update_frequency": "weekly",
+      "language": "en",
+      "priority": 8,
+      "active": true
+    },
+    {
+      "id": "itjuzi",
+      "name": "IT桔子",
+      "url": "https://www.itjuzi.com",
+      "category": "investment",
+      "type": "manual",
+      "update_frequency": "daily",
+      "language": "zh",
+      "priority": 7,
+      "active": true
+    },
+    {
+      "id": "crunchbase_ai",
+      "name": "Crunchbase AI",
+      "url": "https://www.crunchbase.com/hub/artificial-intelligence-companies",
+      "category": "investment",
+      "type": "manual",
+      "update_frequency": "daily",
+      "language": "en",
+      "priority": 7,
+      "active": true
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog",
+      "category": "opensource",
+      "type": "rss",
+      "rss_url": "https://huggingface.co/blog/feed.xml",
+      "update_frequency": "weekly",
+      "language": "en",
+      "priority": 8,
+      "active": true
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub Trending",
+      "url": "https://github.com/trending",
+      "category": "opensource",
+      "type": "api",
+      "update_frequency": "daily",
+      "language": "en",
+      "priority": 7,
+      "active": true
+    },
+    {
+      "id": "caict",
+      "name": "中国信通院",
+      "url": "http://www.caict.ac.cn",
+      "category": "policy",
+      "type": "manual",
+      "update_frequency": "weekly",
+      "language": "zh",
+      "priority": 6,
+      "active": true
+    }
+  ]
+}
