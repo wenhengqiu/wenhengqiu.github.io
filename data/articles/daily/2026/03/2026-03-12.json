@@ -1,0 +1,1153 @@
+[
+  {
+    "id": "2026-03-12-001",
+    "title": "Ready to Ride: Dallas, Houston, San Antonio, and Orlando",
+    "summary": "Today, we continue our accelerated growth and welcome the first public riders into our fully autonomous ride-hailing service in four new cities: Dallas, Houston, San Antonio, and Orlando. In addition ...",
+    "content": "Today, we continue our accelerated growth and welcome the first public riders into our fully autonomous ride-hailing service in four new cities: Dallas, Houston, San Antonio, and Orlando. In addition to marking the first time we’ve opened to the public in multiple cities simultaneously, this brings our total commercial metro areas to 10, and deepens our commitment in the states of Texas and Florida.",
+    "url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+    "publishDate": "2026-02-24",
+    "displayDate": "2月24日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": true
+  },
+  {
+    "id": "2026-03-12-002",
+    "title": "Partnering with TechForce to support the workforce behind fully autonomous ride-hailing",
+    "summary": "Waymo is partnering with the TechForce Foundation, the only national nonprofit dedicated to the advancement of professional technicians across U.S. transportation sectors, to do just that. \nThrough th...",
+    "content": "Waymo is partnering with the TechForce Foundation, the only national nonprofit dedicated to the advancement of professional technicians across U.S. transportation sectors, to do just that. \nThrough this partnership, Waymo will fund 28 TechForce tuition scholarships for students and working technicians enrolled in technical and community college programs, as well as create resources for tens of thousands of people across the U.S. To start, these scholarships will be awarded to students and working technicians in Boston, Washington, D.C., New York City, Seattle, Denver, Phoenix, Chicago, Houston, and Miami, and we’ll explore expanding the partnership’s scope as we grow together.",
+    "url": "https://waymo.com/blog/2026/02/partnering-with-techforce",
+    "publishDate": "2026-02-19",
+    "displayDate": "2月19日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "autonomous",
+    "tags": [
+      "Waymo"
+    ],
+    "importance": "medium",
+    "isFeatured": true
+  },
+  {
+    "id": "2026-03-12-003",
+    "title": "Beginning fully autonomous operations with the 6th-generation Waymo Driver ",
+    "summary": "Waymo will begin fully autonomous operations with its 6th-generation Driver —an important step in bringing our technology to more riders in more cities. This latest system serves as the primary engine...",
+    "content": "Waymo will begin fully autonomous operations with its 6th-generation Driver —an important step in bringing our technology to more riders in more cities. This latest system serves as the primary engine for our next era of expansion, with a streamlined configuration that drives down costs while maintaining our uncompromising safety standards. Designed for long-term growth across multiple vehicle platforms, this system’s expanded capabilities allow us to safely broaden our footprint into more diverse environments, including those with extreme winter weather, at an even greater scale.",
+    "url": "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver",
+    "publishDate": "2026-02-12",
+    "displayDate": "2月12日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "autonomous",
+    "tags": [
+      "Waymo"
+    ],
+    "importance": "medium",
+    "isFeatured": true
+  },
+  {
+    "id": "2026-03-12-004",
+    "title": "The Waymo World Model: A New Frontier For Autonomous Driving Simulation",
+    "summary": "We are excited to introduce the Waymo World Model, a frontier generative model that sets a new bar for large-scale, hyper-realistic autonomous driving simulation. ...",
+    "content": "We are excited to introduce the Waymo World Model, a frontier generative model that sets a new bar for large-scale, hyper-realistic autonomous driving simulation. ",
+    "url": "https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation",
+    "publishDate": "2026-02-06",
+    "displayDate": "2月6日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "autonomous",
+    "tags": [
+      "Waymo"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-005",
+    "title": "Accelerating our global growth: Waymo raises $16 billion investment round",
+    "summary": "Today, Waymo enters a new era. We have raised a $16 billion investment round valuing the company at $126 billion post-money. This capital underscores that the age of autonomous mobility at scale has a...",
+    "content": "Today, Waymo enters a new era. We have raised a $16 billion investment round valuing the company at $126 billion post-money. This capital underscores that the age of autonomous mobility at scale has arrived, and Waymo is leading the way. In addition to Alphabet’s strong sustained support as our majority investor, the financing was led by Dragoneer Investment Group, DST Global, and Sequoia Capital, and included significant investments from Andreessen Horowitz and Mubadala Capital as well as Bessemer Venture Partners, Silver Lake, Tiger Global, and T. Rowe Price. Additional investors included BDT & MSD Partners, CapitalG, Fidelity Management & Research Company, GV, Kleiner Perkins, Perry Creek Capital, and Temasek, underscoring the Waymo Driver’s status as the world’s most trusted, proven, and scalable solution for the future of transportation.",
+    "url": "https://waymo.com/blog/2026/02/waymo-raises-usd16-billion-investment-round",
+    "publishDate": "2026-02-02",
+    "displayDate": "2月2日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "autonomous",
+    "tags": [
+      "Waymo"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-006",
+    "title": "Clear skies and autonomous Waymo rides at SFO",
+    "summary": "Time to fly! Starting today, Bay Area travelers can catch their next flight at San Francisco International Airport via convenient and fully autonomous Waymo rides. We'll start by offering SFO access t...",
+    "content": "Time to fly! Starting today, Bay Area travelers can catch their next flight at San Francisco International Airport via convenient and fully autonomous Waymo rides. We'll start by offering SFO access to a select number of riders and will gradually welcome all riders over the coming months. ",
+    "url": "https://waymo.com/blog/2026/01/waymo-rides-at-sfo",
+    "publishDate": "2026-01-29",
+    "displayDate": "1月29日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "autonomous",
+    "tags": [
+      "Waymo"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-007",
+    "title": "A commitment to transparency and road safety: event overview",
+    "summary": "At Waymo, we are committed to improving road safety, both for our riders and all those with whom we share the road. ...",
+    "content": "At Waymo, we are committed to improving road safety, both for our riders and all those with whom we share the road. ",
+    "url": "https://waymo.com/blog/2026/01/a-commitment-to-transparency-and-road-safety",
+    "publishDate": "2026-01-28",
+    "displayDate": "1月28日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "autonomous",
+    "tags": [
+      "Waymo"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-008",
+    "title": "Miami, Your Waymo Ride Is Ready",
+    "summary": "Starting today, Waymo is welcoming the first public riders into our fully autonomous ride-hailing service in Miami. With nearly 10,000 residents already signed up, we will be inviting new riders on a ...",
+    "content": "Starting today, Waymo is welcoming the first public riders into our fully autonomous ride-hailing service in Miami. With nearly 10,000 residents already signed up, we will be inviting new riders on a rolling basis to ensure a seamless experience across our initial 60-square-mile service area. The territory includes Miami’s most iconic neighborhoods—from the Design District and Wynwood to Brickell and Coral Gables—with plans to expand to Miami International Airport soon.",
+    "url": "https://waymo.com/blog/2026/01/miami-your-waymo-ride-is-ready",
+    "publishDate": "2026-01-22",
+    "displayDate": "1月22日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "autonomous",
+    "tags": [
+      "Waymo"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-009",
+    "title": "Autonomously navigating the real world: lessons from the PG&E outage",
+    "summary": "At Waymo, our mission is to be the world’s most trusted driver. We know trust is built through consistent behavior over time—earned through every mile we drive and every interaction we have with the c...",
+    "content": "At Waymo, our mission is to be the world’s most trusted driver. We know trust is built through consistent behavior over time—earned through every mile we drive and every interaction we have with the community. This past Saturday, as a widespread PG&E outage cut power to nearly one-third of San Francisco, our service was put to the test. With power now restored, we want to share an account of our operations during the outage and how we are evolving to better serve the city.",
+    "url": "https://waymo.com/blog/2025/12/autonomously-navigating-the-real-world",
+    "publishDate": "2025-12-23",
+    "displayDate": "12月23日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "autonomous",
+    "tags": [
+      "Waymo"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-010",
+    "title": "Delivering more for our riders in a year of incredible growth",
+    "summary": "In 2025, people in cities across the country trusted Waymo for life’s precious moments – big and small – and to make their daily journeys smoother, simpler, and safer. Whether it’s commuting early in ...",
+    "content": "In 2025, people in cities across the country trusted Waymo for life’s precious moments – big and small – and to make their daily journeys smoother, simpler, and safer. Whether it’s commuting early in the morning, catching a flight, getting married, or even giving birth, Waymo has been there for our riders – showing that our massive growth this year was fueled not only by how rapidly we scaled our demonstrably safe AI, but by the people who made autonomous transportation part of their daily lives.",
+    "url": "https://waymo.com/blog/2025/12/2025-year-in-review",
+    "publishDate": "2025-12-10",
+    "displayDate": "12月10日",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "category": "autonomous",
+    "tags": [
+      "Waymo"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-011",
+    "title": "国内唯一入选的 AI 浏览器！QQ浏览器登上 a16z 全球 AI 应用榜单",
+    "summary": "...",
+    "content": "",
+    "url": "https://www.qbitai.com/2026/03/387068.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-012",
+    "title": "对话VAST曹炎培：2秒才是3D生成本该有的速度",
+    "summary": "AI 3D的2.0范式来了...",
+    "content": "AI 3D的2.0范式来了",
+    "url": "https://www.qbitai.com/2026/03/386717.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-013",
+    "title": "荣耀机器人亮相MWC，瑞声科技深度参与关键结构件支持",
+    "summary": "...",
+    "content": "",
+    "url": "https://www.qbitai.com/2026/03/386713.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "robotics",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-014",
+    "title": "全网首份「龙虾」安全部署指南来了！360出品",
+    "summary": "养龙虾，需谨慎...",
+    "content": "养龙虾，需谨慎",
+    "url": "https://www.qbitai.com/2026/03/386707.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-015",
+    "title": "养虾人Token自由！千亿Token+百万奖金等你来拿，0门槛冲就完了",
+    "summary": "龙虾大舞台，想来你就来...",
+    "content": "龙虾大舞台，想来你就来",
+    "url": "https://www.qbitai.com/2026/03/386669.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-016",
+    "title": "卡帕西：编程从写文件变成管龙虾！IDE不会凉但得换个用法",
+    "summary": "新一代IDE是Agent管理中心...",
+    "content": "新一代IDE是Agent管理中心",
+    "url": "https://www.qbitai.com/2026/03/386668.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "research",
+    "tags": [
+      "Agent"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-017",
+    "title": "爱诗科技完成3亿美元C轮融资，鼎晖领投，开启“实时交互”视频生成新纪元",
+    "summary": "...",
+    "content": "",
+    "url": "https://www.qbitai.com/2026/03/386664.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "company",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-018",
+    "title": "全球首款手机龙虾秒光，OpenClaw创始人称愿与百度共同开发龙虾",
+    "summary": "...",
+    "content": "",
+    "url": "https://www.qbitai.com/2026/03/386660.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "research",
+    "tags": [
+      "百度"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-019",
+    "title": "马斯克官宣数字AI员工！世界首富也来养龙虾，测试阶段员工把它当真人",
+    "summary": "数字擎天柱官宣，巨硬项目却被曝已停摆\r\n...",
+    "content": "数字擎天柱官宣，巨硬项目却被曝已停摆\r\n",
+    "url": "https://www.qbitai.com/2026/03/386615.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-020",
+    "title": "真·养虾！3步让龙虾边聊边进化，不用GPU不用数据集就能强化学习",
+    "summary": "还能自动生成技能...",
+    "content": "还能自动生成技能",
+    "url": "https://www.qbitai.com/2026/03/386601.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-021",
+    "title": "国家级开放平台首秀，砺算科技亮相AWE2026",
+    "summary": "当汹涌的全球AI浪潮与开放的国门在上海东方交汇，一年一度的中国科技“春晚”已然拉开帷幕。2026年3月12日至15日，2026中国（上海）家电及消费电子博览会（以下简称AWE2026）以“AI科技·慧享未来”为主题，在申城奏响产业创新的最强音。值得注意的是，在这片象征着高水平开放的创新高地上，砺算科技迎来它的国家级开放平台首秀，携自研TrueGPU天图架构“渲推一体GPU”产品亮相上海东方枢纽国际...",
+    "content": "<p>当汹涌的全球AI浪潮与开放的国门在上海东方交汇，一年一度的中国科技“春晚”已然拉开帷幕。</p><p>2026年3月12日至15日，2026中国（上海）家电及消费电子博览会（以下简称AWE2026）以“AI科技·慧享未来”为主题，在申城奏响产业创新的最强音。</p><p>值得注意的是，在这片象征着高水平开放的创新高地上，砺算科技迎来它的国家级开放平台首秀，携自研TrueGPU天图架构“渲推一体GPU”产品亮相上海东方枢纽国际商务合作区，向全球观众展现中国GPU的澎湃动力。&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2a89af2558.jpeg?imageView2/2/w/740\"/></p><p>从去年7月砺算科技首款GPU芯片“7G100”系列和首款显卡产品Lisuan&nbsp;eXtreme系列发布，到今年3月代表中国GPU厂商亮相AWE2026、宣布公开发售，一场关于中国大芯片未来的想象正加速照进现实。</p><p><br/></p><p><strong>锚定“东方枢纽”，砺算科技迎国家级开放平台首秀</strong></p><p>&nbsp;</p><p>本届AWE2026可谓规模空前，预计总展览面积突破17万平方米，吸引超过20万人次观众，汇聚全球1200余家顶尖品牌，展示最前沿的智能科技与未来生活场景。</p><p>最为引人注目的是，AWE2026将首次采用“一展双区”模式，设立上海东方枢纽国际商务合作区+上海新国际博览中心两个展区，形成“高精尖引领、生活化落地”的双馆联动效应。其中，首次设立的上海东方枢纽国际商务合作区展区，不仅是“全球首创、国内唯一”的零时差商务区，更是中国向世界展示硬核科技的重要窗口。&nbsp;</p><p>公开信息显示，上海东方枢纽国际商务合作区在综合保税区、海关监管区基础上，叠加了特定封闭区域人员跨境流动便利化政策。境外受邀人员入区无需中国签证并可停留30天，境内人员凭通行凭证便捷入出区，真正实现了“飞过来就能逛展，落地就能谈合作”的国际化便利。&nbsp;</p><p>令人振奋的是，这是上海东方枢纽国际商务合作区封关运行后的首个国际大型展会，堪称“国家级开放平台首秀”，此次集中聚焦AI芯片、算力、6G、具身智能等硬核科技领域，全方位呈现消费电子产业新质生产力的爆发式增长。</p><p>而在这片代表着中国最高水平开放的创新高地上，砺算科技作为科技先锋企业确认参展，同样迎来其在国家级开放平台的“首秀”。</p><p>据悉，AWE2026上海东方枢纽国际商务合作区展区分为数智产品展示区（A馆）、智慧生活展示区（B馆）、创新产品展示区（C馆）、核心技术展示区（D馆）。砺算科技位于核心技术展示区（D馆），展位号D-D11，它与京东方、联想、索尼、中兴、海信、小米、TCL、LG、小度、夸克、商汤科技、京东、强脑科技、智元、宇数科技、华为等海内外科技大厂一起，向全球观众展示中国硬核科技的创新力量。</p><p>&nbsp;</p><p><strong>重磅产品发售，点亮中国“高精尖”</strong></p><p>&nbsp;</p><p>参展AWE2026首日，砺算科技CEO宣以方在展会现场开启主题演讲，诠释AI Powered GPU的技术潜力，并全方位展示了公司“渲推一体GPU”产品的最新进展。&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2a8c0839e7.jpeg?imageView2/2/w/740\"/></p><p>聚焦Lisuan&nbsp;eXtreme系列显卡来看，该产品系列分为专业和消费级两大类，二者均展现出国际主流、国内领先水准的产品兼容性与性能表现。</p><p>其中，Lisuan&nbsp;eXtreme系列消费卡支持主流API和图形引擎，包括OpenGL、OpenGL ES、Vulkan、DirectX 12、WHQL、Unity、虚幻引擎（Unreal Engine）等，并适配100+游戏，实现当下最火大型游戏全覆盖。&nbsp;</p><p>游戏玩家耳熟能详的《荒野大镖客2》、《黑神话：悟空》、《地平线:零之曙光》、《赛博朋克》、《遗迹（Remnant）2》、《Dragon Ball：Sparking! Zero（七龙珠：电光炸裂）》、《哈迪斯（HADES）2》、《艾尔登法环：黑暗君临》、《方程式传奇》、《明末渊虚之语》、《漫威蜘蛛侠》、《最终幻想7重制版》、《夺宝奇兵》、《无主之地3》、《战争机器5》、《古墓丽影：暗影》、《巫师3》、《孤岛惊魂6》、《怪物猎人：崛起》、《博德之门3》、《只狼：影逝二度》、《生化危机4》、《真三国无双·起源》……砺算科技AWE2026现场，诸多游戏实机演示丝滑流畅。</p><p>据现场工作人员介绍，得益于前期众多游戏厂商支持，Lisuan&nbsp;eXtreme系列显卡相关适配工作能够快速推进。例如去年“7G100”芯片刚刚发布时，工程卡因网游的硬件反作弊机制遇到诸多调试困难，网易雷火工作室协助提供了专用测试包，砺算研发人员仅用数天时间便将旗下多款游戏优化至完美水平。作为新兴显卡厂商，砺算科技致力于与各游戏厂商合作共建国产游戏新生态。</p><p>同时，Lisuan&nbsp;eXtreme系列消费卡能流畅运行目前主流的网络游戏，包括《阴阳师》、《永劫无间》、《逆水寒》、《原神》、《燕云十六声》、《地下城与勇士》、《绝零区》、《DOTA2》、《反恐精英2》、《暗黑破坏神》、《流放之路2》等。&nbsp;</p><p>值得一提的是，作为目前国内稀缺的自研TrueGPU天图架构“渲推一体GPU”厂商，Lisuan&nbsp;eXtreme系列消费卡此次也公开了对主流AIPC大模型的支持情况。</p><p>包括Qwen3 32B、Qwen3 30B-A3B、Qwen3 8B、Deepseek&nbsp;14B、Qwen2.5-VL、OCR、Stable Diffusion3、Pony、carformer、iresnet、mobilenet、osnet、repvgg、resnet50、scrfd、trocr、YoloV8等大模型，甚至是近期十分火爆的OpenClaw（龙虾）本地化部署适配，Lisuan&nbsp;eXtreme系列消费卡均表现得游刃有余。</p><p>Lisuan&nbsp;eXtreme系列专业卡则展现出强大的行业应用与场景性能。</p><p>据砺算科技CEO宣以方介绍，Lisuan&nbsp;eXtreme系列专业卡适配优化了50余款专业应用、近10款数字孪生应用以及十余款不同型号的国内外CPU和操作系统。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2a904c320c.jpeg?imageView2/2/w/740\"/></p><p>图形场景适配上，Lisuan&nbsp;eXtreme系列专业卡支持主流专业图形和仿真软件，包括AutoCAD、Fusion360、Inventor、Revit、Solidworks、SolidEdge、ZWsoft等在内的CAD设计类软件十余款，CINEMA 4D、Blender、Maya、3ds Max、ZBRUSH、ENSCAPE、Bentley等3D建模与渲染类软件近20款，SAI2、KRITA、Davinci、Houdini、Photoshop、Illustrator、Animation等图像处理与视频编辑类软件十余款。&nbsp;</p><p>国内外CPU、操作系统适配层面，Lisuan&nbsp;eXtreme系列专业卡支持包括英特尔、AMD、中科海光鲲鹏、飞腾、兆芯、龙芯、此芯科技、Windows、麒麟软件、UOS、Ubuntu等系统厂商。&nbsp;</p><p>此外，Lisuan&nbsp;eXtreme系列专业卡支持云渲染、云游戏、云电脑、图形工作站、数字孪生、拼接屏显示等应用场景。在数字孪生场景适配上，砺算GPU已获得飞渡科技、大象云、苍穹数码、达美盛、迅图数码、超图软件的生态兼容性认证。</p><p>可以直观地看到，在国产GPU群雄逐鹿的环境中，砺算科技已成功凭借自研TrueGPU天图架构“渲推一体GPU”这一稀缺发展路线脱颖而出。&nbsp;</p><p>与国内同行押注AI计算GPU赛道不同，砺算科技选择从更难的高性能图形渲染GPU突破，“渲推一体”，做国内稀缺的图形渲染+推理，并且坚持全栈自研。&nbsp;</p><p>有业内人士认为，砺算科技是国内目前稀缺的拥有自研架构、不依赖外部IP授权的主流架构GPU厂商。这意味着其产品核心完全自主可控，能够真正做到高性能，兼容最新生态，且能够持续迭代，无需向海外IP公司支付高额授权费，不存在“断供”风险。</p><p>从专业角度和生态构建能力看，砺算科技可能是国内少有能像英伟达一样兼顾图形与计算的“正统”GPU厂商。而英伟达显卡之所以能统领AI市场，就是因为它们既能做图形渲染，又能做通用计算，这也是作为砺算科技股东之一的东芯股份为何被称为“东伟达”的原因所在。</p><p>更重要的是，自本次AWE2026发售始，LisuaneXtreme系列显卡便展现出压倒性的生态适配优势。其强大之处在于，产品能够适配目前成熟的市场生态，在架构、技术、软硬件、系统、应用场景层面都能直接对标国际主流产品，在国产GPU中实现断层领先。</p><p>砺算科技的发展路线也直接洞穿当下国产GPU市场的隐疾，国产GPU的未来可以是自研架构+生态适配“两条腿”走路，这条路虽难，但极具未来想象空间。</p><p>据悉，砺算科技与京东还在AWE2026现场举行了一场战略合作签约仪式，宣布Lisuan&nbsp;eXtreme系列消费卡将在今年618期间于京东平台首发；3月17日开始，Lisuan&nbsp;eXtreme系列专业卡开始接受企业用户订单。</p><p>京东与砺算科技将在消费级市场开展独家合作，依托京东供应链端优势资源，聚焦线上商城、线下超体门店、游戏电竞、校园学生及直播装机等多维核心场景，共同推动砺算独立显卡业务的持续发展；京东与砺算科技也将在企业级市场开展深度生态共建，引入砺算企业级合作伙伴，充分发挥京东综合平台效应，提供覆盖各细分行业的智算解決方案，共同拓展政企用户市场，打造国产GPU应用新范式。</p><p>&nbsp;</p><p><strong>资本市场追逐，利好“GPU概念股”</strong></p><p>&nbsp;</p><p>从中国GPU厂商的发展进程来看，当前资本市场对国产GPU的热情可以用“疯狂”来形容。</p><p>2025年末至2026年初，国产GPU“四小龙”集中登陆资本市场，动辄倍数级的股价涨幅令投资者侧目，还有更多GPU厂商在IPO的路上。&nbsp;</p><p>在此背景下，坚持自研TrueGPU天图架构“渲推一体GPU”路线的砺算科技更以其特殊性收获广泛关注。</p><p>有投资者关注到，自2025年7月砺算科技“7G100”系列GPU发布，砺算科技股东之一——科创板上市公司东芯股份历经股价大幅上扬，公司市值从年初约109亿元大幅增长至年底超570亿元，‌2025全年涨幅达423.25%。</p><p>‌‌自今年3月4日砺算科技官方宣布参展AWE2026及相关发售消息，东芯股份在连续三个交易日内，市值从548.7亿元攀升至658.5亿元，短短几天超百亿涨幅，凸显市场对砺算科技的期待值。</p><p>芯片是全球科技竞争的战略制高点。在AI算力需求爆发增长、数字经济加速渗透的当下，GPU芯片作为核心底座，直接决定了中国科技的自主可控程度与产业竞争力边界。</p><p>行业重要性之下，Lisuan&nbsp;eXtreme系列显卡在AWE2026现场官宣发售，不仅是中国显卡的破局时刻、定义了中国显卡的新高度，标志着国产GPU产业进入新阶段，更承载着中国GPU产业链自主可控的使命。</p><p>国产替代的持续深化，将会是以砺算科技为代表的国产GPU厂商未来一段时间内重要的发展机遇。砺算科技在全自研架构上的自主可控，以及对市场主流应用的全面适配，意味着极富想象空间的市场爆发潜力。</p><p>长期来看，砺算科技的自研TrueGPU天图架构“渲推一体GPU”布局，将与其他国产GPU厂商一起，共同推动国产GPU产业的发展。随着资本的持续赋能、技术的不断迭代、生态的逐步完善，国产GPU企业有望迎来飞跃，最终走出一条具有中国特色的发展道路。</p><p>在这场与时间赛跑的算力竞争中，只有那些能够坚持技术创新、深耕生态建设、实现商业化落地的企业，才能在长期竞争中脱颖而出，成为中国GPU产业的真正支柱。&nbsp;</p><p>砺剑半载，砺锋出鞘。回望砺算科技过去一段时间的发展，从2025年5月24日回片，回片后24小时点亮，到2025年7月26日“7G100”横空出世，2025年9月完成量产片流片，2026年2月完成量产片回片，再到2026年3月12日正式宣布发售，这家尖端科技企业正在国家级开放平台上释放持续的创新能量，也将会为中国乃至全球消费电子产业带来更多惊喜。</p><p><span style=\"color: #FFFFFF;\">雷峰网</span></p>",
+    "url": "https://www.leiphone.com/category/industrynews/TI4DV4QnPISLpyyK.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "llm",
+    "tags": [
+      "华为",
+      "智元",
+      "Diffusion"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-022",
+    "title": "AWE 2026再携重磅阵容，MOVA全面披露芯片战略，擎画“主动时代”技术版图",
+    "summary": "2026年3月12日，中国上海——当人工智能加速从模型能力走向系统能力，家庭场景正成为AI规模化落地的关键单元。今日，全球超高端AI智慧生活引领者MOVA在中国家电及消费电子博览会（AWE 2026）开幕首日，首次系统披露自研芯片战略，并对外阐释其“家庭AI系统”技术架构及多项生态布局。依托AWE 2026“一展双区”的创新布局，MOVA以“智见新宇宙，慧享新生活”为主题亮相上海新国际博览中心。本...",
+    "content": "<p>2026年3月12日，中国上海——当人工智能加速从模型能力走向系统能力，家庭场景正成为AI规模化落地的关键单元。今日，全球超高端AI智慧生活引领者MOVA在中国家电及消费电子博览会（AWE 2026）开幕首日，首次系统披露自研芯片战略，并对外阐释其“家庭AI系统”技术架构及多项生态布局。</p><p>依托AWE 2026“一展双区”的创新布局，MOVA以“智见新宇宙，慧享新生活”为主题亮相上海新国际博览中心。本次发布中，MOVA带来5项行业级首创技术、32项体系级创新技术以及31款创新产品。这不仅是一次产品的集中展示，更是MOVA以芯片与AI算法为底层能力构建智慧生活生态的具象呈现，标志着品牌正从单一产品竞争迈向系统能力构建的新阶段。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2a46cd3513.png?imageView2/2/w/740\"/></p><p><strong>MOVA的快速崛起之路，构筑不可复制的核心壁垒</strong></p><p>MOVA成立于2024年，诞生于AI重构生活方式的时代浪潮中。创立之初，MOVA即将AI大模型、芯片和机器人等技术深度融入产品生态，以“手机+汽车+清洁生态”为入口，致力于打通用户生活的全场景，成为全球超高端智慧生活的引领者。</p><p>回顾2025年，是MOVA扎根蓄力、快速崛起的一年。这一年，MOVA实现年营收环比增长418%，为全球超140万家庭提供产品与服务，全球注册会员超400万。这些数字背后，是MOVA在研发底座、供应链体系与全球化平台上的持续突破，也体现出“技术下沉、生态协同、全球赋能”战略的不断落地。</p><p>技术始终是MOVA的核心根基。目前，MOVA已组建超千人的技术研发团队，研发人员占比超过70%，年研发投入超亿元。团队汇聚众多全球顶尖人才，并与清华航天航空学院、电机工程与应用电子技术系开展深度科研合作。截至目前，MOVA全球累计申请专利超2000件，进攻型专利布局领跑行业。</p><p>在AI大模型领域，MOVA基于割草机器人长期积累的AI技术基础，训练了大量垂直场景模型，并将其快速延展至多个产品品类，通过交叉训练持续提升生态产品的智能体验。从马达技术到AI算法，再到芯片能力的持续突破，MOVA正以高技术密度构筑自身在核心技术领域的长期壁垒。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2a474ef0e4.png?imageView2/2/w/740\"/></p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2a4e340393.png?imageView2/2/w/740\"/></p><p><strong>三大赛道齐发，MOVA擎画“主动时代”技术版图</strong></p><p>作为始终以技术创新为内核的品牌，MOVA在本届AWE上首次对外披露自研芯片战略。MOVA将复杂生活场景中长期沉淀的算法能力与数据经验进一步沉淀为芯片层面的“原生能力”，通过自研专用SoC芯片打造“主控+感知+决策”一体化AI引擎。</p><p>这一芯片能力也将成为MOVA AI产品矩阵的重要技术底座，支撑清洁设备、个护电器、智慧能源、3D打印及未来出行等多元产品体系实现更高效的感知、计算与协同能力，让设备从单一智能迈向系统级智能。</p><p>与此同时，MOVA宣布全面布局3D打印、飞行汽车及汽车相关赛道。在3D打印领域，MOVA依托精密控制与AI视觉算法的技术积累，通过快速原型验证与个性化定制能力，让“创造”逐步走进家庭。在未来出行领域，MOVA推出eVTOL未来飞行汽车，探索低空经济时代的新型出行方式。</p><p>从芯片到3D打印，从未来出行到更多智能设备，MOVA正以多赛道协同发展的方式，构建面向“主动时代”的技术版图。这不仅是品类层面的扩展，更是技术能力的纵深积累。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2a4f6dbd0b.png?imageView2/2/w/740\"/></p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2a4bd3acf7.png?imageView2/2/w/740\"/></p><p><strong>AI主动时代：让生活更从容</strong></p><p>沿着“从功能到生活、从参数到场景”的逻辑，MOVA在AWE现场构建了一个可触摸的未来之家。在这一AI产品矩阵中，芯片、算法与设备协同成为驱动产品体验升级的重要基础。</p><p>作为清洁家电领域的新生力量，MOVA在本届AWE上带来了覆盖全屋清洁、个护理容、智慧能源等品类的多款旗舰产品。其中，MOVA Z70 Pro扫地机器人以仿生机械轮足实现9cm越障，配合5000Pa滚筒活水洗技术，让全屋清洁再无死角。X60 Ultra Steam洗地机以200°C蒸汽与90°C热水双态洗地，9.9cm超薄机身可180°躺平深入低矮空间。Z200 Ultra吸尘器首创“一袋净”基站，吸尘集尘同步，满袋一拎即抛。在空气管理维度，Omphalos空气净化器通过多模态感知技术，让清风主动追随人的脚步。</p><p>在个护展区，R9900手持旋转刀以360°全向浮动刀头与150万颗纳米柔珠技术，带来“私人理容管家”般的丝滑体验。在智慧能源展区，MOVA首款LumeGret A4000阳台能源系统可根据家庭用电习惯实时能耗监测与智能电力管理。配合ML-X1Pro AI智能路由器构建的家庭私有云，MOVA让全屋智能设备实现真正的数据互通。即将亮相的P-cool10分体式移动空调，以红外人感功能精准检测人体位置，让清凉随人而动。</p><p>从地面到空气，从清洁到理容，从用能到储能——MOVA正以场景生态布局，让AI从单一功能进化为系统能力，让生活真正回归从容。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2a48c3e67d.png?imageView2/2/w/740\"/></p><p><strong>以芯片为根基，构建家庭AI系统</strong></p><p>在MOVA的品牌哲学中，产品不仅是功能的载体，更是融入生活的科技艺术品。创新是MOVA的底层基因——从技术研发到场景应用，MOVA持续将前沿科技转化为用户可感知的体验升级。时尚是MOVA的设计语言——品牌坚持将高端美学理念融入产品设计，实现科技与美学的融合。高端则是MOVA的品质承诺——通过全品类三年质保服务构建长期用户信任。</p><p>从2024年品牌创立，到2025年快速崛起，再到2026年全面爆发，MOVA正以独有的创新节奏向全球宣告：智能生活的下一阶段，不仅是设备的互联，更是系统能力的协同进化。</p><p>以自研芯片为技术根基，以AI算法为能力核心，以多维产品矩阵为场景载体，MOVA正逐步构建面向未来的家庭AI系统。</p><p>在这一体系中，设备将不再只是被动响应的工具，而将成为能够主动感知、理解并服务用户的智能节点，共同构成更具生命力的家庭AI生态。</p><p>&nbsp;</p><p><br/></p>",
+    "url": "https://www.leiphone.com/category/industrynews/Q12viTOuIGrjk0hd.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "llm",
+    "tags": [
+      "多模态"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-023",
+    "title": "豆包官宣手机助手：AI 还能带来哪些新体验？",
+    "summary": "就在前天，字节豆包团队官宣：豆包要做手机助手了。豆包手机助手，是字节和手机厂商合作，基于操作系统层面的授权落地的ai助手。背靠在推理、视觉、图像视频创作、语音等多方面国际领先的豆包大模型，豆包手机助手给用户带来的，是交互和体验层面的关键创新。豆包手机助手，是字节入局手机生意的前夜吗？豆包官方给出了明确的否定：豆包没有自研手机的计划。当下的豆包手机助手，是以生态合作的方式，将软件技术整合进不同品牌的...",
+    "content": "<p>就在前天，字节豆包团队官宣：豆包要做手机助手了。</p><p>豆包手机助手，是字节和手机厂商合作，基于操作系统层面的授权落地的ai助手。背靠在推理、视觉、图像视频创作、语音等多方面国际领先的豆包大模型，豆包手机助手给用户带来的，是交互和体验层面的关键创新。</p><p>豆包手机助手，是字节入局手机生意的前夜吗？豆包官方给出了明确的否定：豆包没有自研手机的计划。当下的豆包手机助手，是以生态合作的方式，将软件技术整合进不同品牌的机型，而豆包也正在与多家手机厂商洽谈。</p><p>今天，豆包手机助手开放体验的手机机型，是字节和中兴合作的工程样机 nubia M153，这款手机也已面向开发者和科技爱好者少量发售，能够让他们体验豆包手机助手的技术预览版本，售价 3499 元。</p><p>别小看豆包的这次“转身”，手机助手对于大模型的产品化落地，意义相当深远。</p><p>最直接的变化，是用户使用豆包手机助手，变得更加简单方便了。</p><p>首先，是用户离豆包更“近”了。用户用语音、手机侧边的“AI 键”，或是豆包 OlaFriend 耳机，就能直接调出豆包，帮助自己答疑解惑，甚至直接开始 AI 语音通话。而在用户授权后，AI 甚至可以直接识别手机屏幕的内容，更直接地理解用户意图，也帮用户省掉了“截图”“发送”的两步操作。</p><p>而针对用户需求充沛的 AI 修图功能，豆包的 AI 能力也融入了系统的原生相册，点开相册，用户可以直接用语音下达修图指令，清除照片上的路人、杂物不在话下。</p><p>今年最热的 AI 应用，莫过于被 Manus 带火了的多 Agent 协作框架，而这一点在手机端，单凭一个 App 却很难做到。在系统层面上的打通，让豆包手机助手向着 AI 的“一站式完成交付”更进了一步——根据用户的指令，豆包手机助手可以操作手机，实现多款应用间的自动跳转。</p><p>演示视频中，用户仅凭一张图片，就能自动识别出商品，并在多个购物软件上比价、挑选出最便宜的商品链接，最终再交由用户接管下单、支付，一气呵成。</p><p>从刚刚提到的商品下单到查票订票、从批量下载文件到查询物流进度，诸如此类许多需求，豆包手机助手都能轻松完成。甚至在后台，用户也能通过语音来驱动豆包，完成复合、复杂的任务。</p><p>综合来看，豆包手机助手——这个更聪明、更能干、更懂你的“Siri”。</p><p>10月底，QuestMobile 的数据显示，豆包 APP 的月活跃量已经达到了 1.72 亿，超过 Deepseek 的 1.44 亿月活，成为了全国最热的 AI 应用。小圈子里来看，豆包已经取得不错的成绩，但距离用AI解决更多现实生活里的实际需求，始终隔着一层。</p><p><strong>如何让大模型能力更加贴近用户需求，就又回到了互联网最高频的使用场景。</strong></p><p>简单来说，AI 助手虽然功能强劲，但在APP形态下，绝大多数交互只能通过语音实现，不少用户会认为，豆包很能聊，生图、生视频也不在话下；但让 AI 点个外卖、叫个车，解决实际的需求，豆包却还力有不逮。</p><p>回想一下，今天人们使用频次最高的、最离不开场景是什么？答案显而易见，就是“手机”。</p><p>当豆包与手机厂商合作，上面提到的那些需求，终于有了能干活的小助手。</p><p><strong>与手机操作系统的深度融合，像刚刚提到的，也让豆包手机助手的交互更加流畅。</strong></p><p>在产品设计的理论中，有许多个“3”，而其中之一就是“三次点击”原则——简单说，如果用户在进行了三次点击后，仍然没法触达产品的核心功能、获得核心体验，就会自然而然地放弃使用这个产品。</p><p>而豆包手机助手对交互的简化，让用手机和用 AI 之间紧密结合，AI不再是手机的一个APP，而是一个随叫随到的“小秘书”。</p><p><strong>与手机厂商联动，对豆包手机助手来说，也能更懂用户。</strong></p><p>繁忙的现代生活中，高铁票的座位、和朋友聊天中提到的餐厅……那些琐碎的细节经常被我们遗忘。这种情况下，用户可以选择开启豆包手机助手的记忆功能，豆包会将信息自动整理并记录在本地，成为你的智能记事本。</p><p>另一个不得不提的，是豆包手机助手的“操作手机 Pro 模式”。在这个模式下，豆包手机助手不仅调用 GUI Agent（模拟点击），更会直接调用系统工具，来更快更好地满足用户的复杂需求。</p><p>比如在操作手机 Pro 模式之下，基于用户在手机中存储的信息，豆包手机助手无需用户过多编辑提示词，就可以帮助用户给女儿挑选合心的礼物等具体的任务。</p><p>而针对隐私问题，豆包手机助手同步发布了《豆包手机助手隐私安全白皮书》， 并阐明了每个功能的数据如何被使用、保护和保存，让每个用户都能用的安心、放心。</p><p>在豆包手机助手演示视频的结尾，官方也特别提示，视频中的功能实现虽然均为实机演示，但实际在应用当中，很多场景还无法保证百分百的复现，产品的实际可用性还未能达到团队预期，相关的迭代优化仍在进行中。</p><p>尽管还远未达到“未来已来”的技术终局，豆包手机助手仍然给业界提供了一个十分鲜活、也近在眼前的想象——当模型能力不断进步，结合全新的交互方式，AI可能不再只是手机里的一款APP，而是像空气般自然存在的“智能助手”，与用户真实的需求形影不离。</p><p><span style=\"color: #FFFFFF;\">雷峰网</span></p>",
+    "url": "https://www.leiphone.com/category/industrynews/H8w4gm9ko6oHLo0z.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "llm",
+    "tags": [
+      "字节",
+      "Agent"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-024",
+    "title": "全球首款手机龙虾秒光 OpenClaw创始人称愿与百度共同开发龙虾",
+    "summary": "3月12日，百度发布了全球首款手机龙虾应用——“红手指Operator”，用户下载App其即可实现手机“养虾”。上线后，迅速引爆下载热潮，系统后台资源出现紧缺提示。百度智能云回应称，正全速调配资源扩容，全力保障用户体验。&nbsp;12日11点时许，OpenClaw创始人Peter Steinberger在海外社交平台上连发两条回复，称中国AI创新速度“Amazing”，并表示愿与百度共同开发龙虾...",
+    "content": "<p>3月12日，百度发布了全球首款手机龙虾应用——“红手指Operator”，用户下载App其即可实现手机“养虾”。上线后，迅速引爆下载热潮，系统后台资源出现紧缺提示。百度智能云回应称，正全速调配资源扩容，全力保障用户体验。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b269aa5daae.png?imageView2/2/w/740\"/>&nbsp;</p><p>12日11点时许，OpenClaw创始人Peter Steinberger在海外社交平台上连发两条回复，称中国AI创新速度“Amazing”，并表示愿与百度共同开发龙虾。</p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b269b5ef198.png?imageView2/2/w/740\"/></p><p>此前，百度已推出Duclaw，支持用户在电脑端零门槛“养虾”。</p><p><span style=\"color: #FFFFFF;\">雷峰网</span></p>",
+    "url": "https://www.leiphone.com/category/industrynews/2FtUIk1mtqmNy1tz.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "product",
+    "tags": [
+      "百度"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-025",
+    "title": "萤石Stella星辰系列震撼发布！全球首创双擎双热活水洗地 解锁AI清洁新高度",
+    "summary": "3月12日，萤石Stella星辰系列技术发布会在AWE上海新国际博览中心萤石展台启幕，以“蒸汽进化，AI新净界”为主题，重磅发布Stella星辰系列AI蒸汽洗地机器人。依托全球首创的双擎双热活水洗地方案与自研的萤石星辰世界模型，萤石实现清洁能力与AI技术的双重突破，引领清洁行业迈入6.0时代，为清洁市场注入颠覆性创新活力。&nbsp;行业困局凸显，萤石Stella星辰系列直击用户痛点当前扫地机器人...",
+    "content": "<p>3月12日，萤石Stella星辰系列技术发布会在AWE上海新国际博览中心萤石展台启幕，以“蒸汽进化，AI新净界”为主题，重磅发布Stella星辰系列AI蒸汽洗地机器人。依托全球首创的双擎双热活水洗地方案与自研的萤石星辰世界模型，萤石实现清洁能力与AI技术的双重突破，引领清洁行业迈入6.0时代，为清洁市场注入颠覆性创新活力。</p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2674b5eb28.png?imageView2/2/w/740\"/></p><p><strong>行业困局凸显，萤石Stella星辰系列直击用户痛点</strong></p><p>当前扫地机器人行业已历经多代技术演进，但用户核心清洁痛点始终未能得到彻底解决。据行业普遍认可的技术分析，1.0至3.0时代处于“以脏拖脏”初级阶段，清洁力薄弱、水渍明显等问题突出；4.0时代的常温活水洗地模式，难以应对干湿混合垃圾；5.0时代的虽然将高温引入到洗地机中提升清洁效果，却仍受困于干湿混合垃圾处理、凝固污渍瓦解、重度油污清洁及细菌消杀四大核心难题，行业创新陷入瓶颈。</p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2675d3cbe9.png?imageView2/2/w/740\"/></p><p>作为安全智能生活主流品牌，萤石以“萤石云+AI”为双核驱动，构建起完善的“2+5+N”产品生态，在智能视觉、AI算法及硬件研发领域积累了深厚的技术沉淀。基于对行业痛点与用户需求的精准洞察，萤石强势入局高端清洁市场，推出首次布局蒸汽洗地机器人赛道的高端旗舰产品——Stella星辰系列AI蒸汽洗地机器人。该系列凭借多项“自研”“首创”的技术优势，精准破解行业四大核心痛点，重新定义高端智能清洁的全新标准。</p><p><strong>全球首创双擎双热活水洗地，一站式攻克清洁难题</strong></p><p>萤石Stella星辰系列的核心竞争力，在于其独家搭载的全球首创双擎双热活水洗地方案。这一创新成果已获得尚普咨询颁发的“全球AI双擎蒸汽洗地机器人首创”市场地位声明，其技术创新性与行业领先性得到权威认可。该套方案由“BiCore Suction双擎分区直吸系统”与“HotSteam Wash澎湃蒸洗���热系统”协同构成，实现吸尘、洗地、自清洁全链路升级，彻底打破传统清洁技术局限，实现清洁效率与清洁效果的双重飞跃。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b26775d1225.png?imageView2/2/w/740\"/></p><p>其中，全球首创的BiCore Suction双擎分区直吸系统，首次在扫地机器人上实现了“干吸”与“湿吸”的彻底分离，有效避免干湿垃圾混合污染风道、滋生细菌产生异味。两套独立风机系统互不干扰，形成两条独立风道：“飓风负压干风机”专注滚刷清扫，可高效处理吸尘、毛发等各类干垃圾；“涡流负压湿风机”专门处理污水、汤汁、泡面等湿垃圾及干湿混合垃圾，真正实现活水洗地，让地面始终保持干爽洁净。</p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b26781205d7.png?imageView2/2/w/740\"/></p><p>与之协同发力的HotSteam Wash澎湃蒸洗双热系统，采用“105℃双泵增压蒸汽系统+85℃黄金热活水熨烫洗地”的双重设计，实现清洁与杀菌的双重升级。105℃双泵增压蒸汽可瞬间渗透地面缝隙，快速瓦解顽固油污与细菌，增压设计确保蒸汽直达地面，兼顾深度清洁与高效杀菌；85℃黄金热活水则实时对履带/滚筒进行自清洁，确保洗地过程中履带/滚筒始终保持洁净状态，从根源上避免二次污染，为用户提供即洗即净的优质清洁体验。无论是打翻的泡面、凝固的酱油，还是厨房重度油污，萤石Stella星辰系列都能轻松应对。</p><p><strong>萤石星辰世界模型构建AI底座，让Stella星辰系列实现“类人化”思考</strong></p><p>在硬核清洁实力之外，萤石Stella星辰系列更以智能化体验实现差异化突破——自研的萤石星辰世界模型，赋予产品“思考”能力，与双擎双热活水洗地方案形成“硬实力+软实力”的双重助力。该模型依托先进的深度学习算法，助力萤石Stella星辰系列精准构建家居环境内部模型，实现从“看见”到“理解”、从“执行”到“思考”的跨越式升级，赋予其类人化的智能决策能力，彻底摆脱传统机器人“被动执行清洁”的局限，为用户打造更便捷、高效、智能的清洁环境。</p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b267976efff.png?imageView2/2/w/740\"/></p><p>萤石星辰世界模型的四大核心能力有机融合、互补共生，让清洁更具智慧感：环境建模能力可构建家居3D语义地图，精准识别家具、房间类型与功能区域，支持万物识别，让机器人对家居环境了如指掌；行为预测能力能够预判宠物、行人的动态轨迹，提前规划科学的避让路径，避免碰撞与清洁干扰；智能决策能力可以根据不同场景自主选择最优清洁策略，动态调整吸力与水量，实现精细化清洁；持续学习能力则让机器人越用越懂用户，自动记忆用户的清洁偏好与家居环境变化规律，不断优化清洁方案。</p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b267a2c78b6.png?imageView2/2/w/740\"/></p><p>相较于普通扫地机器人，萤石星辰世界模型的差异化优势尤为突出，进一步凸显了产品的智能壁垒。在万物识别上，可实现“感知——理解——记忆”的时间+空间全链路识别，普通扫地机器人仅能识别“是人”，而萤石Stella星辰系列能够清晰判断“这是谁、在做什么、需要什么、有何风险”；在行为预测层面，可通过“识别+场景判断+轨迹预测+智能决策+持续学习”全流程优化，有效规避普通机器人被动识别、被动绕行产生的碰撞、中断清洁等问题，做到不惊吓宠物、不打扰家人，确保清洁全程稳定流畅。&nbsp;</p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b267acd1975.png?imageView2/2/w/740\"/></p><p>本次萤石Stella星辰系列技术发布会，是萤石在智能清洁领域的里程碑式亮相，标志着其以自研核心技术+空间级AI正式切入高端清洁市场。凭借双擎双热活水洗地方案与自研萤石星辰世界模型的双重技术突破，萤石不仅为用户带来了真正下一代的智能清洁体验，更打破行业创新瓶颈，以技术创新推动洗地机行业向更高效率、更健康、更智能的方向发展。</p><p>萤石Stella星辰包含“星辰09”及“星辰10”两大系列产品线，具体产品细节及上市信息，将在4月品牌新品发布会上正式公布。未来，萤石将继续秉持“技术普惠”“场景深耕”的理念，以用户真实需求为导向，持续加大研发投入，推动AI技术与清洁技术的深度融合，推出更多兼具硬核实力与人性化体验的产品，不断书写智能清洁新篇章。</p><p><span style=\"color: #FFFFFF;\">雷峰网</span></p>",
+    "url": "https://www.leiphone.com/category/industrynews/8X6efc1aFtQTm5AA.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "robotics",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-026",
+    "title": "MOVA首款扫地机专用芯片M10正式发布",
+    "summary": "今日，2026年中国家电及消费电子博览会（AWE2026）在上海隆重开幕。展会首日，智能生活领军品牌MOVA重磅官宣其芯片战略，并正式发布首款扫地机专用自研芯片——M10，引发行业高度关注。该芯片针对扫地机器人场景深度定制，将算法沉淀为芯片“原生本能”，实现“主控+感知+决策”一体化整合。MOVA表示，不做通用算力，专注为扫地机打造“专属大脑”，以“为融合而生”为理念，致力于成为广义机器人领域芯片...",
+    "content": "<p>今日，2026年中国家电及消费电子博览会（AWE2026）在上海隆重开幕。展会首日，智能生活领军品牌MOVA重磅官宣其芯片战略，并正式发布首款扫地机专用自研芯片——M10，引发行业高度关注。</p><p>该芯片针对扫地机器人场景深度定制，将算法沉淀为芯片“原生本能”，实现“主控+感知+决策”一体化整合。</p><p>MOVA表示，不做通用算力，专注为扫地机打造“专属大脑”，以“为融合而生”为理念，致力于成为广义机器人领域芯片的定义者，推动全智能生态发展。</p><p><span style=\"color: #FFFFFF;\">雷峰网</span></p>",
+    "url": "https://www.leiphone.com/category/industrynews/dWK8VUiIeJRfkmCx.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "robotics",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-027",
+    "title": "独家 | 华为前高管刘武龙创立具身公司贝塔无限，已完成近亿元种子轮融资 ",
+    "summary": "雷峰网 AI 科技评论消息，华为前高管刘武龙已于近期创业，成立贝塔无限（Beta Infinity），瞄准万亿消费级机器人蓝海市场。一位接近该公司的人士透露，贝塔无限已经完成近亿元种子轮融资。本轮投资机构包括洪泰基金、正景基金、银杏谷资本（鹏城愿景基金）、水木清华校友种子基金等知名投资机构。创始人兼CEO刘武龙，2015年博士毕业于清华电子系，曾担任华为大模型工程团队负责人和强化学习首席科学家（2...",
+    "content": "<p>雷峰网 AI 科技评论消息，华为前高管刘武龙已于近期创业，成立贝塔无限（Beta Infinity），瞄准万亿消费级机器人蓝海市场。一位接近该公司的人士透露，贝塔无限已经完成近亿元种子轮融资。本轮投资机构包括洪泰基金、正景基金、银杏谷资本（鹏城愿景基金）、水木清华校友种子基金等知名投资机构。</p><p>创始人兼CEO刘武龙，2015年博士毕业于清华电子系，曾担任华为大模型工程团队负责人和强化学习首席科学家（21级），曾是华为最年轻的AI实验室主任和研究所所长。任职华为期间，刘武龙主导孵化了华为智能驾驶，并负责华为首个不依赖高精地图量产版本ADS 2.0，是业界少数兼具智能驾驶和大模型系统技术和产品工程经验的专家。</p><p>联合创始人陶帅担任公司CTO，2013年从清华电子系本硕毕业，此前曾任职于字节跳动（4-1），带领百人AI算法和工程团队，从0到1打造出年收入数百亿的“千人千面”复杂AI系统，在C端个性化技术、大模型算法、复杂系统架构上有深厚积淀。</p><p>首席科学家Nova，2025届清华具身智能科班博士，来自行业知名的顶尖机器人实验室。</p><p>团队成员主要来自华为、字节、智元、大疆等行业标杆企业。据透露，贝塔无限目前已有20人左右团队，预计年内将会扩展至50人，发展迅速。</p><p>雷峰网 AI 科技评论了解到，贝塔无限目标是面向消费级市场，打造具备世界观和高情商的机器人解决方案，具有“千人千面”和“可自主演进”的能力，致力于解决业界具身智能缺乏“个性化”、自主做事能力差等痛点问题，在数据和模型技术路线有独特的坚持和差异性。据悉，目前贝塔无限已与头部产业方开展战略合作，将以消费级场景迅速切入市场。</p><p>当前，消费级具身智能赛道资本热度空前，成为全球硬科技核心风口。2023年成立的消费级具身智能公司Skild AI，于今年1月宣布完成软银领投的14亿美元C轮融资，估值超过140亿美元；前Tesla工程师于2024年创立的家用人形机器人智能公司Sunday Robotics，也于2025年11月推出了首款产品Memo，基于低成本技能捕捉手套在真实家庭场景数据中训练的成果，大幅度提升环境适应力，可实现长链条任务处理，具备 &quot;零样本泛化&quot; 能力，引发业界广泛关注和期待。</p><p>尽管赛道火热，业内既有实践偏重炫技，真实场景落地能力不足。具身智能赛道的相关投资人表示，行业已经从概念比拼的“样品”阶段进入到商业化落地的“产品”阶段，本质上，万亿级消费机器人市场的核心痛点是通用大脑，具备此方向创新和产业落地能力的团队并不多。</p><p>另有知情人士称，贝塔无限已同步开始下一轮融资，获得众多投资机构的积极抢注。</p><p>本文作者代聪飞，关注产品，也看人与业务的故事，持续关注AI行业的潮水方向。欢迎各位读者添加作者微信Congc_a交流。</p>",
+    "url": "https://www.leiphone.com/category/ai/BtG630uoXBud6n1e.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "llm",
+    "tags": [
+      "Tesla",
+      "华为",
+      "字节",
+      "智元"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-028",
+    "title": "董明珠痛批无效加班：领导不走我不走这种内耗毫无意义；曝比亚迪考虑进军F1一级方程式赛事；不安全还烧钱？月薪两万养不起一只龙虾",
+    "summary": "要闻提示1.董明珠谈反内卷：不该让员工常态化加班，领导不走我不走这种内耗毫无意义2.中国车企首次！曝比亚迪考虑进军F1一级方程式赛事3.月薪两万养不起一只龙虾！排队养虾后又排队卸载4.员工入职大疆1个月被发了5次钱，网友盛赞“打工人梦中情厂”5.荣耀产品经理用折叠屏做引体向上？客服：不建议模仿，如损坏不在“三包”范围内6.Meta 计划 2027 年底前部署四代自研 AI 芯片，应对算力需求并降低...",
+    "content": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>要闻提示</strong></span><br/></p><p style=\"text-align: justify;\">1.董明珠谈反内卷：不该让员工常态化加班，领导不走我不走这种内耗毫无意义</p><p style=\"text-align: justify;\">2.中国车企首次！曝比亚迪考虑进军F1一级方程式赛事</p><p style=\"text-align: justify;\">3.月薪两万养不起一只龙虾！排队养虾后又排队卸载</p><p style=\"text-align: justify;\">4.员工入职大疆1个月被发了5次钱，网友盛赞“打工人梦中情厂”</p><p style=\"text-align: justify;\">5.荣耀产品经理用折叠屏做引体向上？客服：不建议模仿，如损坏不在“三包”范围内</p><p style=\"text-align: justify;\">6.Meta 计划 2027 年底前部署四代自研 AI 芯片，应对算力需求并降低外部依赖</p><p style=\"text-align: justify;\">7.黄仁勋罕见写长文：定义了AI五层蛋糕，预言传统软件和APP或将消失</p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>今日头条</strong></span><strong><br/></strong></p><p style=\"text-align: justify;\"><strong>董明珠谈反内卷：不该让员工常态化加班，领导不走我不走这种内耗毫无意义</strong><br/></p><p style=\"text-align: justify;\">3月11日消息，针对全国两会期间热议的反内卷话题，全国人大代表、格力电器董事长董明珠发表了犀利见解。她明确指出，企业本来就不应该让员工陷入常态化加班的泥潭。董明珠认为，加班应当仅仅作为应对企业突发情况的特殊手段。只有在面临紧急任务或特殊挑战时，员工才需要义无反顾地投入，而不应将其变成一种理所当然的日常制度。</p><p style=\"text-align: justify;\">她对职场中普遍存在的无效加班现象提出了严厉批评。那种因为领导没走自己就不敢走，或者是为了应付差事而反复修改方案、重复制作表格的行为，在她看来纯属毫无意义的内耗。这种形式主义的勤奋不仅剥夺了员工的休息权利，更是在消耗企业的生命力。董明珠强调，绝对不能把加班时长作为员工的考核标准，这种评价体系不仅不科学，更是对人才的误导。</p><p style=\"text-align: justify;\">她呼吁管理层应当让工作回归价值本身，通过提升工作效率和流程优化来保证任务达成。如果一个岗位需要靠员工透支体力来维持，那么这个岗位的管理逻辑本身就存在问题。董明珠的这番表态，直接戳中了当下职场人的痛点。她主张企业应当通过技术进步和管理升级来解放劳动力，而不是通过无休止的压榨来获取短期利益，这才是健康企业该有的姿态。（快科技）</p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国内资讯</strong></span></p><p style=\"text-align: center;\"></p><p style=\"text-align: justify;\"><strong>中国车企首次！曝比亚迪考虑进军F1一级方程式赛事</strong><br/></p><p style=\"text-align: justify;\">3月11日消息，据外媒报道，中国车企比亚迪正在探索进军F1和世界耐力锦标赛（WEC）等竞技赛车运动的可能性，以期提升品牌在全球的影响力。据知情人士透露，比亚迪的这些想法可能通过自主组建车队或收购现有F1车队的方式来实现，Alpine车队被视为潜在收购目标之一。</p><p style=\"text-align: justify;\">对于比亚迪来说，进入F1的潜在成本可能是推进这件事的主要障碍，研发赛车并参赛往往需要数年谈判，每赛季耗资高达5亿美元。</p><p style=\"text-align: justify;\">相较于组建一支全新的车队加入F1，收购或入股现有的F1车队，操作上要容易得多。奥迪在完全收购索伯车队后，于2026赛季正式进军F1。目前，Alpine车队的投资方Otro Capital正在搜寻其股份的收购者，根据外媒消息，Otro Capital在Alpine车队的股份需要在持有满三年后才能出售，今年9月期限将至，Otro Capital握有的Alpine车队股份将迎来下家。（九派新闻）</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b2142e3e9c1.jpg?imageView2/2/w/740\"/></p><p style=\"text-align: justify;\"><strong>月薪两万养不起一只龙虾！排队养虾后又排队卸载</strong><br/></p><p style=\"text-align: justify;\">3月11日消息，当人们还沉浸在“雇佣数字牛马”的美梦中时，第一批“养虾人”已经开始连夜寻求卸载，催生了上门彻底卸载服务，“龙虾卸载指南”也开始在网络上流传。3月11日，媒体在二手交易平台上查询发现，不少“上门卸载或远程卸载OpenClaw”服务已经上架，卖家称“安全干净不留痕”。</p><p style=\"text-align: justify;\">从流传的“龙虾卸载指南”来看，则是指出养龙虾的成本和风险，并建议普通用户不必急于入手，可等待更成熟的版本。除了安全风险，高昂的“养殖成本”是劝退普通用户的第二大主因。与传统聊天机器人包月付费的模式不同，作为Agent的OpenClaw在执行任务时，需要频繁地读网页、调工具、分解任务并与大模型进行多轮交互。这种运行机制导致其Token消耗量是普通大模型的数倍甚至上百倍。有用户实测，执行一次复杂的程序调试任务，一天就能烧掉数万元人民币的成本。市场甚至流传着“月薪两万，养不起一只龙虾”的说法。</p><p style=\"text-align: justify;\">近期闲鱼平台上与开源AI智能体 OpenClaw相关的商品及服务热度急剧攀升。据悉，“小龙虾”相关搜索量环比暴涨1850%，成交量亦翻数倍。目前，闲鱼上已形成完整的“养虾”产业链，包括：OpenClaw部署教程（售价低至1元，有卖家一周售出上千份）；远程���装指导服务（基础版88元，升级版118元，订单已排至两天后）；Mac mini M4设备租赁（原价四五千元的设备，月租仅400元，搜索量周环比增长280%）；还有“小龙虾卸载上门服务”、专属用户社群、Agent优化训练等衍生服务。（封面新闻、三言科技）</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b213c32ca06.png?imageView2/2/w/740\"/></p><p style=\"text-align: justify;\"><strong>员工入职大疆1个月被发了5次钱，网友盛赞“打工人梦中情厂”</strong><br/></p><p style=\"text-align: justify;\">3月12日消息，近日，一位大疆新员工分享的入职体验引发全网关注，不少网友直呼这才是“打工人梦中情厂”。该员工自述，其入职仅1个月就先后收到5次福利发放，涵盖现金红包、实物礼盒与专项补贴。具体包括马年新春定制礼盒（内含马年徽章、纯钛茶具和钢笔套装）、开工利是现金红包、三八妇女节专属电子卡，还有新员工专项住房补贴及每月固定餐补相关福利。</p><p style=\"text-align: justify;\">不少员工纷纷表示，除了这些日常福利外，新入职的员工每人可领取一把价值一万多的赫曼米勒人体工学椅，深圳总部新员工可领取每月1000至1500元的住房补贴，持续6个月，异地员工还可申请公司公寓，大幅减轻租房压力。</p><p style=\"text-align: justify;\">此外，总部设有三层食堂，提供多种口味餐食，可用工位补贴和每月500元的GT币支付，同时享有六险一金，公积金按10%比例缴纳。薪资方面，大疆也处于科技行业第一梯队，技术岗普通offer总包可达32万至36万元，核心技术岗薪资更是可观。值得注意的是，报道称，大疆离职一年内的员工仍能收到与在职员工相同的新春礼盒。（快科技）</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b213b60bb32.jpg?imageView2/2/w/740\"/></p><p style=\"text-align: justify;\"><strong>苹果笔记本，国补后跌破4000元</strong><br/></p><p style=\"text-align: justify;\">3月11日消息，据媒体报道，iPhone 17e与MacBook Neo3月11日正式开售。此次发售的两款产品也打破了苹果以往的价格底线，国补后均低于4000元。上海市中心一家苹果店店员向媒体介绍称，MacBook Neo的官方定价是4599元，国补后的价格，相当于还能再打85折，折合价格仅3909元。</p><p style=\"text-align: justify;\">不过这款笔记本的配置整体都较苹果其他系列笔记本电脑低不少，例如芯片采用的是手机级别的A系列芯片，而非其他苹果笔记本的M系列芯片；显示器也降级为13英寸Liquid视网膜显示屏。“但对于仅用电脑从事日常工作的用户而言，并无明显区别。”店员向媒体介绍称。 （第一财经）</p><p style=\"text-align: justify;\"><strong>马化腾官宣：自研龙虾、本地虾、云端虾等陆续赶来，外媒曝还在开发智能体</strong><br/></p><p style=\"text-align: justify;\">3月11日，据报道，腾讯董事会主席兼首席执行官马化腾11日凌晨2:06在朋友圈转发了腾讯推出全系“龙虾”产品矩阵的公众号文章，并配文“自研龙虾、本地虾、云端虾、企业虾、云桌面虾，安全隔离虾房、云保安、知识库......还有一批产品陆续赶来”。</p><p style=\"text-align: justify;\">此前据外媒报道，腾讯正在为旗下应用微信秘密开发一款AI智能体，计划于今年第三季向全体用户推出。这款智能体将嵌入微信，以对话形式接入数百万个小程序，可替代用户完成叫车、外卖等涉及日常生活的任务。对此，腾讯方面并未给出回应。</p><p style=\"text-align: justify;\">马化腾在朋友圈转发的内容，主要和腾讯近期持续在OpenClaw（龙虾）领域进行布局有关，腾讯正持续发力完善相关产品与服务生态，目前已初步形成覆盖个人、开发者及企业级部署的智能体“养虾”矩阵。3月10日，腾讯已宣布“龙虾”矩阵包括腾讯版“免部署小龙虾”WorkBuddy、内测中的QClaw、腾讯云Lighthouse等，11日腾讯股价开盘上涨，市值回到5万亿港元。（第一财经）</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b213d0eed1e.jpg?imageView2/2/w/740\"/></p><p style=\"text-align: justify;\"><strong>荣耀产品经理用折叠屏做引体向上？客服：不建议模仿，如损坏不在“三包”范围内</strong><br/></p><p style=\"text-align: justify;\">3月10日晚，在荣耀新品发布会上，荣耀产品经理为展示手机性能，在现场用Magic V6折叠屏手机挂在横杠上做引体向上，还拿来电钻直接磨手机屏幕，引起全场惊呼。对此，荣耀客服表示，不建议进行模仿，若因此手机受损不在“三包”范围内。</p><p style=\"text-align: justify;\">据公开资料，Magic V6机身重量为219g，折叠厚度8.75mm，展开单边厚度4mm，搭载航天级盾构钢铰链，强度为2800MPa。该款手机还配备7150mAh青海湖刀片电池，以及新一代铰链，官方称支持50万次折叠，目前发售四款配色，官方售价8999元起。（潇湘晨报）</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b213b4ce474.png?imageView2/2/w/740\"/></p><p style=\"text-align: justify;\"><strong>消息称有国产 TOP5 手机厂商已合作豆包 AI 手机</strong><br/></p><p style=\"text-align: justify;\">3 月 11 日消息，博主 @数码闲聊站 发文询问是否有人想要豆包 AI 手机。他表示打听了一下，有国产 TOP5 手机厂商已合作。</p><p style=\"text-align: justify;\">此前报道，字节跳动旗下 AI 助手豆包和中兴通讯在 2025 年 12 月 1 日宣布，搭载豆包手机助手技术预览版的工程样机努比亚 M153 少量发售。该机搭载骁龙 8 至尊版芯片，配备 6.78 英寸 LTPO 显示屏 + 6000mAh 电池。据官方介绍，豆包手机助手是豆包和手机厂商在操作系统层面合作的手机 AI 助手。基于豆包大模型的能力和手机厂商的授权，豆包手机助手能够为用户带来更方便的交互和体验。（IT之家）</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b213b3e44ba.png?imageView2/2/w/740\"/></p><p style=\"text-align: justify;\"><strong>李想考虑回购部分理想汽车港股股份</strong><br/></p><p style=\"text-align: justify;\">3月11日消息，据报道，理想汽车CEO李想近期正在考虑以个人名义回购部分理想汽车在港交所上市的股份。目前，回购比例、总金额等细节仍在内部讨论中。理想汽车官方回应称：“只是在讨论方案的可能性。”若该计划最终实施，将成为理想汽车自2022年港股上市以来的首次股份回购，也是李想本人首次增持公司股票。（一见Auto）</p><p style=\"text-align: justify;\"><strong>前快手语言大模型中心负责人张富峥，已加入智源人工智能研究院，负责LLM方向</strong><br/></p><p style=\"text-align: justify;\">3月11日消息，据报道，前快手语言大模型中心负责人张富峥已加入北京智源人工智能研究院，负责LLM方向。张富峥博士长期深耕大模型、自然语言处理、知识图谱和搜索推荐等AI领域，曾在快手任General Manger及语言大模型中心负责人，负责Klear系列大模型的技术建设及相关业务应用。</p><p style=\"text-align: justify;\">加入快手之前，他是美团点评NLP中心的研究员，带领知识图谱团队负责构建围绕美团生活服务领域的知识图谱及其应用，为美团各场景业务提供更加智能的服务。更早前，他曾在微软亚洲研究院担任研究员。（灵机智变）</p><p style=\"text-align: justify;\"><strong>蔚来李斌：内存等原材料涨价对高端车型或带来近万元影响，公司暂无调价计划</strong><br/></p><p style=\"text-align: justify;\">3月11日，蔚来汽车创始人、董事长李斌表示，存储内存及其他原材料价格上涨对高端新能源车型的成本影响分别为3000至5000元，共计影响近万元。目前蔚来汽车现有体系可以支撑成本上涨带来的压力，公司暂无调价计划。</p><p style=\"text-align: justify;\">此外，李斌还表示，希望蔚来自研的神玑大算力推理芯片能够给到更多的合作伙伴，包括汽车行业、具身智能行业等。李斌同时表示，公司目前没有更多拆分业务的项目。此前一日，蔚来方面透露，公司第二颗面向更广泛客户的智能芯片已流片成功，有不少行业客户已在进行前期测试与接触，目前正在量产过程中。</p><p style=\"text-align: justify;\">另据报道，蔚来发布2025年四季度及全年财报。四季度实现经营利润12.5亿元，实现公司首次季度盈利。四季度现金储备459亿元，环比大幅增长近百亿。2026年一季度交付指引80,000台-83,000台，同比增长90.1%-97.2%。营收指引244.8亿元-251.8亿元，同比增长103.4%至109.2%。在蔚来闭门沟通会上，李斌表示，盈利只是一个起点，汽车行业的竞争是一场马拉松，让用户对蔚来有了更多的信心。李斌还表示，蔚来在相当长的一段时间仍然是创业公司，会将成长作为优先目标，不会短期内刻意追求利润最大化。（新华网财经、财联社）</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b213c83f955.jpg?imageView2/2/w/740\"/></p><p style=\"text-align: justify;\"><strong>起动机短路可能致发动机起火，宝马中国召回超14万辆汽车</strong><br/></p><p style=\"text-align: justify;\">3月12日消息，日前，宝马（中国）汽车贸易有限公司向国家市场监督管理总局备案了召回计划。召回编号S2026M0027V：自2026年3月16日起，召回生产日期从2020年7月31日至2022年12月22日的部分进口宝马2系、4系、5系、6系、7系、X4、X5、X6、Z4系列汽车，共计147830辆。</p><p style=\"text-align: justify;\">本次召回范围内部分车辆，由于起动机生产原因，车辆在多次启动后，起动机内部可能发生异常磨损，造成车辆启动困难。极端情况下，可能引发起动机内部短路，局部过热，存在起火风险。宝马（中国）汽车贸易有限公司将为召回范围内的车辆免费更换改进后的起动机，以消除安全隐患。</p><p style=\"text-align: justify;\">值得关注的是，丰田汽车（中国）日前也因相同原因召回了部分SUPRA 2.0T汽车，共计40辆。召回车辆的生产日期为2021年3月2日至2022年9月29日。丰田官方称，召回原因为由于起动机生产原因，车辆在多次启动后，起动机内部可能发生异常磨损，造成车辆启动困难。极端情况下，可能引发起动机内部短路，局部过热，存在起火风险。（IT之家）</p><p style=\"text-align: justify;\"><strong>雷军：新一代SU7驾驶感确实继承了Ultra那味儿</strong><br/></p><p style=\"text-align: justify;\">3月11日，小米创始人雷军转发微博并评论道：“新一代SU7，驾驶质感确实继承了Ultra那味儿。”据了解，新一代小米su7已于2026年1月初开启小订，预售价区间为22.99万至30.99万元，预计将于2026年4月正式上市。相比现款车型，新车在智能辅助驾驶与三电系统方面实现全面升级。全系车型将标配激光雷达、4D毫米波雷达、700TOPS高算力平台，并搭载小米自研的Xiaomi HAD端到端大模型辅助驾驶系统。（三言科技）</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b213c0d3be5.png?imageView2/2/w/740\"/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国际资讯</strong></span><strong><br/></strong></p><p style=\"text-align: justify;\"><strong>Meta 计划 2027 年底前部署四代自研 AI 芯片，应对算力需求并降低外部依赖</strong><br/></p><p style=\"text-align: justify;\">3 月 11 日消息，据外媒报道，Meta 计划在 2027 年底前部署其内部研发的四代新人工智能芯片，该公司正通过定制芯片，为其快速扩张的人工智能业务提供算力支持。</p><p style=\"text-align: justify;\">当地时间周三，Meta 正式公布了这几款新芯片的规划 ——MTIA 300、MTIA 400、MTIA 450 与 MTIA 500。此举旨在实现硬件供应多元化、降低对外部芯片厂商的依赖，并在竞争激烈、成本高昂的人工智能竞赛中控制开支。Meta 同时也会继续从其他公司采购芯片，近期已宣布与英伟达、AMD 达成协议，斥资数十亿美元购买人工智能硬件。</p><p style=\"text-align: justify;\">Meta 表示，MTIA 300 已投入量产，用于内容排序与推荐模型训练；MTIA 400（代号艾瑞斯 / Iris）已完成实验室测试，即将部署。MTIA 450 与 MTIA 500 芯片（代号分别为阿尔克 / Arke 和阿斯特丽德 / Astrid）计划于 2027 年大规模部署。Meta 工程副总裁宋义俊（Yee Jiun Song）称，这些产品正同步研发，MTIA 450 预计 2027 年初推出，MTIA 500 则在半年后上市。（IT之家）</p><p style=\"text-align: justify;\"><strong>Gemini 牵手五角大楼，美国国防部超 300 万人用上谷歌 AI 智能体</strong><br/></p><p style=\"text-align: justify;\">3 月 11 日消息，据外媒报道，谷歌宣布向美国国防部超过 300 万名文职与军职人员部署 Gemini AI 智能体。美国国防部负责研究与工程事务的副部长埃米尔 · 迈克尔表示，谷歌提供的工具初期仅用于非机密网络，将其扩展到机密和最高机密系统的计划尚待讨论。首批上线的八个 AI 智能体主要用于自动处理行政事务，支持整理会议纪要、编制预算以及审查行动计划是否符合美国的国家防务战略。谷歌副总裁吉姆 · 凯利周二在博客中表示，美国国防部工作人员还可以通过自然语言自行创建定制 AI 智能体。</p><p style=\"text-align: justify;\">自去年 12 月以来，五角大楼约 120 万名员工已通过 GenAI.mil 门户提供的谷歌 AI 聊天机器人完成非机密任务。期间，工作人员提交了约 4000 万条不同提示，并上传了超过 400 万份文件。不过，培训进度明显落后于实际使用情况。自 12 月以来，仅有 26000 人完成 AI 培训课程。展望未来，培训场次已经全部约满，越来越多员工正在加入 AI 工具的使用行列。</p><p style=\"text-align: justify;\">与此同时，美国国防部也在迅速扩大与 AI 公司的合作。此前，因为 Anthropic 拒绝移除其技术中针对国内监控和自主武器的安全限制，美国国防部将 Anthropic 列为“供应链风险”，而 Anthropic 则表示将通过诉讼挑战这一决定。在与 Anthropic 关系紧张之后，美国国防部已经分别与 OpenAI 和 xAI 达成合作，将 AI 技术部署到受限网络中。据了解，谷歌与五角大楼的合作曾在 2018 年引发公司内部强烈反弹。当时数千名员工抗议“Project Maven”项目，该项目利用 AI 分析无人机视频画面。谷歌最终没有续签这一合同，近年来却逐渐放松了对军事项目合作的限制。（IT之家）</p><p style=\"text-align: justify;\"><strong>黄仁勋罕见写长文：定义了AI五层蛋糕，预言传统软件和APP或将消失</strong><br/></p><p style=\"text-align: justify;\">3月11日消息，当地时间周二，英伟达CEO黄仁勋发布了一篇罕见的人工智能长篇博客，这也是他自 2016 年以来的第七篇公开长文。黄仁勋认为，当前AI产业仍处于极早期阶段。尽管行业已投入数千亿美元，但 AI 的真正潜力远未完全释放，未来仍需数万亿美元的持续投入，用于完善底层基础设施。</p><p style=\"text-align: justify;\">为清晰梳理AI产业底层结构，他系统提出并定义了AI“五层架构”，并将���形象比作��五层蛋糕”。自下而上依次为：能源、芯片、基础设施、模型与应用，各层级相互支撑、彼此拉动。任何上层应用的成功，都高度依赖底层设施乃至能源供给的稳定支撑。他指出，最顶层的应用层是AI创造经济价值的核心，涵盖药物研发、工业机器人、法律助手、自动驾驶等领域。同一套底层架构，可支撑多元化的应用落地，目前应用层仍存在巨大创新空间。</p><p style=\"text-align: justify;\">据此，黄仁勋预判：未来几年，传统的软件和APP形态或将消失，一种全新的软件范式AI Agent（智能体）极有可能成为主流。针对AI引发的就业担忧，他明确表示：AI不会减少岗位，反而将创造大量新就业机会，尤其集中在基础设施建设与高技术工种领域。据黄仁勋认为，AI基础设施建设需要规模庞大的劳动力，包括电工、管道工、钢铁工人、网络技术人员、设备安装与运维人员等，均为高薪高技能岗位，且当前人才缺口显著。AI正在填补全球卡车司机、护士、会计等领域的巨大用工缺口，而非造成失业。（快科技）</p><p style=\"text-align: justify;\"><strong>马斯克官宣！X Money下月公测：超级应用支付板块正式落地</strong><br/></p><p style=\"text-align: justify;\">3月11日消息，据媒体报道，近日，马斯克在社交平台宣布，旗下支付产品X Money将于下月开放公开测试。这也标志着马斯克“超级应用”战略的支付拼图正式落地。</p><p style=\"text-align: justify;\">据了解，X Money是内嵌于X平台的数字钱包与支付系统。其与Visa联合开发，用户存款由Cross River Bank托管，受FDIC保险保障上限25万美元。该产品提供年化6%存款利率，新用户可获25美元奖励及一张印有X用户名的金属Visa借记卡，功能涵盖存款、转账与收款。</p><p style=\"text-align: justify;\">据公开消息披露，X Money还可通过ATM机进行取现、日常刷卡消费，单笔银行转入限额为100万美金，取款限额为10万美金。2022年以440亿美元收购 X（Twitter）后，马斯克一直宣扬要将该平台打造成“全能应用”，计划提供流媒体、即时通讯、图片、视频及支付等众多功能。（快科技）</p><p style=\"text-align: justify;\"><strong>斥资 320 亿美元：谷歌历时一年正式完成 Wiz 收购，创公司史上最大交易纪录</strong><br/></p><p style=\"text-align: justify;\">3 月 11 日，谷歌母公司 Alphabet 宣布，已完成对网络安全公司 Wiz 的 320 亿美元（注：现汇率约合 2200.49 亿元人民币）全现金收购交易，Wiz 即日起正式加入谷歌云。这是谷歌成立 26 年来规模最大的一笔收购，标志着其在云计算与人工智能时代加码安全布局的战略决心。</p><p style=\"text-align: justify;\">此次收购最早于 2025 年 3 月对外公布，交易金额高达 320 亿美元，远超谷歌 2012 年以 125 亿美元收购摩托罗拉移动的纪录。Wiz 成立于 2020 年，由 Assaf Rappaport 等四位以色列创业者共同创立，其创始团队曾于 2015 年将云安全公司 Adallom 以 3.2 亿美元出售给微软。如今，Wiz 已成为云原生安全领域的明星企业，其平台能够帮助企业识别并修复多云环境中的安全风险。</p><p style=\"text-align: justify;\">对谷歌而言，收购 Wiz 是其在云业务上加码的关键一步。长期以来，谷歌云位居亚马逊 AWS 和微软 Azure 之后，位列全球第三。随着企业客户对 AI 和云安全的双重需求激增，谷歌希望通过整合 Wiz 的技术，为企业提供更安全、更可信的 AI 基础设施，从而在竞争中缩小与领先者的差距。（IT之家）</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260312/69b213d01e6f6.png?imageView2/2/w/740\"/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>IPO资讯</strong></span><strong><br/></strong></p><p style=\"text-align: justify;\"><strong>传普洛斯GLP最快第二季递表港交所，拟募资超10亿美元</strong><br/></p><p style=\"text-align: justify;\">3月11日消息，物流巨头普洛斯(GLP Pte)传拟赴港上市。据媒体报道，普洛斯最快在今年第二季度递交上市申请，目标集资至少10亿美元(约78亿港元)。此前有知情人士透露，普洛斯已选择由花旗、德银、杰富瑞和摩根士丹利为IPO安排行。</p><p style=\"text-align: justify;\">公开资料显示，普洛斯成立于2009年，总部位于新加坡，是一家专注于供应链、大数据及新能源领域新型基础设施的产业服务与投资公司。据悉，普洛斯曾于2010年在新加坡证券交易所上市，集资39亿新加坡元，基石投资者包括中投公司、阿里巴巴、周大福集团等，是当时全球最大的不动产IPO。2017年，普洛斯被中国财团以160亿新加坡元收购，创下亚洲收购纪录。2018年，普洛斯宣布完成私有化进程，从新加坡证券交易所退市。</p><p style=\"text-align: justify;\">而后，普洛斯就多次传出拟来港上市的消息。早于2021年就有媒体报道称普洛斯拟以房托基金(REIT)来港上市，计划集资约16亿至20亿美元，预计2021年底上市。普洛斯在2024年、2025年再度传出赴港上市的消息，但迄今为止未有成事。此外，3月9日，普洛斯中国宣布2025年物流及产业基础设施、算力中心、新能源及基金管理业务数据。其中物流仓储及制造研发基础设施全年新增和续租面积同比增长约10%，算力中心业务全年收入同比增幅达32%。（独角兽早知道）</p><p style=\"text-align: justify;\"><strong>长盈精密宣布赴香港IPO，冲刺A+H</strong><br/></p><p style=\"text-align: justify;\">3月10日，A股上市公司长盈精密发布公告称，公司正在筹划境外发行股份（H股）并在港交所主板上市。长盈精密表示，截至公告披露日，公司正与相关中介机构就本次H股发行上市的相关工作进行商讨，关于本次H股发行上市的具体细节尚未确定。本次H股发行上市不会导致公司控股股东和实际控制人发生变化。</p><p style=\"text-align: justify;\">长盈精密，成立于2001年7月，是一家研发、生产、销售智能终端手机零组件，新能源汽车零组件，工业机器人及自动化系统集成的规模化制造企业。公司主要产品包括消费类电子精密结构件及模组、新能源产品零组件及连接器、电子连接器及智能电子产品精密小件、机器人及智能装备等。据悉，长盈精密于2010年9月2日在A股上市，截至3月11日午间收市，其总市值约503.12亿元人民币。（瑞恩资本RyanbenCapital）</p><p style=\"text-align: justify;\"><strong>铜师傅通过港交所聆讯，小米顺为是股东，中国最大的铜质文创工艺产品品牌</strong><br/></p><p style=\"text-align: justify;\">据港交所3月10日披露，杭州铜师傅文创(集团)股份有限公司通过港交所主板上市聆讯，招银国际为独家保荐人。据招股书，铜师傅自成立以来，一直专注于将传统工艺与现代设计和使用场景相结合，开发铜质文创产品。根据弗若斯特沙利文报告，截至2024年12月31日止年度，公司在中国铜质文创工艺产品市场按总收入计位列第一，市场份额达35.0%。</p><p style=\"text-align: justify;\">财务方面，截至2022年、2023年、2024年12月31日止年度以及截至2024年及2025年9月30日止九个月，铜师傅的收入分别为5.03亿元、5.06亿元、5.71亿元、4.02亿元及4.48亿元。同期的毛利率分别为32.2%、32.4%、35.4%、35.6%及34.3%。</p><p style=\"text-align: justify;\">截至2022年、2023年、2024年12月31日止年度以及截至2025年9月30日止九个月，公司的净利润分别为5690万元、4410万元、7900万元、4160万元。据招股书，铜师傅的股东包括顺为资本、小米集团、凯辉中小企业基金、国中基金、白泉纳海、央视基金等。（独角兽早知道）</p>",
+    "url": "https://www.leiphone.com/category/zaobao/IKQJ4pLTxrP8x37t.html",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "llm",
+    "tags": [
+      "OpenAI",
+      "Meta",
+      "蔚来",
+      "字节",
+      "阿里"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-029",
+    "title": "美团升级食安治理大模型“星眸”：覆盖百万外卖商家，日巡检后厨千万次",
+    "summary": "“3·15”将近，外卖食品安全成为社会关注焦点。近日，美团大模型“星眸”全面升级，应用范围从主要聚焦后厨识别，扩展到商家入驻审核、门店真实性核验、后厨环境预警等多个环节。一个覆盖全流程的智能、主动的食安治理体系正加速建成。据了解，“星眸”大模型上线于2025年4月，首先应用于食品安全治理。本次升级后，在门店真实性核验方面，“星眸”可以审核全量外卖商家上传的门头图和一镜到底视频；异常环境识别方面，“...",
+    "content": "<p>“3·15”将近，外卖食品安全成为社会关注焦点。近日，美团大模型“星眸”全面升级，应用范围从主要聚焦后厨识别，扩展到商家入驻审核、门店真实性核验、后厨环境预警等多个环节。一个覆盖全流程的智能、主动的食安治理体系正加速建成。</p><p>据了解，“星眸”大模型上线于2025年4月，首先应用于食品安全治理。本次升级后，在门店真实性核验方面，“星眸”可以审核全量外卖商家上传的门头图和一镜到底视频；异常环境识别方面，“星眸”日均巡检后厨1400万余次，推动超5万个常见共性问题有效整改。</p><p><strong>从商家入驻到日常巡检：AI把好门店真实性第一道关</strong></p><p>点外卖时，消费者最担心的是“线上看着像个正规店，线下却不是那么回事”。“星眸”升级后，首先强化的就是门店真实性核验能力，包括门头图线上线下一致性对比，以及拦截AI生成的假门头图等。</p><p>在门头一致性比对上，AI会判断商家上传的门头照片和门店名称是否一致。例如，商家入驻时会上传门头图，而在平台日常巡检中，也会时常要求商家上传门店实拍图，“星眸”会自动对比二者是否一致，及时发现门头替换、信息不符等异常情况。目前，这项能力已应用在全量外卖商家的日常巡检中，已触发超25万次门头一致性对比。</p><p>这意味着，门店入驻从一次性的人工审核，逐渐转变为动态、持续的智能审核。</p><p>AI生成假门头图，是当下外卖食品安全治理的又一挑战。针对这一问题，“星眸”新增了AI门头图识别能力，并接入审核流程。若商户上传疑似AI制作的门头图，系统将自动拦截，直接阻断问题图片上线。截至2月底，已有超45万张AI生成的门头图在入驻审核环节被“星眸”主动拦截。</p><p>除图片外，视频也要验真。去年年底，美团试点“一镜到底”视频核验功能，要求新入驻商家上传带有位置信息的完整实拍视频。“星眸”升级后，除了识别画面是否异常，比如摄屏、黑屏、遮挡等，还可以识别视频中的门头和线下是否一致，以及后厨卫生环境。</p><p>美团拥有最多的外卖商家和丰富的应用场景。从门头一致性校验，到AIGC图片识别，再到视频验真，“星眸”大模型正在把食安治理从“事后核查”前移到“前置拦截”和“滚动巡检”。AI巡检越来越“智能”，正逐渐参与到食安治理的全流程之中。</p><p><strong>从“事后处置”到“实时干预”：后厨预警能力覆盖91万商家</strong></p><p>门店验真解决的是“这家店是不是真的”，后厨环境预警解决的是“这家店干不干净”。过去，“明厨亮灶”更多是消费者自己点开看。现在 AI也在持续、高频地“一起看”，帮助商家识别后厨异常环境，发出实时预警。</p><p>公开资料显示，“星眸”大模型能够自动识别未戴工帽、垃圾溢出、违规操作、抽烟、鼠害、蟑螂等多类潜在食安风险，并实时推送整改提醒。商家未必需要开直播，只要店内有摄像头，就可以接入后厨AI巡检。正因如此，后厨预警能力的覆盖面迅速扩大。</p><p>目前，这一能力已覆盖美团平台上91万外卖商家，AI对后厨的日均巡检次数达1400万次，超出过去一年的人工巡检次数。</p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260311/69b1406e3ef44.png?imageView2/2/w/740\"/></p><p style=\"text-align: center;\"><span style=\"font-size: 12px; color: #7F7F7F;\">▲“星眸”大模型能够自动识别多类潜在食安风险，并实时推送整改提醒。</span></p><p style=\"text-align: justify;\">后厨环境复杂，对AI的识别准确率提出挑战。蒸汽、油烟、高温、反光、阴影、多人来回走动，都会影响判断。而作为食安领域的专业大模型，“星眸”在相关场景中的平均识别准确率达到94.6%，显著高于行业通用AI大模型约65%的准确率。</p><p style=\"text-align: justify;\">这类后厨AI预警能力可以把治理关口前移，帮助平台形成更主动的风险防控体系。</p><p>截至目前，“星眸”对美团餐饮商家后厨环境累计巡检19.6亿次，预警超240万次，推动商家整改常见共性问题超5万个，为餐饮安全提供了规模化的AI能力支撑。</p><p>食安治理的关键不是“发现个别问题、处置个别商家”，而是建立一套更难造假、更易核验、更能持续运转的治理体系。“星眸”大模型升级后，商家覆盖面更广、应用场景更多，逐步贯穿外卖食安治理全流程。</p><p>据了解，美团还在构建动态食品安全评分模型，对高风险商户开展更精准的识别与治理。在用户侧，平台也正尝试通过“食安专栏”等形式，更清晰地展示商家食安信息，相关表现或将以一定权重融入商家评价体系。</p><p>外卖食品安全治理正从传统的封闭环境、人力巡查、事后处置，走向信息透明、智能识别、主动预警的新阶段。这不仅为消费者提供了更清晰、可感知的安全保障，也为行业探索网络餐饮食安治理新路径提供了新样本。</p><p><span style=\"color: #FFFFFF;\">&nbsp;雷峰网</span></p>",
+    "url": "https://www.leiphone.com/category/industrynews/eDytkKdcAREz03cQ.html",
+    "publishDate": "2026-03-11",
+    "displayDate": "3月11日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "llm",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-030",
+    "title": "S26新机开售，三星称即时零售带来惊喜：美团闪购成预售量最高平台之一",
+    "summary": "3月11日，三星新款旗舰手机Galaxy S26系列正式开售。因其搭载了世界首个“隐私屏”的防窥功能，以及与Gemini合作的Galaxy AI，S26系列在预售期间表现出极高热度。有报道称，在韩国本土，Galaxy S26创下了该系列的最高预售记录，定位最高的Galaxy S26 Ultra最受消费者欢迎。在中国市场，以即时零售为代表的新兴渠道异军突起，成为三星新机的突出销售趋势变化。记者了解到...",
+    "content": "<p>3月11日，三星新款旗舰手机Galaxy S26系列正式开售。因其搭载了世界首个“隐私屏”的防窥功能，以及与Gemini合作的Galaxy AI，S26系列在预售期间表现出极高热度。有报道称，在韩国本土，Galaxy S26创下了该系列的最高预售记录，定位最高的Galaxy S26 Ultra最受消费者欢迎。</p><p>在中国市场，以即时零售为代表的新兴渠道异军突起，成为三星新机的突出销售趋势变化。记者了解到，三星今年首次选择在美团闪购同步首发旗舰新品，美团闪购1200余家三星授权体验店同步开展了预售和首销，提供最快30分钟现货送达服务。在今日三星大中华区与美团闪购独家举行的首销直播中，三星大中华区移动通讯零售市场部总经理安楠表示，在S26系列预售中，美团闪购成为预售销量最高的平台之一，“在销售上，即时零售是个惊喜”。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260311/69b13fe80143b.png?imageView2/2/w/740\"/>&nbsp;</p><p style=\"text-align: center;\"><span style=\"font-size: 12px; color: #7F7F7F;\">▲三星通过即时零售平台首发新品。图为三星大中华区与美团闪购举行首销直播。</span>&nbsp;</p><p>去年以来，即时零售在中国市场热度持续攀升，除了购买日用百货、生鲜食品，越来越多消费者开始选择即时零售平台购买数码家电等商品，数码家电品牌加码即时零售成为鲜明趋势。针对这一趋势，平台持续推出相应支持举措。公开报道显示，美团闪购去年推出了即时零售行业首个���码新品首发专属IP“美团闪电新品”，向新品首发提供专属流量倾斜、资源曝光、用户权益等支持。此前，Apple、华为等头部品牌的多款旗舰新机连续通过“美团闪电新品”首发。</p><p><span style=\"color: #FFFFFF;\">雷峰网</span></p>",
+    "url": "https://www.leiphone.com/category/industrynews/Ai5YMqUe1YwxdmtM.html",
+    "publishDate": "2026-03-11",
+    "displayDate": "3月11日",
+    "source": {
+      "name": "雷锋网",
+      "type": "tech_media",
+      "url": "https://www.leiphone.com"
+    },
+    "category": "llm",
+    "tags": [
+      "Apple",
+      "华为"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-031",
+    "title": "氪星晚报 ｜腾讯版小龙虾WorkBuddy发布全新版本欧睿国际：追觅扫地机全球高端销量第一；宝马集团2025年净利润同比下降3%",
+    "summary": "\n \n \n  大公司：\n  中复神鹰：SYT80碳纤维新品的市场推广和应用评价等环节的周期可能较长\n  36氪获悉，中复神鹰发布异动公告，公司股票交易连续3个交易日内日收盘价格涨幅偏离值累计超过30%，属于股票交易异常波动情形。近日，多家媒体报道公司推出SYT80碳纤维新品，实现SYT80碳纤维的百吨级制备。本次发布的新产品虽已开始市场推广和应用评价，但该产品作为原材料要实现大规模销售，市场推广和...",
+    "content": "\n \n \n  <h2>大公司：</h2>\n  <p><strong>中复神鹰：SYT80碳纤维新品的市场推广和应用评价等环节的周期可能较长</strong></p>\n  <p>36氪获悉，中复神鹰发布异动公告，公司股票交易连续3个交易日内日收盘价格涨幅偏离值累计超过30%，属于股票交易异常波动情形。近日，多家媒体报道公司推出SYT80碳纤维新品，实现SYT80碳纤维的百吨级制备。本次发布的新产品虽已开始市场推广和应用评价，但该产品作为原材料要实现大规模销售，市场推广和应用评价等环节的周期可能较长，存在客户认证进度及未来销售价格波动等不确定性。</p>\n  <p><strong>帝尔激光：2025年净利润5.19亿元，同比下降1.59%</strong></p>\n  <p>36氪获悉，帝尔激光公告，公司2025年实现营业总收入20.33亿元，同比增长0.93%；归属于上市公司股东的净利润5.19亿元，同比下降1.59%；基本每股收益1.91元。</p>\n  <p><strong>科大讯飞版“龙虾”AstronClaw上线</strong></p>\n  <p>36氪获悉，3月12日，科大讯飞版“龙虾”——AstronClaw正式上线。其核心采用沙箱隔离技术运行，全程守护用户数据安全。支持云端一键部署，可接入企业微信、钉钉、飞书等主流通讯工具，直接对话即可指派任务。平台可调用10000+skills，支持自由切换星火X2、MiniMax-M2.5、Kimi-K2.5、GLM-5等多款大模型，胜任行业分析、文档处理等工作。</p>\n  <p><strong>欧睿国际：追觅扫地机全球高端销量第一</strong></p>\n  <p>3月12日，追觅扫地机获市场调查机构欧睿国际“全球高端扫地机器人销量第一”认证。目前，追觅扫地机遍布全球120个国家及地区，实现30国家市占率第一，在波兰、瑞典、丹麦、芬兰、德国等18个国家市占率超40%。</p>\n  <p><strong>京东发布“智能机器人产业加速2.0计划”，助推品牌伙伴全年累计实现百亿营收</strong></p>\n  <p>36氪获悉，3月12日，2026中国家电及消费电子博览会（AWE 2026）开幕，京东首次携手宇树科技、众擎、云深处、元点智能、镜识科技等多家机器人品牌共同亮相，集结超60款明星机器人产品。期间，京东正式发布“智能机器人产业加速2.0计划”，助力品牌伙伴在2026年内累计实现百亿规模营收。</p>\n  <p><strong>鹏鼎控股：2025年净利润37.38亿元，同比增长3.25%</strong></p>\n  <p>36氪获悉，鹏鼎控股公告，2025年公司实现营业收入391.47亿元，同比增长11.40%；归属于上市公司股东的净利润37.38亿元，同比增长3.25%。</p>\n  <p><strong>有赞：2025年收入约为14.9亿元，同比增长约3%</strong></p>\n  <p>36氪获悉，有赞发布2025年全年业绩报告。财报显示，2025年，有赞收入约为14.9亿元，同比增长约3%。其中订阅解决方案收入约为7.7亿元，商家解决方案收入约为7.1亿元，同比增长约9%。商家年度ARPU提升至28159元，同比增长约9%。毛利金额约为9.8亿元，毛利率约为66%。2025年，商家通过有赞的解决方案产生的GMV约为人民币1030亿元。其中，门店SaaS业务GMV达537亿元，在整体GMV中占比持续超过50%。</p>\n  <p><strong>富途控股：2025年营收228.5亿港元，同比增长68.1%</strong></p>\n  <p>36氪获悉，富途控股发布2025年第四季度及全年财报。财报显示，富途控股第四季度营收64.4亿港元，同比增长45.3%；Non-GAAP净利润34.6亿港元，同比增长77.0%。2025年全年营收228.5亿港元，同比增长68.1%；Non-GAAP净利润116.5亿港元，同比增长101.9%。</p>\n  <p><strong>理想汽车：2025年第四季度营收288亿元，同比下降35%</strong></p>\n  <p>36氪获悉，理想汽车发布2025年第四季度及全年财报。财报显示，理想汽车四季度营收288亿元，同比下降35%；净利润2020万元，上年同期净利润35亿元。2025年全年营收1123亿元，同比下降22.3%；净利润11亿元，同比下降85.8%。预计2026年第一季度车辆交付量为85000至90000辆，同比减少8.5%至3.1%；收入总额为204亿元至216亿元，同比减少21.3%至16.7%</p>\n  <p><strong>张江高科：2025年净利润9.85亿元，同比增长0.30%</strong></p>\n  <p>36氪获悉，张江高科公告，2025年公司实现营业收入41.89亿元，同比增长111.22%；归属于上市公司股东的净利润9.85亿元，同比增长0.30%；基本每股收益0.61元，同比下降3.17%。</p>\n  <p><strong>阶跃星辰加入“小龙虾”战局，搭载开源社区最受欢迎“龙虾大脑”</strong></p>\n  <p>3月12日，阶跃星辰推出基于OpenClaw打造的云端AI助手StepClaw，并开放5万个可一键部署并使用“小龙虾”的体验名额，限时免费1个月。体验名额不仅支持通过阶跃AI APP一键部署“小龙虾”，更提供了包含5000万模型Tokens、服务器、存储在内的全家桶免费权益。值得注意的是，StepClaw搭载了阶跃星辰Step 3.5 Flash。该模型自3月初全面开源后，登顶OpenClaw模型调用量月榜，并连续多日位列全球第一，是开源社区“最受开发者欢迎的龙虾大脑”。</p>\n  <p><strong>本田宣布取消北美三款纯电车型研发</strong></p>\n  <p>本田3月12日宣布，决定取消原计划在北美投产的三款电动汽车车型的开发与上市计划，此决定源于公司对汽车电气化战略的重新评估，该评估基于近期商业环境变化等多重因素。受此影响，本田预计2026财年（截至2026年3月）将出现合并财务亏损。（界面）</p>\n  <p><strong>宝马集团2025年净利润同比下降3%</strong></p>\n  <p>3月12日，宝马集团披露2025年业绩，全年共向全球客户交付约246.37万辆宝马、MINI和劳斯莱斯汽车，同比增长0.5%；集团总营收达1334.53亿欧元，同比下降6.3%；税前利润达102.36亿欧元，同比下降6.7%；净利润达74.51亿欧元，同比下降3.0%。（界面）</p>\n  <h2>投融资：</h2>\n  <p><strong>“九有数据库”完成A+轮融资</strong></p>\n  <p>36氪获悉，近日，深圳九有数据库有限公司宣布完成A+轮融资，引入松禾创投、青蒿资本、招银鼎洪投资三家投资机构。九有数据库创始人、CEO曾焱表示，未来公司将继续深耕国产超融合数据库领域，持续推进产品迭代与技术突破。</p>\n  <h2>新产品：</h2>\n  <p><strong>晶核全球首发可量产60Ah全固态电池</strong></p>\n  <p>36氪获悉，在AWE2026展会上，晶核能源CEO李延涛宣布全球首发60Ah超大全固态电池，将于2026年内正式向市场进行交付验证。同等体积下，电量接近传统电池的一倍，支持1-2C快充，并将电池装配效率提升至80%。此外，公司还为该电池打造了专属智能管理系统——晶核AI-BMS智能体系统，实现电池管理从“被动响应”向“主动预判”的升级。</p>\n  <p><strong>腾讯版小龙虾WorkBuddy发布全新版本</strong></p>\n  <p>36氪获悉，3月12日，腾讯云旗下AI原生桌面智能体工作台WorkBuddy（腾讯版小龙虾）正式发布全新版本，推出微信一键直连、企业微信长链接稳定接入、自动化任务执行与监控追踪、支持导入skills四大核心功能，大幅降低使用门槛，让普通用户也能轻松实现“养虾”办公。</p>\n  <h2>今日观点：</h2>\n  <p><strong>自然资源部部长关志鸥：要加快推进不动产登记“跨省通办”</strong></p>\n  <p>自然资源部部长关志鸥在十四届全国人大四次会议第三场“部长通道”上表示，近期要加快推进不动产登记“跨省通办”，实事求是解决林耕矛盾等历史遗留问题。（新华社）</p>\n  <h2>其他值得关注的新闻：</h2>\n  <p><strong>澳大利亚临时放宽国内燃油质量标准以应对供应短缺</strong></p>\n  <p>澳大利亚政府12日宣布，将在未来60天内临时调整该国燃油质量标准，允许硫含量更高的汽油进入市场，以增加国内燃油供应。澳大利亚气候变化与能源部长克里斯·鲍恩在当天发布的新闻公报中表示，此举将使原本可能出口的部分燃油转而供应国内市场，每月可新增约1亿升汽油供应。鲍恩说，这部分新增供应将优先投向面临燃油短缺的地区，以及为独立经销商和农业收割作业提供支持的批发现货市场。（新华社）</p>\n  <p><strong>十四届全国人大四次会议批准2026年国民经济和社会发展计划</strong></p>\n  <p>十四届全国人大四次会议表决通过了关于2025年国民经济和社会发展计划执行情况与2026年国民经济和社会发展计划的决议，批准2026年国民经济和社会发展计划。（新华社）</p>\n \n",
+    "url": "https://36kr.com/p/3719908204246665?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "llm",
+    "tags": [
+      "MiniMax",
+      "腾讯",
+      "宇树"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-032",
+    "title": "「中科天算」完成亿元天使+轮融资，万卡级太空超算中心计划于2030年建成｜36氪首发",
+    "summary": "\n \n \n  文&nbsp;|&nbsp;阿至\n  36氪获悉，天基智能计算与应用系统提供商 「 中科天算 」 宣布完成亿元天使 +轮融资。本轮融资由上海未来产业基金、中芯聚源、深创投、水木清华校友种子基金、格物致知私募基金、无限基金SEE Fund、洪泰基金、英诺基金、川翔投资、梅花创投联合投资。\n  据悉，本轮所募集的资金将主要用于推进中科天算战略项目“天算计划”的实施，加快太空超算节点的在轨...",
+    "content": "\n \n \n  <p>文&nbsp;|&nbsp;阿至</p>\n  <p>36氪获悉，天基智能计算与应用系统提供商 「 中科天算 」 宣布完成亿元天使 +轮融资。<strong>本轮融资由上海未来产业基金、中芯聚源、深创投、水木清华校友种子基金、格物致知私募基金、无限基金SEE Fund、洪泰基金、英诺基金、川翔投资、梅花创投联合投资。</strong></p>\n  <p>据悉，本轮所募集的资金将主要用于<strong>推进中科天算战略项目“天算计划”的实施</strong>，加快太空超算节点的在轨验证，强化太空智能计算与超算技术的研发及系统优化，推动太空算力基础设施的持续升级。</p>\n  <p>中科天算成立于2024年6月，是36氪长期关注的企业，其致力打造“天基计算基础设施，太空算力服务支点”，<strong>专注突破“超算上天”、“AI for Space”核心技术，建立太空智能计算软硬件系统与应用服务生态。</strong></p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"844,563\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_e70550c5bba34a7d9b1113ff5fcac76c@577536001_oswg726026oswg844oswg563_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">“天算计划”太空超算节点示意图</p>\n  <p>公司创始人现为中国科学院计算技术研究所博士、天基计算方向带头人，同时兼任 CCF容错计算专委副秘书长，深度参与过我国多套卫星互联网系统设计论证、标准设计、装备研制等工作。核心成员来自中科院计算所、航天部门、华为、浙江大学、之江实验室等，具备从底层计算架构到空间级系统工程的完整技术链路能力。</p>\n  <p>目前，太空算力已成为全球竞逐的前沿科技赛道，其核心驱动源于多重压力与突破。首先 AI算力需求暴增，地面算力中心面临能耗、散热和土地资源等挑战，以空间太阳能为支撑的太空超算中心建设是极具诱惑的绿色解决方案；其次，遥感卫星星座建设即将进入规模爆发阶段，但传统“天感地算”模式存在传不回、延迟高等问题，而在轨处理能节省大量星地链路资源，提升响应能力；此外，火箭回收技术的持续突破，正将太空部署的经济成本拉至可商业化的临界点。</p>\n  <p>整体来看，太空超算中心在太阳能获取、全球部署、星间协同、遥感数据近源处理以及空天地一体化实时服务等方面具有独特优势，被认为是未来重要的信息通信基础设施。</p>\n  <p><strong>中科天算计划在2030年打造出一个万卡级太空超算中心</strong>，即前文提到的 “天算计划”——通过构建以万卡级太空超算为核心、分布式边缘计算节点协同运行的太空算力网络，突破地面算力中心在能耗、冷却、空间方面的限制。</p>\n  <p><strong>据介绍，该系统由10个以上节点组成，搭载能源舱、算力舱、通信舱三大核心模块：</strong>能源舱采用1平方公里太阳能电池阵，总装机功率超100兆瓦；算力舱由高集成算力板阵列构成，搭载超10000张国产高性能计算卡，设计总算力达10EOPS（每秒百亿亿次运算），支持在轨升级与故障冗余替换；通信舱配置超100台高功率激光通信器，总通信能力10Tbps（太比特每秒），可实现星地双向通信、星间转发与分布式数据广播。</p>\n  <p>目前，中科天算已研制出基于多卡全尺寸GPU架构的天基超算节点原型机，采用国产高性能GPU，通过可扩展的卡群计算架构突破天基计算单机性能瓶颈。据悉，<strong>该原型机将于今年下半年发射在轨，为“天算计划”开展关键技术验证。</strong></p>\n  <p>创始人表示，接下来中科天算将加大对太空智能计算、太空超算能力的研发投入，推动太空算力基础设施不断升级，加速“极光”星载智能计算载荷的产品化和工程化进程，确保下一代太空级计算系统能够满足日益增长的市场需求。</p>\n  <p>值得关注的是，随着前沿概念的加速崛起和验证，跨领域的技术融合与产业生态共建也在持续深化。</p>\n  <p>近日，中科天算与钙钛矿光能电池组件研发企业炎和科技正式签署战略合作框架协议，宣布共同成立太空算力与能源联合实验室，聚焦空天智能计算与先进光伏能源深度融合，全面推进“天算计划”。</p>\n  <p>这也意味着，人类对太空的开发，已从单点技术突破，走向跨航天、能源、信息技术的系统性协同。而多元化产业生态的构建，也将推动太空基础设施从“功能单体”向“能源-算力一体化系统”的加速跃迁。</p>\n  <h3><strong>投资机构观点</strong></h3>\n  <p><strong>上海未来产业基金表示：</strong>“天基计算是未来空间与未来信息融合发展的关键前沿技术方向。上海未来产业基金自成立之初即开展系统性行业研究，前瞻布局天基计算赛道，致力于发现解决行业关键痛点、具备核心竞争力的优秀创业团队。基金首轮即与上海市科委项目经理人团队联动，共同投资孵化了中科天算；在后续的第二、三轮融资中，基金携手子基金及多家市场化机构持续追加投资并深度赋能。希望中科天算向他的前辈公司看齐成为\"天基领域的曙光、海光、寒武纪\"，在太空算力新基建领域树立行业标杆。”</p>\n  <p><strong>中芯聚源董事长高永岗表示：</strong>“算力上天，天数天算，天地融合，空间广阔。我们坚定看好这一战略赛道，看好中科天算团队在天基超算领域的长期深耕及综合优势，助力天地一体化算力体系建设。”</p>\n  <p><strong>深创投团队表示：</strong>“太空算力作为国家的重要信息基础设施战略值得持续支持。中科天算作为行业龙头，是天基计算领域的国家队，具备深厚的科研积累与工程化能力，在轨验证扎实，商业化路径清晰，业务稳步推进。”</p>\n  <p><strong>水木清华校友种子基金表示：</strong>“中科天算团队基于计算所多年积累，在空间计算基础设施方面具有深刻的理解、丰富的技术栈和产品服务体系，以及独到的工程经验。公司组建了集计算、航天、通信等行业人才的跨学科综合型团队，相信能在太空算力基础设施方面发挥重大作用。随着空间计算需求的快速增加，从天数天算到地数天算，算力基础设施需求将迎来快速增长，中科天算团队有望解决其中基础性问题。”</p>\n  <p><strong>无限基金SEE Fund团队表示：</strong>“我们相信中国的太空运载能力将迎来跨越式发展，卫星系统将更加通用化和智能化，为科学研究、工业应用和民用服务提供更强大的支撑。太空计算能力作为基础性战略能力，也将迎来前所未有的发展机遇。全社会必定会集中力量，推动太空计算技术的创新突破，打造太空计算生态系统，为国家科技创新和经济社会发展提供坚实支撑。”</p>\n  <p><strong>洪泰基金董事总经理虞扬表示：</strong>“太空计算是我们一直在系统性布局的赛道，中科天算起源于中科院计算所，承担国家在该领域的多项重要任务，自 2019年起开始全栈自研和技术验证，具备明显的先发优势。目前企业拥有全系列的星载计算机和配套模组、操作系统、面向不同场景的算法库以及应用开发平台，产品已有多次成功入轨并在轨稳定运行的案例。未来我们期待天算团队能抓住时代的机遇，成为天基计算的基础设施。”</p>\n  <p><strong>英诺基金团队表示：</strong>“中科天算依托中科院的研究能力，在未来计算方向有深厚技术积累，提供太空算力整体解决方案。在太空算力芯片和算力部署环境等方面行业领先，将助力AI计算的基础设施演进和发展。”</p>\n  <p><strong>川翔投资总经理、合伙人张传征表示：</strong>“商业航天的1.0时代的核心是解决把卫星运送上天，但随着天上的卫星越来越多，功能越来越强大，众多卫星产生的海量数据及处理难度的几何级增长，使传统的天地数据传输模式和地面数据处理中心都面临了巨大压力。解决途径是太空算力的部署及人工智能的辅助，这就是崭新的商业航天2.0时代。希望中科天算在这个新时代引领未来，成为商业航天2.0时代的排头兵。”</p>\n  <p><strong>梅花创投团队表示：“热烈祝贺中科天算完成天使+轮融资，梅花创投作为天算最早的投资人，一路陪伴企业蜕变成长。中科天算在“太空算力”和“应用生态”方向持续创新、快速迭代，将有望成为第一个万卡级太空超算中心的建设者，期待天算团队保持进化，再创佳绩。”</strong></p>\n \n",
+    "url": "https://36kr.com/p/3719746809492865?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "company",
+    "tags": [
+      "华为"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-033",
+    "title": "扎根水声产业23年，中科院声学所博士创业，想用「性价比」声纳打造信息化蓝海｜36氪首发",
+    "summary": "\n \n \n  文&nbsp;|&nbsp;阿至\n  36氪获悉，海洋信息系统解决方案企业浙江声为科技有限公司（下简称“声为科技”）宣布完成近千万元天使+轮融资，由启迪之星创投独家投资，翊荣资本担任长期独家财务顾问，所筹资金将主要用于产品可靠性优化与产线建设。\n  声为科技注册成立于2023年11月，隔年3月正式启动运营，是一家专注于水声技术研发与海洋信息化解决方案的高科技企业，总部落在浙江绍兴，目...",
+    "content": "\n \n \n  <p>文&nbsp;|&nbsp;阿至</p>\n  <p>36氪获悉，海洋信息系统解决方案企业浙江声为科技有限公司（下简称“声为科技”）宣布完成近千万元天使+轮融资，由启迪之星创投独家投资，翊荣资本担任长期独家财务顾问，所筹资金将主要用于产品可靠性优化与产线建设。</p>\n  <p>声为科技注册成立于2023年11月，隔年3月正式启动运营，是一家专注于水声技术研发与海洋信息化解决方案的高科技企业，总部落在浙江绍兴，目前设有北京办事处和三亚全资子公司。</p>\n  <p><strong>声为科技创始人田甜拥有超20年水声信号处理技术研究和水声装备研制经验，博士毕业于中科院声学所，是李启虎院士科研团队核心成员</strong>，研究所工作期间曾主导完成多个重大科研项目，后加入中国电子科技集团公司第三研究所，创建水声技术研究部并担任部门主任及总工程师、首席专家等职务，从无到有拓展水声探测、侦察、通信等业务，拥有近10年管理及产业化经验。</p>\n  <p>围绕<strong>“前端低成本信息感知装备+后端高性能算法解决方案”</strong>的核心设计思路，声为科技目前重点布局两大产品板块：微型拖曳线列阵水声侦收系统和小型化深海潜浮标，致力于通过轻量化、低成本、多节点组网的技术路径，实现对大范围海域的水声探测与信息获取，服务于国家海洋强国战略与水下信息化建设需求。</p>\n  <h2><strong>顶层战略牵引下的产业“黄金窗口期”</strong></h2>\n  <p>海洋产业的发展与国家战略高度相关，而水声技术作为海洋信息化的基础，最早也起步于国家海防的迫切需求。但与欧美国家相比，中国海洋产业起步晚，基础科研工作也经历了较长的补课阶段。2012年，党的十八大报告首次提出“建设海洋强国”，为我国海洋事业发展确定了战略目标。</p>\n  <p>这一战略在产业端的集中体现是，大量此前不涉及水下业务的“国家队”力量开始涌入。</p>\n  <p>在田甜看来，2015年是一个跨越性的年份，一个明显的标志是，中国电科、中国航天、中国兵器等集团都开始不同程度地进入海洋领域。“我认为那是国家需求集中爆发的大年，国家在海洋领域进行了重要部署和规划，而这一战略目标也直接转化为前所未有的资源投入。”</p>\n  <p>事实上，田甜也正是在2015年加入中国电科3所牵头开展水声业务，他形容这是一个从零开始的“体制内创业”过程。伴随中国海洋产业进入快速发展的十年阶段，<strong>田甜带领的部门从不到10个人发展到超过80人，年经济效益从最初的数百万元增长到数亿元。</strong></p>\n  <p>“国家战略需求巨大且明确，但以当时体制内的科研力量和人才储备，难以完全承接这一历史性任务。”田甜观察到，随着行业从初期的广泛试水进入理性聚焦阶段，参与者的组织形式和职能分工也发生了转变。以水声领域为例，过去行业的运行模式更多是各家为了具体的项目去竞标、竞争，但到了2022年前后，声学所、715所这样的“国家队”开始更多转向组织者的角色。</p>\n  <p>“以声学所为例，全所不到1000人，接到国家层面下达的重要任务和资金，必须组织行业内的有生力量共同完成，这给民营企业带来了巨大机遇。此外，军民融合制度的持续优化也为民企参与国防建设提供了更清晰的渠道。”</p>\n  <p>站在这样一个历史性的产业转折点上——<strong>从国家主导的集中攻关，转向市场与创新力量深度参与的体系化爆发</strong>，田甜意识到，创业的黄金窗口期，来了。</p>\n  <h2><strong>以“低成本+多节点组网”重构水下感知逻辑</strong></h2>\n  <p>基于过往科研技术积累及产业化实践背景，田甜认为，传统水声侧重于单一装备性能，而现代海洋信息化追求的是体系作战与网络协同能力，大型、昂贵、孤立的装备体系，难以满足未来大规模、分布式、体系化的水下信息网络建设需要。因此，水声技术与网络信息体系两方面能力的结合至关重要。</p>\n  <p>声为科技提出“前端低成本信息感知装备 + 后端高性能算法解决方案” ，简单来说，就是将过去动辄上千万、体积庞大的单套水声探测系统，拆解、精简为可批量部署的微型化、低成本感知节点，通过大量节点的组网协同，实现对特定海域的“面状”覆盖和持续监控，从而在降低部署成本的同时，又能在整体效能上超越少量高性能单点装备。</p>\n  <p>围绕上述思路，<strong>声为科技重点布局两大产品板块，（近海）微型拖曳线列阵水声信号侦收系统，以及（远海）小型化深海潜浮标。</strong></p>\n  <p>传统拖曳线列阵技术复杂、成本高昂，通常装载于大型舰船。声为科技通过技术创新，实现了该系统的低成本、轻量化，使其能够适配于中小型船只乃至无人艇平台，降低了水声信号侦听与识别的门槛和应用成本。深海潜浮标旨在解决对深远海、重点区域的长期、隐蔽信息监测需求，通过小型化设计，能够降低布放与回收难度，结合低功耗技术和组网能力，可实现长期值守和周期性数据回传。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1080,650\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_c6079cb262e74958b9e4c1d6b9dc8bc9@577536001_oswg965237oswg1080oswg650_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">声为科技微拖产品、拖线阵产品</p>\n  <p>这两类产品共同指向一个目标：<strong>构建一个可快速部署、灵活组网、成本可控的分布式水下信息感知网络。</strong></p>\n  <p>在产品研发进度方面，据田甜介绍，相比第一代重超七百公斤的系统，声为第二代微型拖曳线列阵水声信号侦收系统重量可降到两三百公斤。“今年上半年，我们将完成新一代微型拖线阵的海上实验，并已获得绍兴市科技局的经费支持。我们正在争取浙江省的演示验证项目，希望进一步完成多声纳节点的组网应用演示。”</p>\n  <p>在深海潜浮标方面，声为科技聚焦小型化、轻量化、能深潜（1500米以下）的差异化特性。“这些关键词本身存在矛盾，比如做小做轻往往难以深潜，但这也正是我们的技术攻关方向”，田甜提到，团队计划在今年下半年完成样机海试。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1080,517\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_8050c32b2f8b4f42adbb47b411853455@577536001_oswg886084oswg1080oswg517_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">声为科技 浮标产品</p>\n  <h2><strong>用“性价比”打开更广泛的应用场景</strong></h2>\n  <p>回到产品规模化应用最根本的问题：如何实现成本的降低？田甜给出的答案是，<strong>提升“性价比”，但不降低材料质量和规格。</strong></p>\n  <p>按照物理定律来说，天线孔径（尺寸）越大，探测能力越强，当把设备做小，探测能力必然下降。声为科技的核心技术在于，<strong>通过创新的阵列设计、信号处理算法等，使系统规模缩小到原来的几分之一、成本大幅降低的同时，让探测能力的下降速度远低于成本下降速度。</strong></p>\n  <p>“举个例子，我们如果能够用五套小型声纳来覆盖原来一套大型声纳负责的区域，且性能基本满足要求，但这五套的总成本仅为原大型声纳的四分之一，这就是我们追求的性价比的提升。”</p>\n  <p>此外，系统规模变小也意味着对搭载平台的要求降低，这使得部署的灵活性和可覆盖的场景大大增加。中国大船数量有限，而小船数量众多，有利于实现更广泛的海洋信息覆盖。</p>\n  <p>商业模式方面，声为科技采用<strong>“产品销售 + 定制化系统集成与算法服务”</strong>相结合的模式，重点以项目制合作为主。目前，声为科技主要客户为军工院所、央企、高校及海洋科研单位。</p>\n  <p>据介绍，公司正与多家总体单位合作，推进其产品及解决方案嵌入更大的水下信息体系中进行验证。2025年，声为科技销售收入突破千万元大关，2026年计划实现超3000万元营收。</p>\n  <p>在产能建设方面，声为科技绍兴工厂正在建设中，计划于上半年完成产线调试，在三亚将建设一个集生产、调试与试验为一体的综合性场地。</p>\n  <p>目前，声为科技新一轮融资正在进行中。</p>\n \n",
+    "url": "https://36kr.com/p/3719744956626307?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "company",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-034",
+    "title": "打造稳定、可信、低成本的卫星通信终端，「宇迹航天」完成千万元天使轮融资｜36氪首发",
+    "summary": "\n \n \n  文&nbsp;|&nbsp;阿至\n  36氪获悉，卫星通信终端研制企业宇迹航天科技（北京）有限公司（下简称“宇迹航天”）宣布完成逾千万元天使轮融资，投资方包括启迪之星创投、水木清华校友种子基金、无限基金SEE Fund等，所筹资金将主要用于核心产品的研发投入及批量化生产能力建设。\n  宇迹航天以卫星通信应用终端为市场切入点，专注于航天新一代信息化与智能化产品的研发与制造，公司致力于解...",
+    "content": "\n \n \n  <p>文&nbsp;|&nbsp;阿至</p>\n  <p>36氪获悉，卫星通信终端研制企业宇迹航天科技（北京）有限公司（下简称“宇迹航天”）宣布完成逾千万元天使轮融资，投资方包括启迪之星创投、水木清华校友种子基金、无限基金SEE Fund等，所筹资金将主要用于核心产品的研发投入及批量化生产能力建设。</p>\n  <p>宇迹航天以卫星通信应用终端为市场切入点，专注于航天新一代信息化与智能化产品的研发与制造，<strong>公司致力于解决复杂环境下的信号接入与通信抗干扰难题，为卫星互联网的落地应用提供核心硬件及算法支撑。</strong></p>\n  <p>创始人王浡力是一名连续创业者，拥有近十年体制内航天科研及管理经验，曾参与多型十余颗卫星研制工作。公司核心团队以北航及航天院所技术专家为基石，在航天通信测控及软件无线电领域拥有超20年技术积累和产业化实践经验。</p>\n  <h2><strong>瞄准产业链打通的“最后一公里”</strong></h2>\n  <p>随着低轨卫星星座在全球的密集部署，卫星互联网已从技术概念进入规模化建设前夜。过去一年，行业热度持续攀升，不仅源于其弥补地面网络覆盖不足的连接价值，更在于它能够为航空、航海、能源、科考、气象、农业、林业、海洋、国防、应急等垂直行业与前沿领域（如低空经济、自动驾驶）提供全新的“三维数字底座”。</p>\n  <p>从国家主导的GW星座到商业公司推动的千帆星座，中国自主可控的天基网络正在加速构建，这将直接催生未来对于高性能、低成本、国产化终端的海量刚需。</p>\n  <p>星座上天只是第一步，<strong>让信号稳定、可靠、经济地触达各类终端用户，才是产业价值变现的“最后一公里”。</strong>复杂电磁环境下的抗干扰技术突破、终端小型化与成本控制等一系列工程挑战，也正是地面终端赛道创业的技术门槛与商业机会所在。</p>\n  <p>瞄准这一核心环节，宇迹航天依托团队过去在通信抗干扰技术、通导一体化接收处理和小型化、低功耗宽带终端设计上的经验积累，构建了多元化产品矩阵。其核心思路是<strong>以强抗干扰能力和通导一体化为共性技术基底，针对不同需求和应用场景进行产品化定义，为客户提供整机解决方案与通信抗干扰模块两大类产品。</strong></p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1049,535\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_8b02102c7d914db8a2937a116094735b@577536001_oswg55681oswg1049oswg535_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">产品图</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1045,530\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_d810ae0a15ff43d2bb9f5bcd391e4e78@577536001_oswg56468oswg1045oswg530_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">产品图</p>\n  <p>据介绍，现阶段其核心产品矩阵包括高性能/便携式宽带终端、多模态通信终端和超高速信号记录分析仪。</p>\n  <p><strong>·高性能/便携式宽带终端</strong>覆盖Ka/Ku/L/S等主流卫星频段，适用于各种卫星通信应用场景。其核心突破在于通过射频天线一体化设计，将高性能相控阵终端从“笨重设备”转化为“便携终端”，降低行业用户的准入门槛。</p>\n  <p><strong>·多模态融合终端类产品</strong>体现其“全域覆盖”思路，兼容通用网络、自组网及卫星网络。</p>\n  <p><strong>·超高速信号记录分析仪</strong>可广泛应用于有信号收集、分析、记录需求的场景，如卫星地面接收站、飞机场区、大型地面站等。据介绍，其支持GHz级采样率，最高存储速度达7GB/s，填补了国内在卫星地面接收站高速信号捕获记录领域的空白。</p>\n  <p>宇迹航天创始人、执行董事兼CEO王浡力提到，目前公司产品已在通导融合和多模态两大应用场景落地，产品均已完成原理样机研发，用户端也完成了应用验收，技术可行性和场景适配性得到了验证。后续团队将根据用户反馈和网络建设进度，推进小批量试产和场景深化应用。</p>\n  <h2><strong>技术积累和场景打磨的关键窗口期</strong></h2>\n  <p>在战略路径上，宇迹航天整体遵循行业“先军后民、由B到C” 的发展逻辑。即先服务于对性能要求高、价格敏感度低的军用及特种行业市场，打磨产品、建立口碑；随着规模上量和成本结构的进一步优化，逐步拓展至民航、能源、交通等民用行业市场；最终瞄准大规模消费级市场。</p>\n  <p>王浡力也提到，由于国内卫星互联网尚未建成，<strong>在业务端目前宇迹航天以研发合同为主。</strong></p>\n  <p>“2025年公司主要以卫星通信模块的研发合同为主，目前业务结构以技术研发服务为主，尚未形成规模化产品销售，预计随着后续项目落地和量产推进，收入结构将逐步多元化。”王浡力表示，<strong>2026年公司计划实现上千万级的收入目标。</strong></p>\n  <p>从行业发展水平来看，目前中国卫星通信市场尚不成熟。这也意味着，对于创业公司来说，其前期竞争力不只在于低价，而是在复杂环境下提供稳定、安全、自主可控连接解决方案的能力，这也需要企业和技术需求方不断磨合，通过研发共建和场景深耕等方式巩固技术壁垒和客户信任。</p>\n  <p>对宇迹航天而言，其面临的发展窗口期也相对明确，即在国家星座全面组网、应用市场大规模爆发前，完成产品定型、成本优化和行业标杆案例的建立。</p>\n  <p>“在卫星通信应用领域，市场仍处于早期构建阶段，尚未形成规模化落地场景，尤其是针对具体行业应用，仍需等待卫星网络提供服务后方能快速迭代。”王浡力表示，“当前正是技术积累和场景打磨的关键窗口期，<strong>未来通信链路的可靠性与安全性将成为决定用户体验和商业落地的核心要素。</strong>公司也因此将更加坚定地在抗干扰通信技术上持续深耕。”</p>\n  <p>放眼全球，以“星链”及“星盾”��代表的系统，正在重新定义天基基础设施的竞争维度：它不仅是带宽的竞争，更是覆盖、安全性与弹性服务的竞争。中国必须发展自主可控的卫星互联网体系已成共识，而地面终端作为与用户体验直接相关的环节，其自主化、多样化和高性能需求将同步爆发。<strong>在未来的产业格局中，能同时吃透顶层标准、深入行业场景、实现成本可控的终端厂商，会具备更强的产业链话语权。</strong></p>\n  <p>“我们希望在未来的卫星通信网络中，成为不可或缺的技术支撑力量，为行业提供稳定、可信的抗干扰通信解决方案。”王浡力补充道。</p>\n  <p><strong>投资方观点</strong></p>\n  <p>本轮领投方启迪之星创投认为，卫星互联网与5G NTN、6G等下一代通信技术已成为当今世界主流发展趋势，我国的低轨通信网络基础设施建设也已迈入黄金加速期，而与之配套的地面端基础设施受制于规模、成本等商业问题，尚未实现规模化放量。“我们看好宇迹航天创始团队的差异化技术优势与深厚商业背景，以及‘由军到民，生态合作，利益共赢’的务实战略规划，相信团队能够在这一波兵家必争的卫星互联网浪潮中充分发挥自身优势，抢占发展先机。”</p>\n  <p>水木清华校友种子基金合伙人丁昳婷表示：宇迹航天依托自主研发的通信抗干扰技术，融合窄带与宽带通信需求，面向即将爆发的6G空天通信领域，打造了多模态终端等系列产品。团队技术功底扎实，相关技术有多年积累，目前已经在多个行业场景中落地应用。作为通信抗干扰的核心能力平台，可以与各类通信终端深度融合，成为空天安全可信通信的关键基础设施，未来可期。</p>\n \n",
+    "url": "https://36kr.com/p/3719734856299908?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "autonomous",
+    "tags": [
+      "多模态"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-035",
+    "title": "追觅一口气要造五颗芯片，直接对标高通、星链、英伟达",
+    "summary": "\n \n \n  作者丨邱晓芬\n  编辑丨苏建勋\n  追觅也要造芯了。\n  3月11日，在AWE2026芯片产业高峰论坛上，追觅科技孵化的芯片公司「芯际穿越」宣布了五大芯片方向——手机、自动驾驶、太空算力盒子、电脑、泛机器人。\n  「芯际穿越」负责人傅海洋向《智能涌现》表示，这五大芯片成果未来不仅用于追觅自己的业务，也会对外开放。\n  据发布会介绍，「芯际穿越」正在研发手机核心处理器“赤霄01”，主打...",
+    "content": "\n \n \n  <p>作者丨邱晓芬</p>\n  <p>编辑丨苏建勋</p>\n  <p>追觅也要造芯了。</p>\n  <p>3月11日，在AWE2026芯片产业高峰论坛上，追觅科技孵化的芯片公司「芯际穿越」宣布了五大芯片方向——<strong>手机、自动驾驶、太空算力盒子、电脑、泛机器人。</strong></p>\n  <p>「芯际穿越」负责人傅海洋向《智能涌现》表示，这五大芯片成果未来不仅用于追觅自己的业务，也会对外开放。</p>\n  <p>据发布会介绍，「芯际穿越」正在研发手机核心处理器“赤霄01”，主打图形性能提升，支持1.5K分辨率下120帧全场景光线追踪。</p>\n  <p>此���，“赤霄01”还将自研NPU架构，AI等效算力将达到200TOPS——值得注意的是，高通目前最新的旗舰芯片第五代骁龙8至尊版（骁龙8 Elite），AI算力仅为80 TOPS。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"963,1280\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_1a94ceed931a4bce8d95dd78f22ae339@1199336245_oswg139394oswg963oswg1280_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">赤霄01 《智能涌现》拍摄</p>\n  <p>在自动驾驶芯片方面，「芯际穿越」也正推进L4级自动驾驶的舱驾一体芯片，目标是将单颗芯片的算力提升到2000TOPS——这是目前行业主流智驾芯片算力的三倍，也高度对标英伟达在自动驾驶领域的旗舰芯片DRIVE Thor系列。</p>\n  <p>此外，据介绍，这颗芯片还将融合追觅的视觉、激光雷达等技术储备，并将使用2nm的芯片制程生产。</p>\n  <p>「芯际穿越」还在同步研发针对个人电脑的芯片，算力将达到1.5PFLOPS，特点是将基于统一的内存架构设计，并支持多设备互联组网。</p>\n  <p>在追觅的主营业务上，「芯际穿越」也做了布局，其团队正在研发面向扫地机器人的主控芯片“天穹”系列。</p>\n  <p>据傅海洋介绍，这是“行业集成度最高”的SOC，采用多核CPU、专用NPU和独立MCU的异构计算平台，未来将以22nm制程生产，并搭载在追觅下半年发布的扫地机器人产品上，目的是让机器人在更复杂的场景下精准导航、避障。</p>\n  <p>此外，追觅还把目光放到了太空。</p>\n  <p>据了解，「芯际穿越」正研发“瑶台”系列太空算力盒子，目标是实现算力卫星可靠性、寿命、性能和稳定性的“行业第一”，未来将以200万颗算力卫星组成的太空超级算力群——<strong>这一规模是马斯克 SpaceX星链计划的两倍。</strong></p>\n  <p>尽管追觅方面在发布会上没有提及种种参数背后对标的竞争对手，傅海洋坦言，「芯际穿越」的目标正是“超越全球头部科技公司”。</p>\n  <p>“时代变了，赛道变了，而定义权正在易手，他们定义了上一个十年，而下一个十年属于敢于用创新重新定义算一个世界的人，也许是我们，也许是他人，但终究会有更多中国芯成为超越者”，他表示。</p>\n  <p><span style=\"letter-spacing: 0px;\">不过，据《智能涌现》了解，尽管在芯片业务上充满雄心壮志，目前，五大品类中，</span><strong style=\"letter-spacing: 0px;\">只有泛机器人品类的芯片已进入流片量产的阶段</strong><span style=\"letter-spacing: 0px;\">。</span></p>\n  <p>也有知情人士向《智能涌现》表示，「芯际穿越」的负责人傅海洋是追觅第89员工，此前并无芯片产业的背景，目前追觅的芯片团队仅有上百人规模。</p>\n  <p>造芯是一门长周期、重资产、且极其残酷的生意。追觅「芯际穿越」瞄准了泛机器人SoC、手机处理器、自动驾驶芯片、太空算力中心等方向，以底层算力支撑机器人、手机、汽车、航天等多赛道协同。与此同时，这也为追觅“人车家天地芯”生态提供了关键技术支撑。</p>\n  <p>对于追觅来说，他们的优势在于，有下游成熟的泛机器人终端和生态，主营业务能够提供部分稳定的现金流。</p>\n  <p>但要在五个截然不同的芯片领域同时赶超当前的行业巨头，这不会是追觅一家公司能够完成的重任。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1280,482\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_a42d0a36569d427e832f92afd1947c79@1199336245_oswg582834oswg1280oswg482_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">end</p>\n \n",
+    "url": "https://36kr.com/p/3719316885304961?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "autonomous",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-036",
+    "title": "硬氪独家 | 中科院博士创业光学芯片，主攻3D机器视觉和AI微显，已实现稳定量产",
+    "summary": "\n \n \n  作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，中科融合感知智能研究院（苏州工业园区）有限公司（下称“中科融合”）近日宣布完成新一轮近亿元融资，本轮由松禾资本与长兴基金等机构联合投资。创立&nbsp;8&nbsp;年来，公司已完成多轮融资，背后股东包括松禾资本、华映资本、清华水木创投、硅港资本、凌云光、万讯自控等多家产业资本与投资机构。\n...",
+    "content": "\n \n \n  <p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，中科融合感知智能研究院（苏州工业园区）有限公司（下称“中科融合”）近日宣布完成新一轮近亿元融资，本轮由松禾资本与长兴基金等机构联合投资。创立&nbsp;8&nbsp;年来，公司已完成多轮融资，背后股东包括松禾资本、华映资本、清华水木创投、硅港资本、凌云光、万讯自控等多家产业资本与投资机构。</p>\n  <p>中科融合源自中国科学院纳米技术与纳米仿生研究所。公司以扫描式MEMS微振镜芯片为核心技术底座，推出MEMS结构光3D和微投影显示光机整体解决方案，切入3D机器视觉和AR微显示市场，构建起覆盖芯片、模组到系统方案的物理AI光学信息层全栈技术能力。该路线兼具小型化、高精度与抗环境干扰优势，有望在AI时代同时承担“具身视觉感知入口”与“AR显示交互出口”的关键角色。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"927,603\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_7e6f1523d00b4cd698c076f385502602@5920579_oswg486788oswg927oswg603_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p><strong>目前，公司已构建两条业务主线：一条面向3D物理世界数字建模的机器视觉芯片与模组，另一条聚焦智能微显示光机赋能HUD与AR可穿戴市场。</strong></p>\n  <p>在第一条增长曲线——3D机器视觉领域，中科融合已经耕耘多年。创始人王旭光博士向硬氪介绍，公司基于MEMS结构光扫描技术，可以实现千万到上亿级有效3D点云密度和微米级精度，统一光机平台同时支持多线激光与结构光融合方案，在抗强环境光、高反射场景下仍保持高精度的稳定性能。</p>\n  <p>目前，该业务已连续出货五年，客户覆盖多家头部制造企业，产品主要应用于工业机器人场景，包括焊接、切割、点胶、拆码垛等高精度作业环节。“在汽车及高端制造领域，我们是首家进入一级供应商体系并实现量产应用的国产MEMS扫描芯片企业，也是目前唯一实现规模化部署的国产方案。”创始人表示。</p>\n  <p>基于工业端的技术积累，中科融合也将能力延伸至消费级市场。基于高精度、低成本的结构光能力，公司推出了消费级3D扫描模组产品，去年第四季度已向头部3D打印与扫描仪厂商实现规模出货，出口欧美成为第一增长曲线的重要支点。</p>\n  <p>此外，公司自去年开始着力打造第二条增长曲线——智能微显示。该业务同样基于MEMS振镜核心能力，采用LBS（Laser Beam Scanning）激光扫描成像路线，布局AR-HUD与轻量化AR显示场景。</p>\n  <p>公司第一代AR-HUD微显平台已向两轮车与四轮车厂商送样，探索在电动自行车、电动摩托车及汽车后视镜、车门等位置提升人车交互智能化。得益于芯片体积小和激光成像特性，该方案可实现在不同距离下均能保持清晰对焦，适用于骑行导航等户外强光环境场景，未来有望应用于外卖、快递等高频移动场景。</p>\n  <p>与AR领域主流的microLED方案相比，激光扫描具有激光点光源损耗低、色域广的优势。创始人介绍称，公司全彩激光方案可实现入眼亮度约1万尼特亮度，在正午阳光下仍可清晰显示，而在量产成熟条件下，成本有望控制在microLED方案的五分之一左右。此外，公司在光、机、电、算一体化架构上完成全栈自研，从芯片设计和工艺、驱动算法到光机模组均实现自主可控。</p>\n  <p>目前，公司已完成AR眼镜方向的技术验证，并于今年春节前加入全球AR联盟（AR Alliance），成为该联盟中首家创业型芯片企业。本轮近亿元融资完成后，中科融合将重点投入MEMS振镜核心器件的产能扩张与微显示产品化推进。</p>\n  <p><strong>投资人观点</strong></p>\n  <p><strong>松禾长风基金团队指出：</strong>随着智能硬件快速迭代与终端场景的持续拓展，MEMS技术凭借其小型化、低功耗及成本等优势，正成为便携式智能硬件空间光学调制的核心手段。松禾高度认可中科融合在MEMS微振镜芯片领域的全栈自研能力，其技术不仅打破了TI在DLP的垄断，更在空间扫描、微投影及AR眼镜等前沿领域展现出卓越的竞争力，为客户提供了全球领先的解决方案。我们坚信中科融合将凭借其底层技术壁垒，成为推动下一代智能光学发展的关键引擎。</p>\n  <p><strong>长春长兴长光创业投资：</strong>中科融合在MEMS领域深耕多年，已形成芯片、模组、系统全栈式国产解决方案。其工业3D结构光感知模组凭借小体积、低成本、大视场、高精度优势，已在部分工业场景实现对DLP方案的替代，并积极拓展消费级扫描仪、微投影等批量应用场景。我们长期看好公司在MEMS赛道的技术壁垒与商业化前景，坚定看好MEMS产业的长期发展。</p>\n  <p><strong>长兴基金团队指出：</strong>中科融合作为专注于MEMS芯片的高科技企业，凭借硬核技术实力与产品优势，不仅深耕传统3D视觉领域，更是即将开辟微投影业务的宏伟蓝图。长兴基金作为长春市政府产业基金，始终秉持“投硬科技、育新动能”的理念，在遴选投资标的时，不仅看重企业的技术领先性与市场潜力，更珍视企业深度落地并融入区域光电产业生态的行动力。长春位列全球科研城市排名24位，且作为中国光学的摇篮，在光电及传感领域具备独有的产业和人才优势。未来，长兴基金将充分发挥政府产业基金的资源整合优势，持续为中科融合链接更多人才、政策与产业资源，共同夯实产业发展根基。</p>\n \n",
+    "url": "https://36kr.com/p/3719635474511237?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "robotics",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-037",
+    "title": "科氪｜全系旗舰亮相AWE2026，石头科技展示从技术到市场的系统性实力",
+    "summary": "\n \n \n  2026年3月12日，中国家电及消费电子博览会（AWE2026）在上海开幕。全球智能清洁行业领导品牌石头科技，集中呈现了其在家庭清洁领域的前沿技术布局与成果，系统展示了覆盖扫地机器人、洗地机、洗衣机三大品类的全系旗舰产品，并携手人民日报健康客户端联合发布了《2026家庭地面清洁标准白皮书》。\n  这一系列组合举措，展现了头部企业从提供产品到定义体验、参与构建行业标准的系统性能力，是其...",
+    "content": "\n \n \n  <p>2026年3月12日，中国家电及消费电子博览会（AWE2026）在上海开幕。全球智能清洁行业领导品牌石头科技，集中呈现了其在家庭清洁领域的前沿技术布局与成果，系统展示了覆盖扫地机器人、洗地机、洗衣机三大品类的全系旗舰产品，并携手人民日报健康客户端联合发布了《2026家庭地面清洁标准白皮书》。</p>\n  <p>这一系列组合举措，展现了头部企业从提供产品到定义体验、参与构建行业标准的系统性能力，是其从市场领先者向产业生态共建者演进的关键跨越。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"4000,2666\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_e3d380af0e764910b987d27c1d112062@517825446_oswg1751957oswg4000oswg2666_img_jpeg?x-oss-process=image/quality,q_90/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p><strong>产品进阶：以全场景技术矩阵回应深度清洁需求</strong>&nbsp;</p>\n  <p>本次展会，石头科技展示了其针对家庭清洁不同维度的系统性解决方案。&nbsp;</p>\n  <p>在扫地机器人领域，其全球首款轮足扫地机器人G-Rover首次在国内亮相。该产品实现了在复式、别墅等复杂户型中的自主移动与清洁，将自动化清洁的范畴从单一平面拓展至立体空间，旨在系统性解决多层住宅的终极清洁难题。同时，全新旗舰扫地机器人G30S Pro灵感来源于行星复杂地貌越障技术，可稳定越过高达8.8cm的双层越障高度，轻松应对推拉门轨道、地毯边缘等中国家庭典型障碍。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"3546,2363\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_e61b1738f3084b1c8703ff596a91561f@517825446_oswg546068oswg3546oswg2363_img_jpeg?x-oss-process=image/quality,q_90/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"4000,2666\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_2c0a51180b8d4c9887b8447072f37f47@517825446_oswg722593oswg4000oswg2666_img_jpeg?x-oss-process=image/quality,q_90/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p>在洗地机领域，A30 Pro Steam 2.0系列凭借高温蒸汽与热水双效洗地技术，持续夯实其在深度洁净与健康除菌方面的领导地位。市场数据也印证了其产品实力，奥维云网（AVC）报告显示，石头洗地机在2025年一举夺得“蒸汽洗地机”与“A30系列洗地机”市场规模全国双冠军。更具行业意义的是，石头科技与人民日报健康客户端联合发布《2026家庭地面清洁标准白皮书》，将自身技术实践转化为公共知识，引导行业关注科学、健康的用户价值，充分彰显了头部企业的责任与担当。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"2551,1417\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_e465aabef50a4b9ba546a02ff0d76599@517825446_oswg1563651oswg2551oswg1417_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"6802,3778\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_c413d21470694cfd969021a9ff70ed20@517825446_oswg2429766oswg6802oswg3778_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p>在衣物护理方面，石头科技通过差异化科技满足精细需求。旗舰Z1 Ultra洗烘一体机融合了超水解、分子筛低温烘干等多项技术，实现了对高端面料的专业护理。针对健康分类洗涤场景的M1S Ultra迷你洗衣机，则通过了严苛的医护级与母婴级认证。展会期间，石头科技将通过与贵州苗族蜡染非遗项目的跨界展示，直观演绎其科技对复杂、娇贵面料的呵护能力，彰显技术创新中蕴含的人文温度。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"3401,1889\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_4d410496734e4241be41445c513d45c8@517825446_oswg2229471oswg3401oswg1889_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p><strong>市场引领：全球双冠验证“全球产品+本地表达”模式</strong></p>\n  <p>&nbsp;</p>\n  <p>强劲的产品力与完整的生态布局背后，是经过全球市场严格验证的商业成功。</p>\n  <p>&nbsp;</p>\n  <p>据了解，石头科技产品已进入全球超170个国家和地区，服务超过2000万家庭；国际数据公司IDC日前发布的报告显示，2025年，石头科技以17.7%的市场份额领跑全球清洁机器人领域，并在扫地机器人品类中拿下27.0%的市场份额，蝉联销量与销额全球第一。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"985,605\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_2549f5c2fe994b478c7940777063adb0@517825446_oswg84040oswg985oswg605_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p>这些成绩，是市场对石头科技坚持“长期主义”研发投入与技术创新路线的回馈。2025年前三季度，石头科技研发投入高达10.28亿元，同比大幅增长60.56%，研发投入占营收比例达到8.52%，显著高于行业平均水平。</p>\n  <p>在技术创新之外，石头科技还建立起一套“全球产品+本地表达”的精细化运营体系，成为全球化成果的重要支撑。石头科技通过打造满足全球最严苛品质与认证标准的基础产品平台，确保核心体验。在此基础上，针对不同区域市场的文化偏好与使用环境进行精准的“本地化表达”：在北美，强调对宠物毛发和地毯的深度清洁能力；在欧洲，侧重产品的环保设计、低能耗与静音表现；在东亚，则突出产品的精巧美学与智能互联体验。</p>\n  <p>这种发展模式既确保了统一的高标准技术体验，又能以最接地气的方式融入本地生活，实现了从“产品出海”到“品牌扎根”的深刻转变。</p>\n  <p>&nbsp;</p>\n  <p><strong>角色跃迁：从技术领先者到产业生态共建者</strong></p>\n  <p>石头科技在AWE2026的呈现，其意义超越了常规的新品迭代，呈现出企业作为行业领军者的角色深化：从通过技术创新赢得市场，到利用自身体系能力牵引行业共建、做大价值。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1620,1080\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_4ff9d73c3f884f06a66ea5641a8f4817@517825446_oswg1645492oswg1620oswg1080_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p>这种角色演进的根本动力，源于其技术创新的根本目标——系统性地破解复杂场景中的用户难题。当企业致力于攻克让机器人在真实家庭环境中可靠自主作业这类高阶课题时，其解决方案必然牵引对产业链基础能力的更高要求。这使得其创新行为本身，天然地扮演了拉动产业链升级、定义新体验标准的角色。</p>\n  <p>因此，这一转变是技术深化的必然结果。领先企业通过开放合作、共享已验证的方法与规范，能够有效降低整个生态的创新成本，推动形成以“优质体验”为导向的健康市场环境。这最终将反哺企业自身，使其在一个更高质量、更具活力的产业生态中，获得持续发展的广阔空间。</p>\n  <p>正如石头科技总裁全刚所言：“创新的目的，是让技术‘隐身’，最终交付简单、自由的生活体验。”这一理念，意味着企业不能仅仅满足于打造畅销产品，而必须致力于构建一个能让这种体验持续、可靠发生的系统——这既包括企业自身的技术与品控体系，也离不开一个健康、协同、不断进步的产业生态。</p>\n  <p>此次AWE，石头科技完成了一次从技术穿透、市场验证到生态共建的综合呈现。其路径表明，当代企业的持久竞争力源于核心技术突破、深刻用户洞察与开放生态格局的综合作用。这不仅标志着企业自身发展的新阶段，也为寻求在全球产业变革中实现价值跃迁的中国企业，提供了有价值的实践参考。</p>\n \n",
+    "url": "https://36kr.com/p/3719613233640839?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "robotics",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-038",
+    "title": "科氪｜追觅割草机器人亮相2026 AWE 以领先技术引领庭院智能化升级",
+    "summary": "\n \n \n  近日，2026中国家电及消费电子博览会（AWE）在上海拉开帷幕。作为本届规模最大的参展商之一，追觅科技携多款创新产品与首创技术重磅亮相。割草机器人作为追觅宇宙场景生态中户外场景的重要代表，集中展示了其在激光雷达感知、人工智能算法等核心技术的最新突破，充分彰显追觅在智能割草机器人赛道的技术实力与行业引领地位。\n  \n  官方图片\n  核心技术升级 &nbsp;打造高端草坪养护标杆\n  ...",
+    "content": "\n \n \n  <p>近日，2026中国家电及消费电子博览会（AWE）在上海拉开帷幕。作为本届规模最大的参展商之一，追觅科技携多款创新产品与首创技术重磅亮相。割草机器人作为追觅宇宙场景生态中户外场景的重要代表，集中展示了其在激光雷达感知、人工智能算法等核心技术的最新突破，充分彰显追觅在智能割草机器人赛道的技术实力与行业引领地位。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1265,844\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_3910925104a049ef80deeeb81969f98e@517825446_oswg1932205oswg1265oswg844_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p><strong>核心技术升级 &nbsp;打造高端草坪养护标杆</strong></p>\n  <p>作为行业内首批实现激光雷达解决方案规模化应用的品牌，追觅割草机器人始终坚持以技术创新为驱动，以用户体验为导向，推动庭院养护向更加智能化、高效化方向升级。</p>\n  <p>此次展会上，追觅带来全新升级的OmniSense™ 3.0 超感知系统，融合 360° 3D 激光雷达与双 1080P HDR 摄像头，可对 300 余种常见障碍物实现精准识别与智能避让。同时，行业首创仅通过双目视觉与激光雷达融合方案实现 AI 自主建图，真正做到开箱即用。依托行业领先的算法能力，系统具备主动分区、窄道提取、实时补割、智能换向等功能，兼顾高效割草与科学护草双重价值。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1265,928\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_31bd51855b0b44c2ad32b536080c0949@517825446_oswg253987oswg1265oswg928_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p><strong>重磅产品亮相 重构未来庭院生活场景</strong></p>\n  <p>旗舰产品追觅割草机器人A3 AWD PRO，在环境感知、切割效率、复杂地形适应性方面全面领先。首创双目视觉与AI算法融合避障技术，动态障碍物识别准确率达到98%；四驱轮毂电机提供80%的爬坡能力，可跨越5.5厘米垂直障碍，彻底打破同类产品在复杂地形适应性上的局限；EdgeMaster™ 2.0 沿边切割系统通过双刀盘偏摆设计实现贴边高精度切割，无需人工二次补剪即可呈现整齐专业的草坪效果</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"6000,4002\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_ac21aa8c73004f9b9498bd3ea12b8467@517825446_oswg9891970oswg6000oswg4002_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p>追觅首款具身智能割草机器人APEX，代表了庭院机器人的未来演进方向：从单一割草工具升级为可拓展、多任务的智能庭院管家。通过拓展机械臂，可自主完成落叶清扫、垃圾收集倾倒、玩具工具复位整理。不仅如此，还可以成为庭院多场景助手，实现自动浇水，果实采摘等实用性功能，甚至可以成为宠物和孩子草坪场景专属互动对象，提供更多情感陪伴价值</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1280,1919\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_86e6fc702c8a43469b2783a5ca44c7a7@517825446_oswg1502190oswg1280oswg1919_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n  <p><strong>市场表现持续走强 &nbsp;技术创新驱动全球增长</strong></p>\n  <p>2024 年，追觅正式发布全球首批搭载激光雷达技术的智能割草机器人，创新性提出仅依赖激光雷达即可完成室外环境下的高精度定位、建图与全向避障解决方案，树立激光雷达割草机器人技术范式；产品实现上市即爆款，斩获2025年沙利文认证全球激光雷达割草机器人销售额第一的成绩</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1265,710\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_1ff2dcce1f9f41719cba4670e5da0a54@517825446_oswg60801oswg1265oswg710_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">官方图片</p>\n \n",
+    "url": "https://36kr.com/p/3719602417153408?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "robotics",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-039",
+    "title": "清华学霸团队打造“AI工程师”，帮2000万工程师打造AI助手｜水下项目",
+    "summary": "\n \n \n  2026年，全球AI产业迎来关键转折点，大模型狂热逐渐退潮，核心叙事从技术军备竞赛转向商业化兑现。\n  在这样的周期里，AI+CAD平台公司「品览科技」选择了一条相对另类的发展路径：没有追逐大模型风口，没有做C端爆款，也不想讲AI替代人力的故事，而是选择钻进图纸堆，切入工业设计这个不太“性感”的细分领域。\n  品览科技创立于2018年，专注于AI+CAD核⼼平台的研发与产业化应用，为...",
+    "content": "\n \n \n  <p>2026年，全球AI产业迎来关键转折点，大模型狂热逐渐退潮，核心叙事从技术军备竞赛转向商业化兑现。</p>\n  <p>在这样的周期里，AI+CAD平台公司「品览科技」选择了一条相对另类的发展路径：没有追逐大模型风口，没有做C端爆款，也不想讲AI替代人力的故事，而是选择钻进图纸堆，切入工业设计这个不太“性感”的细分领域。</p>\n  <p><strong>品览科技创立于2018年，专注于AI+CAD核⼼平台的研发与产业化应用，为AEC⼯程设计和MFG⼯业设计⾏业提供AI设计整体解决⽅案。</strong>创始人李一帆毕业于清华⼤学电⼦⼯程系，后在卡耐基梅隆大学攻读硕士学位。在硅谷创业期间，曾参与多个创业项目，担任MailTime创始团队成员与Caicloud⾏业AI负责⼈，领导开发多个AI相关产品与解决⽅案。</p>\n  <p>近年来，AutoDesk等头部CAD厂商也开始布局AI能力，但李一凡并不想做“中国版AutoDesk”，而是要构建一个可以接受自然语言任务、理解设计意图和物理规律，并且能够自主规划与持续自我进化的“AI工程师”。</p>\n  <p><strong>1.从图纸识别到“AI工程师”的产品演进</strong></p>\n  <p>2018年李一帆从硅谷回国创办品览科技后，曾用一年时间在不同行业寻找适合AI技术落地的应用场景。直到2019年，品览科技在微软一场论坛上的演讲引起万科团队的注意。</p>\n  <p>经过几个月沟通探讨，李一帆了解到，建筑设计需要大量绘图工作，单张图纸平均修改10次，重复劳动占比超80%，仅管线排布的施工图就需要半个月反复核对。与此同时，大量的数字化图纸、规范与经验，恰恰具备AI技术落地的核心数据基础。这让李一帆看到技术落地的可能性，品览科技与万科达成合作，研发出一套AI审图系统。</p>\n  <p>不同于简单的图片识别，图纸的复杂性远超自然图像，包含图层信息、专业符号、尺寸标注、多页关联等高度结构化的专业表达，几百张图纸之间还有复杂的逻辑关系。“那时候的‘AI四小龙’虽然能做图片识别，但设计图纸的识别，除了我们，到今天也没有企业能做。”李一帆说道。</p>\n  <p>品览科技的算法团队从几何原理、结构力学等基础知识入手拆解绘图逻辑，搭建底层的模型算法，设计部门提供行业know-how，两个团队互相配合反哺，从避雷针的极小模块，到整栋住宅的电气系统，再到各类非建��行业的设计需求，逐渐构建起适配工程场景、能够让设计师用起来的设计模型，从而不断打磨和优化公司AI CAD核心产品筑绘通的能力。</p>\n  <p>这套技术架构的核心逻辑是，用通用的底层算法作为“内功”，应对不同行业场景需求的“出招”。</p>\n  <p>“客户不用重复发明轮子，只需在平台上训练自己的专属模型。”李一帆解释，从而将绘图效率提升10倍，返工率降低90%。</p>\n  <p>目前，筑绘通已经历七次关键迭代，基于大语言模型、深度学习识图引擎、生成式设计引擎与云端建模引擎的技术底层，具备云CAD、AI识图、设计大模型与AI设计agent能力，现已应用于建筑、电力工程、船舶等工程项目的排布设计与图纸绘制。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1080,608\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_2627a35119ad449dbc75e19cf93680fe@5688585_oswg314448oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">品览技术产品架构</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1080,484\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_7a602648281e4ec6bdf8d2e4327e4c71@5688585_oswg227330oswg1080oswg484_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">筑绘通工作界面</p>\n  <p>“国外传统厂商已经注意到我们的产品，但是更有可能对我们造成威胁的其实是基模巨头，不过目前还没有这个迹象，基模还无法处理设计图纸这种形态。”李一帆说道。</p>\n  <p><strong>2.从垂直应用转向平台化战略，以“ODM”模���出海日本</strong></p>\n  <p>2023年，中国房地产行业经历波动，商品房年开发量骤降，也导致品览科技原本聚焦于住宅AI设计的战略受到直接影响。</p>\n  <p>“市场环境促使我们认清一个现实，我们的优势不是行业专家。而是AI技术专家，所以我们应该专注于做好技术平台，行业的事交给合作伙伴和客户，他们比我们更懂。”李一帆说，“就像华为做基站，却不会去卖SIM卡。”</p>\n  <p>目前筑绘通的产品定位为“AI+CAD核心平台提供商”，采用“软件授权+实施服务”（License+ Service）的服务模式，也可以与客户共创开发定制版。截至2026年3月，筑绘通B端客户数量突破300家，已实现全年经营性盈利。<br>&nbsp;</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1080,332\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_e0004c602c5143afb504433a7f91a162@5688585_oswg105942oswg1080oswg332_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">商业化布局</p>\n  <p>例如，海尔基于筑绘通开发的空调设计应用“海筑绘”，较以往实际节省70%的设计时间。某连锁酒店运用品览科技AI平台排布酒店房间，快速⽣成符合品牌标准的建筑平⾯图和⼯程量清单，将原本4小时的设计时长缩减⾄1⼩时，提效约75%。</p>\n  <p class=\"image-wrapper\"><img data-img-size-val=\"1080,675\" src=\"https://img.36krcdn.com/hsossms/20260312/v2_37394d4b64f3499b9f03eacfb0c96dec@5688585_oswg429025oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1\"></p>\n  <p class=\"img-desc\">“海筑绘”工作界面</p>\n  <p>原本品览科技对出海并没有明确规划，有日本客户在寻找供应商的过程中，看到36氪对品览科技的报道后，伸出合作的橄榄枝。</p>\n  <p>从接到咨询到正式启动合作，品览科技用半年时间研判，最终选择联合共创的合作模式：品览科技出技术，本地伙伴出本地行业专家与销售渠道，共同开发面向日本市场的行业版AI设计工具。</p>\n  <p>这种类似ODM式的出海路径与近年来流行的SaaS出海不同，不是将产品进行语言翻译后直接进行销售，而是需要从技术适配到产品定义都“重做一遍”。</p>\n  <p>李一帆解释，“我们过往的经验是，不要着急在面上铺开，和C端用户‘尬聊’，先选择一个有行业know-how的合作伙伴深度共创，从一个专业方向纵深切进去。试点成功了，向客户证明了我们的能力，再往外延展就只是时间问题。”</p>\n  <p>“在日本、韩国这样高度发达的本土化市场，一定得是当地人做当地事。”合作启动后，李一帆确实很快体会到日本市场的“不一样”。日本独特的建筑形态以独栋的“一户建”为主，集中式公寓较少，并且设计规范与标准体系也完全不同，因此模型算法要做全面改动和适配。</p>\n  <p>其次，日本市场对产品的可靠性要求很高，对试错更加保守，希望问世的AI产品必须足够更成熟。“所以我们的产品打磨也必须得慢工出细活。”李一帆表示，这种“细”体现在方方面面，比如更高的抗震设计要求，模型能够与本地常用的设计软件对接，符合日本工程设计师的工作流程和使用习惯。</p>\n  <p>为解决这些问题，品览科技采用两地协同的模式：一部分团队常驻日本，一部分留在国内，通过线上协作推进开发。“出海这件事是急不来的，我们毕竟不是巨头企业，先在日本把第一步走好，未来无论去韩国还是欧美，都会像这样由点及面地慢慢做大。”李一帆表示。</p>\n  <p>这种“慢”或许正是工程技术应用赛道的本质，需要时间积累行业理解，以耐心建立信任关系。当被问及最终愿景时李一帆表示：“让AI能够做工程设计，创造一个更好的世界。”这个愿景很大，但实现路径很简单，从一个避雷针的AI设计开始，到一座核电站的电缆系统，当别人在做“性感”的事，品览科技选择慢慢积累内功，然后等时间给出答案。</p>\n \n",
+    "url": "https://36kr.com/p/3719341175649922?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "llm",
+    "tags": [
+      "华为"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-040",
+    "title": "自研全球最小行星滚柱丝杠，量产价格降至百元级，「诺仕机器人」完成超亿元A轮融资｜水下项目",
+    "summary": "\n \n \n  36氪获悉，具身智能核心部件供应商「诺仕机器人」（下简称“诺仕”）近日宣布完成超亿元A轮融资。本轮融资由上海半导体装备材料产业基金/浦东科创领投，联想创投、琥珀资本跟投，汽车零部件上市公司鹏翎股份、克来机电战略入股，老股东上汽创投继续加注。诚一资本持续担任公司长期财务顾问。资金将主要用于产能提升、产品研发与流动资金补充。\n  诺仕机器人成立于2023年7月，专注于微型行星滚柱丝杠及基...",
+    "content": "\n \n \n  <p>36氪获悉，具身智能核心部件供应商「诺仕机器人」（下简称“诺仕”）近日宣布完成超亿元A轮融资。本轮融资由上海半导体装备材料产业基金/浦东科创领投，联想创投、琥珀资本跟投，汽车零部件上市公司鹏翎股份、克来机电战略入股，老股东上汽创投继续加注。诚一资本持续担任公司长期财务顾问。资金将主要用于产能提升、产品研发与流动资金补充。</p>\n  <p>诺仕机器人成立于2023年7月，专注于微型行星滚柱丝杠及基于此的微型线性执行器（电缸）的设计、研发与制造，致力于成为汽车、人形机器人及工业领域高精度传动与运动控制核心供应商。</p>\n  <p>目前，诺仕自研的直径仅1.5mm、螺母直径5.5mm的全球最小行星滚柱丝杠，已突破C5级精度丝杠（定位精度误差≤0.023mm/300mm）量产瓶颈。此外，诺仕的1.5mm线性关节方案被国内头部人形机器人厂商采纳为新一代机型的核心执行单元，纳入头部车企与头部具身公司核心供应链。并与多家专注灵巧手技术的头部企业联合开发标准化模组。</p>\n  <p>创始人徐杨硕士毕业于同济大学机械制造专业，曾任法雷奥集团亚太研发中心研发部负责人，具备世界级工厂的实操研发与管理经验。CEO王晓斌曾担任法雷奥集团分公司副经理，参与创立多个新能源汽车公司，擅长企业运营与产业链整合。首席技术顾问徐根林教授任职于上海工业大学（现上海大学）、上海师范⼤学等高校，长期为汽车、航空航天、医疗等行业解决精密传动零部件的进口替代问题，拥有30多年螺纹技术的理论研究与生产经验。</p>\n  <p><strong>1.研发1.5mm全球最小丝杠，量产价格降至百元</strong></p>\n  <p>丝杠是一种常见的机械传动部件，将旋转运动转换为直线运动，广泛用于需要精密控制的工业制造领域，主要分为滑动丝杠（多为梯形丝杠）、滚珠丝杠和行星滚柱丝杠等。其中行星滚柱丝杠因具备高承载、耐冲击、寿命长等优势，主要用于航空等高端领域，但其量产与成本控制也始终是行业难题。</p>\n  <p>而在人形机器人领域，尤其是灵巧手的应用，对丝杠提出了近乎矛盾的需求：不仅体积必须极致小巧，以装入有限的手部空间，还有负载力足够大，以完成捏取、扭转等精细操作，同时兼具高精度、长寿命且成本可控的条件。</p>\n  <p>“灵巧手场景这种‘既要又要还要’的需求，基本上排除了市面上95%以上的供应商。”徐杨表示，“我们得益于徐根林教授过去30多年在这一领域的技术和工艺积累，只用几个月就研发出具身企业需要的产品。”</p>\n  <p>诺仕的核心突破在于，其成功量产的行星滚柱丝杠直径仅1.5mm，螺母直径5.5mm，并且能稳定承载10公斤重量，相比同规格滚珠丝杠额定载荷提升3-5倍，使用寿命延长至15倍。基于此集成无刷电机与非接触式传感器打造的微型线性电缸，尺寸可缩小到8mm x 10.2mm，为全球体积最小的一体化电缸。在可靠性方面，诺仕设计的产品寿命目标超过300万次，性能指标达到国际领先水平。</p>\n  <p><strong>2.发挥行业Know-how能力，成为下一代产品架构共建者</strong></p>\n  <p>“我们不想只做一个‘小而美’的零部件供应商，而是通过发挥行业Know-how能力，成为与客户共同定义下一代产品的架构共建者”。徐杨表示。</p>\n  <p>由于目前国内人形机器人厂商的产品结构设计尚未形成行业共识，诺仕面对不同的客户需求，采取标准化与定制化兼顾的策略：针对灵巧手、腿部等部位，预先根据主流力学需求收敛技术，推出几款标准品，以此保证量产效率；对于非标的个性化需求，则通过小批量试制车间快速响应，帮助客户降低设计复杂度与成本。</p>\n  <p>“过去是机器人公司提需求，供应商想办法满足；现在是诺仕带着1.5mm关节方案，和客户一起重新思考‘手指该怎么做’。”一位投资人说道。</p>\n  <p>徐杨认为，面对不同行业客户的产品需求，诺仕的跨行业服务能力源于公司对底层传动技术的深刻理解以及团队成员的复合背景。例如CEO王晓斌以往在汽车行业的经验，为公司切入汽车线控底盘市场提供关键助力。</p>\n  <p>目前诺仕正与多家主机厂核心Tier 1合作开发后轮转向系统用滚柱丝杠，并参与智能座舱执行器项目，计划从2026年起为国内主流车企稳定供应底盘刹车等高价值产品，构建稳健的现金牛业务。</p>\n  <p>2025年4月，诺仕获得上汽集团首笔投资，打开从线控制动到悬架、座椅调节等汽车精密传动件的合作通道。徐杨介绍，最新一轮融资中的产业资本方中，除了再次投资的上汽创投，还引入联想创投，凭借其生态网络为诺仕的人形机器人业务链接头部本体公司。</p>\n  <p>其他投资方也将从不同方面提供支持，例如浦东科创将协助诺仕对接长三角的机器人和半导体产业集群资源；鹏翎股份、克来机电将提供汽车产业链的协同与自动化生产经验；琥珀资本作为专注于数字化转型核心领域投资的CVC，此前参与投资宇树科技，可以帮助诺仕更好地切入人形机器人其他零部件赛道。</p>\n  <p>“我们的愿景是成为汽车、人形机器人乃至工业领域最核心的灵动执行器供应商，通过把硬件产品做到极致，成长为能够定义行业的‘隐形冠军’。”在徐杨看来，AI和具身行业正在以指数级速度发展，“行业的进化速度已经无法用过去的经验预判，我们的目标很可能比预想的更快实现。”</p>\n \n",
+    "url": "https://36kr.com/p/3719335512585609?f=rss",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "category": "robotics",
+    "tags": [
+      "宇树"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-041",
+    "title": "Pragmatic by design: Engineering AI for the real world",
+    "summary": "The impact of artificial intelligence extends far beyond the digital world and into our everyday lives, across the cars we drive, the appliances in our homes, and medical devices that keep people aliv...",
+    "content": "The impact of artificial intelligence extends far beyond the digital world and into our everyday lives, across the cars we drive, the appliances in our homes, and medical devices that keep people alive. More and more, product engineers are turning to AI to enhance, validate, and streamline the design of the items that furnish our&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-042",
+    "title": "Hustlers are cashing in on China’s OpenClaw AI craze",
+    "summary": "Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast.&#160; Feng, a 27-year-old software engineer based in Beijing, sta...",
+    "content": "Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast.&#160; Feng, a 27-year-old software engineer based in Beijing, started tinkering with OpenClaw, a popular new open-source AI tool that can take over a device and autonomously complete tasks for a&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+    "publishDate": "2026-03-11",
+    "displayDate": "3月11日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-043",
+    "title": "Building a strong data infrastructure for AI agent success",
+    "summary": "In the race to adopt and show value from AI, enterprises are moving faster than ever to deploy agentic AI as copilots, assistants, and autonomous task-runners. In late 2025, nearly two-thirds of compa...",
+    "content": "In the race to adopt and show value from AI, enterprises are moving faster than ever to deploy agentic AI as copilots, assistants, and autonomous task-runners. In late 2025, nearly two-thirds of companies were experimenting with AI agents, while 88% were using AI in at least one business function, up from 78% in 2024, according&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/",
+    "publishDate": "2026-03-10",
+    "displayDate": "3月10日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-044",
+    "title": "How Pokémon Go is giving delivery robots an inch-perfect view of the world",
+    "summary": "Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chica...",
+    "content": "Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a Squirtle or (with a huge amount&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/",
+    "publishDate": "2026-03-10",
+    "displayDate": "3月10日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [
+      "Google"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-045",
+    "title": "How AI is turning the Iran conflict into theater",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. “Anyone wanna host a get together in SF and pull this up on a ...",
+    "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. “Anyone wanna host a get together in SF and pull this up on a 100 inch TV?”&#160; The author of that post on X was referring to an online intelligence dashboard following&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/09/1134063/how-ai-is-turning-the-iran-conflict-into-theater/",
+    "publishDate": "2026-03-09",
+    "displayDate": "3月9日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-046",
+    "title": "Is the Pentagon allowed to surveil Americans with AI?",
+    "summary": "The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law actually allow the US government to conduct mass su...",
+    "content": "The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law actually allow the US government to conduct mass surveillance on Americans? Surprisingly, the answer is not straightforward. More than a decade after Edward Snowden exposed the NSA’s collection of bulk&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
+    "publishDate": "2026-03-06",
+    "displayDate": "3月7日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-047",
+    "title": "Online harassment is entering its AI era",
+    "summary": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage. Like many open-source projects, matplotlib has been overwh...",
+    "content": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage. Like many open-source projects, matplotlib has been overwhelmed by a glut of AI code contributions, and so Shambaugh and his fellow maintainers have instituted a policy that all AI-written code must be&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
+    "publishDate": "2026-03-05",
+    "displayDate": "3月5日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-048",
+    "title": "Bridging the operational AI gap",
+    "summary": "The transformational potential of AI is already well established. Enterprise use cases are building momentum and organizations are transitioning from pilot projects to AI in production. Companies are ...",
+    "content": "The transformational potential of AI is already well established. Enterprise use cases are building momentum and organizations are transitioning from pilot projects to AI in production. Companies are no longer just talking about AI; they are redirecting budgets and resources to make it happen. Many are already experimenting with agentic AI, which promises new levels&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
+    "publishDate": "2026-03-04",
+    "displayDate": "3月4日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-049",
+    "title": "OpenAI’s “compromise” with the Pentagon is what Anthropic feared",
+    "summary": "On February 28, OpenAI announced it had reached a deal that will allow the US military to use its technologies in classified settings. CEO Sam Altman said the negotiations, which the company began pur...",
+    "content": "On February 28, OpenAI announced it had reached a deal that will allow the US military to use its technologies in classified settings. CEO Sam Altman said the negotiations, which the company began pursuing only after the Pentagon’s public reprimand of Anthropic, were “definitely rushed.” In its announcements, OpenAI took great pains to say that&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/",
+    "publishDate": "2026-03-02",
+    "displayDate": "3月3日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [
+      "OpenAI"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-050",
+    "title": "I checked out one of the biggest anti-AI protests yet",
+    "summary": "Pull the plug! Pull the plug! Stop the slop! Stop the slop! For a few hours this Saturday, February 28, I watched as a couple of hundred anti-AI protesters marched through London’s King’s Cross tech h...",
+    "content": "Pull the plug! Pull the plug! Stop the slop! Stop the slop! For a few hours this Saturday, February 28, I watched as a couple of hundred anti-AI protesters marched through London’s King’s Cross tech hub, home to the UK headquarters of OpenAI, Meta, and Google DeepMind, chanting slogans and waving signs. The march was&#8230;",
+    "url": "https://www.technologyreview.com/2026/03/02/1133814/i-checked-out-londons-biggest-ever-anti-ai-protest/",
+    "publishDate": "2026-03-02",
+    "displayDate": "3月2日",
+    "source": {
+      "name": "MIT Technology Review",
+      "type": "tech_media",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence"
+    },
+    "category": "research",
+    "tags": [
+      "OpenAI",
+      "Google",
+      "Meta"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-051",
+    "title": "How NVIDIA AI-Q Reached \\#1 on DeepResearch Bench I and II ",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench",
+    "publishDate": "2026-03-12",
+    "displayDate": "3月12日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-052",
+    "title": "Introducing Storage Buckets on the Hugging Face Hub",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/storage-buckets",
+    "publishDate": "2026-03-10",
+    "displayDate": "3月10日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-053",
+    "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/async-rl-training-landscape",
+    "publishDate": "2026-03-10",
+    "displayDate": "3月10日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-054",
+    "title": "Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-speech",
+    "publishDate": "2026-03-09",
+    "displayDate": "3月10日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-055",
+    "title": "Ulysses Sequence Parallelism: Training with Million-Token Contexts",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/ulysses-sp",
+    "publishDate": "2026-03-09",
+    "displayDate": "3月9日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-056",
+    "title": "LeRobot v0.5.0: Scaling Every Dimension",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/lerobot-release-v050",
+    "publishDate": "2026-03-09",
+    "displayDate": "3月9日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-057",
+    "title": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
+    "publishDate": "2026-03-05",
+    "displayDate": "3月5日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-058",
+    "title": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/modular-diffusers",
+    "publishDate": "2026-03-05",
+    "displayDate": "3月5日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [
+      "Diffusion"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-059",
+    "title": "PRX Part 3 — Training a Text-to-Image Model in 24h!",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/Photoroom/prx-part3",
+    "publishDate": "2026-03-03",
+    "displayDate": "3月4日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [],
+    "importance": "medium",
+    "isFeatured": false
+  },
+  {
+    "id": "2026-03-12-060",
+    "title": "Mixture of Experts (MoEs) in Transformers",
+    "summary": "...",
+    "content": "",
+    "url": "https://huggingface.co/blog/moe-transformers",
+    "publishDate": "2026-02-26",
+    "displayDate": "2月26日",
+    "source": {
+      "name": "Hugging Face Blog",
+      "type": "opensource",
+      "url": "https://huggingface.co/blog"
+    },
+    "category": "research",
+    "tags": [
+      "Transformer"
+    ],
+    "importance": "medium",
+    "isFeatured": false
+  }
+]
