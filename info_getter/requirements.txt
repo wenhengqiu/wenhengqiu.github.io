@@ -1,0 +1,22 @@
+# Info-Getter 依赖
+
+# 网络请求
+aiohttp>=3.8.0
+feedparser>=6.0.0
+
+# 任务调度
+celery>=5.3.0
+redis>=4.5.0
+
+# 数据处理
+pyyaml>=6.0
+python-dateutil>=2.8.0
+
+# GitHub 操作
+PyGithub>=1.59.0
+
+# 文本处理
+simhash>=2.1.0
+
+# 可选：浏览器抓取
+# playwright>=1.40.0
