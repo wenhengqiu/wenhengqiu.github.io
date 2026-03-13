@@ -1,0 +1,384 @@
+# Info-Getter 完整信息源配置
+# 总计: 51个高质量信息源
+# - 原有: 31个 (官方博客 + 科技媒体 + 社区 + 论文)
+# - HN扩展: 20个 (HN Popularity Contest 热门博客)
+
+version: "2.0"
+description: "Info-Getter 完整信息源配置 (51个源)"
+
+total_sources: 51
+
+# 分批配置
+fetch_settings:
+  mode: "batch_parallel"
+  batch_size: 12
+  batch_delay: 2
+  timeout: 30
+  retry_times: 3
+
+# 分类配置
+categories:
+  llm:
+    name: "大模型"
+    keywords: ["GPT", "LLM", "大模型", "Claude", "Gemini", "Transformer", "OpenAI", "DeepMind", "Anthropic"]
+  
+  autonomous:
+    name: "自动驾驶"
+    keywords: ["FSD", "自动驾驶", "ADAS", "NOA", "智驾", "特斯拉", "Tesla", "Waymo", "小鹏", "华为 ADS", "百度 Apollo"]
+  
+  robotics:
+    name: "具身智能"
+    keywords: ["人形机器人", "具身智能", "Embodied AI", "Figure AI", "Optimus", "宇树", "智元", "波士顿动力"]
+  
+  zhuoyu:
+    name: "卓驭科技"
+    keywords: ["卓驭", "成行平台", "大疆车载", "双目视觉", "沈劭劼"]
+  
+  general:
+    name: "综合技术"
+    keywords: ["编程", "架构", "AI", "技术", "工程", "系统"]
+
+# 信息源列表
+sources:
+  # ========== P0: 官方博客 (12个) ==========
+  - id: openai_blog
+    name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    category: llm
+    priority: p0
+    
+  - id: deepmind_blog
+    name: "DeepMind Blog"
+    url: "https://deepmind.google/discover/blog/"
+    category: llm
+    priority: p0
+    
+  - id: anthropic_blog
+    name: "Anthropic"
+    url: "https://www.anthropic.com/news"
+    category: llm
+    priority: p0
+    
+  - id: meta_ai_blog
+    name: "Meta AI"
+    url: "https://ai.meta.com/blog/rss/"
+    category: llm
+    priority: p0
+    
+  - id: tesla_blog
+    name: "Tesla Blog"
+    url: "https://www.tesla.com/blog/rss.xml"
+    category: autonomous
+    priority: p0
+    
+  - id: waymo_blog
+    name: "Waymo Blog"
+    url: "https://waymo.com/blog/rss/"
+    category: autonomous
+    priority: p0
+    
+  - id: huawei_auto
+    name: "华为智能汽车"
+    url: "https://auto.huawei.com/news/rss"
+    category: autonomous
+    language: zh
+    priority: p0
+    
+  - id: xiaopeng
+    name: "小鹏汽车"
+    url: "https://www.xiaopeng.com/news/rss"
+    category: autonomous
+    language: zh
+    priority: p0
+    
+  - id: baidu_apollo
+    name: "百度 Apollo"
+    url: "https://apollo.auto/news/rss"
+    category: autonomous
+    language: zh
+    priority: p0
+    
+  - id: figure_ai
+    name: "Figure AI"
+    url: "https://www.figure.ai/news/rss"
+    category: robotics
+    priority: p0
+    
+  - id: unitree
+    name: "宇树科技"
+    url: "https://www.unitree.com/news/rss"
+    category: robotics
+    language: zh
+    priority: p0
+    
+  - id: zhuoyu_tech
+    name: "卓驭科技"
+    url: "https://www.zhuoyutech.com/news/rss"
+    category: zhuoyu
+    language: zh
+    priority: p0
+
+  # ========== P0: 科技媒体 (10个) ==========
+  - id: jiqizhixin
+    name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+    category: general
+    language: zh
+    priority: p0
+    
+  - id: qbitai
+    name: "量子位"
+    url: "https://www.qbitai.com/rss"
+    category: general
+    language: zh
+    priority: p0
+    
+  - id: pingwest
+    name: "品玩"
+    url: "https://www.pingwest.com/rss"
+    category: general
+    language: zh
+    priority: p0
+    
+  - id: _36kr
+    name: "36氪"
+    url: "https://36kr.com/feed"
+    category: general
+    language: zh
+    priority: p0
+    
+  - id: leiphone
+    name: "雷锋网"
+    url: "https://www.leiphone.com/rss"
+    category: general
+    language: zh
+    priority: p0
+    
+  - id: geekpark
+    name: "极客公园"
+    url: "https://www.geekpark.net/rss"
+    category: general
+    language: zh
+    priority: p0
+    
+  - id: techcrunch_ai
+    name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    category: general
+    priority: p0
+    
+  - id: the_verge_ai
+    name: "The Verge AI"
+    url: "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"
+    category: general
+    priority: p0
+    
+  - id: mit_tech_review
+    name: "MIT Technology Review"
+    url: "https://www.technologyreview.com/feed/"
+    category: general
+    priority: p0
+    
+  - id: ieee_spectrum
+    name: "IEEE Spectrum"
+    url: "https://spectrum.ieee.org/rss/"
+    category: general
+    priority: p0
+
+  # ========== P1: HN热门博客 (20个) ==========
+  - id: joel_on_software
+    name: "Joel on Software"
+    url: "https://www.joelonsoftware.com/feed/"
+    category: general
+    priority: p1
+    
+  - id: coding_horror
+    name: "Coding Horror"
+    url: "https://blog.codinghorror.com/rss/"
+    category: general
+    priority: p1
+    
+  - id: martin_fowler
+    name: "Martin Fowler"
+    url: "https://martinfowler.com/feed.atom"
+    category: general
+    priority: p1
+    
+  - id: high_scalability
+    name: "High Scalability"
+    url: "http://feeds.feedburner.com/HighScalability"
+    category: general
+    priority: p1
+    
+  - id: brendan_gregg
+    name: "Brendan Gregg"
+    url: "https://www.brendangregg.com/blog/rss.xml"
+    category: general
+    priority: p1
+    
+  - id: distill_pub
+    name: "Distill.pub"
+    url: "https://distill.pub/rss.xml"
+    category: llm
+    priority: p1
+    
+  - id: colah_blog
+    name: "Colah's Blog"
+    url: "http://colah.github.io/rss.xml"
+    category: llm
+    priority: p1
+    
+  - id: lilian_weng
+    name: "Lilian Weng"
+    url: "https://lilianweng.github.io/index.xml"
+    category: llm
+    priority: p1
+    
+  - id: sebastian_ruder
+    name: "Sebastian Ruder"
+    url: "https://ruder.io/rss/"
+    category: llm
+    priority: p1
+    
+  - id: ai_alignment
+    name: "AI Alignment Forum"
+    url: "https://alignmentforum.org/rss.xml"
+    category: llm
+    priority: p1
+    
+  - id: jepsen_io
+    name: "Jepsen"
+    url: "https://jepsen.io/rss"
+    category: general
+    priority: p1
+    
+  - id: aphyr_blog
+    name: "Aphyr"
+    url: "https://aphyr.com/posts.atom"
+    category: general
+    priority: p1
+    
+  - id: danluu
+    name: "Dan Luu"
+    url: "https://danluu.com/atom.xml"
+    category: general
+    priority: p1
+    
+  - id: paul_graham
+    name: "Paul Graham"
+    url: "http://www.paulgraham.com/rss.html"
+    category: general
+    priority: p1
+    
+  - id: sam_altman
+    name: "Sam Altman"
+    url: "https://blog.samaltman.com/rss"
+    category: general
+    priority: p1
+    
+  - id: stratechery
+    name: "Stratechery"
+    url: "https://stratechery.com/rss/"
+    category: general
+    priority: p1
+    
+  - id: css_tricks
+    name: "CSS-Tricks"
+    url: "https://css-tricks.com/rss/"
+    category: general
+    priority: p1
+    
+  - id: smashing_mag
+    name: "Smashing Magazine"
+    url: "https://www.smashingmagazine.com/rss/"
+    category: general
+    priority: p1
+    
+  - id: schneier_blog
+    name: "Schneier on Security"
+    url: "https://www.schneier.com/blog/atom.xml"
+    category: general
+    priority: p1
+    
+  - id: krebs_security
+    name: "Krebs on Security"
+    url: "https://krebsonsecurity.com/rss/"
+    category: general
+    priority: p1
+
+  # ========== P1: 社区 & 论文 (9个) ==========
+  - id: hackernews
+    name: "Hacker News"
+    url: "https://hacker-news.firebaseio.com/v0/"
+    type: api
+    category: general
+    priority: p1
+    
+  - id: reddit_ml
+    name: "Reddit r/MachineLearning"
+    url: "https://www.reddit.com/r/MachineLearning/.rss"
+    category: llm
+    priority: p1
+    
+  - id: reddit_selfdriving
+    name: "Reddit r/SelfDrivingCars"
+    url: "https://www.reddit.com/r/SelfDrivingCars/.rss"
+    category: autonomous
+    priority: p1
+    
+  - id: lobsters_ai
+    name: "Lobsters AI"
+    url: "https://lobste.rs/t/ai.rss"
+    category: general
+    priority: p1
+    
+  - id: arxiv_cs_ai
+    name: "arXiv cs.AI"
+    url: "http://arxiv.org/rss/cs.AI"
+    category: llm
+    priority: p1
+    
+  - id: arxiv_cs_cv
+    name: "arXiv cs.CV"
+    url: "http://arxiv.org/rss/cs.CV"
+    category: llm
+    priority: p1
+    
+  - id: arxiv_cs_ro
+    name: "arXiv cs.RO"
+    url: "http://arxiv.org/rss/cs.RO"
+    category: robotics
+    priority: p1
+    
+  - id: paperswithcode
+    name: "Papers With Code"
+    url: "https://paperswithcode.com/rss"
+    category: general
+    priority: p1
+    
+  - id: huggingface_blog
+    name: "HuggingFace Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: llm
+    priority: p1
+
+# 统计
+stats:
+  by_priority:
+    p0: 22  # 官方博客 + 科技媒体
+    p1: 29  # HN博客 + 社区 + 论文
+  
+  by_category:
+    llm: 15
+    autonomous: 8
+    robotics: 6
+    zhuoyu: 1
+    general: 21
+  
+  by_language:
+    zh: 8
+    en: 43
+  
+  by_type:
+    rss: 50
+    api: 1
