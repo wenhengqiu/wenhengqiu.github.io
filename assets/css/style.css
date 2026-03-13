@@ -308,6 +308,42 @@ body {
     height: 36px;
 }
 
+/* Date Picker Styling */
+.date-picker {
+    position: relative;
+}
+
+.date-picker input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    background: var(--lighter);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    color: var(--text);
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.date-picker input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.date-picker input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .date-picker input[type="date"] {
+        padding: 6px 10px;
+        font-size: 0.85rem;
+        max-width: 130px;
+    }
+}
+
 .search-box {
     display: flex;
     align-items: center;
@@ -994,11 +1030,20 @@ body {
     }
     
     .stats-bar {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+    }
+    
+    .stat-card {
+        padding: 10px 6px;
     }
     
     .stat-value {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+    
+    .stat-label {
+        font-size: 0.7rem;
     }
     
     .date-nav .btn-secondary {
