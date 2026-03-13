@@ -272,13 +272,13 @@
                         <div class="category-icon">🤖</div>
                         <h3>具身智能</h3>
                         <p>Figure AI、Optimus、智元、宇树等人形机器人研究</p>
-                        <span class="category-count">8 篇文章</span>
+                        <span class="category-count">15+ 篇文章</span>
                     </a>
                     <a href="research.html?cat=llm" class="category-card" data-cat="llm">
                         <div class="category-icon">🧠</div>
                         <h3>大模型</h3>
                         <p>OpenAI、Google、智谱、月之暗面等大模型技术解析</p>
-                        <span class="category-count">15 篇文章</span>
+                        <span class="category-count">15+ 篇文章</span>
                     </a>
                 </section>
 
@@ -302,6 +302,7 @@
             try {
                 let articles = [];
                 
+                // Load autonomous data
                 if (category === 'autonomous' || !category) {
                     const response = await fetch('data/articles/research/autonomous.json');
                     if (response.ok) {
@@ -310,7 +311,23 @@
                     }
                 }
                 
-                // TODO: Load robotics and llm data
+                // Load robotics data
+                if (category === 'robotics' || !category) {
+                    const response = await fetch('data/articles/research/robotics.json');
+                    if (response.ok) {
+                        const data = await response.json();
+                        articles = [...articles, ...data];
+                    }
+                }
+                
+                // Load llm data
+                if (category === 'llm' || !category) {
+                    const response = await fetch('data/articles/research/llm.json');
+                    if (response.ok) {
+                        const data = await response.json();
+                        articles = [...articles, ...data];
+                    }
+                }
                 
                 renderArticles(articles, category);
             } catch (error) {
