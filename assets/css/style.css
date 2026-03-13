@@ -259,6 +259,39 @@ body {
     gap: 16px;
 }
 
+.date-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.date-nav .btn-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--lighter);
+    color: var(--text);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+.date-nav .btn-icon:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.date-nav .btn-secondary {
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    height: 36px;
+}
+
 .search-box {
     display: flex;
     align-items: center;
@@ -806,15 +839,52 @@ body {
 @media (max-width: 768px) {
     .header {
         padding: 0 16px;
+        flex-wrap: wrap;
+        height: auto;
+        min-height: 70px;
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
     
     .header-title h1 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+    
+    .header-subtitle {
+        font-size: 0.85rem;
+    }
+    
+    .header-actions {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 8px;
+        gap: 8px;
+    }
+    
+    .date-nav {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        flex-shrink: 0;
+    }
+    
+    .date-nav .btn-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    
+    .date-nav .btn-secondary {
+        padding: 4px 10px;
+        font-size: 0.8rem;
+        height: 32px;
     }
     
     .search-box {
         min-width: auto;
-        width: 100%;
+        flex: 1;
+        max-width: 200px;
     }
     
     .content {
@@ -823,6 +893,15 @@ body {
     
     .stats-bar {
         grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    
+    .stat-card {
+        padding: 16px;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
     }
     
     .filter-bar {
@@ -831,7 +910,16 @@ body {
     }
     
     .filter-group {
-        justify-content: center;
+        justify-content: flex-start;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 8px;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .filter-btn {
+        white-space: nowrap;
+        flex-shrink: 0;
     }
     
     .article-detail {

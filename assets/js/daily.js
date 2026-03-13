@@ -12,11 +12,14 @@ function getTodayString() {
     return new Date().toISOString().split('T')[0];
 }
 
-// Format date for display
+// Format date for display (mobile friendly)
 function formatDate(dateStr) {
     const date = new Date(dateStr);
-    const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
-    return date.toLocaleDateString('zh-CN', options);
+    const month = date.getMonth() + 1;
+    const day = date.getDate();
+    const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+    const weekday = weekdays[date.getDay()];
+    return `${month}月${day}日 ${weekday}`;
 }
 
 // Get category name
