@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-03-13T04:51:41.603Z",
+  "summary": {
+    "totalArticles": 64,
+    "validArticles": 0,
+    "invalidArticles": 0,
+    "linkCheckCount": 5,
+    "fieldErrorCount": 0,
+    "errorCount": 0
+  },
+  "linkChecks": [
+    {
+      "id": "2026-03-13-a001",
+      "title": "特斯拉 FSD V13 即将推送：端到端神经网络重大升级",
+      "url": "https://www.tesla.com/blog/fsd-v13-update",
+      "valid": false,
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "id": "2026-03-13-a002",
+      "title": "华为乾崑 ADS 3.0 发布：全国都能开，有路就能开",
+      "url": "https://auto.huawei.com/news/ads-3-0-release",
+      "valid": false,
+      "status": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "id": "2026-03-13-a003",
+      "title": "小鹏 XNGP 7.0 开通 243 城，城市智驾进入无差别时代",
+      "url": "https://www.xiaopeng.com/news/xngp-7-0-243-cities",
+      "valid": true,
+      "status": 302
+    },
+    {
+      "id": "2026-03-13-a004",
+      "title": "百度 Apollo RT6 量产下线，成本降至 25 万元",
+      "url": "https://apollo.auto/news/rt6-mass-production",
+      "valid": true,
+      "status": 301
+    },
+    {
+      "id": "2026-03-13-a005",
+      "title": "蔚来 NAD 完整版上线，订阅模式 680 元/月",
+      "url": "https://www.nio.cn/news/nad-full-release",
+      "valid": false,
+      "status": 403,
+      "error": "HTTP 403"
+    }
+  ],
+  "fieldChecks": [],
+  "errors": []
+}

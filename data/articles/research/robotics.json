@@ -4,14 +4,29 @@
     "title": "Figure AI 发布 Helix 模型：人形机器人端到端控制 breakthrough",
     "summary": "Figure AI 发布 Helix 端到端视觉-语言-动作模型，实现人形机器人零样本泛化能力，可理解自然语言指令完成复杂任务。",
     "content": "<p>Figure AI 今日发布 Helix 模型，这是人形机器人领域的重大突破。</p><p>Helix 核心能力：</p><ul><li>端到端视觉-语言-动作（VLA）架构</li><li>零样本泛化，无需针对新任务训练</li><li>理解自然语言指令，如「把红色杯子放到左边抽屉」</li><li>双手协调操作，完成复杂装配任务</li></ul><p>Figure 表示 Helix 将部署到下一代 Figure 02 机器人上。</p>",
-    "source": {"name": "Figure AI", "type": "official", "url": "https://www.figure.ai"},
-    "original_url": "https://www.figure.ai/news/helix-model",
+    "source": {
+      "name": "Figure AI",
+      "type": "official",
+      "url": "https://www.figure.ai"
+    },
+    "original_url": "https://www.google.com/search?q=Figure%20AI%20%E5%8F%91%E5%B8%83%20Helix%20%E6%A8%A1%E5%9E%8B%EF%BC%9A%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%AB%AF%E5%88%B0%E7%AB%AF%E6%8E%A7%E5%88%B6%20breakthrough%20Figure%20AI",
     "publish_date": "2026-03-13",
     "display_date": "3月13日",
     "category": "robotics",
-    "tags": ["Figure AI", "Helix", "VLA", "人形机器人"],
-    "companies": ["Figure AI"],
-    "technologies": ["Helix", "VLA", "端到端"],
+    "tags": [
+      "Figure AI",
+      "Helix",
+      "VLA",
+      "人形机器人"
+    ],
+    "companies": [
+      "Figure AI"
+    ],
+    "technologies": [
+      "Helix",
+      "VLA",
+      "端到端"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -20,14 +35,29 @@
     "title": "特斯拉 Optimus  Gen 3 亮相，行走速度提升 3 倍",
     "summary": "特斯拉发布 Optimus 人形机器人第三代原型机，采用全新执行器和传感器，行走速度达 8km/h，可上下楼梯。",
     "content": "<p>特斯拉在得州工厂展示了 Optimus Gen 3 原型机，马斯克称这是「迄今为止最先进的通用人形机器人」。</p><p>Gen 3 升级亮点：</p><ul><li>全新执行器设计，扭矩密度提升 50%</li><li>行走速度达 8km/h，可上下楼梯</li><li>双手 22 个自由度，可抓取 10kg 重物</li><li>端到端神经网络控制，响应延迟 < 50ms</li></ul><p>特斯拉计划 2026 年底开始小批量生产。</p>",
-    "source": {"name": "Tesla 官方", "type": "official", "url": "https://www.tesla.com"},
-    "original_url": "https://www.tesla.com/blog/optimus-gen-3",
+    "source": {
+      "name": "Tesla 官方",
+      "type": "official",
+      "url": "https://www.tesla.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E7%89%B9%E6%96%AF%E6%8B%89%20Optimus%20%20Gen%203%20%E4%BA%AE%E7%9B%B8%EF%BC%8C%E8%A1%8C%E8%B5%B0%E9%80%9F%E5%BA%A6%E6%8F%90%E5%8D%87%203%20%E5%80%8D%20Tesla%20%E5%AE%98%E6%96%B9",
     "publish_date": "2026-03-12",
     "display_date": "3月12日",
     "category": "robotics",
-    "tags": ["特斯拉", "Optimus", "人形机器人", "马斯克"],
-    "companies": ["特斯拉"],
-    "technologies": ["Optimus Gen 3", "执行器", "端到端"],
+    "tags": [
+      "特斯拉",
+      "Optimus",
+      "人形机器人",
+      "马斯克"
+    ],
+    "companies": [
+      "特斯拉"
+    ],
+    "technologies": [
+      "Optimus Gen 3",
+      "执行器",
+      "端到端"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -36,14 +66,29 @@
     "title": "智元机器人发布远征 A2 系列，售价 19.9 万元起",
     "summary": "智元机器人发布远征 A2 和 A2-W 人形机器人，面向科研教育和工业场景，将人形机器人价格首次拉低至 20 万元以内。",
     "content": "<p>智元机器人今日正式发布远征 A2 系列人形机器人，这是国产人形机器人价格的重要突破。</p><p>远征 A2 配置：</p><ul><li>身高 170cm，体重 55kg，全身 49 个自由度</li><li>搭载智元自研关节电机，峰值扭矩 350Nm</li><li>配备 4D 激光雷达和 RGB-D 相机</li><li>科研版售价 19.9 万元，工业版 29.9 万元</li></ul><p>智元计划 2026 年出货 1000 台。</p>",
-    "source": {"name": "智元机器人", "type": "official", "url": "https://www.zhiyuan-robot.com"},
-    "original_url": "https://www.zhiyuan-robot.com/news/expedition-a2",
+    "source": {
+      "name": "智元机器人",
+      "type": "official",
+      "url": "https://www.zhiyuan-robot.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E6%99%BA%E5%85%83%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%91%E5%B8%83%E8%BF%9C%E5%BE%81%20A2%20%E7%B3%BB%E5%88%97%EF%BC%8C%E5%94%AE%E4%BB%B7%2019.9%20%E4%B8%87%E5%85%83%E8%B5%B7%20%E6%99%BA%E5%85%83%E6%9C%BA%E5%99%A8%E4%BA%BA",
     "publish_date": "2026-03-11",
     "display_date": "3月11日",
     "category": "robotics",
-    "tags": ["智元机器人", "远征 A2", "人形机器人", "价格"],
-    "companies": ["智元机器人"],
-    "technologies": ["远征 A2", "关节电机", "4D 雷达"],
+    "tags": [
+      "智元机器人",
+      "远征 A2",
+      "人形机器人",
+      "价格"
+    ],
+    "companies": [
+      "智元机器人"
+    ],
+    "technologies": [
+      "远征 A2",
+      "关节电机",
+      "4D 雷达"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -52,14 +97,29 @@
     "title": "宇树科技 H1 人形机器人实现后空翻，动态能力突破",
     "summary": "宇树科技 H1 人形机器人成功完成后空翻动作，成为全球首个实现该动作的电驱人形机器人，动态平衡能力达到新高度。",
     "content": "<p>宇树科技发布视频展示 H1 人形机器人完成后空翻动作，这是电驱人形机器人的世界首次。</p><p>技术突破：</p><ul><li>后空翻高度 0.8 米，落地稳定</li><li>全身 19 个自由度，膝关节扭矩 360Nm</li><li>采用 Model Predictive Control 控制算法</li><li>实时感知地面状态，自适应调整</li></ul><p>宇树表示 H1 已开放预售，售价 65 万元。</p>",
-    "source": {"name": "宇树科技", "type": "official", "url": "https://www.unitree.com"},
-    "original_url": "https://www.unitree.com/news/h1-backflip",
+    "source": {
+      "name": "宇树科技",
+      "type": "official",
+      "url": "https://www.unitree.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%20H1%20%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%8E%B0%E5%90%8E%E7%A9%BA%E7%BF%BB%EF%BC%8C%E5%8A%A8%E6%80%81%E8%83%BD%E5%8A%9B%E7%AA%81%E7%A0%B4%20%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80",
     "publish_date": "2026-03-10",
     "display_date": "3月10日",
     "category": "robotics",
-    "tags": ["宇树科技", "H1", "后空翻", "动态平衡"],
-    "companies": ["宇树科技"],
-    "technologies": ["H1", "MPC 控制", "电驱"],
+    "tags": [
+      "宇树科技",
+      "H1",
+      "后空翻",
+      "动态平衡"
+    ],
+    "companies": [
+      "宇树科技"
+    ],
+    "technologies": [
+      "H1",
+      "MPC 控制",
+      "电驱"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -68,14 +128,30 @@
     "title": "波士顿动力 Atlas 全面电动化，液压系统退役",
     "summary": "波士顿动力发布全电动版 Atlas 机器人，完全抛弃液压系统，采用全新电驱架构，动作更加流畅自然。",
     "content": "<p>波士顿动力今日发布全新电动版 Atlas，标志着液压人形机器人时代的结束。</p><p>电动 Atlas 特点：</p><ul><li>全电驱关节，功率密度提升 3 倍</li><li>动作更加流畅，噪音大幅降低</li><li>可完成 540 度空中转体</li><li>续航时间 4 小时，支持热插拔电池</li></ul><p>波士顿动力表示电动版将在 2026 年向企业客户交付。</p>",
-    "source": {"name": "Boston Dynamics", "type": "official", "url": "https://bostondynamics.com"},
-    "original_url": "https://bostondynamics.com/news/electric-atlas",
+    "source": {
+      "name": "Boston Dynamics",
+      "type": "official",
+      "url": "https://bostondynamics.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E6%B3%A2%E5%A3%AB%E9%A1%BF%E5%8A%A8%E5%8A%9B%20Atlas%20%E5%85%A8%E9%9D%A2%E7%94%B5%E5%8A%A8%E5%8C%96%EF%BC%8C%E6%B6%B2%E5%8E%8B%E7%B3%BB%E7%BB%9F%E9%80%80%E5%BD%B9%20Boston%20Dynamics",
     "publish_date": "2026-03-08",
     "display_date": "3月8日",
     "category": "robotics",
-    "tags": ["波士顿动力", "Atlas", "电动化", "液压"],
-    "companies": ["波士顿动力", "现代"],
-    "technologies": ["Atlas", "电驱", "全电动"],
+    "tags": [
+      "波士顿动力",
+      "Atlas",
+      "电动化",
+      "液压"
+    ],
+    "companies": [
+      "波士顿动力",
+      "现代"
+    ],
+    "technologies": [
+      "Atlas",
+      "电驱",
+      "全电动"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -84,14 +160,30 @@
     "title": "Agility Robotics 与亚马逊扩大合作，Digit 机器人部署至 10 个仓库",
     "summary": "Agility Robotics 宣布与亚马逊扩大合作，Digit 人形机器人将部署至 10 个亚马逊仓库，负责搬运和分拣任务。",
     "content": "<p>Agility Robotics 今日宣布与亚马逊达成扩大合作协议。</p><p>合作详情：</p><ul><li>Digit 机器人部署至 10 个亚马逊履约中心</li><li>负责搬运重量不超过 16kg 的包裹</li><li>与人类员工协作，提升分拣效率 30%</li><li>24/7 连续作业，自动充电</li></ul><p>这是人形机器人在物流领域最大规模的商业部署。</p>",
-    "source": {"name": "Agility Robotics", "type": "official", "url": "https://www.agilityrobotics.com"},
-    "original_url": "https://www.agilityrobotics.com/news/amazon-expansion",
+    "source": {
+      "name": "Agility Robotics",
+      "type": "official",
+      "url": "https://www.agilityrobotics.com"
+    },
+    "original_url": "https://www.google.com/search?q=Agility%20Robotics%20%E4%B8%8E%E4%BA%9A%E9%A9%AC%E9%80%8A%E6%89%A9%E5%A4%A7%E5%90%88%E4%BD%9C%EF%BC%8CDigit%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%83%A8%E7%BD%B2%E8%87%B3%2010%20%E4%B8%AA%E4%BB%93%E5%BA%93%20Agility%20Robotics",
     "publish_date": "2026-03-06",
     "display_date": "3月6日",
     "category": "robotics",
-    "tags": ["Agility", "Digit", "亚马逊", "物流"],
-    "companies": ["Agility Robotics", "亚马逊"],
-    "technologies": ["Digit", "物流机器人", "仓储"],
+    "tags": [
+      "Agility",
+      "Digit",
+      "亚马逊",
+      "物流"
+    ],
+    "companies": [
+      "Agility Robotics",
+      "亚马逊"
+    ],
+    "technologies": [
+      "Digit",
+      "物流机器人",
+      "仓储"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -100,14 +192,29 @@
     "title": "傅利叶智能 GR-1 获得欧盟 CE 认证，进军欧洲市场",
     "summary": "傅利叶智能人形机器人 GR-1 获得欧盟 CE 认证，成为中国首个获此认证的人形机器人，标志着国产机器人进入欧洲市场。",
     "content": "<p>傅利叶智能今日宣布 GR-1 人形机器人获得欧盟 CE 认证。</p><p>认证意义：</p><ul><li>符合欧盟机械指令和安全标准</li><li>可在欧洲 27 国合法销售和使用</li><li>医疗康复版本获得医疗器械认证</li><li>已与德国、法国多家医院达成合作意向</li></ul><p>傅利叶计划 2026 年在欧洲销售 200 台 GR-1。</p>",
-    "source": {"name": "傅利叶智能", "type": "official", "url": "https://www.fftai.com"},
-    "original_url": "https://www.fftai.com/news/gr1-ce-certification",
+    "source": {
+      "name": "傅利叶智能",
+      "type": "official",
+      "url": "https://www.fftai.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E5%82%85%E5%88%A9%E5%8F%B6%E6%99%BA%E8%83%BD%20GR-1%20%E8%8E%B7%E5%BE%97%E6%AC%A7%E7%9B%9F%20CE%20%E8%AE%A4%E8%AF%81%EF%BC%8C%E8%BF%9B%E5%86%9B%E6%AC%A7%E6%B4%B2%E5%B8%82%E5%9C%BA%20%E5%82%85%E5%88%A9%E5%8F%B6%E6%99%BA%E8%83%BD",
     "publish_date": "2026-03-05",
     "display_date": "3月5日",
     "category": "robotics",
-    "tags": ["傅利叶智能", "GR-1", "CE 认证", "欧洲"],
-    "companies": ["傅利叶智能"],
-    "technologies": ["GR-1", "认证", "医疗康复"],
+    "tags": [
+      "傅利叶智能",
+      "GR-1",
+      "CE 认证",
+      "欧洲"
+    ],
+    "companies": [
+      "傅利叶智能"
+    ],
+    "technologies": [
+      "GR-1",
+      "认证",
+      "医疗康复"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -116,14 +223,30 @@
     "title": "Google DeepMind 发布 RT-3 机器人模型，推理能力提升 10 倍",
     "summary": "Google DeepMind 发布 RT-3 机器人 Transformer 模型，结合 Gemini 大模型，实现复杂推理和长程任务规划能力。",
     "content": "<p>Google DeepMind 今日发布 RT-3（Robotics Transformer 3），这是机器人基础模型的重大升级。</p><p>RT-3 能力：</p><ul><li>结合 Gemini Pro 大模型进行复杂推理</li><li>支持长程任务规划（100+ 步骤）</li><li>跨机器人平台泛化，无需重新训练</li><li>理解模糊指令，如「把这里收拾干净」</li></ul><p>RT-3 已在 Google 内部数据中心进行测试。</p>",
-    "source": {"name": "DeepMind", "type": "official", "url": "https://deepmind.google"},
-    "original_url": "https://deepmind.google/blog/rt-3-robotics",
+    "source": {
+      "name": "DeepMind",
+      "type": "official",
+      "url": "https://deepmind.google"
+    },
+    "original_url": "https://www.google.com/search?q=Google%20DeepMind%20%E5%8F%91%E5%B8%83%20RT-3%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A8%A1%E5%9E%8B%EF%BC%8C%E6%8E%A8%E7%90%86%E8%83%BD%E5%8A%9B%E6%8F%90%E5%8D%87%2010%20%E5%80%8D%20DeepMind",
     "publish_date": "2026-03-03",
     "display_date": "3月3日",
     "category": "robotics",
-    "tags": ["Google", "DeepMind", "RT-3", "Gemini"],
-    "companies": ["Google", "DeepMind"],
-    "technologies": ["RT-3", "Gemini", "VLA"],
+    "tags": [
+      "Google",
+      "DeepMind",
+      "RT-3",
+      "Gemini"
+    ],
+    "companies": [
+      "Google",
+      "DeepMind"
+    ],
+    "technologies": [
+      "RT-3",
+      "Gemini",
+      "VLA"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -132,14 +255,30 @@
     "title": "1X Technologies 推出 NEO Gamma 家用机器人，售价 15 万元",
     "summary": "挪威机器人公司 1X Technologies 发布家用双足机器人 NEO Gamma，主打家庭服务场景，售价约 15 万元人民币。",
     "content": "<p>1X Technologies 今日发布 NEO Gamma 家用机器人，这是首款面向消费市场的双足家用机器人。</p><p>NEO Gamma 特点：</p><ul><li>身高 167cm，体重 30kg，轻量化设计</li><li>可执行家务、陪伴、安防等任务</li><li>采用柔性执行器，安全与人互动</li><li>售价 2 万美元（约 15 万人民币）</li></ul><p>1X 计划 2026 年 Q4 开始交付。</p>",
-    "source": {"name": "1X Technologies", "type": "official", "url": "https://www.1x.tech"},
-    "original_url": "https://www.1x.tech/news/neo-gamma",
+    "source": {
+      "name": "1X Technologies",
+      "type": "official",
+      "url": "https://www.1x.tech"
+    },
+    "original_url": "https://www.google.com/search?q=1X%20Technologies%20%E6%8E%A8%E5%87%BA%20NEO%20Gamma%20%E5%AE%B6%E7%94%A8%E6%9C%BA%E5%99%A8%E4%BA%BA%EF%BC%8C%E5%94%AE%E4%BB%B7%2015%20%E4%B8%87%E5%85%83%201X%20Technologies",
     "publish_date": "2026-02-28",
     "display_date": "2月28日",
     "category": "robotics",
-    "tags": ["1X", "NEO Gamma", "家用机器人", "消费级"],
-    "companies": ["1X Technologies", "OpenAI"],
-    "technologies": ["NEO Gamma", "柔性执行器", "家用"],
+    "tags": [
+      "1X",
+      "NEO Gamma",
+      "家用机器人",
+      "消费级"
+    ],
+    "companies": [
+      "1X Technologies",
+      "OpenAI"
+    ],
+    "technologies": [
+      "NEO Gamma",
+      "柔性执行器",
+      "家用"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -148,14 +287,30 @@
     "title": "优必选 Walker S 进入东风汽车工厂，开展人形机器人实训",
     "summary": "优必选 Walker S 人形机器人进入东风汽车工厂，与工人协同完成装配任务，标志着人形机器人正式进入汽车制造场景。",
     "content": "<p>优必选今日宣布 Walker S 人形机器人正式进入东风汽车武汉工厂实训。</p><p>实训内容：</p><ul><li>车门密封条安装，精度达 ±0.5mm</li><li>仪表盘组件搬运和装配</li><li>与 AGV 协同完成物料配送</li><li>适应产线节拍，单工位周期 3 分钟</li></ul><p>东风计划 2026 年在 3 个工厂部署 50 台 Walker S。</p>",
-    "source": {"name": "优必选", "type": "official", "url": "https://www.ubtrobot.com"},
-    "original_url": "https://www.ubtrobot.com/news/walker-s-dongfeng",
+    "source": {
+      "name": "优必选",
+      "type": "official",
+      "url": "https://www.ubtrobot.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E4%BC%98%E5%BF%85%E9%80%89%20Walker%20S%20%E8%BF%9B%E5%85%A5%E4%B8%9C%E9%A3%8E%E6%B1%BD%E8%BD%A6%E5%B7%A5%E5%8E%82%EF%BC%8C%E5%BC%80%E5%B1%95%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E8%AE%AD%20%E4%BC%98%E5%BF%85%E9%80%89",
     "publish_date": "2026-02-26",
     "display_date": "2月26日",
     "category": "robotics",
-    "tags": ["优必选", "Walker S", "东风汽车", "汽车制造"],
-    "companies": ["优必选", "东风汽车"],
-    "technologies": ["Walker S", "汽车装配", "协同作业"],
+    "tags": [
+      "优必选",
+      "Walker S",
+      "东风汽车",
+      "汽车制造"
+    ],
+    "companies": [
+      "优必选",
+      "东风汽车"
+    ],
+    "technologies": [
+      "Walker S",
+      "汽车装配",
+      "协同作业"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -164,14 +319,31 @@
     "title": " covariant 推出 RFM-2 机器人基础模型，获得 3 亿美元融资",
     "summary": "机器人 AI 公司 covariant 发布 RFM-2 机器人基础模型，同时宣布完成 3 亿美元 C 轮融资，估值达 25 亿美元。",
     "content": "<p>covariant 今日发布 RFM-2（Robotics Foundation Model 2）并宣布完成新一轮融资。</p><p>RFM-2 能力：</p><ul><li>理解物理世界，预测物体运动轨迹</li><li>零样本迁移至新机器人平台</li><li>支持多模态输入（视觉、力觉、语言）</li><li>已在仓储、零售、制造业部署</li></ul><p>投资方包括微软、英伟达、盖茨基金等。</p>",
-    "source": {"name": "covariant", "type": "official", "url": "https://covariant.ai"},
-    "original_url": "https://covariant.ai/news/rfm-2-funding",
+    "source": {
+      "name": "covariant",
+      "type": "official",
+      "url": "https://covariant.ai"
+    },
+    "original_url": "https://www.google.com/search?q=%20covariant%20%E6%8E%A8%E5%87%BA%20RFM-2%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B%EF%BC%8C%E8%8E%B7%E5%BE%97%203%20%E4%BA%BF%E7%BE%8E%E5%85%83%E8%9E%8D%E8%B5%84%20covariant",
     "publish_date": "2026-02-24",
     "display_date": "2月24日",
     "category": "robotics",
-    "tags": ["covariant", "RFM-2", "融资", "基础模型"],
-    "companies": ["covariant", "微软", "英伟达"],
-    "technologies": ["RFM-2", "基础模型", "物理理解"],
+    "tags": [
+      "covariant",
+      "RFM-2",
+      "融资",
+      "基础模型"
+    ],
+    "companies": [
+      "covariant",
+      "微软",
+      "英伟达"
+    ],
+    "technologies": [
+      "RFM-2",
+      "基础模型",
+      "物理理解"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -180,14 +352,29 @@
     "title": "特斯拉 Optimus 在工厂完成 1000 次电池分拣任务",
     "summary": "特斯拉宣布 Optimus 人形机器人在得州工厂累计完成 1000 次 4680 电池分拣任务，成功率达 98.7%。",
     "content": "<p>特斯拉今日公布 Optimus 工厂实训最新进展。</p><p>实训成果：</p><ul><li>累计完成 1000 次电池分拣任务</li><li>单次任务时间从 5 分钟缩短至 2 分钟</li><li>成功率达 98.7%，接近人类工人水平</li><li>可连续工作 8 小时无需充电</li></ul><p>特斯拉计划 2026 年在工厂部署 100 台 Optimus。</p>",
-    "source": {"name": "Tesla 官方", "type": "official", "url": "https://www.tesla.com"},
-    "original_url": "https://www.tesla.com/blog/optimus-1000-tasks",
+    "source": {
+      "name": "Tesla 官方",
+      "type": "official",
+      "url": "https://www.tesla.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E7%89%B9%E6%96%AF%E6%8B%89%20Optimus%20%E5%9C%A8%E5%B7%A5%E5%8E%82%E5%AE%8C%E6%88%90%201000%20%E6%AC%A1%E7%94%B5%E6%B1%A0%E5%88%86%E6%8B%A3%E4%BB%BB%E5%8A%A1%20Tesla%20%E5%AE%98%E6%96%B9",
     "publish_date": "2026-02-22",
     "display_date": "2月22日",
     "category": "robotics",
-    "tags": ["特斯拉", "Optimus", "工厂", "电池分拣"],
-    "companies": ["特斯拉"],
-    "technologies": ["Optimus", "工厂实训", "4680 电池"],
+    "tags": [
+      "特斯拉",
+      "Optimus",
+      "工厂",
+      "电池分拣"
+    ],
+    "companies": [
+      "特斯拉"
+    ],
+    "technologies": [
+      "Optimus",
+      "工厂实训",
+      "4680 电池"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -196,14 +383,30 @@
     "title": "星动纪元发布 STAR1 人形机器人，奔跑速度达 10km/h",
     "summary": "国内初创公司星动纪元发布 STAR1 人形机器人，奔跑速度达 10km/h，创人形机器人速度新纪录。",
     "content": "<p>星动纪元今日发布 STAR1 人形机器人，主打高动态运动能力。</p><p>STAR1 性能：</p><ul><li>奔跑速度 10km/h，可维持 5 分钟</li><li>跳跃高度 0.5 米，可跨越障碍物</li><li>全身 51 个自由度，高度仿生</li><li>售价 35 万元，面向科研市场</li></ul><p>星动纪元成立于 2023 年，已获得红杉中国投资。</p>",
-    "source": {"name": "星动纪元", "type": "official", "url": "https://www.stardynamics.cn"},
-    "original_url": "https://www.stardynamics.cn/news/star1",
+    "source": {
+      "name": "星动纪元",
+      "type": "official",
+      "url": "https://www.stardynamics.cn"
+    },
+    "original_url": "https://www.google.com/search?q=%E6%98%9F%E5%8A%A8%E7%BA%AA%E5%85%83%E5%8F%91%E5%B8%83%20STAR1%20%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%EF%BC%8C%E5%A5%94%E8%B7%91%E9%80%9F%E5%BA%A6%E8%BE%BE%2010km%2Fh%20%E6%98%9F%E5%8A%A8%E7%BA%AA%E5%85%83",
     "publish_date": "2026-02-20",
     "display_date": "2月20日",
     "category": "robotics",
-    "tags": ["星动纪元", "STAR1", "奔跑", "速度"],
-    "companies": ["星动纪元", "红杉中国"],
-    "technologies": ["STAR1", "高动态", "仿生"],
+    "tags": [
+      "星动纪元",
+      "STAR1",
+      "奔跑",
+      "速度"
+    ],
+    "companies": [
+      "星动纪元",
+      "红杉中国"
+    ],
+    "technologies": [
+      "STAR1",
+      "高动态",
+      "仿生"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -212,14 +415,30 @@
     "title": " Sanctuary AI 与 Magna 合作，将 Phoenix 部署至汽车零部件工厂",
     "summary": "Sanctuary AI 与汽车零部件巨头 Magna 达成合作，将在其工厂部署 Phoenix 人形机器人执行精密装配任务。",
     "content": "<p>Sanctuary AI 今日宣布与 Magna 达成战略合作协议。</p><p>合作内容：</p><ul><li>在 Magna 5 个工厂部署 Phoenix 机器人</li><li>执行线束装配、传感器安装等精密任务</li><li>24/7 连续作业，提升产线效率 25%</li><li>联合开发汽车制造专用技能</li></ul><p>Magna 是全球第三大汽车零部件供应商。</p>",
-    "source": {"name": "Sanctuary AI", "type": "official", "url": "https://sanctuary.ai"},
-    "original_url": "https://sanctuary.ai/news/magna-partnership",
+    "source": {
+      "name": "Sanctuary AI",
+      "type": "official",
+      "url": "https://sanctuary.ai"
+    },
+    "original_url": "https://www.google.com/search?q=%20Sanctuary%20AI%20%E4%B8%8E%20Magna%20%E5%90%88%E4%BD%9C%EF%BC%8C%E5%B0%86%20Phoenix%20%E9%83%A8%E7%BD%B2%E8%87%B3%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E5%B7%A5%E5%8E%82%20Sanctuary%20AI",
     "publish_date": "2026-02-18",
     "display_date": "2月18日",
     "category": "robotics",
-    "tags": ["Sanctuary AI", "Phoenix", "Magna", "汽车"],
-    "companies": ["Sanctuary AI", "Magna"],
-    "technologies": ["Phoenix", "精密装配", "汽车制造"],
+    "tags": [
+      "Sanctuary AI",
+      "Phoenix",
+      "Magna",
+      "汽车"
+    ],
+    "companies": [
+      "Sanctuary AI",
+      "Magna"
+    ],
+    "technologies": [
+      "Phoenix",
+      "精密装配",
+      "汽车制造"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -228,14 +447,31 @@
     "title": "人形机器人概念股大涨，Figure AI 估值突破 80 亿美元",
     "summary": "受 Figure AI 和特斯拉 Optimus 进展推动，人形机器人概念股本周大涨，Figure AI 最新估值达 80 亿美元。",
     "content": "<p>人形机器人赛道持续火热，资本市场关注度大幅提升。</p><p>市场动态：</p><ul><li>Figure AI 估值从 26 亿飙升至 80 亿美元</li><li>特斯拉股价因 Optimus 进展上涨 12%</li><li>国内优必选、埃斯顿等概念股涨停</li><li>2026 年人形机器人融资总额已超 50 亿美元</li></ul><p>分析师预计 2030 年全球人形机器人市场规模将达 300 亿美元。</p>",
-    "source": {"name": "彭博社", "type": "tech_media", "url": "https://www.bloomberg.com"},
-    "original_url": "https://www.bloomberg.com/news/humanoid-robotics-market",
+    "source": {
+      "name": "彭博社",
+      "type": "tech_media",
+      "url": "https://www.bloomberg.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A6%82%E5%BF%B5%E8%82%A1%E5%A4%A7%E6%B6%A8%EF%BC%8CFigure%20AI%20%E4%BC%B0%E5%80%BC%E7%AA%81%E7%A0%B4%2080%20%E4%BA%BF%E7%BE%8E%E5%85%83%20%E5%BD%AD%E5%8D%9A%E7%A4%BE",
     "publish_date": "2026-02-15",
     "display_date": "2月15日",
     "category": "robotics",
-    "tags": ["Figure AI", "估值", "概念股", "市场"],
-    "companies": ["Figure AI", "特斯拉", "优必选"],
-    "technologies": ["人形机器人", "投资", "市场"],
+    "tags": [
+      "Figure AI",
+      "估值",
+      "概念股",
+      "市场"
+    ],
+    "companies": [
+      "Figure AI",
+      "特斯拉",
+      "优必选"
+    ],
+    "technologies": [
+      "人形机器人",
+      "投资",
+      "市场"
+    ],
     "importance": "medium",
     "is_featured": false
   }

@@ -4,14 +4,29 @@
     "title": "特斯拉 FSD V13 即将推送：端到端神经网络重大升级",
     "summary": "特斯拉宣布 FSD V13 版本即将向用户推送，采用全新端到端神经网络架构，大幅提升城市复杂场景处理能力，马斯克称这是自动驾驶的重大突破。",
     "content": "<p>特斯拉今日宣布 FSD V13 版本即将开始推送，这是 Autopilot 团队近两年最大的架构升级。</p><p>核心升级包括：</p><ul><li>全新端到端神经网络，减少 30% 代码量</li><li>城市复杂路口处理能力提升 40%</li><li>新增对施工区域和临时交通标志的识别</li><li>雨雾天气性能显著改善</li></ul><p>马斯克在社交媒体上表示，V13 版本让他首次感觉自动驾驶真正接近了人类水平。</p>",
-    "source": {"name": "Tesla 官方", "type": "official", "url": "https://www.tesla.com"},
-    "original_url": "https://www.tesla.com/blog/fsd-v13-update",
+    "source": {
+      "name": "Tesla 官方",
+      "type": "official",
+      "url": "https://www.tesla.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E7%89%B9%E6%96%AF%E6%8B%89%20FSD%20V13%20%E5%8D%B3%E5%B0%86%E6%8E%A8%E9%80%81%EF%BC%9A%E7%AB%AF%E5%88%B0%E7%AB%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E9%87%8D%E5%A4%A7%E5%8D%87%E7%BA%A7%20Tesla%20%E5%AE%98%E6%96%B9",
     "publish_date": "2026-03-13",
     "display_date": "3月13日",
     "category": "autonomous",
-    "tags": ["特斯拉", "FSD", "端到端", "自动驾驶"],
-    "companies": ["特斯拉"],
-    "technologies": ["FSD", "端到端神经网络", "纯视觉"],
+    "tags": [
+      "特斯拉",
+      "FSD",
+      "端到端",
+      "自动驾驶"
+    ],
+    "companies": [
+      "特斯拉"
+    ],
+    "technologies": [
+      "FSD",
+      "端到端神经网络",
+      "纯视觉"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -20,14 +35,32 @@
     "title": "华为乾崑 ADS 3.0 发布：全国都能开，有路就能开",
     "summary": "华为发布乾崑智驾 ADS 3.0 版本，实现全国无图城市 NCA，覆盖 99% 道路场景，问界、智界、阿维塔等品牌将陆续升级。",
     "content": "<p>华为智能汽车解决方案 BU 今日正式发布乾崑 ADS 3.0，这是华为智驾系统的又一次重大升级。</p><p>ADS 3.0 核心能力：</p><ul><li>全国无图城市 NCA，真正实现有路就能开</li><li>复杂路口通过率提升至 96%</li><li>新增代客泊车、远程召唤等功能</li><li>云端 AI 训练里程突破 100 亿公里</li></ul><p>问界 M9、智界 S7、阿维塔 12 等车型将首批推送升级。</p>",
-    "source": {"name": "华为智能汽车", "type": "official", "url": "https://auto.huawei.com"},
-    "original_url": "https://auto.huawei.com/news/ads-3-0-release",
+    "source": {
+      "name": "华为智能汽车",
+      "type": "official",
+      "url": "https://auto.huawei.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%20ADS%203.0%20%E5%8F%91%E5%B8%83%EF%BC%9A%E5%85%A8%E5%9B%BD%E9%83%BD%E8%83%BD%E5%BC%80%EF%BC%8C%E6%9C%89%E8%B7%AF%E5%B0%B1%E8%83%BD%E5%BC%80%20%E5%8D%8E%E4%B8%BA%E6%99%BA%E8%83%BD%E6%B1%BD%E8%BD%A6",
     "publish_date": "2026-03-13",
     "display_date": "3月13日",
     "category": "autonomous",
-    "tags": ["华为", "乾崑 ADS", "无图 NCA", "问界"],
-    "companies": ["华为", "赛力斯", "奇瑞", "长安"],
-    "technologies": ["ADS 3.0", "无图智驾", "激光雷达"],
+    "tags": [
+      "华为",
+      "乾崑 ADS",
+      "无图 NCA",
+      "问界"
+    ],
+    "companies": [
+      "华为",
+      "赛力斯",
+      "奇瑞",
+      "长安"
+    ],
+    "technologies": [
+      "ADS 3.0",
+      "无图智驾",
+      "激光雷达"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -36,14 +69,29 @@
     "title": "小鹏 XNGP 7.0 开通 243 城，城市智驾进入无差别时代",
     "summary": "小鹏汽车宣布 XNGP 7.0 版本城市智驾能力覆盖全国 243 个城市，成为行业首个实现全国主要城市无差别覆盖的智驾系统。",
     "content": "<p>小鹏汽车今日宣布 XNGP 7.0 重大升级，城市智驾可用范围扩展至全国 243 个城市。</p><p>升级亮点：</p><ul><li>覆盖 243 个城市，包括三四线城市</li><li>复杂路口博弈能力大幅提升</li><li>施工区域自动绕行成功率 98%</li><li>AI 代驾功能支持学习用户驾驶习惯</li></ul><p>何小鹏表示，2026 年小鹏将实现真正的 L4 级自动驾驶。</p>",
-    "source": {"name": "小鹏汽车", "type": "official", "url": "https://www.xiaopeng.com"},
-    "original_url": "https://www.xiaopeng.com/news/xngp-7-0-243-cities",
+    "source": {
+      "name": "小鹏汽车",
+      "type": "official",
+      "url": "https://www.xiaopeng.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E5%B0%8F%E9%B9%8F%20XNGP%207.0%20%E5%BC%80%E9%80%9A%20243%20%E5%9F%8E%EF%BC%8C%E5%9F%8E%E5%B8%82%E6%99%BA%E9%A9%BE%E8%BF%9B%E5%85%A5%E6%97%A0%E5%B7%AE%E5%88%AB%E6%97%B6%E4%BB%A3%20%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6",
     "publish_date": "2026-03-13",
     "display_date": "3月12日",
     "category": "autonomous",
-    "tags": ["小鹏", "XNGP", "城市智驾", "L4"],
-    "companies": ["小鹏汽车"],
-    "technologies": ["XNGP 7.0", "端到端大模型", "城市 NGP"],
+    "tags": [
+      "小鹏",
+      "XNGP",
+      "城市智驾",
+      "L4"
+    ],
+    "companies": [
+      "小鹏汽车"
+    ],
+    "technologies": [
+      "XNGP 7.0",
+      "端到端大模型",
+      "城市 NGP"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -52,14 +100,29 @@
     "title": "百度 Apollo RT6 量产下线，成本降至 25 万元",
     "summary": "百度 Apollo RT6 自动驾驶量产车正式下线，单车成本降至 25 万元，萝卜快跑将在 10 个城市投放 1000 辆无人车。",
     "content": "<p>百度 Apollo 今日宣布 RT6 量产车正式下线，这是国内首款 L4 级自动驾驶前装量产车。</p><p>RT6 核心参数：</p><ul><li>单车成本 25 万元，较上一代降低 50%</li><li>车规级冗余设计，安全性能提升 10 倍</li><li>支持无方向盘模式</li><li>续航里程 600 公里</li></ul><p>萝卜快跑计划 2026 年在 10 个城市投放 1000 辆 RT6。</p>",
-    "source": {"name": "百度 Apollo", "type": "official", "url": "https://apollo.auto"},
-    "original_url": "https://apollo.auto/news/rt6-mass-production",
+    "source": {
+      "name": "百度 Apollo",
+      "type": "official",
+      "url": "https://apollo.auto"
+    },
+    "original_url": "https://www.google.com/search?q=%E7%99%BE%E5%BA%A6%20Apollo%20RT6%20%E9%87%8F%E4%BA%A7%E4%B8%8B%E7%BA%BF%EF%BC%8C%E6%88%90%E6%9C%AC%E9%99%8D%E8%87%B3%2025%20%E4%B8%87%E5%85%83%20%E7%99%BE%E5%BA%A6%20Apollo",
     "publish_date": "2026-03-13",
     "display_date": "3月12日",
     "category": "autonomous",
-    "tags": ["百度", "Apollo", "RT6", "萝卜快跑"],
-    "companies": ["百度"],
-    "technologies": ["RT6", "L4", "Robotaxi"],
+    "tags": [
+      "百度",
+      "Apollo",
+      "RT6",
+      "萝卜快跑"
+    ],
+    "companies": [
+      "百度"
+    ],
+    "technologies": [
+      "RT6",
+      "L4",
+      "Robotaxi"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -68,14 +131,29 @@
     "title": "蔚来 NAD 完整版上线，订阅模式 680 元/月",
     "summary": "蔚来 NAD（NIO Autonomous Driving）完整版正式上线，采用订阅制收费 680 元/月，覆盖高速、城区和泊车全场景。",
     "content": "<p>蔚来今日正式发布 NAD 完整版，这是蔚来智能驾驶系统的终极形态。</p><p>NAD 完整版功能：</p><ul><li>高速 NOP+ 全国覆盖</li><li>城区 NOP+ 覆盖 100 城</li><li>代客泊车支持跨楼层记忆</li><li>订阅价格 680 元/月，买断 3.8 万元</li></ul><p>李斌表示 NAD 将采用持续进化策略，每月推送重大更新。</p>",
-    "source": {"name": "蔚来汽车", "type": "official", "url": "https://www.nio.cn"},
-    "original_url": "https://www.nio.cn/news/nad-full-release",
+    "source": {
+      "name": "蔚来汽车",
+      "type": "official",
+      "url": "https://www.nio.cn"
+    },
+    "original_url": "https://www.google.com/search?q=%E8%94%9A%E6%9D%A5%20NAD%20%E5%AE%8C%E6%95%B4%E7%89%88%E4%B8%8A%E7%BA%BF%EF%BC%8C%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F%20680%20%E5%85%83%2F%E6%9C%88%20%E8%94%9A%E6%9D%A5%E6%B1%BD%E8%BD%A6",
     "publish_date": "2026-03-13",
     "display_date": "3月11日",
     "category": "autonomous",
-    "tags": ["蔚来", "NAD", "NOP+", "订阅制"],
-    "companies": ["蔚来汽车"],
-    "technologies": ["NAD", "激光雷达", "订阅模式"],
+    "tags": [
+      "蔚来",
+      "NAD",
+      "NOP+",
+      "订阅制"
+    ],
+    "companies": [
+      "蔚来汽车"
+    ],
+    "technologies": [
+      "NAD",
+      "激光雷达",
+      "订阅模式"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -84,14 +162,29 @@
     "title": "理想汽车城市 NOA 百城推送，采用 BEV+Transformer 架构",
     "summary": "理想汽车宣布城市 NOA 功能正式推送至全国 100 个城市，基于 BEV+Transformer 架构，不依赖高精地图。",
     "content": "<p>理想汽车今日宣布城市 NOA 百城推送计划正式启动。</p><p>技术特点：</p><ul><li>BEV+Transformer 架构，实时感知建图</li><li>不依赖高精地图，有导航就能开</li><li>复杂路口通过率 95%</li><li>支持无保护左转、绕行避让等场景</li></ul><p>理想表示将在 2026 年底前实现全国所有城市覆盖。</p>",
-    "source": {"name": "理想汽车", "type": "official", "url": "https://www.lixiang.com"},
-    "original_url": "https://www.lixiang.com/news/city-noa-100-cities",
+    "source": {
+      "name": "理想汽车",
+      "type": "official",
+      "url": "https://www.lixiang.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E7%90%86%E6%83%B3%E6%B1%BD%E8%BD%A6%E5%9F%8E%E5%B8%82%20NOA%20%E7%99%BE%E5%9F%8E%E6%8E%A8%E9%80%81%EF%BC%8C%E9%87%87%E7%94%A8%20BEV%2BTransformer%20%E6%9E%B6%E6%9E%84%20%E7%90%86%E6%83%B3%E6%B1%BD%E8%BD%A6",
     "publish_date": "2026-03-13",
     "display_date": "3月11日",
     "category": "autonomous",
-    "tags": ["理想", "城市 NOA", "BEV", "Transformer"],
-    "companies": ["理想汽车"],
-    "technologies": ["BEV", "Transformer", "无图智驾"],
+    "tags": [
+      "理想",
+      "城市 NOA",
+      "BEV",
+      "Transformer"
+    ],
+    "companies": [
+      "理想汽车"
+    ],
+    "technologies": [
+      "BEV",
+      "Transformer",
+      "无图智驾"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -100,14 +193,29 @@
     "title": "Momenta 获奔驰投资，联合开发 L4 级智驾系统",
     "summary": "Momenta 宣布获得奔驰战略投资，双方将联合开发面向全球市场的 L4 级智能驾驶系统，首款车型 2027 年上市。",
     "content": "<p>自动驾驶公司 Momenta 今日宣布与奔驰达成战略合作。</p><p>合作内容：</p><ul><li>奔驰战略投资 Momenta 数亿美元</li><li>联合开发 L4 级智驾系统</li><li>首款车型 2027 年在欧洲和中国上市</li><li>采用 Momenta 飞轮大模型技术</li></ul><p>这是继丰田之后，Momenta 获得的又一家国际车企巨头投资。</p>",
-    "source": {"name": "36氪", "type": "tech_media", "url": "https://36kr.com"},
-    "original_url": "https://36kr.com/news/momenta-mercedes-investment",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com"
+    },
+    "original_url": "https://www.google.com/search?q=Momenta%20%E8%8E%B7%E5%A5%94%E9%A9%B0%E6%8A%95%E8%B5%84%EF%BC%8C%E8%81%94%E5%90%88%E5%BC%80%E5%8F%91%20L4%20%E7%BA%A7%E6%99%BA%E9%A9%BE%E7%B3%BB%E7%BB%9F%2036%E6%B0%AA",
     "publish_date": "2026-03-13",
     "display_date": "3月10日",
     "category": "autonomous",
-    "tags": ["Momenta", "奔驰", "L4", "投资"],
-    "companies": ["Momenta", "奔驰"],
-    "technologies": ["L4", "飞轮大模型"],
+    "tags": [
+      "Momenta",
+      "奔驰",
+      "L4",
+      "投资"
+    ],
+    "companies": [
+      "Momenta",
+      "奔驰"
+    ],
+    "technologies": [
+      "L4",
+      "飞轮大模型"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -116,14 +224,32 @@
     "title": "地平线征程 6 芯片量产，算力 560 TOPS",
     "summary": "地平线征程 6 芯片正式量产，单颗算力 560 TOPS，支持多传感器融合，已获多家车企定点。",
     "content": "<p>地平线今日宣布征程 6 芯片正式量产，这是国产自动驾驶芯片的又一里程碑。</p><p>征程 6 规格：</p><ul><li>单颗算力 560 TOPS</li><li>支持 18 路摄像头 + 多激光雷达</li><li>功耗仅 35W</li><li>已通过 ASIL-D 功能安全认证</li></ul><p>征程 6 已获比亚迪、理想、长安等车企定点。</p>",
-    "source": {"name": "机器之心", "type": "tech_media", "url": "https://www.jiqizhixin.com"},
-    "original_url": "https://www.jiqizhixin.com/news/horizon-journey-6",
+    "source": {
+      "name": "机器之心",
+      "type": "tech_media",
+      "url": "https://www.jiqizhixin.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E5%9C%B0%E5%B9%B3%E7%BA%BF%E5%BE%81%E7%A8%8B%206%20%E8%8A%AF%E7%89%87%E9%87%8F%E4%BA%A7%EF%BC%8C%E7%AE%97%E5%8A%9B%20560%20TOPS%20%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83",
     "publish_date": "2026-03-13",
     "display_date": "3月10日",
     "category": "autonomous",
-    "tags": ["地平线", "征程 6", "芯片", "算力"],
-    "companies": ["地平线", "比亚迪", "理想", "长安"],
-    "technologies": ["征程 6", "自动驾驶芯片", "560 TOPS"],
+    "tags": [
+      "地平线",
+      "征程 6",
+      "芯片",
+      "算力"
+    ],
+    "companies": [
+      "地平线",
+      "比亚迪",
+      "理想",
+      "长安"
+    ],
+    "technologies": [
+      "征程 6",
+      "自动驾驶芯片",
+      "560 TOPS"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -132,14 +258,31 @@
     "title": "大疆车载发布成行平台 3.0，15 万元车型可用高阶智驾",
     "summary": "大疆车载发布成行平台 3.0，通过双目视觉方案实现高阶智驾，成本大幅降低，15 万元级车型即可搭载。",
     "content": "<p>大疆车载今日发布成行平台 3.0，主打性价比路线。</p><p>成行平台 3.0 特点：</p><ul><li>双目视觉 + 毫米波雷达方案</li><li>无需激光雷达，成本降低 70%</li><li>支持高速 NOA 和城市记忆行车</li><li>15 万元级车型即可搭载</li></ul><p>首款搭载车型为宝骏云朵，售价 12.58 万元起。</p>",
-    "source": {"name": "量子位", "type": "tech_media", "url": "https://www.qbitai.com"},
-    "original_url": "https://www.qbitai.com/news/dji-chenxing-3-0",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media",
+      "url": "https://www.qbitai.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E5%A4%A7%E7%96%86%E8%BD%A6%E8%BD%BD%E5%8F%91%E5%B8%83%E6%88%90%E8%A1%8C%E5%B9%B3%E5%8F%B0%203.0%EF%BC%8C15%20%E4%B8%87%E5%85%83%E8%BD%A6%E5%9E%8B%E5%8F%AF%E7%94%A8%E9%AB%98%E9%98%B6%E6%99%BA%E9%A9%BE%20%E9%87%8F%E5%AD%90%E4%BD%8D",
     "publish_date": "2026-03-13",
     "display_date": "3月9日",
     "category": "autonomous",
-    "tags": ["大疆", "成行平台", "双目视觉", "性价比"],
-    "companies": ["大疆", "宝骏", "上汽"],
-    "technologies": ["成行平台 3.0", "双目视觉", "纯视觉"],
+    "tags": [
+      "大疆",
+      "成行平台",
+      "双目视觉",
+      "性价比"
+    ],
+    "companies": [
+      "大疆",
+      "宝骏",
+      "上汽"
+    ],
+    "technologies": [
+      "成行平台 3.0",
+      "双目视觉",
+      "纯视觉"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -148,14 +291,30 @@
     "title": "Waymo 在奥斯汀和亚特兰大开放公众服务",
     "summary": "Waymo 宣布在美国奥斯汀和亚特兰大向公众开放 Robotaxi 服务，目前已在 10 个城市运营，每周完成 15 万单。",
     "content": "<p>Waymo 今日宣布扩展运营范围，在奥斯汀和亚特兰大向公众开放服务。</p><p>运营数据：</p><ul><li>覆盖 10 个城市，包括旧金山、凤凰城、洛杉矶等</li><li>每周完成 15 万单无人驾驶服务</li><li>累计无人驾驶里程超 2000 万英里</li><li>安全事故率比人类驾驶低 85%</li></ul><p>Waymo 计划 2026 年底将服务扩展至 20 个城市。</p>",
-    "source": {"name": "Waymo Blog", "type": "official", "url": "https://waymo.com/blog"},
-    "original_url": "https://waymo.com/blog/2026/03/austin-atlanta-public-service",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "original_url": "https://www.google.com/search?q=Waymo%20%E5%9C%A8%E5%A5%A5%E6%96%AF%E6%B1%80%E5%92%8C%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7%E5%BC%80%E6%94%BE%E5%85%AC%E4%BC%97%E6%9C%8D%E5%8A%A1%20Waymo%20Blog",
     "publish_date": "2026-03-13",
     "display_date": "3月9日",
     "category": "autonomous",
-    "tags": ["Waymo", "Robotaxi", "奥斯汀", "亚特兰大"],
-    "companies": ["Waymo", "Alphabet"],
-    "technologies": ["Robotaxi", "L4", "无人驾驶"],
+    "tags": [
+      "Waymo",
+      "Robotaxi",
+      "奥斯汀",
+      "亚特兰大"
+    ],
+    "companies": [
+      "Waymo",
+      "Alphabet"
+    ],
+    "technologies": [
+      "Robotaxi",
+      "L4",
+      "无人驾驶"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -164,14 +323,28 @@
     "title": "特斯拉 FSD 入华获批，预计 2026 年 Q2 正式上线",
     "summary": "特斯拉 FSD（完全自动驾驶能力）软件已获得中国监管部门批准，预计将于 2026 年第二季度正式向中国用户推送。",
     "content": "<p>据知情人士透露，特斯拉 FSD 软件已通过中国相关部门的审批，这是特斯拉在中国自动驾驶市场的重要里程碑。</p><p>关键信息：</p><ul><li>FSD 软件已通过数据安全和算法合规审查</li><li>将针对中国道路环境进行本地化适配</li><li>首批支持城市包括上海、北京、深圳、杭州</li><li>预计 2026 年 Q2 开始向用户推送 OTA 更新</li></ul><p>分析认为，FSD 入华将加剧中国智能驾驶市场竞争。</p>",
-    "source": {"name": "彭博社", "type": "tech_media", "url": "https://www.bloomberg.com"},
-    "original_url": "https://www.bloomberg.com/news/tesla-fsd-china-approval",
+    "source": {
+      "name": "彭博社",
+      "type": "tech_media",
+      "url": "https://www.bloomberg.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E7%89%B9%E6%96%AF%E6%8B%89%20FSD%20%E5%85%A5%E5%8D%8E%E8%8E%B7%E6%89%B9%EF%BC%8C%E9%A2%84%E8%AE%A1%202026%20%E5%B9%B4%20Q2%20%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF%20%E5%BD%AD%E5%8D%9A%E7%A4%BE",
     "publish_date": "2026-03-08",
     "display_date": "3月8日",
     "category": "autonomous",
-    "tags": ["特斯拉", "FSD", "中国", "监管"],
-    "companies": ["特斯拉"],
-    "technologies": ["FSD", "合规"],
+    "tags": [
+      "特斯拉",
+      "FSD",
+      "中国",
+      "监管"
+    ],
+    "companies": [
+      "特斯拉"
+    ],
+    "technologies": [
+      "FSD",
+      "合规"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -180,14 +353,29 @@
     "title": "文远知行 WeRide 获得阿联酋国家主权基金投资",
     "summary": "自动驾驶公司文远知行宣布获得阿联酋穆巴达拉主权基金 2 亿美元投资，将在阿布扎比建设 Robotaxi 运营中心。",
     "content": "<p>文远知行今日宣布完成新一轮战略融资，阿联酋穆巴达拉主权基金领投 2 亿美元。</p><p>合作规划：</p><ul><li>在阿布扎比建设 Robotaxi 运营中心</li><li>2026 年部署 500 辆无人驾驶出租车</li><li>与当地政府合作制定自动驾驶法规</li><li>探索中东地区商业化落地</li></ul><p>这是文远知行继新加坡、美国之后的又一重要海外市场。</p>",
-    "source": {"name": "Reuters", "type": "tech_media", "url": "https://www.reuters.com"},
-    "original_url": "https://www.reuters.com/news/weride-mubadala-investment",
+    "source": {
+      "name": "Reuters",
+      "type": "tech_media",
+      "url": "https://www.reuters.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E6%96%87%E8%BF%9C%E7%9F%A5%E8%A1%8C%20WeRide%20%E8%8E%B7%E5%BE%97%E9%98%BF%E8%81%94%E9%85%8B%E5%9B%BD%E5%AE%B6%E4%B8%BB%E6%9D%83%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%20Reuters",
     "publish_date": "2026-03-06",
     "display_date": "3月6日",
     "category": "autonomous",
-    "tags": ["文远知行", "WeRide", "阿联酋", "投资"],
-    "companies": ["文远知行", "穆巴达拉"],
-    "technologies": ["Robotaxi", "L4"],
+    "tags": [
+      "文远知行",
+      "WeRide",
+      "阿联酋",
+      "投资"
+    ],
+    "companies": [
+      "文远知行",
+      "穆巴达拉"
+    ],
+    "technologies": [
+      "Robotaxi",
+      "L4"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -196,14 +384,29 @@
     "title": "小鹏汽车发布图灵 AI 智驾芯片，2026 年量产上车",
     "summary": "小鹏汽车发布自研图灵 AI 智驾芯片，专为端到端大模型设计，算力 300 TOPS，将于 2026 年搭载于新车型。",
     "content": "<p>小鹏汽车今日发布自研图灵 AI 智驾芯片，这是国内首款专为端到端自动驾驶大模型设计的芯片。</p><p>图灵芯片规格：</p><ul><li>算力 300 TOPS，能效比行业领先</li><li>专为 Transformer 架构优化</li><li>支持多模态传感器融合</li><li>已通过车规级认证</li></ul><p>何小鹏表示，自研芯片将使小鹏在智驾成本和性能上获得更大优势。</p>",
-    "source": {"name": "小鹏汽车", "type": "official", "url": "https://www.xiaopeng.com"},
-    "original_url": "https://www.xiaopeng.com/news/turing-ai-chip",
+    "source": {
+      "name": "小鹏汽车",
+      "type": "official",
+      "url": "https://www.xiaopeng.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B8%83%E5%9B%BE%E7%81%B5%20AI%20%E6%99%BA%E9%A9%BE%E8%8A%AF%E7%89%87%EF%BC%8C2026%20%E5%B9%B4%E9%87%8F%E4%BA%A7%E4%B8%8A%E8%BD%A6%20%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6",
     "publish_date": "2026-03-05",
     "display_date": "3月5日",
     "category": "autonomous",
-    "tags": ["小鹏", "图灵芯片", "自研芯片", "AI"],
-    "companies": ["小鹏汽车"],
-    "technologies": ["图灵芯片", "300 TOPS", "端到端"],
+    "tags": [
+      "小鹏",
+      "图灵芯片",
+      "自研芯片",
+      "AI"
+    ],
+    "companies": [
+      "小鹏汽车"
+    ],
+    "technologies": [
+      "图灵芯片",
+      "300 TOPS",
+      "端到端"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -212,14 +415,30 @@
     "title": "Waymo 与 Uber 扩大合作，在更多城市推出 Robotaxi",
     "summary": "Waymo 和 Uber 宣布扩大战略合作，将在 2026 年内把 Robotaxi 服务扩展至 5 个新城市，并探索自动驾驶货运业务。",
     "content": "<p>Waymo 与 Uber 今日联合宣布扩大战略合作关系，双方将在更多领域展开深度合作。</p><p>合作内容：</p><ul><li>2026 年内将 Robotaxi 服务扩展至 5 个新城市</li><li>探索 Waymo Driver 在 Uber Freight 中的应用</li><li>联合开发自动驾驶车辆远程协助系统</li><li>共享高精地图和交通数据</li></ul><p>双方表示，此次合作将加速自动驾驶技术的商业化落地。</p>",
-    "source": {"name": "Waymo Blog", "type": "official", "url": "https://waymo.com/blog"},
-    "original_url": "https://waymo.com/blog/2026/03/uber-partnership-expansion",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official",
+      "url": "https://waymo.com/blog"
+    },
+    "original_url": "https://www.google.com/search?q=Waymo%20%E4%B8%8E%20Uber%20%E6%89%A9%E5%A4%A7%E5%90%88%E4%BD%9C%EF%BC%8C%E5%9C%A8%E6%9B%B4%E5%A4%9A%E5%9F%8E%E5%B8%82%E6%8E%A8%E5%87%BA%20Robotaxi%20Waymo%20Blog",
     "publish_date": "2026-03-03",
     "display_date": "3月3日",
     "category": "autonomous",
-    "tags": ["Waymo", "Uber", "Robotaxi", "合作"],
-    "companies": ["Waymo", "Uber", "Alphabet"],
-    "technologies": ["Waymo Driver", "自动驾驶货运"],
+    "tags": [
+      "Waymo",
+      "Uber",
+      "Robotaxi",
+      "合作"
+    ],
+    "companies": [
+      "Waymo",
+      "Uber",
+      "Alphabet"
+    ],
+    "technologies": [
+      "Waymo Driver",
+      "自动驾驶货运"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -228,14 +447,29 @@
     "title": "华为发布智驾安全白皮书，提出 L3 级责任划分方案",
     "summary": "华为发布《智能驾驶安全白皮书》，首次系统阐述 L3 级自动驾驶的责任划分方案，呼吁建立统一行业标准。",
     "content": "<p>华为智能汽车解决方案 BU 今日发布《智能驾驶安全白皮书》，这是国内首份由企业发布的 L3 级自动驾驶安全标准文件。</p><p>白皮书核心内容：</p><ul><li>明确 L3 级系统激活后的责任主体</li><li>提出人机共驾的安全接管机制</li><li>建立自动驾驶事故数据记录标准</li><li>呼吁建立统一的行业安全认证体系</li></ul><p>华为表示，愿将相关技术开放给行业使用。</p>",
-    "source": {"name": "华为智能汽车", "type": "official", "url": "https://auto.huawei.com"},
-    "original_url": "https://auto.huawei.com/whitepaper/safety-2026",
+    "source": {
+      "name": "华为智能汽车",
+      "type": "official",
+      "url": "https://auto.huawei.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E6%99%BA%E9%A9%BE%E5%AE%89%E5%85%A8%E7%99%BD%E7%9A%AE%E4%B9%A6%EF%BC%8C%E6%8F%90%E5%87%BA%20L3%20%E7%BA%A7%E8%B4%A3%E4%BB%BB%E5%88%92%E5%88%86%E6%96%B9%E6%A1%88%20%E5%8D%8E%E4%B8%BA%E6%99%BA%E8%83%BD%E6%B1%BD%E8%BD%A6",
     "publish_date": "2026-02-28",
     "display_date": "2月28日",
     "category": "autonomous",
-    "tags": ["华为", "L3", "安全", "白皮书"],
-    "companies": ["华为"],
-    "technologies": ["L3", "安全标准", "责任划分"],
+    "tags": [
+      "华为",
+      "L3",
+      "安全",
+      "白皮书"
+    ],
+    "companies": [
+      "华为"
+    ],
+    "technologies": [
+      "L3",
+      "安全标准",
+      "责任划分"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -244,14 +478,29 @@
     "title": "Mobileye 宣布重组，裁员 20% 聚焦核心业务",
     "summary": "自动驾驶芯片巨头 Mobileye 宣布全球重组计划，将裁员约 20%，退出部分非核心业务，聚焦 EyeQ 芯片和 REM 地图。",
     "content": "<p>Mobileye 今日宣布全球业务重组计划，以应对自动驾驶行业竞争加剧和盈利压力。</p><p>重组措施：</p><ul><li>全球裁员约 20%，约 800 人受影响</li><li>退出激光雷达和雷达传感器业务</li><li>聚焦 EyeQ 系列芯片和 REM 众包地图</li><li>关闭部分地区的研发中心</li></ul><p>Mobileye 表示，重组后公司将更加聚焦高利润的核心业务。</p>",
-    "source": {"name": "TechCrunch", "type": "tech_media", "url": "https://techcrunch.com"},
-    "original_url": "https://techcrunch.com/news/mobileye-restructuring-2026",
+    "source": {
+      "name": "TechCrunch",
+      "type": "tech_media",
+      "url": "https://techcrunch.com"
+    },
+    "original_url": "https://www.google.com/search?q=Mobileye%20%E5%AE%A3%E5%B8%83%E9%87%8D%E7%BB%84%EF%BC%8C%E8%A3%81%E5%91%98%2020%25%20%E8%81%9A%E7%84%A6%E6%A0%B8%E5%BF%83%E4%B8%9A%E5%8A%A1%20TechCrunch",
     "publish_date": "2026-02-26",
     "display_date": "2月26日",
     "category": "autonomous",
-    "tags": ["Mobileye", "重组", "裁员", "EyeQ"],
-    "companies": ["Mobileye", "Intel"],
-    "technologies": ["EyeQ", "REM 地图"],
+    "tags": [
+      "Mobileye",
+      "重组",
+      "裁员",
+      "EyeQ"
+    ],
+    "companies": [
+      "Mobileye",
+      "Intel"
+    ],
+    "technologies": [
+      "EyeQ",
+      "REM 地图"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -260,14 +509,30 @@
     "title": "蔚来与宁德时代达成换电战略合作，共建换电网络",
     "summary": "蔚来与宁德时代签署战略合作协议，双方将在换电技术标准、电池资产管理、换电站建设等方面展开深度合作。",
     "content": "<p>蔚来与宁德时代今日宣布达成换电战略合作，这是国内两大新能源巨头的强强联合。</p><p>合作内容：</p><ul><li>统一换电电池包技术标准</li><li>共建共享换电站网络</li><li>联合开发长寿命换电电池</li><li>探索电池资产证券化模式</li></ul><p>双方计划 2026 年共建 1000 座换电站，覆盖主要高速公路和城市。</p>",
-    "source": {"name": "蔚来汽车", "type": "official", "url": "https://www.nio.cn"},
-    "original_url": "https://www.nio.cn/news/catl-battery-swap-partnership",
+    "source": {
+      "name": "蔚来汽车",
+      "type": "official",
+      "url": "https://www.nio.cn"
+    },
+    "original_url": "https://www.google.com/search?q=%E8%94%9A%E6%9D%A5%E4%B8%8E%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E8%BE%BE%E6%88%90%E6%8D%A2%E7%94%B5%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C%EF%BC%8C%E5%85%B1%E5%BB%BA%E6%8D%A2%E7%94%B5%E7%BD%91%E7%BB%9C%20%E8%94%9A%E6%9D%A5%E6%B1%BD%E8%BD%A6",
     "publish_date": "2026-02-24",
     "display_date": "2月24日",
     "category": "autonomous",
-    "tags": ["蔚来", "宁德时代", "换电", "合作"],
-    "companies": ["蔚来汽车", "宁德时代"],
-    "technologies": ["换电", "电池", "补能"],
+    "tags": [
+      "蔚来",
+      "宁德时代",
+      "换电",
+      "合作"
+    ],
+    "companies": [
+      "蔚来汽车",
+      "宁德时代"
+    ],
+    "technologies": [
+      "换电",
+      "电池",
+      "补能"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -276,14 +541,30 @@
     "title": " Cruise 宣布恢复 Robotaxi 运营，安全标准全面升级",
     "summary": "通用汽车旗下 Cruise 宣布在旧金山恢复 Robotaxi 运营，采用全新的安全协议和远程监督系统，车辆配备安全员。",
     "content": "<p>Cruise 今日宣布获得加州 DMV 批准，恢复在旧金山的 Robotaxi 运营服务。</p><p>安全措施升级：</p><ul><li>所有车辆配备安全员，随时接管</li><li>建立 24/7 远程监督中心</li><li>与消防、警方建立应急响应机制</li><li>限制运营区域和时间段</li></ul><p>Cruise 表示，将以最谨慎的态度逐步恢复全面运营。</p>",
-    "source": {"name": "Cruise", "type": "official", "url": "https://getcruise.com"},
-    "original_url": "https://getcruise.com/news/operations-resume-sf",
+    "source": {
+      "name": "Cruise",
+      "type": "official",
+      "url": "https://getcruise.com"
+    },
+    "original_url": "https://www.google.com/search?q=%20Cruise%20%E5%AE%A3%E5%B8%83%E6%81%A2%E5%A4%8D%20Robotaxi%20%E8%BF%90%E8%90%A5%EF%BC%8C%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E5%85%A8%E9%9D%A2%E5%8D%87%E7%BA%A7%20Cruise",
     "publish_date": "2026-02-22",
     "display_date": "2月22日",
     "category": "autonomous",
-    "tags": ["Cruise", "通用", "Robotaxi", "安全"],
-    "companies": ["Cruise", "通用汽车"],
-    "technologies": ["Robotaxi", "安全员", "远程监督"],
+    "tags": [
+      "Cruise",
+      "通用",
+      "Robotaxi",
+      "安全"
+    ],
+    "companies": [
+      "Cruise",
+      "通用汽车"
+    ],
+    "technologies": [
+      "Robotaxi",
+      "安全员",
+      "远程监督"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -292,14 +573,33 @@
     "title": "英伟达发布 DRIVE Thor 芯片，算力达 2000 TOPS",
     "summary": "英伟达在 GTC 2026 发布新一代自动驾驶芯片 DRIVE Thor，算力达 2000 TOPS，支持多模态大模型和生成式 AI。",
     "content": "<p>英伟达 CEO 黄仁勋在 GTC 2026 大会上正式发布 DRIVE Thor 自动驾驶芯片。</p><p>DRIVE Thor 核心特性：</p><ul><li>算力达 2000 TOPS，是 Orin 的 8 倍</li><li>专为多模态大模型和生成式 AI 优化</li><li>支持舱驾一体架构</li><li>2027 年开始量产</li></ul><p>比亚迪、理想、蔚来、小鹏等中国车企已宣布采用 DRIVE Thor。</p>",
-    "source": {"name": "NVIDIA", "type": "official", "url": "https://www.nvidia.com"},
-    "original_url": "https://www.nvidia.com/gtc-2026/drive-thor",
+    "source": {
+      "name": "NVIDIA",
+      "type": "official",
+      "url": "https://www.nvidia.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%8F%91%E5%B8%83%20DRIVE%20Thor%20%E8%8A%AF%E7%89%87%EF%BC%8C%E7%AE%97%E5%8A%9B%E8%BE%BE%202000%20TOPS%20NVIDIA",
     "publish_date": "2026-02-20",
     "display_date": "2月20日",
     "category": "autonomous",
-    "tags": ["英伟达", "DRIVE Thor", "芯片", "GTC"],
-    "companies": ["英伟达", "比亚迪", "理想", "蔚来", "小鹏"],
-    "technologies": ["DRIVE Thor", "2000 TOPS", "生成式 AI"],
+    "tags": [
+      "英伟达",
+      "DRIVE Thor",
+      "芯片",
+      "GTC"
+    ],
+    "companies": [
+      "英伟达",
+      "比亚迪",
+      "理想",
+      "蔚来",
+      "小鹏"
+    ],
+    "technologies": [
+      "DRIVE Thor",
+      "2000 TOPS",
+      "生成式 AI"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -308,14 +608,29 @@
     "title": "小米汽车 SU7 Ultra 发布，智驾能力对标一线品牌",
     "summary": "小米发布 SU7 Ultra 高性能版，搭载自研澎湃智驾系统，城市 NOA 覆盖 100 城，售价 52.99 万元起。",
     "content": "<p>小米汽车今日发布 SU7 Ultra 高性能版，雷军表示这是小米汽车的集大成之作。</p><p>SU7 Ultra 智驾配置：</p><ul><li>自研澎湃智驾系统，端到端大模型架构</li><li>2 颗英伟达 Orin-X 芯片，算力 508 TOPS</li><li>1 颗激光雷达 + 11 颗摄像头</li><li>城市 NOA 覆盖 100 城，高速 NOA 全国可用</li></ul><p>小米表示 2026 年智驾团队将扩充至 2000 人。</p>",
-    "source": {"name": "小米汽车", "type": "official", "url": "https://www.mi.com/auto"},
-    "original_url": "https://www.mi.com/auto/su7-ultra",
+    "source": {
+      "name": "小米汽车",
+      "type": "official",
+      "url": "https://www.mi.com/auto"
+    },
+    "original_url": "https://www.google.com/search?q=%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%20SU7%20Ultra%20%E5%8F%91%E5%B8%83%EF%BC%8C%E6%99%BA%E9%A9%BE%E8%83%BD%E5%8A%9B%E5%AF%B9%E6%A0%87%E4%B8%80%E7%BA%BF%E5%93%81%E7%89%8C%20%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6",
     "publish_date": "2026-02-18",
     "display_date": "2月18日",
     "category": "autonomous",
-    "tags": ["小米", "SU7 Ultra", "澎湃智驾", "雷军"],
-    "companies": ["小米汽车"],
-    "technologies": ["澎湃智驾", "Orin-X", "城市 NOA"],
+    "tags": [
+      "小米",
+      "SU7 Ultra",
+      "澎湃智驾",
+      "雷军"
+    ],
+    "companies": [
+      "小米汽车"
+    ],
+    "technologies": [
+      "澎湃智驾",
+      "Orin-X",
+      "城市 NOA"
+    ],
     "importance": "high",
     "is_featured": true
   },
@@ -324,14 +639,29 @@
     "title": "百度萝卜快跑累计订单破 1000 万，商业化提速",
     "summary": "百度萝卜快跑宣布累计订单量突破 1000 万单，已在 12 个城市开展运营，计划 2026 年实现单城市盈亏平衡。",
     "content": "<p>百度萝卜快跑今日宣布累计服务订单突破 1000 万单，成为国内首个达到此里程碑的 Robotaxi 服务。</p><p>运营数据：</p><ul><li>累计订单 1000 万单，服务用户超 500 万人</li><li>在 12 个城市开展运营，车辆超 800 辆</li><li>单车日均订单量接近传统出租车</li><li>用户满意度达 4.9/5.0</li></ul><p>百度表示 2026 年将重点实现单城市盈利。</p>",
-    "source": {"name": "百度 Apollo", "type": "official", "url": "https://apollo.auto"},
-    "original_url": "https://apollo.auto/news/luobo-10m-orders",
+    "source": {
+      "name": "百度 Apollo",
+      "type": "official",
+      "url": "https://apollo.auto"
+    },
+    "original_url": "https://www.google.com/search?q=%E7%99%BE%E5%BA%A6%E8%90%9D%E5%8D%9C%E5%BF%AB%E8%B7%91%E7%B4%AF%E8%AE%A1%E8%AE%A2%E5%8D%95%E7%A0%B4%201000%20%E4%B8%87%EF%BC%8C%E5%95%86%E4%B8%9A%E5%8C%96%E6%8F%90%E9%80%9F%20%E7%99%BE%E5%BA%A6%20Apollo",
     "publish_date": "2026-02-15",
     "display_date": "2月15日",
     "category": "autonomous",
-    "tags": ["百度", "萝卜快跑", "Robotaxi", "商业化"],
-    "companies": ["百度"],
-    "technologies": ["Robotaxi", "L4", "商业化"],
+    "tags": [
+      "百度",
+      "萝卜快跑",
+      "Robotaxi",
+      "商业化"
+    ],
+    "companies": [
+      "百度"
+    ],
+    "technologies": [
+      "Robotaxi",
+      "L4",
+      "商业化"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -340,14 +670,28 @@
     "title": "特斯拉 Autopilot 安全报告：事故率比人类低 8 倍",
     "summary": "特斯拉发布 2025 年 Q4 车辆安全报告，数据显示开启 Autopilot 的车辆平均每 800 万英里发生一次事故，远低于人类驾驶平均水平。",
     "content": "<p>特斯拉今日发布 2025 年第四季度车辆安全报告，展示了 Autopilot 系统的安全性能数据。</p><p>关键数据：</p><ul><li>开启 Autopilot 的车辆平均每 800 万英里发生一次事故</li><li>未开启 Autopilot 的特斯拉车辆平均每 180 万英里一次事故</li><li>美国平均水平为每 100 万英里一次事故</li><li>Autopilot 事故率比人类驾驶低约 8 倍</li></ul><p>特斯拉强调，自动驾驶技术的目标是实现零事故。</p>",
-    "source": {"name": "Tesla 官方", "type": "official", "url": "https://www.tesla.com"},
-    "original_url": "https://www.tesla.com/blog/q4-2025-safety-report",
+    "source": {
+      "name": "Tesla 官方",
+      "type": "official",
+      "url": "https://www.tesla.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E7%89%B9%E6%96%AF%E6%8B%89%20Autopilot%20%E5%AE%89%E5%85%A8%E6%8A%A5%E5%91%8A%EF%BC%9A%E4%BA%8B%E6%95%85%E7%8E%87%E6%AF%94%E4%BA%BA%E7%B1%BB%E4%BD%8E%208%20%E5%80%8D%20Tesla%20%E5%AE%98%E6%96%B9",
     "publish_date": "2026-02-12",
     "display_date": "2月12日",
     "category": "autonomous",
-    "tags": ["特斯拉", "Autopilot", "安全", "数据"],
-    "companies": ["特斯拉"],
-    "technologies": ["Autopilot", "安全报告"],
+    "tags": [
+      "特斯拉",
+      "Autopilot",
+      "安全",
+      "数据"
+    ],
+    "companies": [
+      "特斯拉"
+    ],
+    "technologies": [
+      "Autopilot",
+      "安全报告"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -356,14 +700,31 @@
     "title": "智己汽车发布 IM AD 3.0，全国无图城市 NOA 开通",
     "summary": "智己汽车发布 IM AD 3.0 智能驾驶系统，实现全国无图城市 NOA，并推出「AI 代驾」功能，可学习用户驾驶习惯。",
     "content": "<p>智己汽车今日发布 IM AD 3.0 智能驾驶系统，这是智己与 Momenta 联合开发的最新成果。</p><p>IM AD 3.0 功能：</p><ul><li>全国无图城市 NOA，有导航就能开</li><li>AI 代驾功能，学习用户驾驶风格</li><li>一键泊车支持跨楼层记忆</li><li>雨雾天气感知能力提升 50%</li></ul><p>智己 L7、LS7、LS6 等车型将陆续推送升级。</p>",
-    "source": {"name": "智己汽车", "type": "official", "url": "https://www.immotors.com"},
-    "original_url": "https://www.immotors.com/news/im-ad-3-0",
+    "source": {
+      "name": "智己汽车",
+      "type": "official",
+      "url": "https://www.immotors.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E6%99%BA%E5%B7%B1%E6%B1%BD%E8%BD%A6%E5%8F%91%E5%B8%83%20IM%20AD%203.0%EF%BC%8C%E5%85%A8%E5%9B%BD%E6%97%A0%E5%9B%BE%E5%9F%8E%E5%B8%82%20NOA%20%E5%BC%80%E9%80%9A%20%E6%99%BA%E5%B7%B1%E6%B1%BD%E8%BD%A6",
     "publish_date": "2026-02-10",
     "display_date": "2月10日",
     "category": "autonomous",
-    "tags": ["智己", "IM AD", "Momenta", "无图 NOA"],
-    "companies": ["智己汽车", "Momenta", "上汽"],
-    "technologies": ["IM AD 3.0", "AI 代驾", "无图"],
+    "tags": [
+      "智己",
+      "IM AD",
+      "Momenta",
+      "无图 NOA"
+    ],
+    "companies": [
+      "智己汽车",
+      "Momenta",
+      "上汽"
+    ],
+    "technologies": [
+      "IM AD 3.0",
+      "AI 代驾",
+      "无图"
+    ],
     "importance": "medium",
     "is_featured": false
   },
@@ -372,14 +733,31 @@
     "title": "Wayve 完成 10 亿美元 C 轮融资，软银领投",
     "summary": "英国自动驾驶公司 Wayve 宣布完成 10.5 亿美元 C 轮融资，由软银集团领投，微软、英伟达跟投，估值超 50 亿美元。",
     "content": "<p>Wayve 今日宣布完成史上最大规模的自动驾驶融资，总额达 10.5 亿美元。</p><p>融资详情：</p><ul><li>软银集团领投，出资 6 亿美元</li><li>微软、英伟达等跟投</li><li>公司估值超 50 亿美元</li><li>资金将用于扩大车队和研发</li></ul><p>Wayve 的「具身智能」技术路线获得资本市场高度认可。</p>",
-    "source": {"name": "Wayve", "type": "official", "url": "https://wayve.ai"},
-    "original_url": "https://wayve.ai/news/series-c-funding",
+    "source": {
+      "name": "Wayve",
+      "type": "official",
+      "url": "https://wayve.ai"
+    },
+    "original_url": "https://www.google.com/search?q=Wayve%20%E5%AE%8C%E6%88%90%2010%20%E4%BA%BF%E7%BE%8E%E5%85%83%20C%20%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%8C%E8%BD%AF%E9%93%B6%E9%A2%86%E6%8A%95%20Wayve",
     "publish_date": "2026-02-08",
     "display_date": "2月8日",
     "category": "autonomous",
-    "tags": ["Wayve", "融资", "软银", "具身智能"],
-    "companies": ["Wayve", "软银", "微软", "英伟达"],
-    "technologies": ["具身智能", "端到端"],
+    "tags": [
+      "Wayve",
+      "融资",
+      "软银",
+      "具身智能"
+    ],
+    "companies": [
+      "Wayve",
+      "软银",
+      "微软",
+      "英伟达"
+    ],
+    "technologies": [
+      "具身智能",
+      "端到端"
+    ],
     "importance": "high",
     "is_featured": false
   },
@@ -388,14 +766,30 @@
     "title": "极氪发布浩瀚智驾 2.0，007 车型首发搭载",
     "summary": "极氪发布浩瀚智驾 2.0 系统，采用双 Orin-X 芯片方案，城市 NZP 覆盖 50 城，007 车型成为首发搭载车型。",
     "content": "<p>极氪今日发布浩瀚智驾 2.0 系统，这是极氪自研智驾系统的重大升级。</p><p>浩瀚智驾 2.0 配置：</p><ul><li>双 Orin-X 芯片，算力 508 TOPS</li><li>1 颗激光雷达 + 12 颗摄像头</li><li>城市 NZP 覆盖 50 城，2026 年底扩至 100 城</li><li>支持机械车位自动泊车</li></ul><p>极氪 007 将成为首款搭载该系统的车型。</p>",
-    "source": {"name": "极氪", "type": "official", "url": "https://www.zeekrlife.com"},
-    "original_url": "https://www.zeekrlife.com/news/haohan-2-0",
+    "source": {
+      "name": "极氪",
+      "type": "official",
+      "url": "https://www.zeekrlife.com"
+    },
+    "original_url": "https://www.google.com/search?q=%E6%9E%81%E6%B0%AA%E5%8F%91%E5%B8%83%E6%B5%A9%E7%80%9A%E6%99%BA%E9%A9%BE%202.0%EF%BC%8C007%20%E8%BD%A6%E5%9E%8B%E9%A6%96%E5%8F%91%E6%90%AD%E8%BD%BD%20%E6%9E%81%E6%B0%AA",
     "publish_date": "2026-02-05",
     "display_date": "2月5日",
     "category": "autonomous",
-    "tags": ["极氪", "浩瀚智驾", "007", "NZP"],
-    "companies": ["极氪", "吉利"],
-    "technologies": ["浩瀚智驾 2.0", "Orin-X", "城市 NZP"],
+    "tags": [
+      "极氪",
+      "浩瀚智驾",
+      "007",
+      "NZP"
+    ],
+    "companies": [
+      "极氪",
+      "吉利"
+    ],
+    "technologies": [
+      "浩瀚智驾 2.0",
+      "Orin-X",
+      "城市 NZP"
+    ],
     "importance": "medium",
     "is_featured": false
   }
