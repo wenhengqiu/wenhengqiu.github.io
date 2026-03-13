@@ -1,9 +1,12 @@
 {
   "name": "dataloop-research",
-  "version": "1.0.0",
-  "description": "数据闭环研究中心 - 自动驾驶、具身智能、大模型技术对比",
+  "version": "3.0.0",
+  "description": "数据闭环文章中心 - AI行业资讯聚合与知识管理平台",
   "scripts": {
-    "start": "npx serve ."
+    "start": "npx serve .",
+    "quality-check": "node scripts/quality-check.js",
+    "check-links": "node scripts/quality-check.js --links-only",
+    "validate-json": "node scripts/quality-check.js --json-only"
   },
   "dependencies": {
     "xml2js": "^0.6.2"

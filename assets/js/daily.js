@@ -312,6 +312,8 @@ function initDatePicker() {
     if (datePicker) {
         // Set max date to today
         datePicker.max = getTodayString();
+        // Set min date to 2025-08-01 (earliest data)
+        datePicker.min = '2025-08-01';
         
         datePicker.addEventListener('change', (e) => {
             if (e.target.value) {
@@ -319,6 +321,73 @@ function initDatePicker() {
             }
         });
     }
+}
+
+// Navigate to previous date
+function goToPrevDate() {
+    const date = new Date(currentDate);
+    date.setDate(date.getDate() - 1);
+    const newDateStr = date.toISOString().split('T')[0];
+    // Don't go before 2025-08-01
+    if (newDateStr >= '2025-08-01') {
+        loadArticles(newDateStr);
+    } else {
+        showToast('已是最早的日期');
+    }
+}
+
+// Navigate to next date
+function goToNextDate() {
+    const date = new Date(currentDate);
+    date.setDate(date.getDate() + 1);
+    const newDateStr = date.toISOString().split('T')[0];
+    const today = getTodayString();
+    // Don't go after today
+    if (newDateStr <= today) {
+        loadArticles(newDateStr);
+    } else {
+        showToast('已是最新的日期');
+    }
+}
+
+// Go to today
+function goToToday() {
+    loadArticles(getTodayString());
+}
+
+// Initialize date navigation
+function initDateNav() {
+    const prevBtn = $('#prev-date');
+    const nextBtn = $('#next-date');
+    const todayBtn = $('#today-btn');
+    
+    if (prevBtn) prevBtn.addEventListener('click', goToPrevDate);
+    if (nextBtn) nextBtn.addEventListener('click', goToNextDate);
+    if (todayBtn) todayBtn.addEventListener('click', goToToday);
+    
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+        // Ignore if typing in input
+        if (e.target.tagName === 'INPUT') return;
+        
+        switch(e.key) {
+            case 'ArrowLeft':
+                goToPrevDate();
+                break;
+            case 'ArrowRight':
+                goToNextDate();
+                break;
+            case 't':
+            case 'T':
+                goToToday();
+                break;
+            case '/':
+                e.preventDefault();
+                const searchInput = $('#search-input');
+                if (searchInput) searchInput.focus();
+                break;
+        }
+    });
 }
 
 // Initialize load more
@@ -337,5 +406,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initFilters();
     initSearch();
     initDatePicker();
+    initDateNav();
     initLoadMore();
 });
