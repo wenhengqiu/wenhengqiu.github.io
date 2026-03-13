@@ -30,6 +30,14 @@
             background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             color: white;
         }
+        .category-card[data-cat="zhuoyu"] {
+            background: linear-gradient(135deg, #fff9e6, #fff3cd);
+            border: 2px solid #ffc107;
+        }
+        .category-card[data-cat="zhuoyu"]:hover {
+            background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+            border-color: #ff9800;
+        }
         .category-icon {
             font-size: 3rem;
             margin-bottom: 12px;
@@ -123,19 +131,21 @@
             color: var(--primary);
         }
         .article-link {
-            color: var(--primary);
+            color: #667eea;
             text-decoration: none;
             font-weight: 600;
             transition: var(--transition);
-            background: rgba(102, 126, 234, 0.1);
-            padding: 4px 10px;
+            background: rgba(102, 126, 234, 0.15);
+            padding: 6px 12px;
             border-radius: 6px;
             display: inline-block;
+            border: 1px solid rgba(102, 126, 234, 0.3);
         }
         .article-link:hover {
-            color: var(--primary-dark);
-            background: rgba(102, 126, 234, 0.2);
+            color: #764ba2;
+            background: rgba(102, 126, 234, 0.25);
             text-decoration: none;
+            border-color: rgba(102, 126, 234, 0.5);
         }
         .topic-grid {
             display: grid;

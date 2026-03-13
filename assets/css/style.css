@@ -19,13 +19,13 @@
     
     --text: #333333;
     --text-light: #666666;
-    --text-muted: #999999;
+    --text-muted: #666666;
     --text-inverse: #ffffff;
     
     --border: #e8e8e8;
     --border-light: #f0f0f0;
-    --shadow: rgba(0, 0, 0, 0.08);
-    --shadow-lg: rgba(0, 0, 0, 0.15);
+    --shadow: rgba(0, 0, 0, 0.12);
+    --shadow-lg: rgba(0, 0, 0, 0.2);
     
     --radius-sm: 8px;
     --radius: 12px;
@@ -178,21 +178,23 @@ body {
     gap: 12px;
     padding: 12px;
     border-radius: var(--radius);
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.9);
     text-decoration: none;
     transition: var(--transition);
     margin-bottom: 4px;
     position: relative;
+    font-weight: 500;
 }
 
 .nav-item:hover {
-    background: rgba(255,255,255,0.1);
-    color: var(--text-inverse);
+    background: rgba(255,255,255,0.15);
+    color: #ffffff;
 }
 
 .nav-item.active {
     background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-    color: var(--text-inverse);
+    color: #ffffff;
+    font-weight: 600;
 }
 
 .nav-icon {
