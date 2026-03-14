@@ -260,11 +260,12 @@
                 }
             }
             
-            document.getElementById('llm-count').textContent = counts.llm;
-            document.getElementById('auto-count').textContent = counts.autonomous;
-            document.getElementById('robot-count').textContent = counts.robotics;
-            document.getElementById('zhuoyu-count').textContent = counts.zhuoyu;
-            document.getElementById('total-articles').textContent = total;
+            // 更新 DOM
+            document.getElementById('stat-total').textContent = total;
+            document.getElementById('stat-llm').textContent = counts.llm;
+            document.getElementById('stat-autonomous').textContent = counts.autonomous;
+            document.getElementById('stat-robotics').textContent = counts.robotics;
+            document.getElementById('stat-zhuoyu').textContent = counts.zhuoyu;
             
             // 计算今日文章数
             const today = new Date().toISOString().split('T')[0];
@@ -274,7 +275,10 @@
                     const response = await fetch(`data/articles/research/${cat}.json`);
                     if (response.ok) {
                         const data = await response.json();
-                        todayCount += data.filter(a => a.publish_date === today).length;
+                        todayCount += data.filter(a => {
+                            const pubDate = a.published_at || a.publish_date;
+                            return pubDate && pubDate.startsWith(today);
+                        }).length;
                     }
                 } catch (e) {}
             }
@@ -284,10 +288,16 @@
         // 更新时间
         function updateTime() {
             const now = new Date();
-            document.getElementById('last-run').textContent = '17:34:21';
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            document.getElementById('last-run').textContent = `${hours}:${minutes}:${seconds}`;
             
             const next = new Date(now.getTime() + 60 * 60 * 1000);
-            document.getElementById('next-run').textContent = next.toTimeString().slice(0, 8);
+            const nextHours = String(next.getHours()).padStart(2, '0');
+            const nextMinutes = String(next.getMinutes()).padStart(2, '0');
+            const nextSeconds = String(next.getSeconds()).padStart(2, '0');
+            document.getElementById('next-run').textContent = `${nextHours}:${nextMinutes}:${nextSeconds}`;
         }
         
         loadStats();

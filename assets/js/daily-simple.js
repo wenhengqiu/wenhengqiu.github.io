@@ -50,7 +50,14 @@ function renderArticles(articles) {
     if (!grid) return;
     
     if (articles.length === 0) {
-        grid.innerHTML = '<p style="text-align:center;padding:40px;">暂无文章</p>';
+        grid.innerHTML = `
+            <div style="text-align:center;padding:60px 40px;">
+                <div style="font-size:48px;margin-bottom:20px;">📭</div>
+                <h3 style="color:#333;margin-bottom:10px;">暂无相关文章</h3>
+                <p style="color:#666;">该分类暂时没有文章，去看看其他分类吧</p>
+                <button onclick="filterByCategory('all')" style="margin-top:20px;padding:10px 20px;background:#1890ff;color:white;border:none;border-radius:4px;cursor:pointer;">查看全部文章</button>
+            </div>
+        `;
         return;
     }
     
@@ -74,6 +81,17 @@ function renderArticles(articles) {
 }
 
 // 页面加载时执行
+// 显示加载状态
+const grid = document.getElementById('news-grid');
+if (grid) {
+    grid.innerHTML = `
+        <div style="text-align:center;padding:60px 40px;">
+            <div style="font-size:48px;margin-bottom:20px;animation:spin 1s linear infinite;">⏳</div>
+            <p style="color:#666;">正在加载文章...</p>
+        </div>
+        <style>@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }</style>
+    `;
+}
 loadArticles();
 
 // 绑定分类按钮点击事件 - 使用事件委托

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>数据闭环文章中心 | Data Loop Hub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">🔄</span>
+                    <span class="logo-text">数据闭环<br><small>文章中心</small></span>
+                </div>
+                <button class="sidebar-toggle" id="sidebar-toggle">✕</button>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <div class="nav-title">每日更新</div>
+                    <a href="index.html" class="nav-item active">
+                        <span class="nav-icon">📰</span>
+                        <span class="nav-text">每日必读</span>
+                        <span class="nav-badge" id="today-count">0</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">行业研究</div>
+                    <a href="research.html?cat=autonomous" class="nav-item">
+                        <span class="nav-icon">🚗</span>
+                        <span class="nav-text">自动驾驶</span>
+                    </a>
+                    <a href="research.html?cat=robotics" class="nav-item">
+                        <span class="nav-icon">🤖</span>
+                        <span class="nav-text">具身智能</span>
+                    </a>
+                    <a href="research.html?cat=llm" class="nav-item">
+                        <span class="nav-icon">🧠</span>
+                        <span class="nav-text">大模型</span>
+                    </a>
+                    <a href="research.html?cat=zhuoyu" class="nav-item">
+                        <span class="nav-icon">🎯</span>
+                        <span class="nav-text">卓驭科技</span>
+                    </a>
+                    <a href="research.html" class="nav-item">
+                        <span class="nav-icon">📚</span>
+                        <span class="nav-text">全部研究</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">工具</div>
+                    <a href="timeline.html" class="nav-item">
+                        <span class="nav-icon">📅</span>
+                        <span class="nav-text">时间轴</span>
+                    </a>
+                    <a href="bookmarks.html" class="nav-item">
+                        <span class="nav-icon">🔖</span>
+                        <span class="nav-text">收藏夹</span>
+                        <span class="nav-badge" id="bookmark-count">0</span>
+                    </a>
+                    <a href="dashboard.html" class="nav-item">
+                        <span class="nav-icon">📊</span>
+                        <span class="nav-text">数据看板</span>
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>最后更新: <span id="last-update">--</span></p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <button class="menu-toggle" id="menu-toggle">☰</button>
+                <div class="header-title">
+                    <h1>每日必读</h1>
+                    <p class="header-subtitle"><span id="current-date">--</span></p>
+                </div>
+                <div class="header-actions">
+                    <div class="date-nav">
+                        <button class="btn-icon" id="prev-date" title="前一天 (←)">◀</button>
+                        <button class="btn btn-secondary" id="today-btn" title="今天 (t)">今天</button>
+                        <button class="btn-icon" id="next-date" title="后一天 (→)">▶</button>
+                    </div>
+                    <div class="search-box">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <input type="text" placeholder="搜索资讯..." id="search-input">
+                    </div>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="content">
+                <!-- Daily Summary -->
+                <section class="daily-summary">
+                    <div class="summary-header">
+                        <span class="summary-icon">🔥</span>
+                        <h2>今日要点</h2>
+                    </div>
+                    <div class="summary-content" id="daily-highlights">
+                        <!-- Dynamic content -->
+                    </div>
+                </section>
+
+                <!-- Stats Bar -->
+                <section class="stats-bar">
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-total">0</div>
+                        <div class="stat-label">今日资讯</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-llm">0</div>
+                        <div class="stat-label">大模型</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-autonomous">0</div>
+                        <div class="stat-label">自动驾驶</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-robotics">0</div>
+                        <div class="stat-label">具身智能</div>
+                    </div>
+                </section>
+
+                <!-- Filter Bar -->
+                <section class="filter-bar">
+                    <div class="filter-group">
+                        <button class="filter-btn active" data-filter="all">全部</button>
+                        <button class="filter-btn" data-filter="llm">大模型</button>
+                        <button class="filter-btn" data-filter="autonomous">自动驾驶</button>
+                        <button class="filter-btn" data-filter="robotics">具身智能</button>
+                        <button class="filter-btn" data-filter="company">公司动态</button>
+                        <button class="filter-btn" data-filter="product">产品发布</button>
+                        <button class="filter-btn" data-filter="research">技术研究</button>
+                    </div>
+                    <div class="date-picker">
+                        <input type="date" id="date-picker" value="">
+                    </div>
+                </section>
+
+                <!-- News Grid -->
+                <section class="news-section">
+                    <div class="news-grid" id="news-grid">
+                        <!-- Dynamic content -->
+                    </div>
+                    <div class="load-more">
+                        <button class="btn btn-secondary" id="load-more-btn">加载更多</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Article Modal -->
+    <div class="modal" id="article-modal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <article class="article-detail" id="article-detail">
+                <!-- Dynamic content -->
+            </article>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script src="assets/js/app.js?v=3"></script>
+    <script src="assets/js/daily-simple.js?v=3"></script>
+</body>
+</html>

@@ -12,7 +12,7 @@
   {
     "id": "量子位_1773466066_0",
     "title": "阿里云发布手机“一键养虾”产品JVS Claw：3分钟实现养虾自由",
-    "summary": "",
+    "summary": "这是关于阿里云发布手机“一键养虾”产品JVS Claw：3分钟实现养...的文章摘要",
     "url": "https://www.qbitai.com/2026/03/387750.html",
     "source": "量子位",
     "category": "llm",
@@ -22,7 +22,7 @@
   {
     "id": "量子位_1773466066_1",
     "title": "刚刚，腾讯电脑“龙虾管家”重磅上线",
-    "summary": "",
+    "summary": "这是关于刚刚，腾讯电脑“龙虾管家”重磅上线...的文章摘要",
     "url": "https://www.qbitai.com/2026/03/387739.html",
     "source": "量子位",
     "category": "llm",
@@ -32,7 +32,7 @@
   {
     "id": "量子位_1773466066_2",
     "title": "滴滴Q4再创新高 日订单峰值超6500万单",
-    "summary": "",
+    "summary": "这是关于滴滴Q4再创新高 日订单峰值超6500万单...的文章摘要",
     "url": "https://www.qbitai.com/2026/03/387736.html",
     "source": "量子位",
     "category": "llm",
@@ -70,36 +70,6 @@
     "published_at": "2026-03-14T13:27:50.563354"
   },
   {
-    "id": "OpenAI Blog_1773466354_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T13:32:34.231586"
-  },
-  {
-    "id": "OpenAI Blog_1773466354_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T13:32:34.231602"
-  },
-  {
-    "id": "OpenAI Blog_1773466354_2",
-    "title": "[译] From model to agent: Equipping the Respo",
-    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
-    "url": "https://openai.com/index/equip-responses-api-computer-environment",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T13:32:34.231607"
-  },
-  {
     "id": "36氪_1773469964_0",
     "title": "9点1氪丨济州航空空难一年后再现遇难者遗骸；中国区“苹果税”下调；市监局出手整治“误导性大小字”广告",
     "summary": "\n \n \n  <h2><strong>今日热点导览</strong></h2>\n  <p>美团王兴：“减少登味”，内部不要再叫我“兴哥”</p>\n  <p>斯泰兰蒂斯回应“玛莎拉蒂品牌要被出售”</p>\n  <p>8年超龄车延期3年营运？滴滴辟谣</p>\n  <p>微软市值5个月内蒸发1万亿美元</p>\n  <p>金融监管总局约谈5家平台运营机构</p>\n  <h2><strong>TOP3大新闻",
@@ -128,36 +98,6 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-14T14:32:44.117337"
-  },
-  {
-    "id": "OpenAI Blog_1773469970_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T14:32:50.159921"
-  },
-  {
-    "id": "OpenAI Blog_1773469970_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T14:32:50.159936"
-  },
-  {
-    "id": "OpenAI Blog_1773469970_2",
-    "title": "[译] From model to agent: Equipping the Respo",
-    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
-    "url": "https://openai.com/index/equip-responses-api-computer-environment",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T14:32:50.159941"
   },
   {
     "id": "TechCrunch AI_1773469978_0",
@@ -250,276 +190,6 @@
     "published_at": "2026-03-14T15:33:08.262888"
   },
   {
-    "id": "OpenAI Blog_1773473597_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T15:33:17.576434"
-  },
-  {
-    "id": "OpenAI Blog_1773473597_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T15:33:17.576457"
-  },
-  {
-    "id": "OpenAI Blog_1773473597_2",
-    "title": "[译] From model to agent: Equipping the Respo",
-    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
-    "url": "https://openai.com/index/equip-responses-api-computer-environment",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T15:33:17.576466"
-  },
-  {
-    "id": "TechCrunch AI_1773473604_0",
-    "title": "[译] ‘Not built right the first time’ — Musk’",
-    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
-    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T15:33:24.600655"
-  },
-  {
-    "id": "TechCrunch AI_1773473604_1",
-    "title": "[译] Lawyer behind AI psychosis cases warns o",
-    "summary": "[译文摘要] AI chatbots have been linked to suicides for years. Now one lawyer says they are",
-    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T15:33:24.600669"
-  },
-  {
-    "id": "TechCrunch AI_1773473604_2",
-    "title": "[译] Nyne, founded by a father-son duo, gives",
-    "summary": "[译文摘要] The data infrastructure startup raised $5.3 million in seed funding led by Wisch",
-    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T15:33:24.600674"
-  },
-  {
-    "id": "MIT Tech Review_1773473607_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T15:33:27.487358"
-  },
-  {
-    "id": "MIT Tech Review_1773473607_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T15:33:27.487384"
-  },
-  {
-    "id": "MIT Tech Review_1773473607_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T15:33:27.487396"
-  },
-  {
-    "id": "OpenAI Blog_1773477226_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T16:33:46.511925"
-  },
-  {
-    "id": "OpenAI Blog_1773477226_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T16:33:46.511941"
-  },
-  {
-    "id": "OpenAI Blog_1773477226_2",
-    "title": "[译] From model to agent: Equipping the Respo",
-    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
-    "url": "https://openai.com/index/equip-responses-api-computer-environment",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T16:33:46.511947"
-  },
-  {
-    "id": "TechCrunch AI_1773477233_0",
-    "title": "[译] ‘Not built right the first time’ — Musk’",
-    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
-    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T16:33:53.163604"
-  },
-  {
-    "id": "TechCrunch AI_1773477233_1",
-    "title": "[译] Lawyer behind AI psychosis cases warns o",
-    "summary": "[译文摘要] AI chatbots have been linked to suicides for years. Now one lawyer says they are",
-    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T16:33:53.163623"
-  },
-  {
-    "id": "TechCrunch AI_1773477233_2",
-    "title": "[译] Nyne, founded by a father-son duo, gives",
-    "summary": "[译文摘要] The data infrastructure startup raised $5.3 million in seed funding led by Wisch",
-    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T16:33:53.163629"
-  },
-  {
-    "id": "MIT Tech Review_1773477235_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T16:33:55.634087"
-  },
-  {
-    "id": "MIT Tech Review_1773477235_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T16:33:55.634106"
-  },
-  {
-    "id": "MIT Tech Review_1773477235_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T16:33:55.634114"
-  },
-  {
-    "id": "OpenAI Blog_1773480850_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T17:34:10.321963"
-  },
-  {
-    "id": "OpenAI Blog_1773480850_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T17:34:10.321980"
-  },
-  {
-    "id": "OpenAI Blog_1773480850_2",
-    "title": "[译] From model to agent: Equipping the Respo",
-    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
-    "url": "https://openai.com/index/equip-responses-api-computer-environment",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T17:34:10.321986"
-  },
-  {
-    "id": "TechCrunch AI_1773480858_0",
-    "title": "[译] ‘Not built right the first time’ — Musk’",
-    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
-    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T17:34:18.296307"
-  },
-  {
-    "id": "TechCrunch AI_1773480858_1",
-    "title": "[译] Lawyer behind AI psychosis cases warns o",
-    "summary": "[译文摘要] AI chatbots have been linked to suicides for years. Now one lawyer says they are",
-    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T17:34:18.296320"
-  },
-  {
-    "id": "TechCrunch AI_1773480858_2",
-    "title": "[译] Nyne, founded by a father-son duo, gives",
-    "summary": "[译文摘要] The data infrastructure startup raised $5.3 million in seed funding led by Wisch",
-    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T17:34:18.296326"
-  },
-  {
-    "id": "MIT Tech Review_1773480860_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T17:34:20.818942"
-  },
-  {
-    "id": "MIT Tech Review_1773480860_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T17:34:20.818958"
-  },
-  {
-    "id": "MIT Tech Review_1773480860_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T17:34:20.818963"
-  },
-  {
     "id": "量子位_1773484466_0",
     "title": "AI能代替人干活吗？B站联合6位UP主用OpenClaw直播做了次社会实验",
     "summary": "当程序员开发App、商业带货、打游戏",
@@ -528,96 +198,6 @@
     "category": "llm",
     "quality_score": 0.8,
     "published_at": "2026-03-14T18:34:26.029256"
-  },
-  {
-    "id": "OpenAI Blog_1773484475_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T18:34:35.142528"
-  },
-  {
-    "id": "OpenAI Blog_1773484475_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T18:34:35.142545"
-  },
-  {
-    "id": "OpenAI Blog_1773484475_2",
-    "title": "[译] From model to agent: Equipping the Respo",
-    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
-    "url": "https://openai.com/index/equip-responses-api-computer-environment",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T18:34:35.142550"
-  },
-  {
-    "id": "TechCrunch AI_1773484481_0",
-    "title": "[译] ‘Not built right the first time’ — Musk’",
-    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
-    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T18:34:41.666496"
-  },
-  {
-    "id": "TechCrunch AI_1773484481_1",
-    "title": "[译] Lawyer behind AI psychosis cases warns o",
-    "summary": "[译文摘要] AI chatbots have been linked to suicides for years. Now one lawyer says they are",
-    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T18:34:41.666520"
-  },
-  {
-    "id": "TechCrunch AI_1773484481_2",
-    "title": "[译] Nyne, founded by a father-son duo, gives",
-    "summary": "[译文摘要] The data infrastructure startup raised $5.3 million in seed funding led by Wisch",
-    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T18:34:41.666529"
-  },
-  {
-    "id": "MIT Tech Review_1773484484_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T18:34:44.119290"
-  },
-  {
-    "id": "MIT Tech Review_1773484484_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T18:34:44.119311"
-  },
-  {
-    "id": "MIT Tech Review_1773484484_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T18:34:44.119318"
   },
   {
     "id": "36氪_1773488092_0",
@@ -640,96 +220,6 @@
     "published_at": "2026-03-14T19:34:52.724847"
   },
   {
-    "id": "OpenAI Blog_1773488099_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T19:34:59.930276"
-  },
-  {
-    "id": "OpenAI Blog_1773488099_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T19:34:59.930292"
-  },
-  {
-    "id": "OpenAI Blog_1773488099_2",
-    "title": "[译] From model to agent: Equipping the Respo",
-    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
-    "url": "https://openai.com/index/equip-responses-api-computer-environment",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T19:34:59.930297"
-  },
-  {
-    "id": "TechCrunch AI_1773488108_0",
-    "title": "[译] ‘Not built right the first time’ — Musk’",
-    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
-    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T19:35:08.057560"
-  },
-  {
-    "id": "TechCrunch AI_1773488108_1",
-    "title": "[译] Lawyer behind AI psychosis cases warns o",
-    "summary": "[译文摘要] AI chatbots have been linked to suicides for years. Now one lawyer says they are",
-    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T19:35:08.057583"
-  },
-  {
-    "id": "TechCrunch AI_1773488108_2",
-    "title": "[译] Nyne, founded by a father-son duo, gives",
-    "summary": "[译文摘要] The data infrastructure startup raised $5.3 million in seed funding led by Wisch",
-    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T19:35:08.057591"
-  },
-  {
-    "id": "MIT Tech Review_1773488110_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T19:35:10.609359"
-  },
-  {
-    "id": "MIT Tech Review_1773488110_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T19:35:10.609372"
-  },
-  {
-    "id": "MIT Tech Review_1773488110_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T19:35:10.609376"
-  },
-  {
     "id": "量子位_1773491716_0",
     "title": "Gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋",
     "summary": "以后出门有个谷歌地图就够了",
@@ -742,101 +232,11 @@
   {
     "id": "量子位_1773491716_1",
     "title": "不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模型 ”AWE3.0 ",
-    "summary": "",
+    "summary": "这是关于不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模...的文章摘要",
     "url": "https://www.qbitai.com/2026/03/387860.html",
     "source": "量子位",
     "category": "llm",
     "quality_score": 0.8,
     "published_at": "2026-03-14T20:35:16.258851"
-  },
-  {
-    "id": "OpenAI Blog_1773491725_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T20:35:25.712671"
-  },
-  {
-    "id": "OpenAI Blog_1773491725_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T20:35:25.712687"
-  },
-  {
-    "id": "OpenAI Blog_1773491725_2",
-    "title": "[译] From model to agent: Equipping the Respo",
-    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
-    "url": "https://openai.com/index/equip-responses-api-computer-environment",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-14T20:35:25.712693"
-  },
-  {
-    "id": "TechCrunch AI_1773491734_0",
-    "title": "[译] ‘Not built right the first time’ — Musk’",
-    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
-    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T20:35:34.546516"
-  },
-  {
-    "id": "TechCrunch AI_1773491734_1",
-    "title": "[译] Lawyer behind AI psychosis cases warns o",
-    "summary": "[译文摘要] AI chatbots have been linked to suicides for years. Now one lawyer says they are",
-    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T20:35:34.546545"
-  },
-  {
-    "id": "TechCrunch AI_1773491734_2",
-    "title": "[译] Nyne, founded by a father-son duo, gives",
-    "summary": "[译文摘要] The data infrastructure startup raised $5.3 million in seed funding led by Wisch",
-    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T20:35:34.546553"
-  },
-  {
-    "id": "MIT Tech Review_1773491737_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T20:35:37.880561"
-  },
-  {
-    "id": "MIT Tech Review_1773491737_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T20:35:37.880575"
-  },
-  {
-    "id": "MIT Tech Review_1773491737_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-14T20:35:37.880580"
   }
 ]
