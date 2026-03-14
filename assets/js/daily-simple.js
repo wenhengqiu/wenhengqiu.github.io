@@ -73,3 +73,35 @@ function renderArticles(articles) {
 
 // 页面加载时执行
 loadArticles();
+
+// 分类过滤功能
+function filterByCategory(category) {
+    if (!window.articlesData) return;
+    
+    if (category === 'all' || !category) {
+        renderArticles(window.articlesData);
+    } else {
+        const filtered = window.articlesData.filter(a => a.category === category);
+        renderArticles(filtered);
+    }
+    
+    // 更新标题
+    const titles = {
+        'llm': '大模型',
+        'autonomous': '自动驾驶', 
+        'robotics': '具身智能',
+        'zhuoyu': '卓驭科技'
+    };
+    const titleEl = document.querySelector('.header-title h1');
+    if (titleEl) {
+        titleEl.textContent = titles[category] || '每日必读';
+    }
+}
+
+// 检查 URL 参数
+const urlParams = new URLSearchParams(window.location.search);
+const cat = urlParams.get('cat');
+if (cat) {
+    // 延迟执行，等待文章加载完成
+    setTimeout(() => filterByCategory(cat), 500);
+}
