@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "2026-03-14-002",
+    "title": "特斯拉 FSD V14 向测试用户推送",
+    "summary": "这是关于特斯拉 FSD V14 向测试用户推送的文章摘要...",
+    "url": "https://example.com/article/2",
+    "source": "DeepMind",
+    "category": "autonomous",
+    "quality_score": 0.72,
+    "published_at": "2026-03-14T13:15:50.958817"
+  }
+]

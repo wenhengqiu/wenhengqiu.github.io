@@ -36,14 +36,14 @@ case "$MODE" in
     
     once)
         echo "📥 运行单次采集..."
-        # 使用 OpenClaw 运行
-        openclaw run python -m info_getter --once 2>&1 | tee logs/run_$(date +%Y%m%d_%H%M%S).log
+        # 直接运行 Python
+        python3 -m info_getter --once 2>&1 | tee logs/run_$(date +%Y%m%d_%H%M%S).log
         ;;
     
     daemon)
         echo "👻 启动守护进程..."
         echo "日志: logs/daemon.log"
-        nohup openclaw run python -m info_getter > logs/daemon.log 2>&1 &
+        nohup python3 -m info_getter > logs/daemon.log 2>&1 &
         echo $! > .pid
         echo "✅ 守护进程已启动 (PID: $(cat .pid))"
         echo "停止命令: ./start.sh stop"
