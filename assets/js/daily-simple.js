@@ -84,7 +84,12 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // 过滤文章
             const filter = this.getAttribute('data-filter');
-            filterByCategory(filter);
+            // 如果文章还没加载完，等待一下
+            if (!window.articlesData || window.articlesData.length === 0) {
+                setTimeout(() => filterByCategory(filter), 1000);
+            } else {
+                filterByCategory(filter);
+            }
         });
     });
 });
@@ -118,5 +123,13 @@ const urlParams = new URLSearchParams(window.location.search);
 const cat = urlParams.get('cat');
 if (cat) {
     // 延迟执行，等待文章加载完成
-    setTimeout(() => filterByCategory(cat), 500);
+    setTimeout(() => filterByCategory(cat), 1500);
+    
+    // 更新按钮状态
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.getAttribute('data-filter') === cat) {
+            btn.classList.add('active');
+        }
+    });
 }
