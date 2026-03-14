@@ -74,24 +74,26 @@ function renderArticles(articles) {
 // 页面加载时执行
 loadArticles();
 
-// 绑定分类按钮点击事件
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.addEventListener('click', function() {
-            // 更新按钮状态
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            this.classList.add('active');
-            
-            // 过滤文章
-            const filter = this.getAttribute('data-filter');
-            // 如果文章还没加载完，等待一下
-            if (!window.articlesData || window.articlesData.length === 0) {
-                setTimeout(() => filterByCategory(filter), 1000);
-            } else {
-                filterByCategory(filter);
-            }
-        });
-    });
+// 绑定分类按钮点击事件 - 使用事件委托
+document.addEventListener('click', function(e) {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    
+    console.log('Filter clicked:', btn.getAttribute('data-filter'));
+    
+    // 更新按钮状态
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    
+    // 过滤文章
+    const filter = btn.getAttribute('data-filter');
+    // 如果文章还没加载完，等待一下
+    if (!window.articlesData || window.articlesData.length === 0) {
+        console.log('Articles not loaded yet, waiting...');
+        setTimeout(() => filterByCategory(filter), 1500);
+    } else {
+        filterByCategory(filter);
+    }
 });
 
 // 分类过滤功能
