@@ -203,17 +203,22 @@ function renderArticles(articles) {
     
     // 数据已保存在 loadArticles 中
     
-    // 渲染文章
+    // 渲染文章 - 优先显示中文翻译
     grid.innerHTML = articles.map(article => {
         const url = article.original_url || article.url || '#';
+        // 优先使用中文标题和摘要
+        const title = article.title_zh || article.title || '无标题';
+        const summary = article.summary_zh || article.summary || '';
+        const sourceName = article.source?.name || article.source || '未知来源';
+        
         return `
         <div class="news-card" onclick="window.open('${url}', '_blank')" style="cursor:pointer;">
             <div class="card-header">
                 <span class="tag ${article.category}">${article.category}</span>
-                <span>${article.source?.name || '未知来源'}</span>
+                <span>${sourceName}</span>
             </div>
-            <h3 class="card-title">${article.title || '无标题'}</h3>
-            <p class="card-summary">${article.summary || ''}</p>
+            <h3 class="card-title">${title}</h3>
+            <p class="card-summary">${summary}</p>
             <div style="margin-top:10px;text-align:right;">
                 <span style="color:#1890ff;font-size:14px;">阅读原文 →</span>
             </div>
