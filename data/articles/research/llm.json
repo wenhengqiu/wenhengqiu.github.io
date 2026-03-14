@@ -618,5 +618,115 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-14T18:34:44.119318"
+  },
+  {
+    "id": "36氪_1773488092_0",
+    "title": "腾讯龙虾团队答疑：龙虾的热度确实高过能力，但它是普通人拥抱 AI 浪潮的第一步",
+    "summary": "\n \n \n  <p><strong>文｜王毓婵</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>最近一周，一向以风格稳重著称的腾讯一反常态，不仅借着一场“免费帮装虾”的线下活动迅速推高了大众对“龙虾”的热情，而且在短期内推出了大量“龙虾”产品。</p>\n  <p>目前已经上线的，有被称为腾讯版“免部署小龙虾”的办公工具WorkBuddy；支持一",
+    "url": "https://36kr.com/p/3721355722684804?f=rss",
+    "source": "36氪",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T19:34:52.724829"
+  },
+  {
+    "id": "36氪_1773488092_1",
+    "title": "前华为北美高管团队创业AIDC算力电源赛道，正推进与国际大厂合作 | 硬氪首发",
+    "summary": "\n \n \n  <p>作者&nbsp;|&nbsp;林晴晴</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，AIDC全栈算力电源解决方案提供商「梅威斯Matrix Power」已于近日完成A轮融资，由星星充电独家投资，金额为数千万元，治臻咨询担任其长期独家财务顾问。此前公司曾获某上市公司天使轮、宇杉资本Pre-A轮投资。本轮资金将主要用于AI数据中心电源的持续研发",
+    "url": "https://36kr.com/p/3722683801909641?f=rss",
+    "source": "36氪",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T19:34:52.724847"
+  },
+  {
+    "id": "OpenAI Blog_1773488099_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-14T19:34:59.930276"
+  },
+  {
+    "id": "OpenAI Blog_1773488099_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-14T19:34:59.930292"
+  },
+  {
+    "id": "OpenAI Blog_1773488099_2",
+    "title": "[译] From model to agent: Equipping the Respo",
+    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
+    "url": "https://openai.com/index/equip-responses-api-computer-environment",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-14T19:34:59.930297"
+  },
+  {
+    "id": "TechCrunch AI_1773488108_0",
+    "title": "[译] ‘Not built right the first time’ — Musk’",
+    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
+    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T19:35:08.057560"
+  },
+  {
+    "id": "TechCrunch AI_1773488108_1",
+    "title": "[译] Lawyer behind AI psychosis cases warns o",
+    "summary": "[译文摘要] AI chatbots have been linked to suicides for years. Now one lawyer says they are",
+    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T19:35:08.057583"
+  },
+  {
+    "id": "TechCrunch AI_1773488108_2",
+    "title": "[译] Nyne, founded by a father-son duo, gives",
+    "summary": "[译文摘要] The data infrastructure startup raised $5.3 million in seed funding led by Wisch",
+    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T19:35:08.057591"
+  },
+  {
+    "id": "MIT Tech Review_1773488110_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T19:35:10.609359"
+  },
+  {
+    "id": "MIT Tech Review_1773488110_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T19:35:10.609372"
+  },
+  {
+    "id": "MIT Tech Review_1773488110_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T19:35:10.609376"
   }
 ]
