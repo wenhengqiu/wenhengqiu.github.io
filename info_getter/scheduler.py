@@ -43,13 +43,13 @@ class Scheduler:
         
         try:
             # 1. 采集文章
-            from fetcher.core import Fetcher
+            from info_getter.fetcher.core import Fetcher
             fetcher = Fetcher(self.config)
             articles = await fetcher.fetch_all()
             logger.info(f"📥 采集到 {len(articles)} 篇文章")
             
             # 2. 翻译文章
-            from translator.core import Translator
+            from info_getter.translator.core import Translator
             translator = Translator()
             
             translated_articles = []
@@ -64,7 +64,7 @@ class Scheduler:
             logger.info(f"🌐 翻译完成 {len(translated_articles)} 篇")
             
             # 3. 发布文章
-            from publisher.core import Publisher
+            from info_getter.publisher.core import Publisher
             publisher = Publisher()
             
             published_count = 0
