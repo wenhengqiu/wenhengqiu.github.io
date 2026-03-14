@@ -154,3 +154,107 @@
    耗时: 26.4 秒
 
 [2026-03-14 14:33:03] 等待1小时...
+[2026-03-14 15:33:03] 开始采集...
+============================================================
+🚀 Info-Getter 轻量版
+============================================================
+时间: 2026-03-14 15:33:03
+
+📥 开始采集文章...
+--------------------------------------------------
+
+🌐 机器之心
+   URL: https://www.jiqizhixin.com/rss
+   ❌ 解析失败: syntax error: line 1, column 0
+   ✅ 采集到 0 篇
+
+🌐 量子位
+   URL: https://www.qbitai.com/rss
+   ✅ 采集到 3 篇
+
+🌐 品玩
+   URL: https://www.pingwest.com/rss
+   ❌ 获取失败: HTTP Error 404: Not Found
+
+🌐 36氪
+   URL: https://36kr.com/feed
+   ✅ 采集到 3 篇
+
+🌐 雷锋网
+   URL: https://www.leiphone.com/rss
+   ❌ 获取失败: HTTP Error 404: Not Found
+
+🌐 OpenAI Blog
+   URL: https://openai.com/blog/rss.xml
+   ✅ 采集到 3 篇
+
+🌐 DeepMind
+   URL: https://deepmind.google/discover/blog/
+   ❌ 解析失败: not well-formed (invalid token): line 61, column 68
+   ✅ 采集到 0 篇
+
+🌐 Tesla Blog
+   URL: https://www.tesla.com/blog/rss.xml
+   ❌ 获取失败: HTTP Error 403: Forbidden
+
+🌐 Waymo
+   URL: https://waymo.com/blog/rss/
+   ❌ 获取失败: HTTP Error 404: Not Found
+
+🌐 TechCrunch AI
+   URL: https://techcrunch.com/category/artificial-intelligence/feed/
+   ✅ 采集到 3 篇
+
+🌐 The Verge AI
+   URL: https://www.theverge.com/ai-artificial-intelligence/rss/index.xml
+   ❌ 获取失败: HTTP Error 404: Not Found
+
+🌐 MIT Tech Review
+   URL: https://www.technologyreview.com/feed/
+   ✅ 采集到 3 篇
+
+📊 总计采集: 15 篇
+🌐 翻译文章...
+--------------------------------------------------
+   📝 Rakuten fixes issues twice as fast with ... → [译] Rakuten fixes issues twice as fast w
+   📝 Designing AI agents to resist prompt inj... → [译] Designing AI agents to resist prompt
+   📝 From model to agent: Equipping the Respo... → [译] From model to agent: Equipping the R
+   📝 ‘Not built right the first time’ — Musk’... → [译] ‘Not built right the first time’ — M
+   📝 Lawyer behind AI psychosis cases warns o... → [译] Lawyer behind AI psychosis cases war
+   📝 Nyne, founded by a father-son duo, gives... → [译] Nyne, founded by a father-son duo, g
+   📝 Why physical AI is becoming manufacturin... → [译] Why physical AI is becoming manufact
+   📝 The Download: how AI is used for militar... → [译] The Download: how AI is used for mil
+   📝 Future AI chips could be built on glass... → [译] Future AI chips could be built on gl
+
+✅ 翻译完成: 9 篇
+📤 发布文章...
+--------------------------------------------------
+   ✅ [0.7999999999999999] 量子位专访陶哲轩：我为什么现在创办一个AI x Science组织...
+   ✅ [0.7999999999999999] 拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭C...
+   ✅ [0.7999999999999999] 龙虾版支付宝来了！睡觉都在帮你抢红包...
+   ✅ [0.9999999999999999] [译] Rakuten fixes issues twice as fast w...
+   ✅ [0.9999999999999999] [译] Designing AI agents to resist prompt...
+   ✅ [0.9999999999999999] [译] From model to agent: Equipping the R...
+   ✅ [0.8999999999999999] [译] ‘Not built right the first time’ — M...
+   ✅ [0.8999999999999999] [译] Lawyer behind AI psychosis cases war...
+   ✅ [0.8999999999999999] [译] Nyne, founded by a father-son duo, g...
+   ✅ [0.8999999999999999] [译] Why physical AI is becoming manufact...
+   ✅ [0.8999999999999999] [译] The Download: how AI is used for mil...
+   ✅ [0.8999999999999999] [译] Future AI chips could be built on gl...
+
+📊 发布成功: 12/15 篇
+
+📦 Git 提交...
+--------------------------------------------------
+   ✅ 已推送到 GitHub
+
+============================================================
+🎉 运行完成!
+============================================================
+
+📈 统计:
+   采集: 15 篇
+   发布: 12 篇
+   耗时: 26.2 秒
+
+[2026-03-14 15:33:30] 等待1小时...
