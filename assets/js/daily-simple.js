@@ -51,16 +51,24 @@ function renderArticles(articles) {
         return;
     }
     
-    grid.innerHTML = articles.map(article => `
-        <div class="news-card" onclick="openArticle('${article.id}')">
+    // 保存文章数据供点击使用
+    window.articlesData = articles;
+    
+    grid.innerHTML = articles.map(article => {
+        const url = article.original_url || article.url || '#';
+        return `
+        <div class="news-card" onclick="window.open('${url}', '_blank')" style="cursor:pointer;">
             <div class="card-header">
                 <span class="tag ${article.category}">${article.category}</span>
                 <span>${article.source?.name || '未知来源'}</span>
             </div>
             <h3 class="card-title">${article.title || '无标题'}</h3>
             <p class="card-summary">${article.summary || ''}</p>
+            <div style="margin-top:10px;text-align:right;">
+                <span style="color:#1890ff;font-size:14px;">阅读原文 →</span>
+            </div>
         </div>
-    `).join('');
+    `}).join('');
 }
 
 // 页面加载时执行
