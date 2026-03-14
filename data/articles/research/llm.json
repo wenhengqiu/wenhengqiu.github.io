@@ -468,5 +468,95 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-14T23:37:17.719544"
+  },
+  {
+    "id": "OpenAI Blog_1773506275_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T00:37:55.436584"
+  },
+  {
+    "id": "OpenAI Blog_1773506275_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T00:37:55.436607"
+  },
+  {
+    "id": "OpenAI Blog_1773506275_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T00:37:55.436615"
+  },
+  {
+    "id": "TechCrunch AI_1773506282_0",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T00:38:02.158545"
+  },
+  {
+    "id": "TechCrunch AI_1773506282_1",
+    "title": "[译] How to use the new ChatGPT app integrati",
+    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
+    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T00:38:02.158566"
+  },
+  {
+    "id": "TechCrunch AI_1773506282_2",
+    "title": "[译] ‘Not built right the first time’ — Musk’",
+    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
+    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T00:38:02.158577"
+  },
+  {
+    "id": "MIT Tech Review_1773506285_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T00:38:05.852253"
+  },
+  {
+    "id": "MIT Tech Review_1773506285_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T00:38:05.852278"
+  },
+  {
+    "id": "MIT Tech Review_1773506285_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T00:38:05.852287"
   }
 ]
