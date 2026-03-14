@@ -294,25 +294,25 @@
                         <div class="category-icon">🚗</div>
                         <h3>自动驾驶</h3>
                         <p>特斯拉、Waymo、小鹏、华为、百度、蔚来等公司的技术路线与商业模式分析</p>
-                        <span class="category-count">25+ 篇文章</span>
+                        <span class="category-count" id="count-autonomous">加载中...</span>
                     </a>
                     <a href="research.html?cat=robotics" class="category-card" data-cat="robotics">
                         <div class="category-icon">🤖</div>
                         <h3>具身智能</h3>
                         <p>Figure AI、Optimus、智元、宇树等人形机器人研究</p>
-                        <span class="category-count">15+ 篇文章</span>
+                        <span class="category-count" id="count-robotics">加载中...</span>
                     </a>
                     <a href="research.html?cat=llm" class="category-card" data-cat="llm">
                         <div class="category-icon">🧠</div>
                         <h3>大模型</h3>
                         <p>OpenAI、Google、智谱、月之暗面等大模型技术解析</p>
-                        <span class="category-count">15+ 篇文章</span>
+                        <span class="category-count" id="count-llm">加载中...</span>
                     </a>
                     <a href="research.html?cat=zhuoyu" class="category-card" data-cat="zhuoyu">
                         <div class="category-icon">🎯</div>
                         <h3>卓驭科技</h3>
                         <p>成行平台、双目视觉、大疆车载独立后的发展历程</p>
-                        <span class="category-count">9+ 篇文章</span>
+                        <span class="category-count" id="count-zhuoyu">加载中...</span>
                     </a>
                 </section>
 
@@ -436,10 +436,31 @@
             showToast('文章详情功能开发中...');
         }
         
+        // Load category counts
+        async function loadCategoryCounts() {
+            const categories = ['autonomous', 'robotics', 'llm', 'zhuoyu'];
+            
+            for (const cat of categories) {
+                try {
+                    const response = await fetch(`data/articles/research/${cat}.json`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        const countEl = document.getElementById(`count-${cat}`);
+                        if (countEl) {
+                            countEl.textContent = `${data.length} 篇文章`;
+                        }
+                    }
+                } catch (e) {
+                    console.error(`Error loading ${cat} count:`, e);
+                }
+            }
+        }
+        
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
             initSidebar();
             updateBookmarkCount();
+            loadCategoryCounts();
             
             // Get category from URL
             const urlParams = new URLSearchParams(window.location.search);
