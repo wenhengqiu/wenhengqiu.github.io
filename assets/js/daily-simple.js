@@ -38,6 +38,9 @@ async function loadArticles() {
     document.getElementById('stat-autonomous').textContent = articles.filter(a => a.category === 'autonomous').length;
     document.getElementById('stat-robotics').textContent = articles.filter(a => a.category === 'robotics').length;
     
+    // 保存数据
+    window.articlesData = articles;
+    
     // 渲染文章
     renderArticles(articles);
 }
@@ -51,8 +54,7 @@ function renderArticles(articles) {
         return;
     }
     
-    // 保存文章数据供点击使用
-    window.articlesData = articles;
+    // 数据已保存在 loadArticles 中
     
     grid.innerHTML = articles.map(article => {
         const url = article.original_url || article.url || '#';
