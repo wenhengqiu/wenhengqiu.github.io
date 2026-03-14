@@ -518,5 +518,105 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-14T17:34:20.818963"
+  },
+  {
+    "id": "量子位_1773484466_0",
+    "title": "AI能代替人干活吗？B站联合6位UP主用OpenClaw直播做了次社会实验",
+    "summary": "当程序员开发App、商业带货、打游戏",
+    "url": "https://www.qbitai.com/2026/03/387843.html",
+    "source": "量子位",
+    "category": "llm",
+    "quality_score": 0.8,
+    "published_at": "2026-03-14T18:34:26.029256"
+  },
+  {
+    "id": "OpenAI Blog_1773484475_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-14T18:34:35.142528"
+  },
+  {
+    "id": "OpenAI Blog_1773484475_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-14T18:34:35.142545"
+  },
+  {
+    "id": "OpenAI Blog_1773484475_2",
+    "title": "[译] From model to agent: Equipping the Respo",
+    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
+    "url": "https://openai.com/index/equip-responses-api-computer-environment",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-14T18:34:35.142550"
+  },
+  {
+    "id": "TechCrunch AI_1773484481_0",
+    "title": "[译] ‘Not built right the first time’ — Musk’",
+    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
+    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T18:34:41.666496"
+  },
+  {
+    "id": "TechCrunch AI_1773484481_1",
+    "title": "[译] Lawyer behind AI psychosis cases warns o",
+    "summary": "[译文摘要] AI chatbots have been linked to suicides for years. Now one lawyer says they are",
+    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T18:34:41.666520"
+  },
+  {
+    "id": "TechCrunch AI_1773484481_2",
+    "title": "[译] Nyne, founded by a father-son duo, gives",
+    "summary": "[译文摘要] The data infrastructure startup raised $5.3 million in seed funding led by Wisch",
+    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T18:34:41.666529"
+  },
+  {
+    "id": "MIT Tech Review_1773484484_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T18:34:44.119290"
+  },
+  {
+    "id": "MIT Tech Review_1773484484_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T18:34:44.119311"
+  },
+  {
+    "id": "MIT Tech Review_1773484484_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T18:34:44.119318"
   }
 ]
