@@ -68,5 +68,35 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-14T13:27:50.563354"
+  },
+  {
+    "id": "OpenAI Blog_1773466354_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-14T13:32:34.231586"
+  },
+  {
+    "id": "OpenAI Blog_1773466354_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-14T13:32:34.231602"
+  },
+  {
+    "id": "OpenAI Blog_1773466354_2",
+    "title": "[译] From model to agent: Equipping the Respo",
+    "summary": "[译文摘要] How OpenAI built an agent runtime using the Responses API, shell tool, and hoste",
+    "url": "https://openai.com/index/equip-responses-api-computer-environment",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-14T13:32:34.231607"
   }
 ]
