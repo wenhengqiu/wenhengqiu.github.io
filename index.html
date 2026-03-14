@@ -102,14 +102,23 @@
 
             <!-- Content -->
             <div class="content">
-                <!-- Daily Summary -->
-                <section class="daily-summary">
-                    <div class="summary-header">
-                        <span class="summary-icon">🔥</span>
-                        <h2>今日要点</h2>
+                <!-- TOP10 Section -->
+                <section class="top10-section" id="top10-section">
+                    <div class="top10-header">
+                        <div class="top10-title">
+                            <span class="top10-icon">🔥</span>
+                            <h2>今日TOP10</h2>
+                            <span class="top10-subtitle">高质量文章精选</span>
+                        </div>
+                        <button class="top10-toggle" id="top10-toggle" onclick="toggleTop10()">
+                            <span class="toggle-text">收起</span>
+                            <span class="toggle-icon">▲</span>
+                        </button>
                     </div>
-                    <div class="summary-content" id="daily-highlights">
-                        <!-- Dynamic content -->
+                    <div class="top10-content" id="top10-content">
+                        <div class="top10-list" id="top10-list">
+                            <!-- Dynamic content -->
+                        </div>
                     </div>
                 </section>
 

@@ -1,5 +1,145 @@
 // 简化版 daily.js - 直接显示研究模块文章
 
+// 页面加载时执行
+// 显示加载状态
+const grid = document.getElementById('news-grid');
+if (grid) {
+    grid.innerHTML = `
+        <div style="text-align:center;padding:60px 40px;">
+            <div style="font-size:48px;margin-bottom:20px;animation:spin 1s linear infinite;">⏳</div>
+            <p style="color:#666;">正在加载文章...</p>
+        </div>
+        <style>@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }</style>
+    `;
+}
+
+// 加载TOP10和文章
+loadTop10();
+loadArticles();
+
+// 加载TOP10
+async function loadTop10() {
+    try {
+        // 加载所有文章
+        const categories = ['llm', 'autonomous', 'robotics', 'zhuoyu'];
+        let allArticles = [];
+        
+        for (const cat of categories) {
+            try {
+                const response = await fetch(`data/articles/research/${cat}.json`);
+                if (response.ok) {
+                    const data = await response.json();
+                    data.forEach(article => {
+                        article.category = cat;
+                        allArticles.push(article);
+                    });
+                }
+            } catch (e) {
+                console.error(`Error loading ${cat}:`, e);
+            }
+        }
+        
+        // 按质量分排序取前10
+        const top10 = allArticles
+            .sort((a, b) => (b.quality_score || 0) - (a.quality_score || 0))
+            .slice(0, 10);
+        
+        renderTop10(top10);
+    } catch (e) {
+        console.error('Error loading TOP10:', e);
+    }
+}
+
+// 渲染TOP10
+function renderTop10(articles) {
+    const container = document.getElementById('top10-list');
+    if (!container) return;
+    
+    if (articles.length === 0) {
+        container.innerHTML = '<p class="top10-empty">暂无文章</p>';
+        return;
+    }
+    
+    const categoryNames = {
+        'llm': 'AI',
+        'autonomous': '自动驾驶',
+        'robotics': '具身智能',
+        'zhuoyu': '卓驭科技'
+    };
+    
+    const categoryColors = {
+        'llm': '#1890ff',
+        'autonomous': '#52c41a',
+        'robotics': '#722ed1',
+        'zhuoyu': '#fa8c16'
+    };
+    
+    container.innerHTML = articles.map((article, index) => {
+        const rank = index + 1;
+        const title = article.title_zh || article.title || '无标题';
+        const summary = article.summary_zh || article.summary || '';
+        const shortSummary = summary.length > 60 ? summary.slice(0, 60) + '...' : summary;
+        const score = (article.quality_score || 0).toFixed(1);
+        const category = article.category || 'llm';
+        const categoryName = categoryNames[category] || category;
+        const categoryColor = categoryColors[category] || '#1890ff';
+        
+        return `
+            <div class="top10-item" onclick="window.open('${article.url}', '_blank')" style="cursor:pointer;">
+                <div class="top10-rank">${rank}</div>
+                <div class="top10-content">
+                    <div class="top10-meta">
+                        <span class="top10-category" style="background:${categoryColor}20;color:${categoryColor};padding:2px 8px;border-radius:4px;font-size:12px;margin-right:8px;">${categoryName}</span>
+                        <span class="top10-score" style="color:#ff6b6b;font-weight:600;">🔥${score}</span>
+                    </div>
+                    <h3 class="top10-title" style="margin:8px 0;font-size:16px;color:#333;">${title}</h3>
+                    <p class="top10-summary" style="margin:0;font-size:13px;color:#666;line-height:1.5;">${shortSummary}</p>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// TOP10折叠/展开
+function toggleTop10() {
+    const section = document.getElementById('top10-section');
+    const content = document.getElementById('top10-content');
+    const toggleText = document.querySelector('.toggle-text');
+    const toggleIcon = document.querySelector('.toggle-icon');
+    
+    if (section.classList.contains('collapsed')) {
+        section.classList.remove('collapsed');
+        content.style.display = 'block';
+        toggleText.textContent = '收起';
+        toggleIcon.textContent = '▲';
+        localStorage.setItem('top10-collapsed', 'false');
+    } else {
+        section.classList.add('collapsed');
+        content.style.display = 'none';
+        toggleText.textContent = '展开';
+        toggleIcon.textContent = '▼';
+        localStorage.setItem('top10-collapsed', 'true');
+    }
+}
+
+// 页面加载时恢复折叠状态
+document.addEventListener('DOMContentLoaded', () => {
+    const isCollapsed = localStorage.getItem('top10-collapsed') === 'true';
+    if (isCollapsed) {
+        const section = document.getElementById('top10-section');
+        const content = document.getElementById('top10-content');
+        const toggleText = document.querySelector('.toggle-text');
+        const toggleIcon = document.querySelector('.toggle-icon');
+        
+        if (section && content) {
+            section.classList.add('collapsed');
+            content.style.display = 'none';
+            if (toggleText) toggleText.textContent = '展开';
+            if (toggleIcon) toggleIcon.textContent = '▼';
+        }
+    }
+});
+
 async function loadArticles() {
     console.log('Loading articles...');
     
@@ -63,6 +203,7 @@ function renderArticles(articles) {
     
     // 数据已保存在 loadArticles 中
     
+    // 渲染文章
     grid.innerHTML = articles.map(article => {
         const url = article.original_url || article.url || '#';
         return `
@@ -78,73 +219,6 @@ function renderArticles(articles) {
             </div>
         </div>
     `}).join('');
-}
-
-// 页面加载时执行
-// 显示加载状态
-const grid = document.getElementById('news-grid');
-if (grid) {
-    grid.innerHTML = `
-        <div style="text-align:center;padding:60px 40px;">
-            <div style="font-size:48px;margin-bottom:20px;animation:spin 1s linear infinite;">⏳</div>
-            <p style="color:#666;">正在加载文章...</p>
-        </div>
-        <style>@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }</style>
-    `;
-}
-
-// 加载每日总结
-loadDailySummary();
-
-// 加载文章
-loadArticles();
-
-// 加载每日总结
-async function loadDailySummary() {
-    try {
-        const response = await fetch('data/summary/latest.json');
-        if (response.ok) {
-            const summary = await response.json();
-            renderDailySummary(summary);
-        }
-    } catch (e) {
-        console.log('No daily summary found');
-    }
-}
-
-// 渲染每日总结
-function renderDailySummary(summary) {
-    const container = document.getElementById('daily-highlights');
-    if (!container) return;
-    
-    const highlights = summary.highlights || [];
-    const trend = summary.trend || '';
-    const stats = summary.stats || {};
-    
-    let html = '';
-    
-    if (trend) {
-        html += `<p class="summary-trend">${trend}</p>`;
-    }
-    
-    if (highlights.length > 0) {
-        html += '<ul class="summary-list">';
-        highlights.forEach(h => {
-            html += `<li>${h}</li>`;
-        });
-        html += '</ul>';
-    }
-    
-    if (stats.total > 0) {
-        html += `<div class="summary-stats">
-            📊 今日统计: 新增 ${stats.total} 篇 | 
-            大模型 ${stats.llm || 0} 篇 | 
-            自动驾驶 ${stats.autonomous || 0} 篇 | 
-            具身智能 ${stats.robotics || 0} 篇
-        </div>`;
-    }
-    
-    container.innerHTML = html;
 }
 
 // 绑定分类按钮点击事件 - 使用事件委托
