@@ -79,6 +79,15 @@ async function loadArticles(date = null) {
             const dailyResponse = await fetch(`data/articles/daily/${year}/${month}/${targetDate}.json`);
             if (dailyResponse.ok) {
                 const dailyArticles = await dailyResponse.json();
+                // Normalize source for daily articles too
+                dailyArticles.forEach(article => {
+                    if (typeof article.source === 'string') {
+                        article.source = {
+                            name: article.source,
+                            type: 'tech_media'
+                        };
+                    }
+                });
                 currentArticles = currentArticles.concat(dailyArticles);
                 dailyLoaded = true;
             }
