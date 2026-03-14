@@ -2,61 +2,103 @@
   {
     "id": "2026-03-14-robotics-001",
     "title": "特斯拉 Optimus 人形机器人最新进展：已能在工厂自主行走",
+    "title_zh": "特斯拉 Optimus 人形机器人最新进展：已能在工厂自主行走",
     "summary": "特斯拉发布 Optimus 人形机器人最新视频，展示了在工厂环境中自主行走、搬运物品的能力。",
+    "summary_zh": "特斯拉发布 Optimus 人形机器人最新视频，展示了在工厂环境中自主行走、搬运物品的能力。",
     "url": "https://www.qbitai.com/2026/03/robotics-optimus.html",
-    "source": "量子位",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media"
+    },
     "category": "robotics",
     "quality_score": 0.85,
-    "published_at": "2026-03-14T15:00:00.000000"
+    "published_at": "2026-03-14T15:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-robotics-002",
     "title": "波士顿动力 Atlas 机器人实现完全自主导航",
+    "title_zh": "波士顿动力 Atlas 机器人实现完全自主导航",
     "summary": "波士顿动力宣布 Atlas 机器人已能在复杂环境中实现完全自主导航，无需人工干预。",
+    "summary_zh": "波士顿动力宣布 Atlas 机器人已能在复杂环境中实现完全自主导航，无需人工干预。",
     "url": "https://www.jiqizhixin.com/articles/2026-03-14-atlas",
-    "source": "机器之心",
+    "source": {
+      "name": "机器之心",
+      "type": "tech_media"
+    },
     "category": "robotics",
     "quality_score": 0.88,
-    "published_at": "2026-03-14T14:30:00.000000"
+    "published_at": "2026-03-14T14:30:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-robotics-003",
     "title": "Figure AI 与宝马合作，人形机器人将进入汽车工厂",
+    "title_zh": "Figure AI 与宝马合作，人形机器人将进入汽车工厂",
     "summary": "Figure AI 宣布与宝马达成合作，其人形机器人将在宝马工厂进行试点应用。",
+    "summary_zh": "Figure AI 宣布与宝马达成合作，其人形机器人将在宝马工厂进行试点应用。",
     "url": "https://www.pingwest.com/w/311850",
-    "source": "品玩",
+    "source": {
+      "name": "品玩",
+      "type": "tech_media"
+    },
     "category": "robotics",
     "quality_score": 0.82,
-    "published_at": "2026-03-14T13:00:00.000000"
+    "published_at": "2026-03-14T13:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-robotics-004",
     "title": "Agility Robotics 推出 Digit 机器人新版本，续航提升 50%",
+    "title_zh": "Agility Robotics 推出 Digit 机器人新版本，续航提升 50%",
     "summary": "Agility Robotics 发布 Digit 人形机器人新版本，电池续航能力提升 50%，可连续工作 8 小时。",
+    "summary_zh": "Agility Robotics 发布 Digit 人形机器人新版本，电池续航能力提升 50%，可连续工作 8 小时。",
     "url": "https://36kr.com/p/123456",
-    "source": "36氪",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media"
+    },
     "category": "robotics",
     "quality_score": 0.8,
-    "published_at": "2026-03-14T12:00:00.000000"
+    "published_at": "2026-03-14T12:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-robotics-005",
     "title": "小米 CyberDog 2 发布：更智能、更便宜的机器狗",
+    "title_zh": "小米 CyberDog 2 发布：更智能、更便宜的机器狗",
     "summary": "小米发布 CyberDog 2 机器狗，体积缩小 40%，价格降低 50%，功能更加强大。",
+    "summary_zh": "小米发布 CyberDog 2 机器狗，体积缩小 40%，价格降低 50%，功能更加强大。",
     "url": "https://www.qbitai.com/2026/03/cyberdog2.html",
-    "source": "量子位",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media"
+    },
     "category": "robotics",
     "quality_score": 0.78,
-    "published_at": "2026-03-14T11:00:00.000000"
+    "published_at": "2026-03-14T11:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "量子位_1773491716_1",
     "title": "不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模型 ”AWE3.0 ",
+    "title_zh": "不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模型 ”AWE3.0 ",
     "summary": "这是关于不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模...的文章摘要",
+    "summary_zh": "这是关于不仿真不VLA不遥操：它石智航重磅发布“能干活的通用具身大模...的文章摘要",
     "url": "https://www.qbitai.com/2026/03/387860.html",
-    "source": "量子位",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media"
+    },
     "category": "robotics",
     "quality_score": 0.8,
-    "published_at": "2026-03-14T20:35:16.258851"
+    "published_at": "2026-03-14T20:35:16.258851",
+    "translated": false,
+    "tags": []
   }
 ]

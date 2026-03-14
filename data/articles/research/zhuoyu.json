@@ -2,51 +2,86 @@
   {
     "id": "2026-03-14-zhuoyu-001",
     "title": "卓驭科技发布新一代智能驾驶域控制器",
+    "title_zh": "卓驭科技发布新一代智能驾驶域控制器",
     "summary": "卓驭科技发布基于高通骁龙 Ride 平台的新一代智能驾驶域控制器，算力达 200TOPS。",
+    "summary_zh": "卓驭科技发布基于高通骁龙 Ride 平台的新一代智能驾驶域控制器，算力达 200TOPS。",
     "url": "https://www.qbitai.com/2026/03/zhuoyu-domain-controller.html",
-    "source": "量子位",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media"
+    },
     "category": "zhuoyu",
     "quality_score": 0.9,
-    "published_at": "2026-03-14T16:00:00.000000"
+    "published_at": "2026-03-14T16:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-zhuoyu-002",
     "title": "卓驭科技与比亚迪达成合作，供应智能驾驶方案",
+    "title_zh": "卓驭科技与比亚迪达成合作，供应智能驾驶方案",
     "summary": "卓驭科技宣布与比亚迪达成战略合作，将为比亚迪提供行泊一体智能驾驶解决方案。",
+    "summary_zh": "卓驭科技宣布与比亚迪达成战略合作，将为比亚迪提供行泊一体智能驾驶解决方案。",
     "url": "https://www.jiqizhixin.com/articles/2026-03-14-zhuoyu-byd",
-    "source": "机器之心",
+    "source": {
+      "name": "机器之心",
+      "type": "tech_media"
+    },
     "category": "zhuoyu",
     "quality_score": 0.88,
-    "published_at": "2026-03-14T15:30:00.000000"
+    "published_at": "2026-03-14T15:30:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-zhuoyu-003",
     "title": "卓驭科技 CEO 沈劭劼：智能驾驶进入量产关键期",
+    "title_zh": "卓驭科技 CEO 沈劭劼：智能驾驶进入量产关键期",
     "summary": "卓驭科技 CEO 沈劭劼接受媒体采访，表示智能驾驶技术已进入大规模量产的关键阶段。",
+    "summary_zh": "卓驭科技 CEO 沈劭劼接受媒体采访，表示智能驾驶技术已进入大规模量产的关键阶段。",
     "url": "https://www.pingwest.com/w/311851",
-    "source": "品玩",
+    "source": {
+      "name": "品玩",
+      "type": "tech_media"
+    },
     "category": "zhuoyu",
     "quality_score": 0.85,
-    "published_at": "2026-03-14T14:00:00.000000"
+    "published_at": "2026-03-14T14:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-zhuoyu-004",
     "title": "卓驭科技完成新一轮融资，估值超 100 亿元",
+    "title_zh": "卓驭科技完成新一轮融资，估值超 100 亿元",
     "summary": "智能驾驶公司卓驭科技完成新一轮融资，投后估值超过 100 亿元人民币。",
+    "summary_zh": "智能驾驶公司卓驭科技完成新一轮融资，投后估值超过 100 亿元人民币。",
     "url": "https://36kr.com/p/123457",
-    "source": "36氪",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media"
+    },
     "category": "zhuoyu",
     "quality_score": 0.82,
-    "published_at": "2026-03-14T13:00:00.000000"
+    "published_at": "2026-03-14T13:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-zhuoyu-005",
     "title": "卓驭科技海外业务拓展，进入欧洲市场",
+    "title_zh": "卓驭科技海外业务拓展，进入欧洲市场",
     "summary": "卓驭科技宣布正式进入欧洲市场，将为欧洲车企提供智能驾驶解决方案。",
+    "summary_zh": "卓驭科技宣布正式进入欧洲市场，将为欧洲车企提供智能驾驶解决方案。",
     "url": "https://www.qbitai.com/2026/03/zhuoyu-europe.html",
-    "source": "量子位",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media"
+    },
     "category": "zhuoyu",
     "quality_score": 0.8,
-    "published_at": "2026-03-14T12:00:00.000000"
+    "published_at": "2026-03-14T12:00:00.000000",
+    "translated": false,
+    "tags": []
   }
 ]

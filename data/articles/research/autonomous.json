@@ -2,51 +2,86 @@
   {
     "id": "2026-03-14-auto-001",
     "title": "特斯拉 FSD V13 开始向北美用户推送",
+    "title_zh": "特斯拉 FSD V13 开始向北美用户推送",
     "summary": "特斯拉开始向北美用户推送 FSD V13 版本，城市道路自动驾驶能力大幅提升，支持更复杂的路口决策。",
+    "summary_zh": "特斯拉开始向北美用户推送 FSD V13 版本，城市道路自动驾驶能力大幅提升，支持更复杂的路口决策。",
     "url": "https://www.qbitai.com/2026/03/tesla-fsd-v13.html",
-    "source": "量子位",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media"
+    },
     "category": "autonomous",
     "quality_score": 0.85,
-    "published_at": "2026-03-14T10:00:00.000000"
+    "published_at": "2026-03-14T10:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-auto-002",
     "title": "小鹏汽车 XNGP 城市智驾新增 50 城",
+    "title_zh": "小鹏汽车 XNGP 城市智驾新增 50 城",
     "summary": "小鹏汽车宣布 XNGP 城市智能辅助驾驶系统新增 50 个城市覆盖，总覆盖城市数达到 200 个。",
+    "summary_zh": "小鹏汽车宣布 XNGP 城市智能辅助驾驶系统新增 50 个城市覆盖，总覆盖城市数达到 200 个。",
     "url": "https://www.jiqizhixin.com/articles/2026-03-14-xpeng-xngp",
-    "source": "机器之心",
+    "source": {
+      "name": "机器之心",
+      "type": "tech_media"
+    },
     "category": "autonomous",
     "quality_score": 0.82,
-    "published_at": "2026-03-14T09:30:00.000000"
+    "published_at": "2026-03-14T09:30:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-auto-003",
     "title": "华为乾崑 ADS 3.0 发布：支持车位到车位全场景智驾",
+    "title_zh": "华为乾崑 ADS 3.0 发布：支持车位到车位全场景智驾",
     "summary": "华为发布乾崑 ADS 3.0 智能驾驶系统，实现从停车位到停车位的全场景自动驾驶能力。",
+    "summary_zh": "华为发布乾崑 ADS 3.0 智能驾驶系统，实现从停车位到停车位的全场景自动驾驶能力。",
     "url": "https://www.pingwest.com/w/311852",
-    "source": "品玩",
+    "source": {
+      "name": "品玩",
+      "type": "tech_media"
+    },
     "category": "autonomous",
     "quality_score": 0.88,
-    "published_at": "2026-03-14T08:00:00.000000"
+    "published_at": "2026-03-14T08:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-auto-004",
     "title": "Waymo 在旧金山开启完全无人驾驶出租车服务",
+    "title_zh": "Waymo 在旧金山开启完全无人驾驶出租车服务",
     "summary": "Waymo 宣布在旧金山市区正式开启完全无人驾驶出租车商业运营服务，无需安全员。",
+    "summary_zh": "Waymo 宣布在旧金山市区正式开启完全无人驾驶出租车商业运营服务，无需安全员。",
     "url": "https://36kr.com/p/123458",
-    "source": "36氪",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media"
+    },
     "category": "autonomous",
     "quality_score": 0.9,
-    "published_at": "2026-03-14T07:00:00.000000"
+    "published_at": "2026-03-14T07:00:00.000000",
+    "translated": false,
+    "tags": []
   },
   {
     "id": "2026-03-14-auto-005",
     "title": "蔚来 NOP+ 城区智驾功能正式推送",
+    "title_zh": "蔚来 NOP+ 城区智驾功能正式推送",
     "summary": "蔚来汽车 NOP+ 增强领航辅助城区功能正式向用户推送，支持城市快速路和部分城区道路。",
+    "summary_zh": "蔚来汽车 NOP+ 增强领航辅助城区功能正式向用户推送，支持城市快速路和部分城区道路。",
     "url": "https://www.qbitai.com/2026/03/nio-nop-plus.html",
-    "source": "量子位",
+    "source": {
+      "name": "量子位",
+      "type": "tech_media"
+    },
     "category": "autonomous",
     "quality_score": 0.8,
-    "published_at": "2026-03-14T06:00:00.000000"
+    "published_at": "2026-03-14T06:00:00.000000",
+    "translated": false,
+    "tags": []
   }
 ]
