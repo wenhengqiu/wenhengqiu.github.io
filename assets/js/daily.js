@@ -67,17 +67,47 @@ async function loadArticles(date = null) {
         datePicker.value = targetDate;
     }
     
+    currentArticles = [];
+    
     try {
-        // Try to load from JSON file
+        // 1. Load from daily directory
         const year = targetDate.slice(0, 4);
         const month = targetDate.slice(5, 7);
-        const response = await fetch(`data/articles/daily/${year}/${month}/${targetDate}.json`);
+        const dailyResponse = await fetch(`data/articles/daily/${year}/${month}/${targetDate}.json`);
         
-        if (response.ok) {
-            currentArticles = await response.json();
-        } else {
-            // Fallback to sample data if file not found
-            console.log('No data file found, using fallback');
+        if (dailyResponse.ok) {
+            const dailyArticles = await dailyResponse.json();
+            currentArticles = currentArticles.concat(dailyArticles);
+        }
+        
+        // 2. Load from research modules (Info-Getter updates these)
+        const researchCategories = ['llm', 'autonomous', 'robotics', 'zhuoyu'];
+        for (const category of researchCategories) {
+            try {
+                const researchResponse = await fetch(`data/articles/research/${category}.json`);
+                if (researchResponse.ok) {
+                    const researchArticles = await researchResponse.json();
+                    // Filter articles published today
+                    const todayArticles = researchArticles.filter(article => {
+                        const articleDate = article.published_at || article.publish_date;
+                        if (!articleDate) return false;
+                        return articleDate.startsWith(targetDate);
+                    });
+                    // Add category info
+                    todayArticles.forEach(article => {
+                        article.category = category;
+                        article.source_type = 'research';
+                    });
+                    currentArticles = currentArticles.concat(todayArticles);
+                }
+            } catch (e) {
+                console.log(`No research data for ${category}`);
+            }
+        }
+        
+        // If no articles found, use fallback
+        if (currentArticles.length === 0) {
+            console.log('No data found, using fallback');
             currentArticles = getFallbackData(targetDate);
         }
     } catch (error) {
