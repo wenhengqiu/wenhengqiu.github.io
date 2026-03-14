@@ -74,6 +74,21 @@ function renderArticles(articles) {
 // 页面加载时执行
 loadArticles();
 
+// 绑定分类按钮点击事件
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            // 更新按钮状态
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            // 过滤文章
+            const filter = this.getAttribute('data-filter');
+            filterByCategory(filter);
+        });
+    });
+});
+
 // 分类过滤功能
 function filterByCategory(category) {
     if (!window.articlesData) return;
