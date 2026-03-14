@@ -288,5 +288,85 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-14T21:36:11.032352"
+  },
+  {
+    "id": "量子位_1773498976_0",
+    "title": "360发布安全龙虾系列产品：以模治模构建智能体安全体系",
+    "summary": "",
+    "url": "https://www.qbitai.com/2026/03/387921.html",
+    "source": "量子位",
+    "category": "llm",
+    "quality_score": 0.8,
+    "published_at": "2026-03-14T22:36:16.779782"
+  },
+  {
+    "id": "36氪_1773498980_2",
+    "title": "9点1氪丨济州航空空难一年后再现遇难者遗骸；中国区“苹果税”下调；市监局出手整治“误导性大小字”广告",
+    "summary": "\n \n \n  <h2><strong>今日热点导览</strong></h2>\n  <p>美团王兴：“减少登味”，内部不要再叫我“兴哥”</p>\n  <p>斯泰兰蒂斯回应“玛莎拉蒂品牌要被出售”</p>\n  <p>8年超龄车延期3年营运？滴滴辟谣</p>\n  <p>微软市值5个月内蒸发1万亿美元</p>\n  <p>金融监管总局约谈5家平台运营机构</p>\n  <h2><strong>TOP3大新闻",
+    "url": "https://36kr.com/p/3722103811226244?f=rss",
+    "source": "36氪",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T22:36:20.844986"
+  },
+  {
+    "id": "TechCrunch AI_1773499002_0",
+    "title": "[译] ‘Not built right the first time’ — Musk’",
+    "summary": "[译文摘要] The AI lab is revamping its effort to build an AI coding tool, with two new exec",
+    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T22:36:42.084164"
+  },
+  {
+    "id": "TechCrunch AI_1773499002_1",
+    "title": "[译] Lawyer behind AI psychosis cases warns o",
+    "summary": "[译文摘要] AI chatbots have been linked to suicides for years. Now one lawyer says they are",
+    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T22:36:42.084186"
+  },
+  {
+    "id": "TechCrunch AI_1773499002_2",
+    "title": "[译] Nyne, founded by a father-son duo, gives",
+    "summary": "[译文摘要] The data infrastructure startup raised $5.3 million in seed funding led by Wisch",
+    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T22:36:42.084195"
+  },
+  {
+    "id": "MIT Tech Review_1773499008_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T22:36:48.925554"
+  },
+  {
+    "id": "MIT Tech Review_1773499008_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T22:36:48.925579"
+  },
+  {
+    "id": "MIT Tech Review_1773499008_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-14T22:36:48.925589"
   }
 ]
