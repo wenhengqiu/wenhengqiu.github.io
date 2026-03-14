@@ -16,20 +16,23 @@ from dataclasses import dataclass, field
 
 @dataclass
 class Article:
-    """文章数据模型"""
+    """文章数据模型 - 符合 PRD v6.1 规范"""
     id: str
     title: str
+    title_zh: str  # 中文标题（翻译）
     summary: str
+    summary_zh: str  # 中文摘要（翻译）
     content: str
     category: str
     publish_date: str
     display_date: str
-    source: str
+    source: Dict[str, str]  # 对象格式: {name, type}
     url: str
     tags: List[str] = field(default_factory=list)
     is_featured: bool = False
     quality_score: float = 0.0
     simhash: str = ""
+    translated: bool = True  # 是否已翻译
     
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'Article':
@@ -39,38 +42,45 @@ class Article:
         display_date = data.get('display_date') or data.get('displayDate', '')
         is_featured = data.get('is_featured') or data.get('isFeatured', False)
         
+        # 处理 source 字段（兼容字符串和对象格式）
+        source = data.get('source', '')
+        if isinstance(source, str):
+            source = {'name': source, 'type': 'tech_media'}
+        
         return cls(
             id=data.get('id', ''),
             title=data.get('title', ''),
+            title_zh=data.get('title_zh', data.get('title', '')),  # 降级处理
             summary=data.get('summary', ''),
+            summary_zh=data.get('summary_zh', data.get('summary', '')),  # 降级处理
             content=data.get('content', ''),
             category=data.get('category', ''),
             publish_date=publish_date,
             display_date=display_date,
-            source=data.get('source', ''),
+            source=source,
             url=data.get('url', data.get('original_url', '')),
             tags=data.get('tags', []),
             is_featured=is_featured,
             quality_score=data.get('quality_score', 0.0),
-            simhash=data.get('simhash', '')
+            simhash=data.get('simhash', ''),
+            translated=data.get('translated', True)
         )
     
     def to_dict(self) -> Dict[str, Any]:
-        """转换为字典"""
+        """转换为字典 - PRD v6.1 格式"""
         return {
             'id': self.id,
             'title': self.title,
+            'title_zh': self.title_zh,
             'summary': self.summary,
-            'content': self.content,
-            'category': self.category,
-            'publish_date': self.publish_date,
-            'display_date': self.display_date,
-            'source': self.source,
+            'summary_zh': self.summary_zh,
             'url': self.url,
-            'tags': self.tags,
-            'is_featured': self.is_featured,
-            'quality_score': self.quality_score,
-            'simhash': self.simhash
+            'source': self.source,
+            'category': self.category,
+            'quality_score': round(self.quality_score, 2),
+            'published_at': self.publish_date,
+            'translated': self.translated,
+            'tags': self.tags
         }
 
 

@@ -48,18 +48,76 @@ class Scheduler:
             articles = await fetcher.fetch_all()
             logger.info(f"📥 采集到 {len(articles)} 篇文章")
             
-            # 2. 翻译文章
+            # 2. 翻译文章并转换为PRD v6.1格式
             from info_getter.translator.core import Translator
             translator = Translator()
             
             translated_articles = []
             for article in articles:
                 try:
-                    translated = translator.translate(article)
-                    translated_articles.append(translated)
+                    # 翻译标题和摘要
+                    translation = translator.translate(
+                        title=article.title,
+                        summary=article.summary,
+                        fallback_to_original=True
+                    )
+                    
+                    # 构建符合PRD v6.1的文章对象
+                    from info_getter.publisher.core import Article
+                    
+                    # 确定source类型
+                    source_type_map = {
+                        'official': 'official',
+                        'tech_media': 'tech_media',
+                        'research': 'research',
+                        'social': 'social'
+                    }
+                    source_type = source_type_map.get(article.source_id, 'tech_media')
+                    
+                    prd_article = Article(
+                        id=article.id,
+                        title=article.title,
+                        title_zh=translation.title if translation.success else article.title,
+                        summary=article.summary or '',
+                        summary_zh=translation.summary if translation.success else (article.summary or ''),
+                        content=article.content or '',
+                        category=article.category,
+                        publish_date=article.published_at.isoformat() if article.published_at else datetime.now().isoformat(),
+                        display_date=article.published_at.strftime('%Y-%m-%d') if article.published_at else datetime.now().strftime('%Y-%m-%d'),
+                        source={'name': article.source_name, 'type': source_type},
+                        url=article.url,
+                        tags=[],
+                        is_featured=False,
+                        quality_score=0.0,  # 将在发布时计算
+                        simhash='',
+                        translated=translation.success
+                    )
+                    
+                    translated_articles.append(prd_article)
+                    
                 except Exception as e:
                     logger.warning(f"翻译失败: {e}")
-                    translated_articles.append(article)  # 保留原文
+                    # 翻译失败时仍创建PRD格式文章，但使用原文
+                    from info_getter.publisher.core import Article
+                    prd_article = Article(
+                        id=article.id,
+                        title=article.title,
+                        title_zh=article.title,  # 无翻译，使用原文
+                        summary=article.summary or '',
+                        summary_zh=article.summary or '',  # 无翻译，使用原文
+                        content=article.content or '',
+                        category=article.category,
+                        publish_date=article.published_at.isoformat() if article.published_at else datetime.now().isoformat(),
+                        display_date=article.published_at.strftime('%Y-%m-%d') if article.published_at else datetime.now().strftime('%Y-%m-%d'),
+                        source={'name': article.source_name, 'type': 'tech_media'},
+                        url=article.url,
+                        tags=[],
+                        is_featured=False,
+                        quality_score=0.0,
+                        simhash='',
+                        translated=False
+                    )
+                    translated_articles.append(prd_article)
             
             logger.info(f"🌐 翻译完成 {len(translated_articles)} 篇")
             
