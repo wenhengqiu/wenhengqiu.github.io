@@ -87,14 +87,8 @@ async function loadArticles(date = null) {
                 const researchResponse = await fetch(`data/articles/research/${category}.json`);
                 if (researchResponse.ok) {
                     const researchArticles = await researchResponse.json();
-                    // Filter articles published today
-                    const todayArticles = researchArticles.filter(article => {
-                        const articleDate = article.published_at || article.publish_date;
-                        if (!articleDate) return false;
-                        return articleDate.startsWith(targetDate);
-                    });
-                    // Add category info and normalize source
-                    todayArticles.forEach(article => {
+                    // Show all research articles (not just today)
+                    researchArticles.forEach(article => {
                         article.category = category;
                         article.source_type = 'research';
                         // Normalize source to object format
@@ -105,7 +99,7 @@ async function loadArticles(date = null) {
                             };
                         }
                     });
-                    currentArticles = currentArticles.concat(todayArticles);
+                    currentArticles = currentArticles.concat(researchArticles);
                 }
             } catch (e) {
                 console.log(`No research data for ${category}`);
