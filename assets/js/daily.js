@@ -73,11 +73,38 @@ async function loadArticles(date = null) {
         // 1. Load from daily directory
         const year = targetDate.slice(0, 4);
         const month = targetDate.slice(5, 7);
-        const dailyResponse = await fetch(`data/articles/daily/${year}/${month}/${targetDate}.json`);
+        let dailyLoaded = false;
         
-        if (dailyResponse.ok) {
-            const dailyArticles = await dailyResponse.json();
-            currentArticles = currentArticles.concat(dailyArticles);
+        try {
+            const dailyResponse = await fetch(`data/articles/daily/${year}/${month}/${targetDate}.json`);
+            if (dailyResponse.ok) {
+                const dailyArticles = await dailyResponse.json();
+                currentArticles = currentArticles.concat(dailyArticles);
+                dailyLoaded = true;
+            }
+        } catch (e) {
+            console.log('Daily data not found for', targetDate);
+        }
+        
+        // If daily data not loaded, try to load the most recent daily data
+        if (!dailyLoaded && targetDate === getTodayString()) {
+            console.log('Loading fallback daily data...');
+            // Try yesterday
+            const yesterday = new Date();
+            yesterday.setDate(yesterday.getDate() - 1);
+            const yestStr = yesterday.toISOString().split('T')[0];
+            const yestYear = yestStr.slice(0, 4);
+            const yestMonth = yestStr.slice(5, 7);
+            
+            try {
+                const yestResponse = await fetch(`data/articles/daily/${yestYear}/${yestMonth}/${yestStr}.json`);
+                if (yestResponse.ok) {
+                    const yestArticles = await yestResponse.json();
+                    currentArticles = currentArticles.concat(yestArticles);
+                }
+            } catch (e) {
+                console.log('Yesterday data also not found');
+            }
         }
         
         // 2. Load from research modules (Info-Getter updates these)
