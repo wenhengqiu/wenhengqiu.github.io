@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Info-Getter 状态监控</title>
+    <title>Info-Getter 状态监控 | 数据闭环文章中心</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -12,110 +12,78 @@
             padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
         }
-        h1 {
+        .header {
             text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 28px;
             color: #333;
+        }
+        .header p {
+            color: #666;
+            margin-top: 8px;
+        }
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
             margin-bottom: 30px;
         }
         .status-card {
             background: white;
             border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 24px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .status-header {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 15px;
+            text-align: center;
         }
         .status-icon {
-            width: 12px;
-            height: 12px;
+            width: 16px;
+            height: 16px;
             border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
         }
-        .status-icon.running { background: #52c41a; }
+        .status-icon.running { background: #52c41a; box-shadow: 0 0 8px #52c41a; }
         .status-icon.stopped { background: #ff4d4f; }
         .status-title {
-            font-size: 18px;
-            font-weight: 600;
-        }
-        .status-badge {
-            margin-left: auto;
-            padding: 4px 12px;
-            border-radius: 12px;
             font-size: 14px;
-            font-weight: 500;
+            color: #666;
+            margin-bottom: 8px;
         }
-        .status-badge.running {
-            background: #f6ffed;
-            color: #52c41a;
-            border: 1px solid #b7eb8f;
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            margin-top: 15px;
-        }
-        .stat-item {
-            text-align: center;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
-        .stat-value {
-            font-size: 28px;
+        .status-value {
+            font-size: 32px;
             font-weight: 700;
             color: #1890ff;
         }
-        .stat-label {
+        .status-label {
             font-size: 14px;
-            color: #666;
-            margin-top: 5px;
+            color: #999;
+            margin-top: 4px;
         }
-        .log-section {
-            margin-top: 15px;
+        .info-section {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        .log-title {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 10px;
-        }
-        .log-content {
-            background: #1a1a2e;
-            color: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            font-family: monospace;
-            font-size: 12px;
-            max-height: 200px;
-            overflow-y: auto;
-            white-space: pre-wrap;
-        }
-        .refresh-btn {
-            display: block;
-            width: 100%;
-            padding: 12px;
-            background: #1890ff;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-        .refresh-btn:hover {
-            background: #40a9ff;
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
         .info-row {
             display: flex;
             justify-content: space-between;
-            padding: 10px 0;
+            padding: 12px 0;
             border-bottom: 1px solid #f0f0f0;
         }
         .info-row:last-child {
@@ -127,49 +95,126 @@
         .info-value {
             font-weight: 500;
             color: #333;
+            font-family: monospace;
+        }
+        .log-section {
+            background: #1a1a2e;
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            font-family: monospace;
+            font-size: 13px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .log-entry {
+            padding: 4px 0;
+            border-bottom: 1px solid #333;
+        }
+        .log-entry:last-child {
+            border-bottom: none;
+        }
+        .log-time {
+            color: #888;
+        }
+        .refresh-btn {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            background: #1890ff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .refresh-btn:hover {
+            background: #40a9ff;
+        }
+        .nav-back {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #1890ff;
+            text-decoration: none;
+        }
+        .nav-back:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🚀 Info-Getter 状态监控</h1>
+        <a href="index.html" class="nav-back">← 返回文章中心</a>
         
-        <div class="status-card">
-            <div class="status-header">
-                <div class="status-icon running"></div>
-                <div class="status-title">守护进程状态</div>
-                <div class="status-badge running">运行中</div>
+        <div class="header">
+            <h1>🚀 Info-Getter 状态监控</h1>
+            <p>全自动信息聚合系统实时状态</p>
+        </div>
+        
+        <div class="status-grid">
+            <div class="status-card">
+                <div class="status-title">
+                    <span class="status-icon running"></span>
+                    守护进程
+                </div>
+                <div class="status-value" id="daemon-status">运行中</div>
+                <div class="status-label">PID: <span id="daemon-pid">60176</span></div>
             </div>
             
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-value" id="total-articles">22</div>
-                    <div class="stat-label">总文章数</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value" id="today-articles">12</div>
-                    <div class="stat-label">今日采集</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value" id="sources-count">12</div>
-                    <div class="stat-label">信息源</div>
-                </div>
+            <div class="status-card">
+                <div class="status-title">📊 总文章数</div>
+                <div class="status-value" id="total-articles">145</div>
+                <div class="status-label">已采集</div>
+            </div>
+            
+            <div class="status-card">
+                <div class="status-title">📅 今日更新</div>
+                <div class="status-value" id="today-articles">-</div>
+                <div class="status-label">新文章</div>
+            </div>
+            
+            <div class="status-card">
+                <div class="status-title">🌐 信息源</div>
+                <div class="status-value">12</div>
+                <div class="status-label">RSS源</div>
             </div>
         </div>
         
-        <div class="status-card">
-            <div class="status-title" style="margin-bottom: 15px;">📊 运行信息</div>
+        <div class="info-section">
+            <div class="section-title">📈 数据分布</div>
             <div class="info-row">
-                <span class="info-label">进程 PID</span>
-                <span class="info-value">60176</span>
+                <span class="info-label">大模型 (LLM)</span>
+                <span class="info-value" id="llm-count">-</span>
             </div>
             <div class="info-row">
+                <span class="info-label">自动驾驶</span>
+                <span class="info-value" id="auto-count">-</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">具身智能</span>
+                <span class="info-value" id="robot-count">-</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">卓驭科技</span>
+                <span class="info-value" id="zhuoyu-count">-</span>
+            </div>
+        </div>
+        
+        <div class="info-section">
+            <div class="section-title">⏱️ 运行信息</div>
+            <div class="info-row">
                 <span class="info-label">运行时间</span>
-                <span class="info-value">1小时 23分</span>
+                <span class="info-value" id="uptime">-</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">上次采集</span>
+                <span class="info-value" id="last-run">-</span>
             </div>
             <div class="info-row">
                 <span class="info-label">下次采集</span>
-                <span class="info-value">15:33:03</span>
+                <span class="info-value" id="next-run">-</span>
             </div>
             <div class="info-row">
                 <span class="info-label">采集频率</span>
@@ -177,43 +222,79 @@
             </div>
         </div>
         
-        <div class="status-card">
-            <div class="status-title" style="margin-bottom: 15px;">📁 数据分布</div>
-            <div class="info-row">
-                <span class="info-label">大模型 (llm)</span>
-                <span class="info-value">22 篇</span>
+        <div class="info-section">
+            <div class="section-title">📝 最近日志</div>
+            <div class="log-section" id="log-content">
+                <div class="log-entry">
+                    <span class="log-time">[2026-03-14 17:34:21]</span> 等待1小时...
+                </div>
+                <div class="log-entry">
+                    <span class="log-time">[2026-03-14 17:34:21]</span> 采集完成，共 15 篇
+                </div>
+                <div class="log-entry">
+                    <span class="log-time">[2026-03-14 17:34:21]</span> 发布: 12 篇文章
+                </div>
             </div>
-            <div class="info-row">
-                <span class="info-label">自动驾驶 (autonomous)</span>
-                <span class="info-value">1 篇</span>
-            </div>
-            <div class="info-row">
-                <span class="info-label">具身智能 (robotics)</span>
-                <span class="info-value">0 篇</span>
-            </div>
-            <div class="info-row">
-                <span class="info-label">卓驭科技 (zhuoyu)</span>
-                <span class="info-value">0 篇</span>
-            </div>
-        </div>
-        
-        <div class="status-card">
-            <div class="log-title">📝 最近日志</div>
-            <div class="log-content" id="log-content">[2026-03-14 14:33:03] 采集完成
-[2026-03-14 14:33:03] 发布: 12 篇文章
-[2026-03-14 14:33:03] 等待1小时...
-[2026-03-14 13:32:36] 开始采集...
-[2026-03-14 13:32:36] 采集: 15 篇</div>
         </div>
         
         <button class="refresh-btn" onclick="location.reload()">🔄 刷新状态</button>
     </div>
     
     <script>
+        // 从 research 数据加载统计
+        async function loadStats() {
+            const categories = ['llm', 'autonomous', 'robotics', 'zhuoyu'];
+            const counts = { llm: 0, autonomous: 0, robotics: 0, zhuoyu: 0 };
+            let total = 0;
+            
+            for (const cat of categories) {
+                try {
+                    const response = await fetch(`data/articles/research/${cat}.json`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        counts[cat] = data.length;
+                        total += data.length;
+                    }
+                } catch (e) {
+                    console.error(`Error loading ${cat}:`, e);
+                }
+            }
+            
+            document.getElementById('llm-count').textContent = counts.llm;
+            document.getElementById('auto-count').textContent = counts.autonomous;
+            document.getElementById('robot-count').textContent = counts.robotics;
+            document.getElementById('zhuoyu-count').textContent = counts.zhuoyu;
+            document.getElementById('total-articles').textContent = total;
+            
+            // 计算今日文章数
+            const today = new Date().toISOString().split('T')[0];
+            let todayCount = 0;
+            for (const cat of categories) {
+                try {
+                    const response = await fetch(`data/articles/research/${cat}.json`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        todayCount += data.filter(a => a.publish_date === today).length;
+                    }
+                } catch (e) {}
+            }
+            document.getElementById('today-articles').textContent = todayCount;
+        }
+        
+        // 更新时间
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('last-run').textContent = '17:34:21';
+            
+            const next = new Date(now.getTime() + 60 * 60 * 1000);
+            document.getElementById('next-run').textContent = next.toTimeString().slice(0, 8);
+        }
+        
+        loadStats();
+        updateTime();
+        
         // 自动刷新
-        setInterval(() => {
-            location.reload();
-        }, 30000); // 30秒刷新一次
+        setInterval(() => location.reload(), 60000);
     </script>
 </body>
 </html>
