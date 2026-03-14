@@ -92,7 +92,60 @@ if (grid) {
         <style>@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }</style>
     `;
 }
+
+// 加载每日总结
+loadDailySummary();
+
+// 加载文章
 loadArticles();
+
+// 加载每日总结
+async function loadDailySummary() {
+    try {
+        const response = await fetch('data/summary/latest.json');
+        if (response.ok) {
+            const summary = await response.json();
+            renderDailySummary(summary);
+        }
+    } catch (e) {
+        console.log('No daily summary found');
+    }
+}
+
+// 渲染每日总结
+function renderDailySummary(summary) {
+    const container = document.getElementById('daily-highlights');
+    if (!container) return;
+    
+    const highlights = summary.highlights || [];
+    const trend = summary.trend || '';
+    const stats = summary.stats || {};
+    
+    let html = '';
+    
+    if (trend) {
+        html += `<p class="summary-trend">${trend}</p>`;
+    }
+    
+    if (highlights.length > 0) {
+        html += '<ul class="summary-list">';
+        highlights.forEach(h => {
+            html += `<li>${h}</li>`;
+        });
+        html += '</ul>';
+    }
+    
+    if (stats.total > 0) {
+        html += `<div class="summary-stats">
+            📊 今日统计: 新增 ${stats.total} 篇 | 
+            大模型 ${stats.llm || 0} 篇 | 
+            自动驾驶 ${stats.autonomous || 0} 篇 | 
+            具身智能 ${stats.robotics || 0} 篇
+        </div>`;
+    }
+    
+    container.innerHTML = html;
+}
 
 // 绑定分类按钮点击事件 - 使用事件委托
 document.addEventListener('click', function(e) {
