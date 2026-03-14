@@ -2,116 +2,181 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>数据闭环文章中心</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #f5f5f5; padding: 20px; }
-        .header { text-align: center; margin-bottom: 30px; }
-        .header h1 { font-size: 24px; color: #333; }
-        .header p { color: #666; margin-top: 10px; }
-        .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 30px; }
-        .stat-card { background: white; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .stat-value { font-size: 32px; font-weight: bold; color: #1890ff; }
-        .stat-label { color: #666; margin-top: 5px; }
-        .article-list { display: grid; gap: 15px; }
-        .article-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .article-header { display: flex; justify-content: space-between; margin-bottom: 10px; }
-        .tag { padding: 4px 12px; border-radius: 4px; font-size: 12px; background: #e6f7ff; color: #1890ff; }
-        .source { color: #666; font-size: 14px; }
-        .title { font-size: 18px; font-weight: 600; color: #333; margin-bottom: 8px; }
-        .summary { color: #666; line-height: 1.6; }
-        .time { color: #999; font-size: 12px; margin-top: 10px; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>数据闭环文章中心 | Data Loop Hub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>🔄 数据闭环文章中心</h1>
-        <p>每日更新 AI、自动驾驶、具身智能领域最新资讯</p>
-    </div>
-    
-    <div class="stats">
-        <div class="stat-card">
-            <div class="stat-value" id="total">22</div>
-            <div class="stat-label">总文章</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-value" id="llm">21</div>
-            <div class="stat-label">大模型</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-value" id="auto">1</div>
-            <div class="stat-label">自动驾驶</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-value" id="robot">0</div>
-            <div class="stat-label">具身智能</div>
-        </div>
-    </div>
-    
-    <div class="article-list" id="articles">
-        <!-- 文章列表 -->
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">🔄</span>
+                    <span class="logo-text">数据闭环<br><small>文章中心</small></span>
+                </div>
+                <button class="sidebar-toggle" id="sidebar-toggle">✕</button>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <div class="nav-title">每日更新</div>
+                    <a href="index.html" class="nav-item active">
+                        <span class="nav-icon">📰</span>
+                        <span class="nav-text">每日必读</span>
+                        <span class="nav-badge" id="today-count">0</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">行业研究</div>
+                    <a href="research.html?cat=autonomous" class="nav-item">
+                        <span class="nav-icon">🚗</span>
+                        <span class="nav-text">自动驾驶</span>
+                    </a>
+                    <a href="research.html?cat=robotics" class="nav-item">
+                        <span class="nav-icon">🤖</span>
+                        <span class="nav-text">具身智能</span>
+                    </a>
+                    <a href="research.html?cat=llm" class="nav-item">
+                        <span class="nav-icon">🧠</span>
+                        <span class="nav-text">大模型</span>
+                    </a>
+                    <a href="research.html?cat=zhuoyu" class="nav-item">
+                        <span class="nav-icon">🎯</span>
+                        <span class="nav-text">卓驭科技</span>
+                    </a>
+                    <a href="research.html" class="nav-item">
+                        <span class="nav-icon">📚</span>
+                        <span class="nav-text">全部研究</span>
+                    </a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-title">工具</div>
+                    <a href="timeline.html" class="nav-item">
+                        <span class="nav-icon">📅</span>
+                        <span class="nav-text">时间轴</span>
+                    </a>
+                    <a href="bookmarks.html" class="nav-item">
+                        <span class="nav-icon">🔖</span>
+                        <span class="nav-text">收藏夹</span>
+                        <span class="nav-badge" id="bookmark-count">0</span>
+                    </a>
+                    <a href="dashboard.html" class="nav-item">
+                        <span class="nav-icon">📊</span>
+                        <span class="nav-text">数据看板</span>
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>最后更新: <span id="last-update">--</span></p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <button class="menu-toggle" id="menu-toggle">☰</button>
+                <div class="header-title">
+                    <h1>每日必读</h1>
+                    <p class="header-subtitle"><span id="current-date">--</span></p>
+                </div>
+                <div class="header-actions">
+                    <div class="date-nav">
+                        <button class="btn-icon" id="prev-date" title="前一天 (←)">◀</button>
+                        <button class="btn btn-secondary" id="today-btn" title="今天 (t)">今天</button>
+                        <button class="btn-icon" id="next-date" title="后一天 (→)">▶</button>
+                    </div>
+                    <div class="search-box">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <input type="text" placeholder="搜索资讯..." id="search-input">
+                    </div>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="content">
+                <!-- Daily Summary -->
+                <section class="daily-summary">
+                    <div class="summary-header">
+                        <span class="summary-icon">🔥</span>
+                        <h2>今日要点</h2>
+                    </div>
+                    <div class="summary-content" id="daily-highlights">
+                        <!-- Dynamic content -->
+                    </div>
+                </section>
+
+                <!-- Stats Bar -->
+                <section class="stats-bar">
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-total">0</div>
+                        <div class="stat-label">今日资讯</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-llm">0</div>
+                        <div class="stat-label">大模型</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-autonomous">0</div>
+                        <div class="stat-label">自动驾驶</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-robotics">0</div>
+                        <div class="stat-label">具身智能</div>
+                    </div>
+                </section>
+
+                <!-- Filter Bar -->
+                <section class="filter-bar">
+                    <div class="filter-group">
+                        <button class="filter-btn active" data-filter="all">全部</button>
+                        <button class="filter-btn" data-filter="llm">大模型</button>
+                        <button class="filter-btn" data-filter="autonomous">自动驾驶</button>
+                        <button class="filter-btn" data-filter="robotics">具身智能</button>
+                        <button class="filter-btn" data-filter="company">公司动态</button>
+                        <button class="filter-btn" data-filter="product">产品发布</button>
+                        <button class="filter-btn" data-filter="research">技术研究</button>
+                    </div>
+                    <div class="date-picker">
+                        <input type="date" id="date-picker" value="">
+                    </div>
+                </section>
+
+                <!-- News Grid -->
+                <section class="news-section">
+                    <div class="news-grid" id="news-grid">
+                        <!-- Dynamic content -->
+                    </div>
+                    <div class="load-more">
+                        <button class="btn btn-secondary" id="load-more-btn">加载更多</button>
+                    </div>
+                </section>
+            </div>
+        </main>
     </div>
 
-    <script>
-        // 直接嵌入文章数据，避免外部 JSON 加载问题
-        const articles = [
-            {
-                title: "OpenAI 发布 GPT-5，具有革命性功能",
-                summary: "这是关于OpenAI 发布 GPT-5，具有革命的文章摘要...",
-                source: "Tesla Blog",
-                category: "llm",
-                time: "2026-03-14"
-            },
-            {
-                title: "阿里云发布手机'一键养虾'产品JVS Claw：3分钟实现养虾自由",
-                summary: "阿里云发布手机'一键养虾'产品JVS Claw...",
-                source: "量子位",
-                category: "llm",
-                time: "2026-03-14"
-            },
-            {
-                title: "刚刚，腾讯电脑'龙虾管家'重磅上线",
-                summary: "腾讯电脑'龙虾管家'重磅上线...",
-                source: "量子位",
-                category: "llm",
-                time: "2026-03-14"
-            },
-            {
-                title: "滴滴Q4再创新高 日订单峰值超6500万单",
-                summary: "滴滴Q4再创新高，日订单峰值超6500万单...",
-                source: "量子位",
-                category: "llm",
-                time: "2026-03-14"
-            },
-            {
-                title: "[译] Rakuten fixes issues twice as fast with OpenAI",
-                summary: "Rakuten uses Codex, the coding agent from OpenAI...",
-                source: "OpenAI Blog",
-                category: "llm",
-                time: "2026-03-14"
-            },
-            {
-                title: "特斯拉 FSD V14 向测试用户推送",
-                summary: "特斯拉开始向北美用户推送 FSD V14 版本...",
-                source: "DeepMind",
-                category: "autonomous",
-                time: "2026-03-14"
-            }
-        ];
-        
-        // 渲染文章
-        document.getElementById('articles').innerHTML = articles.map(a => `
-            <div class="article-card">
-                <div class="article-header">
-                    <span class="tag">${a.category}</span>
-                    <span class="source">${a.source}</span>
-                </div>
-                <div class="title">${a.title}</div>
-                <div class="summary">${a.summary}</div>
-                <div class="time">${a.time}</div>
-            </div>
-        `).join('');
-    </script>
+    <!-- Article Modal -->
+    <div class="modal" id="article-modal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <article class="article-detail" id="article-detail">
+                <!-- Dynamic content -->
+            </article>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script src="assets/js/app.js?v=3"></script>
+    <script src="assets/js/daily-simple.js?v=3"></script>
 </body>
 </html>
