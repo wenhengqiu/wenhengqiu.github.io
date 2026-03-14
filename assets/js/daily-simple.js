@@ -100,12 +100,24 @@ document.addEventListener('click', function(e) {
 
 // 分类过滤功能
 function filterByCategory(category) {
-    if (!window.articlesData) return;
+    console.log('Filtering by:', category);
+    console.log('Articles data:', window.articlesData?.length);
+    
+    if (!window.articlesData || window.articlesData.length === 0) {
+        console.log('No articles data yet');
+        // 延迟重试
+        setTimeout(() => filterByCategory(category), 500);
+        return;
+    }
     
     if (category === 'all' || !category) {
         renderArticles(window.articlesData);
     } else {
-        const filtered = window.articlesData.filter(a => a.category === category);
+        const filtered = window.articlesData.filter(a => {
+            console.log('Checking article category:', a.category, 'against:', category);
+            return a.category === category;
+        });
+        console.log('Filtered count:', filtered.length);
         renderArticles(filtered);
     }
     
