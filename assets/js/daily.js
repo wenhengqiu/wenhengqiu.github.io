@@ -237,7 +237,7 @@ function generateNewsCard(article) {
                     <span class="tag ${article.category}">${getCategoryName(article.category)}</span>
                     ${article.importance === 'high' ? '<span class="tag" style="background:#ff6b6b;color:white">重要</span>' : ''}
                 </div>
-                <div class="card-time">${article.display_date}</div>
+                <div class="card-time">${article.display_date || formatDate(article.published_at || article.publish_date || new Date())}</div>
             </div>
             <div class="card-body">
                 <h3 class="card-title">${article.title}</h3>

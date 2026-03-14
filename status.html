@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info-Getter 状态监控</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .status-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .status-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .status-icon {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        .status-icon.running { background: #52c41a; }
+        .status-icon.stopped { background: #ff4d4f; }
+        .status-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .status-badge {
+            margin-left: auto;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .status-badge.running {
+            background: #f6ffed;
+            color: #52c41a;
+            border: 1px solid #b7eb8f;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1890ff;
+        }
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .log-section {
+            margin-top: 15px;
+        }
+        .log-title {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .log-content {
+            background: #1a1a2e;
+            color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+        .refresh-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: #1890ff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .refresh-btn:hover {
+            background: #40a9ff;
+        }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-row:last-child {
+            border-bottom: none;
+        }
+        .info-label {
+            color: #666;
+        }
+        .info-value {
+            font-weight: 500;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Info-Getter 状态监控</h1>
+        
+        <div class="status-card">
+            <div class="status-header">
+                <div class="status-icon running"></div>
+                <div class="status-title">守护进程状态</div>
+                <div class="status-badge running">运行中</div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value" id="total-articles">22</div>
+                    <div class="stat-label">总文章数</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="today-articles">12</div>
+                    <div class="stat-label">今日采集</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="sources-count">12</div>
+                    <div class="stat-label">信息源</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="status-card">
+            <div class="status-title" style="margin-bottom: 15px;">📊 运行信息</div>
+            <div class="info-row">
+                <span class="info-label">进程 PID</span>
+                <span class="info-value">60176</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">运行时间</span>
+                <span class="info-value">1小时 23分</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">下次采集</span>
+                <span class="info-value">15:33:03</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">采集频率</span>
+                <span class="info-value">每小时</span>
+            </div>
+        </div>
+        
+        <div class="status-card">
+            <div class="status-title" style="margin-bottom: 15px;">📁 数据分布</div>
+            <div class="info-row">
+                <span class="info-label">大模型 (llm)</span>
+                <span class="info-value">22 篇</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">自动驾驶 (autonomous)</span>
+                <span class="info-value">1 篇</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">具身智能 (robotics)</span>
+                <span class="info-value">0 篇</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">卓驭科技 (zhuoyu)</span>
+                <span class="info-value">0 篇</span>
+            </div>
+        </div>
+        
+        <div class="status-card">
+            <div class="log-title">📝 最近日志</div>
+            <div class="log-content" id="log-content">[2026-03-14 14:33:03] 采集完成
+[2026-03-14 14:33:03] 发布: 12 篇文章
+[2026-03-14 14:33:03] 等待1小时...
+[2026-03-14 13:32:36] 开始采集...
+[2026-03-14 13:32:36] 采集: 15 篇</div>
+        </div>
+        
+        <button class="refresh-btn" onclick="location.reload()">🔄 刷新状态</button>
+    </div>
+    
+    <script>
+        // 自动刷新
+        setInterval(() => {
+            location.reload();
+        }, 30000); // 30秒刷新一次
+    </script>
+</body>
+</html>
