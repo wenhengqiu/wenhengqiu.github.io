@@ -19,15 +19,29 @@ ssl_context = ssl.create_default_context()
 ssl_context.check_hostname = False
 ssl_context.verify_mode = ssl.CERT_NONE
 
-# 配置
+# 配置 - 扩展信息源
 CONFIG = {
     "sources": [
+        # 中文科技媒体
         {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "category": "llm", "lang": "zh"},
         {"name": "量子位", "url": "https://www.qbitai.com/rss", "category": "llm", "lang": "zh"},
+        {"name": "品玩", "url": "https://www.pingwest.com/rss", "category": "llm", "lang": "zh"},
+        {"name": "36氪", "url": "https://36kr.com/feed", "category": "llm", "lang": "zh"},
+        {"name": "雷锋网", "url": "https://www.leiphone.com/rss", "category": "llm", "lang": "zh"},
+        
+        # 英文官方博客
         {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml", "category": "llm", "lang": "en"},
+        {"name": "DeepMind", "url": "https://deepmind.google/discover/blog/", "category": "llm", "lang": "en"},
+        {"name": "Tesla Blog", "url": "https://www.tesla.com/blog/rss.xml", "category": "autonomous", "lang": "en"},
+        {"name": "Waymo", "url": "https://waymo.com/blog/rss/", "category": "autonomous", "lang": "en"},
+        
+        # 国际科技媒体
+        {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "category": "llm", "lang": "en"},
+        {"name": "The Verge AI", "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml", "category": "llm", "lang": "en"},
+        {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "category": "llm", "lang": "en"},
     ],
-    "min_quality_score": 0.7,
-    "max_articles": 10
+    "min_quality_score": 0.6,  # 降低阈值以获取更多文章
+    "max_articles": 30
 }
 
 class SimpleFetcher:

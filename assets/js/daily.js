@@ -93,10 +93,17 @@ async function loadArticles(date = null) {
                         if (!articleDate) return false;
                         return articleDate.startsWith(targetDate);
                     });
-                    // Add category info
+                    // Add category info and normalize source
                     todayArticles.forEach(article => {
                         article.category = category;
                         article.source_type = 'research';
+                        // Normalize source to object format
+                        if (typeof article.source === 'string') {
+                            article.source = {
+                                name: article.source,
+                                type: 'tech_media'
+                            };
+                        }
                     });
                     currentArticles = currentArticles.concat(todayArticles);
                 }
