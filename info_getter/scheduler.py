@@ -113,6 +113,40 @@ class Scheduler:
                     logger.info(f"📥 卓驭爬虫添加 {len(zhuoyu_articles)} 篇文章")
                 except Exception as e:
                     logger.warning(f"⚠️ 卓驭爬虫失败: {e}")
+                
+                # 2.3 自动驾驶文章爬虫
+                logger.info("🚗 启动自动驾驶文章爬虫...")
+                try:
+                    result = subprocess.run(
+                        ['/Library/Developer/CommandLineTools/usr/bin/python3',
+                         'scripts/crawl_autonomous.py'],
+                        capture_output=True,
+                        text=True,
+                        timeout=300
+                    )
+                    if result.returncode == 0:
+                        logger.info("✅ 自动驾驶爬虫完成")
+                    else:
+                        logger.warning(f"⚠️ 自动驾驶爬虫出错: {result.stderr[:200]}")
+                except Exception as e:
+                    logger.warning(f"⚠️ 自动驾驶爬虫失败: {e}")
+                
+                # 2.4 具身智能文章爬虫
+                logger.info("🤖 启动具身智能文章爬虫...")
+                try:
+                    result = subprocess.run(
+                        ['/Library/Developer/CommandLineTools/usr/bin/python3',
+                         'scripts/crawl_robotics.py'],
+                        capture_output=True,
+                        text=True,
+                        timeout=300
+                    )
+                    if result.returncode == 0:
+                        logger.info("✅ 具身智能爬虫完成")
+                    else:
+                        logger.warning(f"⚠️ 具身智能爬虫出错: {result.stderr[:200]}")
+                except Exception as e:
+                    logger.warning(f"⚠️ 具身智能爬虫失败: {e}")
                     
             except Exception as e:
                 logger.warning(f"⚠️ Web爬虫失败: {e}")
