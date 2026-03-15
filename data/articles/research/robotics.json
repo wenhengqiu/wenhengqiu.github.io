@@ -330,110 +330,6 @@
     "classification_confidence": 0.26666666666666666
   },
   {
-    "id": "deepmind_81097",
-    "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "robotics",
-    "published_at": "2026-03-15T14:09:49.535373",
-    "summary": "",
-    "classification_confidence": 0.3076923076923077
-  },
-  {
-    "id": "deepmind_81097",
-    "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "robotics",
-    "published_at": "2026-03-15T14:09:49.524640",
-    "summary": "",
-    "classification_confidence": 0.3076923076923077
-  },
-  {
-    "id": "deepmind_31613",
-    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
-    "url": "https://deepmind.google/blog/10-years-of-alphago/",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "robotics",
-    "published_at": "2026-03-15T14:09:49.472230",
-    "summary": "",
-    "classification_confidence": 0.3076923076923077
-  },
-  {
-    "id": "deepmind_31613",
-    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
-    "url": "https://deepmind.google/blog/10-years-of-alphago/",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "robotics",
-    "published_at": "2026-03-15T14:09:49.458791",
-    "summary": "",
-    "classification_confidence": 0.3076923076923077
-  },
-  {
-    "id": "deepmind_31613",
-    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
-    "url": "https://deepmind.google/blog/10-years-of-alphago/",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "robotics",
-    "published_at": "2026-03-15T14:09:49.447063",
-    "summary": "",
-    "classification_confidence": 0.3076923076923077
-  },
-  {
-    "id": "deepmind_33032",
-    "title": "Project Genie: Experimenting with infinite, interactive worlds",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "robotics",
-    "published_at": "2026-03-15T14:09:49.426333",
-    "summary": "",
-    "classification_confidence": 0.3076923076923077
-  },
-  {
-    "id": "deepmind_33032",
-    "title": "Project Genie: Experimenting with infinite, interactive worlds",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "robotics",
-    "published_at": "2026-03-15T14:09:49.411206",
-    "summary": "",
-    "classification_confidence": 0.3076923076923077
-  },
-  {
-    "id": "deepmind_33032",
-    "title": "Project Genie: Experimenting with infinite, interactive worlds",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "robotics",
-    "published_at": "2026-03-15T14:09:49.398237",
-    "summary": "",
-    "classification_confidence": 0.3076923076923077
-  },
-  {
     "id": "MIT Tech Review_1773551826_2",
     "title": "[译] Future AI chips could be built on glass",
     "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
@@ -663,17 +559,6 @@
     "quality_score": 0.9,
     "published_at": "2026-03-15T11:15:57.299099",
     "classification_confidence": 0.5714285714285714
-  },
-  {
-    "id": "量子位_1773544554_0",
-    "title": "360发布安全龙虾系列产品：以模治模构建智能体安全体系",
-    "summary": "",
-    "url": "https://www.qbitai.com/2026/03/387921.html",
-    "source": "量子位",
-    "category": "robotics",
-    "quality_score": 0.8,
-    "published_at": "2026-03-15T11:15:54.471066",
-    "classification_confidence": 0.3076923076923077
   },
   {
     "id": "tesla_optimus_001",

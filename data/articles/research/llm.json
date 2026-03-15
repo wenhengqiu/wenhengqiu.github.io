@@ -176,45 +176,6 @@
     "classification_confidence": 0.35294117647058826
   },
   {
-    "id": "deepmind_788",
-    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "llm",
-    "published_at": "2026-03-15T14:09:49.510592",
-    "summary": "",
-    "classification_confidence": 0.42105263157894735
-  },
-  {
-    "id": "deepmind_788",
-    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "llm",
-    "published_at": "2026-03-15T14:09:49.496592",
-    "summary": "",
-    "classification_confidence": 0.42105263157894735
-  },
-  {
-    "id": "deepmind_788",
-    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite",
-    "source": {
-      "name": "DeepMind Blog",
-      "type": "official"
-    },
-    "category": "llm",
-    "published_at": "2026-03-15T14:09:49.484746",
-    "summary": "",
-    "classification_confidence": 0.42105263157894735
-  },
-  {
     "id": "TechCrunch AI_1773551823_2",
     "title": "[译] How to use the new ChatGPT app integrati",
     "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
@@ -323,27 +284,6 @@
     "quality_score": 0.8,
     "published_at": "2026-03-15T11:15:54.471098",
     "classification_confidence": 0.42105263157894735
-  },
-  {
-    "id": "量子位_1773544554_1",
-    "title": "AI 数学推理新纪元：SAIR Foundation 正式启动“数学蒸馏挑战赛”",
-    "summary": "",
-    "url": "https://www.qbitai.com/2026/03/387915.html",
-    "source": "量子位",
-    "category": "llm",
-    "quality_score": 0.8,
-    "published_at": "2026-03-15T11:15:54.471088",
-    "classification_confidence": 0.42105263157894735
-  },
-  {
-    "id": "量子位_1773573543_1",
-    "title": "360发布安全龙虾系列产品：以模治模构建智能体安全体系",
-    "summary": "",
-    "url": "https://www.qbitai.com/2026/03/387921.html",
-    "source": "量子位",
-    "category": "llm",
-    "quality_score": 0.8,
-    "published_at": "2026-03-15T19:19:03.339479"
   },
   {
     "id": "36氪_1773573546_0",
