@@ -121,12 +121,21 @@ class ExecutiveBriefGenerator:
         """生成高管简报"""
         yesterday = (datetime.now() - timedelta(days=1)).strftime('%m月%d日')
         
-        # 构建主题段落
+        # 构建主题段落（去重）
         theme_paragraphs = []
+        seen_titles = set()
         for theme_name, theme_articles in analysis['hot_themes']:
             if theme_articles:
-                titles = [a.title_zh[:30] + '...' for a in theme_articles[:2]]
-                theme_paragraphs.append(f"{theme_name}（{len(theme_articles)}篇）：{'；'.join(titles)}")
+                unique_titles = []
+                for a in theme_articles[:3]:
+                    title_key = a.title_zh[:25]
+                    if title_key not in seen_titles:
+                        seen_titles.add(title_key)
+                        unique_titles.append(a.title_zh[:30] + '...')
+                    if len(unique_titles) >= 2:
+                        break
+                if unique_titles:
+                    theme_paragraphs.append(f"{theme_name}（{len(theme_articles)}篇）：{'、'.join(unique_titles)}")
         
         # 核心公司
         companies = list(analysis['company_mentions'].keys())[:3]
@@ -153,10 +162,28 @@ class ExecutiveBriefGenerator:
 
 """
         
-        # 添加TOP5文章
+        # 添加TOP5文章（显示中文标题和中文摘要）
         for i, article in enumerate(articles[:5], 1):
             source = article.source.get('name', '未知') if isinstance(article.source, dict) else '未知'
-            brief += f"{i}. **{article.title_zh}**（{source}）\n"
+            # 使用中文标题，如果没有则使用原标题
+            title = article.title_zh if article.title_zh else article.title
+            # 获取中文摘要（限制长度，清理HTML）
+            import re
+            summary = article.summary if article.summary else ''
+            # 清理HTML标签和实体
+            summary = re.sub(r'<[^>]+>', '', summary)
+            summary = summary.replace('&nbsp;', ' ').replace('&amp;', '&')
+            summary = summary.replace('&lt;', '<').replace('&gt;', '>')
+            summary = summary.replace('&quot;', '"').replace('&#39;', "'")
+            # 清理多余空白
+            summary = ' '.join(summary.split())
+            if len(summary) > 80:
+                summary = summary[:80] + '...'
+            
+            brief += f"{i}. **{title}** — *{source}*\n"
+            if summary:
+                brief += f"   > {summary}\n"
+            brief += "\n"
         
         brief += f"""
 ---
