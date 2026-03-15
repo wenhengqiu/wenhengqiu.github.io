@@ -1,0 +1,25 @@
+# AI Big News 定时任务配置
+# 每天早上9点自动运行
+
+name: AI Big News Daily Report
+schedule: "0 9 * * *"  # 每天9:00
+timezone: Asia/Shanghai
+
+command: |
+  cd /Users/jarvis/.openclaw/workspace/dataloop-website && 
+  /Library/Developer/CommandLineTools/usr/bin/python3 scripts/ai_big_news.py
+
+# 环境变量
+env:
+  PYTHONPATH: /Users/jarvis/.openclaw/workspace/dataloop-website
+  DATA_DIR: /Users/jarvis/.openclaw/workspace/dataloop-website/data/articles/research
+
+# 日志
+log:
+  stdout: /tmp/ai_big_news.log
+  stderr: /tmp/ai_big_news.error.log
+
+# 通知
+notification:
+  on_success: false
+  on_failure: true
