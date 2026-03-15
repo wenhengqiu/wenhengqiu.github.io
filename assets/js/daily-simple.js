@@ -97,10 +97,17 @@ function renderArticles(articles) {
     }
     
     grid.innerHTML = articles.map(article => {
-        const url = article.url || '#';
         const title = article.title || '无标题';
         const summary = article.summary || '';
         const source = typeof article.source === 'object' ? article.source?.name : (article.source || '未知');
+        
+        // 如果URL为空，使用百度搜索
+        let url = article.url;
+        if (!url || url === '') {
+            const searchQuery = encodeURIComponent(title);
+            url = `https://www.baidu.com/s?wd=${searchQuery}`;
+        }
+        
         const categoryNames = {llm: 'AI', autonomous: '自动驾驶', robotics: '具身智能', zhuoyu: '卓驭科技'};
         const catName = categoryNames[article.category] || article.category;
         
