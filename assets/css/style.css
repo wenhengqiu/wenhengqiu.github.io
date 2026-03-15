@@ -1277,177 +1277,84 @@ body {
 }
 
 /* ========================================
-   AI Big News Styles
+   AI Big News Styles (Simplified)
    ======================================== */
 
 .ai-big-news-section {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: var(--radius-lg);
-    padding: 24px;
-    margin-bottom: 24px;
+    padding: 20px;
+    margin-bottom: 20px;
     color: white;
 }
 
 .ai-big-news-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .ai-big-news-title {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .ai-big-news-icon {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .ai-big-news-title h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     margin: 0;
 }
 
 .ai-big-news-subtitle {
-    font-size: 14px;
-    opacity: 0.9;
+    font-size: 13px;
+    opacity: 0.85;
     margin-left: 8px;
-}
-
-.ai-big-news-toggle {
-    background: rgba(255,255,255,0.2);
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    border-radius: var(--radius);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    transition: var(--transition);
-}
-
-.ai-big-news-toggle:hover {
-    background: rgba(255,255,255,0.3);
 }
 
 .ai-big-news-content {
     background: rgba(255,255,255,0.1);
     border-radius: var(--radius);
-    padding: 20px;
+    padding: 16px;
 }
 
-.ai-big-news-brief {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-}
-
-.ai-big-news-core h4,
-.ai-big-news-trend h4 {
-    font-size: 16px;
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.ai-big-news-core p {
-    font-size: 15px;
-    line-height: 1.8;
+.ai-big-news-summary-text {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 16px;
     opacity: 0.95;
 }
 
-.ai-big-news-trend {
-    margin-top: 16px;
-    padding: 16px;
-    background: rgba(255,255,255,0.15);
-    border-radius: var(--radius);
-    border-left: 4px solid #ffd700;
-}
-
-.ai-big-news-trend p {
-    font-size: 15px;
-    line-height: 1.6;
-    margin: 0;
-}
-
-.ai-big-news-list {
+.ai-big-news-top3 {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
 }
 
-.ai-big-news-item {
+.top3-item {
     display: flex;
-    gap: 16px;
-    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
     background: rgba(255,255,255,0.15);
     border-radius: var(--radius);
-    transition: var(--transition);
-    cursor: pointer;
+    font-size: 14px;
 }
 
-.ai-big-news-item:hover {
-    background: rgba(255,255,255,0.25);
-    transform: translateX(4px);
-}
-
-.ai-big-news-rank {
+.top3-num {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     background: rgba(255,255,255,0.3);
     color: white;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 50%;
     flex-shrink: 0;
-}
-
-.ai-big-news-content-inner {
-    flex: 1;
-    min-width: 0;
-}
-
-.ai-big-news-meta {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 6px;
-}
-
-.ai-big-news-source {
-    font-size: 12px;
-    opacity: 0.8;
-    background: rgba(255,255,255,0.2);
-    padding: 2px 8px;
-    border-radius: 4px;
-}
-
-.ai-big-news-title {
-    font-size: 15px;
-    font-weight: 600;
-    margin: 0 0 6px 0;
-    line-height: 1.4;
-}
-
-.ai-big-news-summary {
-    font-size: 13px;
-    opacity: 0.85;
-    line-height: 1.5;
-    margin: 0;
-}
-
-.ai-big-news-empty {
-    text-align: center;
-    padding: 40px;
-    opacity: 0.7;
 }
 
 @media (max-width: 768px) {
@@ -1457,18 +1364,10 @@ body {
     }
     
     .ai-big-news-title h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .ai-big-news-subtitle {
         display: none;
-    }
-    
-    .ai-big-news-content {
-        padding: 16px;
-    }
-    
-    .ai-big-news-item {
-        padding: 12px;
     }
 }

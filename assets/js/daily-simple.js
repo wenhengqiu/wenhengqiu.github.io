@@ -13,9 +13,12 @@ if (grid) {
     `;
 }
 
-// 加载AI Big News和文章
-loadAIBigNews();
-loadArticles();
+// 页面加载完成后执行
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page loaded, starting...');
+    loadAIBigNews();
+    loadArticles();
+});
 
 // 加载AI Big News
 async function loadAIBigNews() {
@@ -427,7 +430,10 @@ function toggleAIBigNews() {
     }
 }
 
-// Keep old function for compatibility
-function toggleTop10() {
-    toggleAIBigNews();
+// AI Big News toggle
+function toggleAIBigNews() {
+    const content = document.getElementById('ai-big-news-content');
+    if (content) {
+        content.style.display = content.style.display === 'none' ? 'block' : 'none';
+    }
 }
