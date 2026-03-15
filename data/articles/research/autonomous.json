@@ -1,87 +1,39 @@
 [
   {
-    "id": "waymo_001",
-    "title": "Waymo Expands Autonomous Ride-Hailing Service to Austin",
-    "title_zh": "Waymo将自动驾驶出租车服务扩展至奥斯汀",
-    "summary": "Waymo announced the expansion of its autonomous ride-hailing service to Austin, Texas, marking another major city launch for the company's commercial robotaxi operations.",
-    "summary_zh": "Waymo宣布将自动驾驶出租车服务扩展至德克萨斯州奥斯汀，标志着该公司商业机器人出租车业务在另一个主要城市的启动。",
-    "url": "https://waymo.com/blog/2024/10/austin-expansion",
+    "id": "cdp_85515",
+    "title": "最前线｜卓驭科技发布中算力城市NOA，端到端智驾下探到10万元级",
+    "title_zh": "最前线｜卓驭科技发布中算力城市NOA，端到端智驾下探到10万元级",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
     "source": {
-      "name": "Waymo Blog",
-      "type": "official"
+      "name": "36氪",
+      "type": "web_crawler"
     },
     "category": "autonomous",
-    "quality_score": 0.95,
-    "published_at": "2024-10-15T10:00:00",
-    "translated": true,
-    "tags": [
-      "Waymo",
-      "robotaxi",
-      "expansion"
-    ]
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:47.665675",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.5
   },
   {
-    "id": "tesla_001",
-    "title": "Tesla FSD V12: End-to-End Neural Networks for Autonomous Driving",
-    "title_zh": "特斯拉FSD V12：端到端神经网络自动驾驶",
-    "summary": "Tesla releases Full Self-Driving V12, featuring end-to-end neural networks that replace over 300,000 lines of explicit C++ code with a single AI model.",
-    "summary_zh": "特斯拉发布完全自动驾驶V12，采用端到端神经网络，用单一AI模型替代超过30万行显式C++代码。",
-    "url": "https://www.tesla.com/blog/fsd-v12-end-to-end",
+    "id": "cdp_48178",
+    "title": "“业界许多方案中还有不少是规则代码在起作用。而端到端 4.0 是真正让数据说话。”卓驭科技产品总监蒋卓键表示。所谓“100% 端味”，意味着从感知到决策再到控制的完整链条中，以往依赖的大量人工预设规则已被拿掉，取而代之的是由海量数据训练出的 AI 大模型。传统基于规则的系统如同一个拿着指令手册的操作员...",
+    "title_zh": "“业界许多方案中还有不少是规则代码在起作用。而端到端 4.0 是真正让数据说话。”卓驭科技产品总监蒋卓键表示。所谓“100% 端味”，意味着从感知到决策再到控制的完整链条中，以往依赖的大量人工预设规则已被拿掉，取而代之的是由海量数据训练出的 AI 大模型。传统基于规则的系统如同一个拿着指令手册的操作员...",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
     "source": {
-      "name": "Tesla Blog",
-      "type": "official"
+      "name": "百度搜索",
+      "type": "web_crawler"
     },
     "category": "autonomous",
-    "quality_score": 0.95,
-    "published_at": "2024-11-20T14:00:00",
-    "translated": true,
-    "tags": [
-      "Tesla",
-      "FSD",
-      "end-to-end"
-    ]
-  },
-  {
-    "id": "mobileye_001",
-    "title": "Mobileye Unveils EyeQ6 Chip for Next-Gen ADAS",
-    "title_zh": "Mobileye发布EyeQ6芯片用于下一代ADAS",
-    "summary": "Mobileye introduces the EyeQ6 system-on-chip, delivering significant performance improvements for advanced driver-assistance systems and autonomous driving.",
-    "summary_zh": "Mobileye推出EyeQ6系统级芯片，为高级驾驶辅助系统和自动驾驶提供显著的性能提升。",
-    "url": "https://www.mobileye.com/news/eyeq6-launch",
-    "source": {
-      "name": "Mobileye",
-      "type": "official"
-    },
-    "category": "autonomous",
-    "quality_score": 0.9,
-    "published_at": "2024-09-10T09:00:00",
-    "translated": true,
-    "tags": [
-      "Mobileye",
-      "EyeQ6",
-      "ADAS"
-    ]
-  },
-  {
-    "id": "apollo_001",
-    "title": "百度Apollo RT6: Sixth Generation Autonomous Vehicle",
-    "title_zh": "百度Apollo RT6：第六代自动驾驶车辆",
-    "summary": "Baidu unveils the Apollo RT6, its sixth-generation autonomous vehicle with a detachable steering wheel and a cost reduced to $37,000.",
-    "summary_zh": "百度发布Apollo RT6，其第六代自动驾驶车辆配备可拆卸方向盘，成本降至37,000美元。",
-    "url": "https://apollo.auto/news/rt6-launch",
-    "source": {
-      "name": "百度Apollo",
-      "type": "official"
-    },
-    "category": "autonomous",
-    "quality_score": 0.9,
-    "published_at": "2024-07-21T11:00:00",
-    "translated": true,
-    "tags": [
-      "百度",
-      "Apollo",
-      "RT6"
-    ]
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188485",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.38461538461538464
   },
   {
     "id": "xpeng_001",
@@ -102,6 +54,95 @@
       "小鹏",
       "XNGP",
       "城市NGP"
-    ]
+    ],
+    "classification_confidence": 0.5
+  },
+  {
+    "id": "tesla_001",
+    "title": "Tesla FSD V12: End-to-End Neural Networks for Autonomous Driving",
+    "title_zh": "特斯拉FSD V12：端到端神经网络自动驾驶",
+    "summary": "Tesla releases Full Self-Driving V12, featuring end-to-end neural networks that replace over 300,000 lines of explicit C++ code with a single AI model.",
+    "summary_zh": "特斯拉发布完全自动驾驶V12，采用端到端神经网络，用单一AI模型替代超过30万行显式C++代码。",
+    "url": "https://www.tesla.com/blog/fsd-v12-end-to-end",
+    "source": {
+      "name": "Tesla Blog",
+      "type": "official"
+    },
+    "category": "autonomous",
+    "quality_score": 0.95,
+    "published_at": "2024-11-20T14:00:00",
+    "translated": true,
+    "tags": [
+      "Tesla",
+      "FSD",
+      "end-to-end"
+    ],
+    "classification_confidence": 0.7333333333333333
+  },
+  {
+    "id": "waymo_001",
+    "title": "Waymo Expands Autonomous Ride-Hailing Service to Austin",
+    "title_zh": "Waymo将自动驾驶出租车服务扩展至奥斯汀",
+    "summary": "Waymo announced the expansion of its autonomous ride-hailing service to Austin, Texas, marking another major city launch for the company's commercial robotaxi operations.",
+    "summary_zh": "Waymo宣布将自动驾驶出租车服务扩展至德克萨斯州奥斯汀，标志着该公司商业机器人出租车业务在另一个主要城市的启动。",
+    "url": "https://waymo.com/blog/2024/10/austin-expansion",
+    "source": {
+      "name": "Waymo Blog",
+      "type": "official"
+    },
+    "category": "autonomous",
+    "quality_score": 0.95,
+    "published_at": "2024-10-15T10:00:00",
+    "translated": true,
+    "tags": [
+      "Waymo",
+      "robotaxi",
+      "expansion"
+    ],
+    "classification_confidence": 0.5555555555555556
+  },
+  {
+    "id": "mobileye_001",
+    "title": "Mobileye Unveils EyeQ6 Chip for Next-Gen ADAS",
+    "title_zh": "Mobileye发布EyeQ6芯片用于下一代ADAS",
+    "summary": "Mobileye introduces the EyeQ6 system-on-chip, delivering significant performance improvements for advanced driver-assistance systems and autonomous driving.",
+    "summary_zh": "Mobileye推出EyeQ6系统级芯片，为高级驾驶辅助系统和自动驾驶提供显著的性能提升。",
+    "url": "https://www.mobileye.com/news/eyeq6-launch",
+    "source": {
+      "name": "Mobileye",
+      "type": "official"
+    },
+    "category": "autonomous",
+    "quality_score": 0.9,
+    "published_at": "2024-09-10T09:00:00",
+    "translated": true,
+    "tags": [
+      "Mobileye",
+      "EyeQ6",
+      "ADAS"
+    ],
+    "classification_confidence": 0.5555555555555556
+  },
+  {
+    "id": "apollo_001",
+    "title": "百度Apollo RT6: Sixth Generation Autonomous Vehicle",
+    "title_zh": "百度Apollo RT6：第六代自动驾驶车辆",
+    "summary": "Baidu unveils the Apollo RT6, its sixth-generation autonomous vehicle with a detachable steering wheel and a cost reduced to $37,000.",
+    "summary_zh": "百度发布Apollo RT6，其第六代自动驾驶车辆配备可拆卸方向盘，成本降至37,000美元。",
+    "url": "https://apollo.auto/news/rt6-launch",
+    "source": {
+      "name": "百度Apollo",
+      "type": "official"
+    },
+    "category": "autonomous",
+    "quality_score": 0.9,
+    "published_at": "2024-07-21T11:00:00",
+    "translated": true,
+    "tags": [
+      "百度",
+      "Apollo",
+      "RT6"
+    ],
+    "classification_confidence": 0.6363636363636364
   }
 ]

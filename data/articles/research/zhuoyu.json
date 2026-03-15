@@ -1,31 +1,1129 @@
 [
   {
-    "id": "zhuoyu_001",
-    "title": "卓驭科技申请数据管理方法及相关系统专利",
-    "title_zh": "卓驭科技申请数据管理方法及相关系统专利",
-    "summary": "国家知识产权局信息显示，深圳市卓驭科技有限公司申请一项名为'数据管理方法、数据库系统、计算机设备、存储介质、程序产品和移动平台'的专利，公开号CN121658542A，申请日期为2024年9月。",
-    "summary_zh": "国家知识产权局信息显示，深圳市卓驭科技有限公司申请一项名为'数据管理方法、数据库系统、计算机设备、存储介质、程序产品和移动平台'的专利，公开号CN121658542A，申请日期为2024年9月。",
-    "url": "https://mp.163.com/article/search?keyword=%E5%8D%93%E9%A9%AD%E7%A7%91%E6%8A%80%E4%B8%93%E5%88%A9",
-    "source": {"name": "网易", "type": "tech_media"},
-    "category": "zhuoyu",
-    "quality_score": 0.8,
-    "published_at": "2025-03-13T17:38:00",
-    "translated": false,
-    "tags": ["专利", "数据管理"]
-  },
-  {
-    "id": "zhuoyu_002",
-    "title": "卓驭端到端4.0落地红旗，数据驱动「泛化」战打响",
-    "title_zh": "卓驭端到端4.0落地红旗，数据驱动「泛化」战打响",
-    "summary": "业界许多方案中还有不少是规则代码在起作用。而端到端4.0是真正让数据说话。卓驭科技产品总监蒋卓键表示，所谓100%端味，意味着从感知到决策再到控制的完整链条中，以往依赖的大量人工预设规则已被拿掉。",
-    "summary_zh": "业界许多方案中还有不少是规则代码在起作用。而端到端4.0是真正让数据说话。卓驭科技产品总监蒋卓键表示，所谓100%端味，意味着从感知到决策再到控制的完整链条中，以往依赖的大量人工预设规则已被拿掉。",
-    "url": "https://www.leiphone.com/category/transportation",
-    "source": {"name": "雷峰网", "type": "tech_media"},
+    "id": "MIT Tech Review_1773569940_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
     "category": "zhuoyu",
     "quality_score": 0.9,
-    "published_at": "2025-03-13T21:17:00",
+    "published_at": "2026-03-15T18:19:00.461290",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773569940_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T18:19:00.461281",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773569940_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T18:19:00.461256",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773569937_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T18:18:57.177318",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773569937_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T18:18:57.177296",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "OpenAI Blog_1773569930_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "zhuoyu",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T18:18:50.666189",
+    "classification_confidence": 0.3333333333333333
+  },
+  {
+    "id": "MIT Tech Review_1773566318_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:38.333628",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773566318_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:38.333618",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773566318_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:38.333594",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773566315_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:35.774981",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773566315_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:35.774958",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "OpenAI Blog_1773566309_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "zhuoyu",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T17:18:29.318860",
+    "classification_confidence": 0.3333333333333333
+  },
+  {
+    "id": "MIT Tech Review_1773562699_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:19.177959",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773562699_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:19.177950",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773562699_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:19.177926",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773562696_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:16.185731",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773562696_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:16.185709",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "OpenAI Blog_1773562682_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "zhuoyu",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T16:18:02.714013",
+    "classification_confidence": 0.3333333333333333
+  },
+  {
+    "id": "MIT Tech Review_1773559071_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:51.879123",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773559071_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:51.879113",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773559071_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:51.879089",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773559067_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:47.366445",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773559067_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:47.366423",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "OpenAI Blog_1773559060_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "zhuoyu",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T15:17:40.848072",
+    "classification_confidence": 0.3333333333333333
+  },
+  {
+    "id": "MIT Tech Review_1773555449_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:29.279606",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773555449_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:29.279596",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773555449_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:29.279572",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773555446_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:26.223344",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773555446_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:26.223322",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "OpenAI Blog_1773555439_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "zhuoyu",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T14:17:19.307991",
+    "classification_confidence": 0.3333333333333333
+  },
+  {
+    "id": "cdp_43753",
+    "title": "卓驭科技成立于2022年，前身是大疆车载业务。",
+    "title_zh": "卓驭科技成立于2022年，前身是大疆车载业务。",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "36氪",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:47.665716",
     "translated": false,
-    "tags": ["端到端", "红旗", "4.0"]
+    "tags": [],
+    "classification_confidence": 0.7857142857142857
+  },
+  {
+    "id": "cdp_61516",
+    "title": "奔驰入股千里、一汽收购卓驭，智驾阵营进入抢位期？",
+    "title_zh": "奔驰入股千里、一汽收购卓驭，智驾阵营进入抢位期？",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "36氪",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:47.665713",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.45454545454545453
+  },
+  {
+    "id": "cdp_944",
+    "title": "搭载卓驭端到端智驾2.0，极狐阿尔法T5 以10.98万起上市｜智驾前线",
+    "title_zh": "搭载卓驭端到端智驾2.0，极狐阿尔法T5 以10.98万起上市｜智驾前线",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "雷锋网",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:38.011552",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.47058823529411764
+  },
+  {
+    "id": "cdp_14259",
+    "title": "合作车型破百，卓驭“移动智能基座”如何支撑智能化的效率与平权之路？",
+    "title_zh": "合作车型破百，卓驭“移动智能基座”如何支撑智能化的效率与平权之路？",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "雷锋网",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:38.011550",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.625
+  },
+  {
+    "id": "cdp_19816",
+    "title": "卓驭端到端 4.0 落地红旗，数据驱动「泛化」战打响",
+    "title_zh": "卓驭端到端 4.0 落地红旗，数据驱动「泛化」战打响",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "雷锋网",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:38.011547",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.5714285714285714
+  },
+  {
+    "id": "cdp_32326",
+    "title": "本专题为雷峰网的卓驭专题，内容全部来自雷峰网精心选择与卓驭相关的最近资讯，雷峰网读懂智能与未来，拥有卓驭资讯的信息，在这里你能看到未来的世界。",
+    "title_zh": "本专题为雷峰网的卓驭专题，内容全部来自雷峰网精心选择与卓驭相关的最近资讯，雷峰网读懂智能与未来，拥有卓驭资讯的信息，在这里你能看到未来的世界。",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "雷锋网",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:38.011506",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.625
+  },
+  {
+    "id": "cdp_14790",
+    "title": "大疆智能驾驶解决方案命名“成行平台”,量产成果几周后上市",
+    "title_zh": "大疆智能驾驶解决方案命名“成行平台”,量产成果几周后上市",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326617",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.7272727272727273
+  },
+  {
+    "id": "cdp_8059",
+    "title": "2024年3月17日观点网讯：3月17日，智能驾驶系统供应商大疆车载在“中国电动汽车百人会论坛（2024）”上提出“积极拥抱高阶智能驾驶标配时代”的主张，并公布了其智能驾驶平台产品“成行平台”的最新更新。据悉，大疆车载在已大量量产的7V+32TOPS基础版配置上，推出了“7V+100TOPS”及“10V+100TOPS”两个新配置。这两个新配置...",
+    "title_zh": "2024年3月17日观点网讯：3月17日，智能驾驶系统供应商大疆车载在“中国电动汽车百人会论坛（2024）”上提出“积极拥抱高阶智能驾驶标配时代”的主张，并公布了其智能驾驶平台产品“成行平台”的最新更新。据悉，大疆车载在已大量量产的7V+32TOPS基础版配置上，推出了“7V+100TOPS”及“10V+100TOPS”两个新配置。这两个新配置...",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326612",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.85
+  },
+  {
+    "id": "cdp_22585",
+    "title": "大疆车载发布智能驾驶平台产品“成行平台”高算力配置",
+    "title_zh": "大疆车载发布智能驾驶平台产品“成行平台”高算力配置",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326608",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.7857142857142857
+  },
+  {
+    "id": "cdp_80541",
+    "title": "2024年4月9日从成行平台开放日上与大疆车载的交流所得到的信息来看，大疆车载的目标是做到“智驾标配”，目前「成行平台」已经将7V+100TOPS城市领航下放到15万元车型上，甚至喊出了“7000块钱硬件成本，城市领航现在上车”的口号，突破了目前行业常规的设想，加快了城市领航落地普及的节奏，将城市领航这个皇冠上的明珠打到了白菜价。",
+    "title_zh": "2024年4月9日从成行平台开放日上与大疆车载的交流所得到的信息来看，大疆车载的目标是做到“智驾标配”，目前「成行平台」已经将7V+100TOPS城市领航下放到15万元车型上，甚至喊出了“7000块钱硬件成本，城市领航现在上车”的口号，突破了目前行业常规的设想，加快了城市领航落地普及的节奏，将城市领航这个皇冠上的明珠打到了白菜价。",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326603",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.7
+  },
+  {
+    "id": "cdp_70714",
+    "title": "7000元硬件成本,就能用上城市领航?大疆车载为何备受车企认可",
+    "title_zh": "7000元硬件成本,就能用上城市领航?大疆车载为何备受车企认可",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326599",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.625
+  },
+  {
+    "id": "cdp_4313",
+    "title": "2023年8月29日对于行业，大疆车载的成行平台可以为车企节约追逐智能驾驶快速迭代的试错成本。对于追求自研的高端玩家也适用，丐版入门车型用成行平台，顶配采用自研方案，如果消费者用起来感受差别不大，还会赞叹车企良心，拉升一波口碑，股票也能涨。所以不妨大胆猜测，从成行平台登场，这又有可能就是智能驾驶标配时代的开始，而2024年...",
+    "title_zh": "2023年8月29日对于行业，大疆车载的成行平台可以为车企节约追逐智能驾驶快速迭代的试错成本。对于追求自研的高端玩家也适用，丐版入门车型用成行平台，顶配采用自研方案，如果消费者用起来感受差别不大，还会赞叹车企良心，拉升一波口碑，股票也能涨。所以不妨大胆猜测，从成行平台登场，这又有可能就是智能驾驶标配时代的开始，而2024年...",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326592",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.7857142857142857
+  },
+  {
+    "id": "cdp_81428",
+    "title": "让智能驾驶成为标配,人人可用?大疆车载的这盘大棋你看懂了吗",
+    "title_zh": "让智能驾驶成为标配,人人可用?大疆车载的这盘大棋你看懂了吗",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326588",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.625
+  },
+  {
+    "id": "cdp_5320",
+    "title": "2024年3月17日公布了智能驾驶平台产品「成行平台」的最新更新：在已大量量产的「7V+32TOPS」基础版配置上，推出「7V+100TOPS」及「10V+100TOPS」两个配置，可以实现“无高精地图依赖、无激光雷达依赖”的城市领航以及其他所有 L2 + 智能驾驶功能",
+    "title_zh": "2024年3月17日公布了智能驾驶平台产品「成行平台」的最新更新：在已大量量产的「7V+32TOPS」基础版配置上，推出「7V+100TOPS」及「10V+100TOPS」两个配置，可以实现“无高精地图依赖、无激光雷达依赖”的城市领航以及其他所有 L2 + 智能驾驶功能",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326584",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.6086956521739131
+  },
+  {
+    "id": "cdp_85313",
+    "title": "大疆车载发布“成行平台”高算力配置:无高精地图依赖、无激光雷达...",
+    "title_zh": "大疆车载发布“成行平台”高算力配置:无高精地图依赖、无激光雷达...",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326578",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.55
+  },
+  {
+    "id": "cdp_83162",
+    "title": "2025年12月6日「成行平台」在2023年应运而生，其核心目标在于推动高阶智能驾驶的广泛普及。通过一系列创新技术的研发与应用，该平台旨在让车企能够更高效、更可靠地推出智能驾驶产品，从而为用户带来既易用又实用的智能驾驶体验。无论是主动安全、领航驾驶，还是记忆泊车等高阶功能，都将为用户带来显著的安全提升和驾驶便捷性。",
+    "title_zh": "2025年12月6日「成行平台」在2023年应运而生，其核心目标在于推动高阶智能驾驶的广泛普及。通过一系列创新技术的研发与应用，该平台旨在让车企能够更高效、更可靠地推出智能驾驶产品，从而为用户带来既易用又实用的智能驾驶体验。无论是主动安全、领航驾驶，还是记忆泊车等高阶功能，都将为用户带来显著的安全提升和驾驶便捷性。",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326536",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.7272727272727273
+  },
+  {
+    "id": "cdp_18558",
+    "title": "当算法学会“直觉”：拆解卓驭的100%端味 活动现场，卓驭科技产品总监蒋卓键的一番分享，为「100%端味」做出了最直白的注解。他提到：「业界许多方案中还有不少是规则代码在起作用，而端到端4.0是真正让数据说话，仅靠训练数据的清洗与调优，就完成了模型的高速迭代和能力蜕变。」对于为什么在短短的半年时间，...",
+    "title_zh": "当算法学会“直觉”：拆解卓驭的100%端味 活动现场，卓驭科技产品总监蒋卓键的一番分享，为「100%端味」做出了最直白的注解。他提到：「业界许多方案中还有不少是规则代码在起作用，而端到端4.0是真正让数据说话，仅靠训练数据的清洗与调优，就完成了模型的高速迭代和能力蜕变。」对于为什么在短短的半年时间，...",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:22.484260",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.5714285714285714
+  },
+  {
+    "id": "cdp_81460",
+    "title": "深圳城区实测卓驭4.0:轻松应对鬼探头,「100%端味」才是未来",
+    "title_zh": "深圳城区实测卓驭4.0:轻松应对鬼探头,「100%端味」才是未来",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:22.484256",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.625
+  },
+  {
+    "id": "cdp_11521",
+    "title": "深圳市卓驭科技有限公司拥有涵盖销售、研发、制造、供应链、质量及各职能部门的完整建制组织，截止 2024 年底，覆盖感知、决策规划、高性能计算、功能安全、系统工程等专业领域。",
+    "title_zh": "深圳市卓驭科技有限公司拥有涵盖销售、研发、制造、供应链、质量及各职能部门的完整建制组织，截止 2024 年底，覆盖感知、决策规划、高性能计算、功能安全、系统工程等专业领域。",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188507",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.47058823529411764
+  },
+  {
+    "id": "cdp_75775",
+    "title": "卓驭是大疆创新旗下智能驾驶业务品牌，前身为2021年成立的大疆车载事业部，2023年从大疆分拆独立运营，2024年6月启用现名称。该品牌专注研发覆盖高速、城市、泊车全场景的高阶智能驾驶系统，核心产品“成行平台”支持驾舱一体集成，兼容多种芯片方案与传感器配置，适配惯导双...详情",
+    "title_zh": "卓驭是大疆创新旗下智能驾驶业务品牌，前身为2021年成立的大疆车载事业部，2023年从大疆分拆独立运营，2024年6月启用现名称。该品牌专注研发覆盖高速、城市、泊车全场景的高阶智能驾驶系统，核心产品“成行平台”支持驾舱一体集成，兼容多种芯片方案与传感器配置，适配惯导双...详情",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188502",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.8235294117647058
+  },
+  {
+    "id": "cdp_3357",
+    "title": "卓驭(大疆旗下智能驾驶业务... - 百度百科",
+    "title_zh": "卓驭(大疆旗下智能驾驶业务... - 百度百科",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188498",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.625
+  },
+  {
+    "id": "cdp_47643",
+    "title": "卓驭科技申请行人数据增强方法专利,拼接后的图片具有对应的行人...",
+    "title_zh": "卓驭科技申请行人数据增强方法专利,拼接后的图片具有对应的行人...",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188489",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.7272727272727273
+  },
+  {
+    "id": "cdp_60217",
+    "title": "卓驭端到端 4.0 落地红旗,数据驱动「泛化」战打响",
+    "title_zh": "卓驭端到端 4.0 落地红旗,数据驱动「泛化」战打响",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188481",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.5714285714285714
+  },
+  {
+    "id": "cdp_47266",
+    "title": "国家知识产权局信息显示,深圳市卓驭科技有限公司申请一项名为“数据管理方法、数据库系统、计算机设备、存储介质、程序产品和移动平台”的专利,公开号CN121658542A,申请日期为2024年9月。 专利摘要显示,本申请公开一种数据管理方法、数据库系统、计算机设备、存储介质、程序产品和移动平台,用于嵌入式设备,所述方法包括:在编译期预先",
+    "title_zh": "国家知识产权局信息显示,深圳市卓驭科技有限公司申请一项名为“数据管理方法、数据库系统、计算机设备、存储介质、程序产品和移动平台”的专利,公开号CN121658542A,申请日期为2024年9月。 专利摘要显示,本申请公开一种数据管理方法、数据库系统、计算机设备、存储介质、程序产品和移动平台,用于嵌入式设备,所述方法包括:在编译期预先",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188475",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.7272727272727273
+  },
+  {
+    "id": "cdp_49174",
+    "title": "卓驭科技申请数据管理方法及相关系统专利,减轻了运行期CPU和内存...",
+    "title_zh": "卓驭科技申请数据管理方法及相关系统专利,减轻了运行期CPU和内存...",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188407",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.7272727272727273
+  },
+  {
+    "id": "deepmind_81097",
+    "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "zhuoyu",
+    "published_at": "2026-03-15T14:09:49.535373",
+    "summary": "",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "deepmind_81097",
+    "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "zhuoyu",
+    "published_at": "2026-03-15T14:09:49.524640",
+    "summary": "",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "deepmind_31613",
+    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+    "url": "https://deepmind.google/blog/10-years-of-alphago/",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "zhuoyu",
+    "published_at": "2026-03-15T14:09:49.472230",
+    "summary": "",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "deepmind_31613",
+    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+    "url": "https://deepmind.google/blog/10-years-of-alphago/",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "zhuoyu",
+    "published_at": "2026-03-15T14:09:49.458791",
+    "summary": "",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "deepmind_31613",
+    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+    "url": "https://deepmind.google/blog/10-years-of-alphago/",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "zhuoyu",
+    "published_at": "2026-03-15T14:09:49.447063",
+    "summary": "",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "deepmind_33032",
+    "title": "Project Genie: Experimenting with infinite, interactive worlds",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "zhuoyu",
+    "published_at": "2026-03-15T14:09:49.426333",
+    "summary": "",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "deepmind_33032",
+    "title": "Project Genie: Experimenting with infinite, interactive worlds",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "zhuoyu",
+    "published_at": "2026-03-15T14:09:49.411206",
+    "summary": "",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "deepmind_33032",
+    "title": "Project Genie: Experimenting with infinite, interactive worlds",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "zhuoyu",
+    "published_at": "2026-03-15T14:09:49.398237",
+    "summary": "",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773551826_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:06.417484",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773551826_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:06.417474",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773551826_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:06.417450",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773551823_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:03.394658",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773551823_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:03.394636",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "OpenAI Blog_1773551817_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "zhuoyu",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T13:16:57.034814",
+    "classification_confidence": 0.3333333333333333
+  },
+  {
+    "id": "MIT Tech Review_1773548206_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:46.254591",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773548206_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:46.254582",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773548206_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:46.254556",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773548203_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:43.295197",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773548203_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:43.295175",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "OpenAI Blog_1773548196_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "zhuoyu",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T12:16:36.090653",
+    "classification_confidence": 0.3333333333333333
+  },
+  {
+    "id": "36氪_1773548189_0",
+    "title": "工业级AI视频厂商再融资，掌握120TB独家数据，营收破亿 | 硬氪首发",
+    "summary": "\n \n \n  <p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，重庆达瓦合志影像科技有限公司（下称“达瓦科技”）宣布完成近亿元的新一轮融资。本轮融资由一村资本、宝捷会创新基金领投，老股东启赋资本、重庆永川国资平台持续跟投。</p>\n  <p>达瓦科技成立于2023年，总部位于重庆，是国内首个实现商业化闭环的专业级AI内容",
+    "url": "https://36kr.com/p/3723669408987782?f=rss",
+    "source": "36氪",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:29.652469",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773544581_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:21.012966",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773544581_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:21.012957",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "MIT Tech Review_1773544581_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:21.012932",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773544577_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:17.957577",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "TechCrunch AI_1773544577_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:17.957556",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "OpenAI Blog_1773544570_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "zhuoyu",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T11:16:10.778924",
+    "classification_confidence": 0.3333333333333333
+  },
+  {
+    "id": "36氪_1773544557_2",
+    "title": "腾讯龙虾团队答疑：龙虾的热度确实高过能力，但它是普通人拥抱 AI 浪潮的第一步",
+    "summary": "\n \n \n  <p><strong>文｜王毓婵</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>最近一周，一向以风格稳重著称的腾讯一反常态，不仅借着一场“免费帮装虾”的线下活动迅速推高了大众对“龙虾”的热情，而且在短期内推出了大量“龙虾”产品。</p>\n  <p>目前已经上线的，有被称为腾讯版“免部署小龙虾”的办公工具WorkBuddy；支持一",
+    "url": "https://36kr.com/p/3721355722684804?f=rss",
+    "source": "36氪",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:15:57.299126",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "36氪_1773544557_0",
+    "title": "AWE首秀亮王牌：慕思，凭什么让一众科技大佬集体“躺平”？",
+    "summary": "\n \n \n  <p>智能家居发展十余年，各类智能单品早已走进千家万户，但一个困局却始终未能突破：单品“智能化”多流于表面，且彼此孤立，难以串联成一个真正懂生活、主动服务人真实需求的“智能之家”。</p>\n  <p>比如用于交流的语音助手，虽能随叫随应，但也会成为某一刻的噪音；又如守护安全的摄像头，并不能感知被褥之下人体的真实状态；即便是可掌控全屋智能的手机，却也不是24小时被人贴身操控。</p>\n",
+    "url": "https://36kr.com/p/3722669939931524?f=rss",
+    "source": "36氪",
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:15:57.299058",
+    "classification_confidence": 0.3333333333333333
+  },
+  {
+    "id": "量子位_1773544554_0",
+    "title": "360发布安全龙虾系列产品：以模治模构建智能体安全体系",
+    "summary": "",
+    "url": "https://www.qbitai.com/2026/03/387921.html",
+    "source": "量子位",
+    "category": "zhuoyu",
+    "quality_score": 0.8,
+    "published_at": "2026-03-15T11:15:54.471066",
+    "classification_confidence": 0.4
   },
   {
     "id": "zhuoyu_003",
@@ -34,12 +1132,63 @@
     "summary": "当算法学会直觉：拆解卓驭的100%端味。活动现场，卓驭科技产品总监蒋卓键的一番分享，为「100%端味」做出了最直白的注解。",
     "summary_zh": "当算法学会直觉：拆解卓驭的100%端味。活动现场，卓驭科技产品总监蒋卓键的一番分享，为「100%端味」做出了最直白的注解。",
     "url": "https://www.diantong.com",
-    "source": {"name": "电车通", "type": "tech_media"},
+    "source": {
+      "name": "电车通",
+      "type": "tech_media"
+    },
     "category": "zhuoyu",
     "quality_score": 0.85,
     "published_at": "2025-03-14T15:56:00",
     "translated": false,
-    "tags": ["实测", "深圳", "4.0"]
+    "tags": [
+      "实测",
+      "深圳",
+      "4.0"
+    ],
+    "classification_confidence": 0.6666666666666666
+  },
+  {
+    "id": "zhuoyu_002",
+    "title": "卓驭端到端4.0落地红旗，数据驱动「泛化」战打响",
+    "title_zh": "卓驭端到端4.0落地红旗，数据驱动「泛化」战打响",
+    "summary": "业界许多方案中还有不少是规则代码在起作用。而端到端4.0是真正让数据说话。卓驭科技产品总监蒋卓键表示，所谓100%端味，意味着从感知到决策再到控制的完整链条中，以往依赖的大量人工预设规则已被拿掉。",
+    "summary_zh": "业界许多方案中还有不少是规则代码在起作用。而端到端4.0是真正让数据说话。卓驭科技产品总监蒋卓键表示，所谓100%端味，意味着从感知到决策再到控制的完整链条中，以往依赖的大量人工预设规则已被拿掉。",
+    "url": "https://www.leiphone.com/category/transportation",
+    "source": {
+      "name": "雷峰网",
+      "type": "tech_media"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.9,
+    "published_at": "2025-03-13T21:17:00",
+    "translated": false,
+    "tags": [
+      "端到端",
+      "红旗",
+      "4.0"
+    ],
+    "classification_confidence": 0.5294117647058824
+  },
+  {
+    "id": "zhuoyu_001",
+    "title": "卓驭科技申请数据管理方法及相关系统专利",
+    "title_zh": "卓驭科技申请数据管理方法及相关系统专利",
+    "summary": "国家知识产权局信息显示，深圳市卓驭科技有限公司申请一项名为'数据管理方法、数据库系统、计算机设备、存储介质、程序产品和移动平台'的专利，公开号CN121658542A，申请日期为2024年9月。",
+    "summary_zh": "国家知识产权局信息显示，深圳市卓驭科技有限公司申请一项名为'数据管理方法、数据库系统、计算机设备、存储介质、程序产品和移动平台'的专利，公开号CN121658542A，申请日期为2024年9月。",
+    "url": "https://mp.163.com/article/search?keyword=%E5%8D%93%E9%A9%AD%E7%A7%91%E6%8A%80%E4%B8%93%E5%88%A9",
+    "source": {
+      "name": "网易",
+      "type": "tech_media"
+    },
+    "category": "zhuoyu",
+    "quality_score": 0.8,
+    "published_at": "2025-03-13T17:38:00",
+    "translated": false,
+    "tags": [
+      "专利",
+      "数据管理"
+    ],
+    "classification_confidence": 0.7272727272727273
   },
   {
     "id": "zhuoyu_004",
@@ -48,12 +1197,20 @@
     "summary": "卓驭是大疆创新旗下智能驾驶业务品牌，前身为2021年成立的大疆车载事业部，2023年从大疆分拆独立运营，2024年6月启用现名称。该品牌专注研发覆盖高速、城市、泊车全场景的高阶智能驾驶系统，核心产品'成行平台'支持驾舱一体集成。",
     "summary_zh": "卓驭是大疆创新旗下智能驾驶业务品牌，前身为2021年成立的大疆车载事业部，2023年从大疆分拆独立运营，2024年6月启用现名称。该品牌专注研发覆盖高速、城市、泊车全场景的高阶智能驾驶系统，核心产品'成行平台'支持驾舱一体集成。",
     "url": "https://baike.baidu.com/item/%E5%8D%93%E9%A9%AD/64235528",
-    "source": {"name": "百度百科", "type": "encyclopedia"},
+    "source": {
+      "name": "百度百科",
+      "type": "encyclopedia"
+    },
     "category": "zhuoyu",
     "quality_score": 0.9,
     "published_at": "2024-06-01T00:00:00",
     "translated": false,
-    "tags": ["百科", "大疆", "成行平台"]
+    "tags": [
+      "百科",
+      "大疆",
+      "成行平台"
+    ],
+    "classification_confidence": 0.7272727272727273
   },
   {
     "id": "zhuoyu_005",
@@ -62,11 +1219,18 @@
     "summary": "深圳市卓驭科技有限公司拥有涵盖销售、研发、制造、供应链、质量及各职能部门的完整建制组织，截止2024年底，覆盖感知、决策规划、高性能计算、功能安全、系统工程等专业领域。",
     "summary_zh": "深圳市卓驭科技有限公司拥有涵盖销售、研发、制造、供应链、质量及各职能部门的完整建制组织，截止2024年底，覆盖感知、决策规划、高性能计算、功能安全、系统工程等专业领域。",
     "url": "https://www.zhuoyutech.com",
-    "source": {"name": "卓驭科技官网", "type": "official"},
+    "source": {
+      "name": "卓驭科技官网",
+      "type": "official"
+    },
     "category": "zhuoyu",
     "quality_score": 1.0,
     "published_at": "2024-06-01T00:00:00",
     "translated": false,
-    "tags": ["官网", "公司介绍"]
+    "tags": [
+      "官网",
+      "公司介绍"
+    ],
+    "classification_confidence": 0.6153846153846154
   }
 ]

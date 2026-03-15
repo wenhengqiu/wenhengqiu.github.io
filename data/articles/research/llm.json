@@ -1,723 +1,14 @@
 [
   {
-    "id": "量子位_1773544554_0",
-    "title": "360发布安全龙虾系列产品：以模治模构建智能体安全体系",
-    "summary": "",
-    "url": "https://www.qbitai.com/2026/03/387921.html",
-    "source": "量子位",
-    "category": "llm",
-    "quality_score": 0.8,
-    "published_at": "2026-03-15T11:15:54.471066"
-  },
-  {
-    "id": "量子位_1773544554_1",
-    "title": "AI 数学推理新纪元：SAIR Foundation 正式启动“数学蒸馏挑战赛”",
-    "summary": "",
-    "url": "https://www.qbitai.com/2026/03/387915.html",
-    "source": "量子位",
-    "category": "llm",
-    "quality_score": 0.8,
-    "published_at": "2026-03-15T11:15:54.471088"
-  },
-  {
-    "id": "量子位_1773544554_2",
-    "title": "Gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋",
-    "summary": "以后出门有个谷歌地图就够了",
-    "url": "https://www.qbitai.com/2026/03/387867.html",
-    "source": "量子位",
-    "category": "llm",
-    "quality_score": 0.8,
-    "published_at": "2026-03-15T11:15:54.471098"
-  },
-  {
-    "id": "36氪_1773544557_0",
-    "title": "AWE首秀亮王牌：慕思，凭什么让一众科技大佬集体“躺平”？",
-    "summary": "\n \n \n  <p>智能家居发展十余年，各类智能单品早已走进千家万户，但一个困局却始终未能突破：单品“智能化”多流于表面，且彼此孤立，难以串联成一个真正懂生活、主动服务人真实需求的“智能之家”。</p>\n  <p>比如用于交流的语音助手，虽能随叫随应，但也会成为某一刻的噪音；又如守护安全的摄像头，并不能感知被褥之下人体的真实状态；即便是可掌控全屋智能的手机，却也不是24小时被人贴身操控。</p>\n",
-    "url": "https://36kr.com/p/3722669939931524?f=rss",
-    "source": "36氪",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T11:15:57.299058"
-  },
-  {
-    "id": "36氪_1773544557_1",
-    "title": "中国最大家电展上，一批想帮你做家务的机器人来了！",
-    "summary": "\n \n \n  <p><strong>文｜邱晓芬</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>2026年，挤进具身智能机器人赛道的主力军，是一众家电企业。</p>\n  <p>3月12日-15日，中国最大的家电及消费电子博览会（AWE 2026）在上海举办。和往年不同的是，此次展会的亮点已经从过去的家电，变成了具身智能机器人。</p>\n  <p",
-    "url": "https://36kr.com/p/3722882943334789?f=rss",
-    "source": "36氪",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T11:15:57.299099"
-  },
-  {
-    "id": "36氪_1773544557_2",
-    "title": "腾讯龙虾团队答疑：龙虾的热度确实高过能力，但它是普通人拥抱 AI 浪潮的第一步",
-    "summary": "\n \n \n  <p><strong>文｜王毓婵</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>最近一周，一向以风格稳重著称的腾讯一反常态，不仅借着一场“免费帮装虾”的线下活动迅速推高了大众对“龙虾”的热情，而且在短期内推出了大量“龙虾”产品。</p>\n  <p>目前已经上线的，有被称为腾讯版“免部署小龙虾”的办公工具WorkBuddy；支持一",
-    "url": "https://36kr.com/p/3721355722684804?f=rss",
-    "source": "36氪",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T11:15:57.299126"
-  },
-  {
-    "id": "OpenAI Blog_1773544570_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T11:16:10.778904"
-  },
-  {
-    "id": "OpenAI Blog_1773544570_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T11:16:10.778919"
-  },
-  {
-    "id": "OpenAI Blog_1773544570_2",
-    "title": "[译] Wayfair boosts catalog accuracy and supp",
-    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
-    "url": "https://openai.com/index/wayfair",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T11:16:10.778924"
-  },
-  {
-    "id": "TechCrunch AI_1773544577_0",
-    "title": "[译] US Army announces contract with Anduril ",
-    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
-    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T11:16:17.957556"
-  },
-  {
-    "id": "TechCrunch AI_1773544577_1",
-    "title": "[译] Meta reportedly considering layoffs that",
-    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
-    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T11:16:17.957577"
-  },
-  {
-    "id": "TechCrunch AI_1773544577_2",
+    "id": "TechCrunch AI_1773569937_2",
     "title": "[译] How to use the new ChatGPT app integrati",
     "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
     "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
     "source": "TechCrunch AI",
     "category": "llm",
     "quality_score": 0.9,
-    "published_at": "2026-03-15T11:16:17.957586"
-  },
-  {
-    "id": "MIT Tech Review_1773544581_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T11:16:21.012932"
-  },
-  {
-    "id": "MIT Tech Review_1773544581_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T11:16:21.012957"
-  },
-  {
-    "id": "MIT Tech Review_1773544581_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T11:16:21.012966"
-  },
-  {
-    "id": "36氪_1773548189_0",
-    "title": "工业级AI视频厂商再融资，掌握120TB独家数据，营收破亿 | 硬氪首发",
-    "summary": "\n \n \n  <p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，重庆达瓦合志影像科技有限公司（下称“达瓦科技”）宣布完成近亿元的新一轮融资。本轮融资由一村资本、宝捷会创新基金领投，老股东启赋资本、重庆永川国资平台持续跟投。</p>\n  <p>达瓦科技成立于2023年，总部位于重庆，是国内首个实现商业化闭环的专业级AI内容",
-    "url": "https://36kr.com/p/3723669408987782?f=rss",
-    "source": "36氪",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T12:16:29.652469"
-  },
-  {
-    "id": "OpenAI Blog_1773548196_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T12:16:36.090631"
-  },
-  {
-    "id": "OpenAI Blog_1773548196_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T12:16:36.090647"
-  },
-  {
-    "id": "OpenAI Blog_1773548196_2",
-    "title": "[译] Wayfair boosts catalog accuracy and supp",
-    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
-    "url": "https://openai.com/index/wayfair",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T12:16:36.090653"
-  },
-  {
-    "id": "TechCrunch AI_1773548203_0",
-    "title": "[译] US Army announces contract with Anduril ",
-    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
-    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T12:16:43.295175"
-  },
-  {
-    "id": "TechCrunch AI_1773548203_1",
-    "title": "[译] Meta reportedly considering layoffs that",
-    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
-    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T12:16:43.295197"
-  },
-  {
-    "id": "TechCrunch AI_1773548203_2",
-    "title": "[译] How to use the new ChatGPT app integrati",
-    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
-    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T12:16:43.295206"
-  },
-  {
-    "id": "MIT Tech Review_1773548206_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T12:16:46.254556"
-  },
-  {
-    "id": "MIT Tech Review_1773548206_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T12:16:46.254582"
-  },
-  {
-    "id": "MIT Tech Review_1773548206_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T12:16:46.254591"
-  },
-  {
-    "id": "OpenAI Blog_1773551817_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T13:16:57.034794"
-  },
-  {
-    "id": "OpenAI Blog_1773551817_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T13:16:57.034809"
-  },
-  {
-    "id": "OpenAI Blog_1773551817_2",
-    "title": "[译] Wayfair boosts catalog accuracy and supp",
-    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
-    "url": "https://openai.com/index/wayfair",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T13:16:57.034814"
-  },
-  {
-    "id": "TechCrunch AI_1773551823_0",
-    "title": "[译] US Army announces contract with Anduril ",
-    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
-    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T13:17:03.394636"
-  },
-  {
-    "id": "TechCrunch AI_1773551823_1",
-    "title": "[译] Meta reportedly considering layoffs that",
-    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
-    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T13:17:03.394658"
-  },
-  {
-    "id": "TechCrunch AI_1773551823_2",
-    "title": "[译] How to use the new ChatGPT app integrati",
-    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
-    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T13:17:03.394667"
-  },
-  {
-    "id": "MIT Tech Review_1773551826_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T13:17:06.417450"
-  },
-  {
-    "id": "MIT Tech Review_1773551826_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T13:17:06.417474"
-  },
-  {
-    "id": "MIT Tech Review_1773551826_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T13:17:06.417484"
-  },
-  {
-    "id": "OpenAI Blog_1773555439_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T14:17:19.307971"
-  },
-  {
-    "id": "OpenAI Blog_1773555439_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T14:17:19.307986"
-  },
-  {
-    "id": "OpenAI Blog_1773555439_2",
-    "title": "[译] Wayfair boosts catalog accuracy and supp",
-    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
-    "url": "https://openai.com/index/wayfair",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T14:17:19.307991"
-  },
-  {
-    "id": "TechCrunch AI_1773555446_0",
-    "title": "[译] US Army announces contract with Anduril ",
-    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
-    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T14:17:26.223322"
-  },
-  {
-    "id": "TechCrunch AI_1773555446_1",
-    "title": "[译] Meta reportedly considering layoffs that",
-    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
-    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T14:17:26.223344"
-  },
-  {
-    "id": "TechCrunch AI_1773555446_2",
-    "title": "[译] How to use the new ChatGPT app integrati",
-    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
-    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T14:17:26.223353"
-  },
-  {
-    "id": "MIT Tech Review_1773555449_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T14:17:29.279572"
-  },
-  {
-    "id": "MIT Tech Review_1773555449_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T14:17:29.279596"
-  },
-  {
-    "id": "MIT Tech Review_1773555449_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T14:17:29.279606"
-  },
-  {
-    "id": "OpenAI Blog_1773559060_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T15:17:40.848056"
-  },
-  {
-    "id": "OpenAI Blog_1773559060_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T15:17:40.848068"
-  },
-  {
-    "id": "OpenAI Blog_1773559060_2",
-    "title": "[译] Wayfair boosts catalog accuracy and supp",
-    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
-    "url": "https://openai.com/index/wayfair",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T15:17:40.848072"
-  },
-  {
-    "id": "TechCrunch AI_1773559067_0",
-    "title": "[译] US Army announces contract with Anduril ",
-    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
-    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T15:17:47.366423"
-  },
-  {
-    "id": "TechCrunch AI_1773559067_1",
-    "title": "[译] Meta reportedly considering layoffs that",
-    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
-    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T15:17:47.366445"
-  },
-  {
-    "id": "TechCrunch AI_1773559067_2",
-    "title": "[译] How to use the new ChatGPT app integrati",
-    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
-    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T15:17:47.366453"
-  },
-  {
-    "id": "MIT Tech Review_1773559071_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T15:17:51.879089"
-  },
-  {
-    "id": "MIT Tech Review_1773559071_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T15:17:51.879113"
-  },
-  {
-    "id": "MIT Tech Review_1773559071_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T15:17:51.879123"
-  },
-  {
-    "id": "量子位_1773562674_0",
-    "title": "科技CEO用ChatGPT+基因数据定制癌症疫苗！肿瘤缩小50%",
-    "summary": "AI救了我的狗！从奄奄一息到满公园追兔子",
-    "url": "https://www.qbitai.com/2026/03/387935.html",
-    "source": "量子位",
-    "category": "llm",
-    "quality_score": 0.8,
-    "published_at": "2026-03-15T16:17:54.728281"
-  },
-  {
-    "id": "OpenAI Blog_1773562682_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T16:18:02.713993"
-  },
-  {
-    "id": "OpenAI Blog_1773562682_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T16:18:02.714008"
-  },
-  {
-    "id": "OpenAI Blog_1773562682_2",
-    "title": "[译] Wayfair boosts catalog accuracy and supp",
-    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
-    "url": "https://openai.com/index/wayfair",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T16:18:02.714013"
-  },
-  {
-    "id": "TechCrunch AI_1773562696_0",
-    "title": "[译] US Army announces contract with Anduril ",
-    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
-    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T16:18:16.185709"
-  },
-  {
-    "id": "TechCrunch AI_1773562696_1",
-    "title": "[译] Meta reportedly considering layoffs that",
-    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
-    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T16:18:16.185731"
-  },
-  {
-    "id": "TechCrunch AI_1773562696_2",
-    "title": "[译] How to use the new ChatGPT app integrati",
-    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
-    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T16:18:16.185740"
-  },
-  {
-    "id": "MIT Tech Review_1773562699_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T16:18:19.177926"
-  },
-  {
-    "id": "MIT Tech Review_1773562699_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T16:18:19.177950"
-  },
-  {
-    "id": "MIT Tech Review_1773562699_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T16:18:19.177959"
-  },
-  {
-    "id": "OpenAI Blog_1773566309_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T17:18:29.318839"
-  },
-  {
-    "id": "OpenAI Blog_1773566309_1",
-    "title": "[译] Designing AI agents to resist prompt inj",
-    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
-    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T17:18:29.318855"
-  },
-  {
-    "id": "OpenAI Blog_1773566309_2",
-    "title": "[译] Wayfair boosts catalog accuracy and supp",
-    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
-    "url": "https://openai.com/index/wayfair",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T17:18:29.318860"
-  },
-  {
-    "id": "TechCrunch AI_1773566315_0",
-    "title": "[译] US Army announces contract with Anduril ",
-    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
-    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T17:18:35.774958"
-  },
-  {
-    "id": "TechCrunch AI_1773566315_1",
-    "title": "[译] Meta reportedly considering layoffs that",
-    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
-    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T17:18:35.774981"
-  },
-  {
-    "id": "TechCrunch AI_1773566315_2",
-    "title": "[译] How to use the new ChatGPT app integrati",
-    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
-    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T17:18:35.774989"
-  },
-  {
-    "id": "MIT Tech Review_1773566318_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T17:18:38.333594"
-  },
-  {
-    "id": "MIT Tech Review_1773566318_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T17:18:38.333618"
-  },
-  {
-    "id": "MIT Tech Review_1773566318_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T17:18:38.333628"
-  },
-  {
-    "id": "OpenAI Blog_1773569930_0",
-    "title": "[译] Rakuten fixes issues twice as fast with ",
-    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
-    "url": "https://openai.com/index/rakuten",
-    "source": "OpenAI Blog",
-    "category": "llm",
-    "quality_score": 1.0,
-    "published_at": "2026-03-15T18:18:50.666169"
+    "published_at": "2026-03-15T18:18:57.177327",
+    "classification_confidence": 0.5909090909090909
   },
   {
     "id": "OpenAI Blog_1773569930_1",
@@ -727,76 +18,321 @@
     "source": "OpenAI Blog",
     "category": "llm",
     "quality_score": 1.0,
-    "published_at": "2026-03-15T18:18:50.666184"
+    "published_at": "2026-03-15T18:18:50.666184",
+    "classification_confidence": 0.55
   },
   {
-    "id": "OpenAI Blog_1773569930_2",
-    "title": "[译] Wayfair boosts catalog accuracy and supp",
-    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
-    "url": "https://openai.com/index/wayfair",
+    "id": "OpenAI Blog_1773569930_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
     "source": "OpenAI Blog",
     "category": "llm",
     "quality_score": 1.0,
-    "published_at": "2026-03-15T18:18:50.666189"
+    "published_at": "2026-03-15T18:18:50.666169",
+    "classification_confidence": 0.35714285714285715
   },
   {
-    "id": "TechCrunch AI_1773569937_0",
-    "title": "[译] US Army announces contract with Anduril ",
-    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
-    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T18:18:57.177296"
-  },
-  {
-    "id": "TechCrunch AI_1773569937_1",
-    "title": "[译] Meta reportedly considering layoffs that",
-    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
-    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-    "source": "TechCrunch AI",
-    "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T18:18:57.177318"
-  },
-  {
-    "id": "TechCrunch AI_1773569937_2",
+    "id": "TechCrunch AI_1773566315_2",
     "title": "[译] How to use the new ChatGPT app integrati",
     "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
     "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
     "source": "TechCrunch AI",
     "category": "llm",
     "quality_score": 0.9,
-    "published_at": "2026-03-15T18:18:57.177327"
+    "published_at": "2026-03-15T17:18:35.774989",
+    "classification_confidence": 0.5909090909090909
   },
   {
-    "id": "MIT Tech Review_1773569940_0",
-    "title": "[译] Why physical AI is becoming manufacturin",
-    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
-    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
-    "source": "MIT Tech Review",
+    "id": "OpenAI Blog_1773566309_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
     "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T18:19:00.461256"
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T17:18:29.318855",
+    "classification_confidence": 0.55
   },
   {
-    "id": "MIT Tech Review_1773569940_1",
-    "title": "[译] The Download: how AI is used for militar",
-    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
-    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
-    "source": "MIT Tech Review",
+    "id": "OpenAI Blog_1773566309_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
     "category": "llm",
-    "quality_score": 0.9,
-    "published_at": "2026-03-15T18:19:00.461281"
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T17:18:29.318839",
+    "classification_confidence": 0.35714285714285715
   },
   {
-    "id": "MIT Tech Review_1773569940_2",
-    "title": "[译] Future AI chips could be built on glass",
-    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
-    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-    "source": "MIT Tech Review",
+    "id": "TechCrunch AI_1773562696_2",
+    "title": "[译] How to use the new ChatGPT app integrati",
+    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
+    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "source": "TechCrunch AI",
     "category": "llm",
     "quality_score": 0.9,
-    "published_at": "2026-03-15T18:19:00.461290"
+    "published_at": "2026-03-15T16:18:16.185740",
+    "classification_confidence": 0.5909090909090909
+  },
+  {
+    "id": "OpenAI Blog_1773562682_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T16:18:02.714008",
+    "classification_confidence": 0.55
+  },
+  {
+    "id": "OpenAI Blog_1773562682_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T16:18:02.713993",
+    "classification_confidence": 0.35714285714285715
+  },
+  {
+    "id": "量子位_1773562674_0",
+    "title": "科技CEO用ChatGPT+基因数据定制癌症疫苗！肿瘤缩小50%",
+    "summary": "AI救了我的狗！从奄奄一息到满公园追兔子",
+    "url": "https://www.qbitai.com/2026/03/387935.html",
+    "source": "量子位",
+    "category": "llm",
+    "quality_score": 0.8,
+    "published_at": "2026-03-15T16:17:54.728281",
+    "classification_confidence": 0.5909090909090909
+  },
+  {
+    "id": "TechCrunch AI_1773559067_2",
+    "title": "[译] How to use the new ChatGPT app integrati",
+    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
+    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:47.366453",
+    "classification_confidence": 0.5909090909090909
+  },
+  {
+    "id": "OpenAI Blog_1773559060_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T15:17:40.848068",
+    "classification_confidence": 0.55
+  },
+  {
+    "id": "OpenAI Blog_1773559060_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T15:17:40.848056",
+    "classification_confidence": 0.35714285714285715
+  },
+  {
+    "id": "TechCrunch AI_1773555446_2",
+    "title": "[译] How to use the new ChatGPT app integrati",
+    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
+    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:26.223353",
+    "classification_confidence": 0.5909090909090909
+  },
+  {
+    "id": "OpenAI Blog_1773555439_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T14:17:19.307986",
+    "classification_confidence": 0.55
+  },
+  {
+    "id": "OpenAI Blog_1773555439_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T14:17:19.307971",
+    "classification_confidence": 0.35714285714285715
+  },
+  {
+    "id": "deepmind_788",
+    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "llm",
+    "published_at": "2026-03-15T14:09:49.510592",
+    "summary": "",
+    "classification_confidence": 0.4375
+  },
+  {
+    "id": "deepmind_788",
+    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "llm",
+    "published_at": "2026-03-15T14:09:49.496592",
+    "summary": "",
+    "classification_confidence": 0.4375
+  },
+  {
+    "id": "deepmind_788",
+    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "llm",
+    "published_at": "2026-03-15T14:09:49.484746",
+    "summary": "",
+    "classification_confidence": 0.4375
+  },
+  {
+    "id": "TechCrunch AI_1773551823_2",
+    "title": "[译] How to use the new ChatGPT app integrati",
+    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
+    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:03.394667",
+    "classification_confidence": 0.5909090909090909
+  },
+  {
+    "id": "OpenAI Blog_1773551817_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T13:16:57.034809",
+    "classification_confidence": 0.55
+  },
+  {
+    "id": "OpenAI Blog_1773551817_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T13:16:57.034794",
+    "classification_confidence": 0.35714285714285715
+  },
+  {
+    "id": "TechCrunch AI_1773548203_2",
+    "title": "[译] How to use the new ChatGPT app integrati",
+    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
+    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:43.295206",
+    "classification_confidence": 0.5909090909090909
+  },
+  {
+    "id": "OpenAI Blog_1773548196_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T12:16:36.090647",
+    "classification_confidence": 0.55
+  },
+  {
+    "id": "OpenAI Blog_1773548196_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T12:16:36.090631",
+    "classification_confidence": 0.35714285714285715
+  },
+  {
+    "id": "TechCrunch AI_1773544577_2",
+    "title": "[译] How to use the new ChatGPT app integrati",
+    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
+    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:17.957586",
+    "classification_confidence": 0.5909090909090909
+  },
+  {
+    "id": "OpenAI Blog_1773544570_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T11:16:10.778919",
+    "classification_confidence": 0.55
+  },
+  {
+    "id": "OpenAI Blog_1773544570_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T11:16:10.778904",
+    "classification_confidence": 0.35714285714285715
+  },
+  {
+    "id": "量子位_1773544554_2",
+    "title": "Gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋",
+    "summary": "以后出门有个谷歌地图就够了",
+    "url": "https://www.qbitai.com/2026/03/387867.html",
+    "source": "量子位",
+    "category": "llm",
+    "quality_score": 0.8,
+    "published_at": "2026-03-15T11:15:54.471098",
+    "classification_confidence": 0.4375
+  },
+  {
+    "id": "量子位_1773544554_1",
+    "title": "AI 数学推理新纪元：SAIR Foundation 正式启动“数学蒸馏挑战赛”",
+    "summary": "",
+    "url": "https://www.qbitai.com/2026/03/387915.html",
+    "source": "量子位",
+    "category": "llm",
+    "quality_score": 0.8,
+    "published_at": "2026-03-15T11:15:54.471088",
+    "classification_confidence": 0.4375
   }
 ]

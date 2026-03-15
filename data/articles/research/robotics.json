@@ -1,24 +1,14 @@
 [
   {
-    "id": "figure_001",
-    "title": "Figure AI Unveils Figure 02: Next-Gen Humanoid Robot",
-    "title_zh": "Figure AI发布Figure 02：下一代人形机器人",
-    "summary": "Figure AI introduces Figure 02, featuring significant improvements in dexterity, AI capabilities, and human-like movement for warehouse and manufacturing applications.",
-    "summary_zh": "Figure AI推出Figure 02，在灵巧性、AI能力和类人动作方面实现重大改进，适用于仓储和制造场景。",
-    "url": "https://www.figure.ai/news/figure-02-launch",
-    "source": {
-      "name": "Figure AI",
-      "type": "official"
-    },
+    "id": "36氪_1773544557_1",
+    "title": "中国最大家电展上，一批想帮你做家务的机器人来了！",
+    "summary": "\n \n \n  <p><strong>文｜邱晓芬</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>2026年，挤进具身智能机器人赛道的主力军，是一众家电企业。</p>\n  <p>3月12日-15日，中国最大的家电及消费电子博览会（AWE 2026）在上海举办。和往年不同的是，此次展会的亮点已经从过去的家电，变成了具身智能机器人。</p>\n  <p",
+    "url": "https://36kr.com/p/3722882943334789?f=rss",
+    "source": "36氪",
     "category": "robotics",
-    "quality_score": 0.95,
-    "published_at": "2024-08-06T10:00:00",
-    "translated": true,
-    "tags": [
-      "Figure AI",
-      "人形机器人",
-      "Figure 02"
-    ]
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:15:57.299099",
+    "classification_confidence": 0.6111111111111112
   },
   {
     "id": "tesla_optimus_001",
@@ -39,28 +29,30 @@
       "Tesla",
       "Optimus",
       "人形机器人"
-    ]
+    ],
+    "classification_confidence": 0.65
   },
   {
-    "id": "unitree_001",
-    "title": "Unitree G1 Humanoid Robot: $16,000 Price Breakthrough",
-    "title_zh": "宇树G1人形机器人：16万元价格突破",
-    "summary": "Unitree launches G1 humanoid robot at $16,000, making humanoid robots significantly more accessible for research and commercial applications.",
-    "summary_zh": "宇树以16万元价格推出G1人形机器人，使人形机器人在研究和商业应用中更加普及。",
-    "url": "https://www.unitree.com/news/g1-launch",
+    "id": "figure_001",
+    "title": "Figure AI Unveils Figure 02: Next-Gen Humanoid Robot",
+    "title_zh": "Figure AI发布Figure 02：下一代人形机器人",
+    "summary": "Figure AI introduces Figure 02, featuring significant improvements in dexterity, AI capabilities, and human-like movement for warehouse and manufacturing applications.",
+    "summary_zh": "Figure AI推出Figure 02，在灵巧性、AI能力和类人动作方面实现重大改进，适用于仓储和制造场景。",
+    "url": "https://www.figure.ai/news/figure-02-launch",
     "source": {
-      "name": "宇树科技",
+      "name": "Figure AI",
       "type": "official"
     },
     "category": "robotics",
-    "quality_score": 0.9,
-    "published_at": "2024-05-20T09:00:00",
+    "quality_score": 0.95,
+    "published_at": "2024-08-06T10:00:00",
     "translated": true,
     "tags": [
-      "宇树",
-      "G1",
-      "人形机器人"
-    ]
+      "Figure AI",
+      "人形机器人",
+      "Figure 02"
+    ],
+    "classification_confidence": 0.75
   },
   {
     "id": "zhiyuan_001",
@@ -81,7 +73,30 @@
       "智元",
       "远征A2",
       "人形机器人"
-    ]
+    ],
+    "classification_confidence": 0.78125
+  },
+  {
+    "id": "unitree_001",
+    "title": "Unitree G1 Humanoid Robot: $16,000 Price Breakthrough",
+    "title_zh": "宇树G1人形机器人：16万元价格突破",
+    "summary": "Unitree launches G1 humanoid robot at $16,000, making humanoid robots significantly more accessible for research and commercial applications.",
+    "summary_zh": "宇树以16万元价格推出G1人形机器人，使人形机器人在研究和商业应用中更加普及。",
+    "url": "https://www.unitree.com/news/g1-launch",
+    "source": {
+      "name": "宇树科技",
+      "type": "official"
+    },
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2024-05-20T09:00:00",
+    "translated": true,
+    "tags": [
+      "宇树",
+      "G1",
+      "人形机器人"
+    ],
+    "classification_confidence": 0.6818181818181818
   },
   {
     "id": "boston_001",
@@ -102,6 +117,7 @@
       "Boston Dynamics",
       "Atlas",
       "人形机器人"
-    ]
+    ],
+    "classification_confidence": 0.75
   }
 ]
