@@ -21,12 +21,21 @@ document.addEventListener('DOMContentLoaded', async function() {
 async function loadArticles() {
     console.log('Loading articles...');
     
+    // Show loading
+    const grid = document.getElementById('news-grid');
+    if (grid) {
+        grid.innerHTML = '<div style="text-align:center;padding:40px;"><p>加载中...</p></div>';
+    }
+    
     let articles = [];
     const categories = ['llm', 'autonomous', 'robotics', 'zhuoyu'];
     
     for (const cat of categories) {
         try {
-            const response = await fetch(`data/articles/research/${cat}.json?t=${Date.now()}`);
+            // Try absolute path
+            const url = `/data/articles/research/${cat}.json?t=${Date.now()}`;
+            console.log('Fetching:', url);
+            const response = await fetch(url);
             if (response.ok) {
                 const data = await response.json();
                 console.log(`Loaded ${data.length} from ${cat}`);
@@ -41,6 +50,19 @@ async function loadArticles() {
     }
     
     console.log(`Total: ${articles.length} articles`);
+    
+    // If no articles, show error
+    if (articles.length === 0) {
+        if (grid) {
+            grid.innerHTML = `
+                <div style="text-align:center;padding:40px;color:#ff6b6b;">
+                    <p>无法加载文章数据</p>
+                    <p style="font-size:12px;color:#999;">请检查网络连接或刷新页面</p>
+                </div>
+            `;
+        }
+        return;
+    }
     
     // Update stats
     const statTotal = document.getElementById('stat-total');
