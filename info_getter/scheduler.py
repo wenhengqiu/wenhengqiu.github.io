@@ -165,6 +165,14 @@ class Scheduler:
                         fallback_to_original=True
                     )
                     
+                    # 智能分类
+                    from info_getter.classifier import ArticleClassifier
+                    classifier = ArticleClassifier()
+                    smart_category, confidence, _ = classifier.classify(
+                        article.title,
+                        article.summary or ''
+                    )
+                    
                     # 构建符合PRD v6.1的文章对象
                     from info_getter.publisher.core import Article
                     
@@ -184,7 +192,7 @@ class Scheduler:
                         summary=article.summary or '',
                         summary_zh=translation.summary if translation.success else (article.summary or ''),
                         content=article.content or '',
-                        category=article.category,
+                        category=smart_category,  # 使用智能分类结果
                         publish_date=article.published_at.isoformat() if article.published_at else datetime.now().isoformat(),
                         display_date=article.published_at.strftime('%Y-%m-%d') if article.published_at else datetime.now().strftime('%Y-%m-%d'),
                         source={'name': article.source_name, 'type': source_type},
@@ -209,7 +217,7 @@ class Scheduler:
                         summary=article.summary or '',
                         summary_zh=article.summary or '',  # 无翻译，使用原文
                         content=article.content or '',
-                        category=article.category,
+                        category=smart_category,  # 使用智能分类结果
                         publish_date=article.published_at.isoformat() if article.published_at else datetime.now().isoformat(),
                         display_date=article.published_at.strftime('%Y-%m-%d') if article.published_at else datetime.now().strftime('%Y-%m-%d'),
                         source={'name': article.source_name, 'type': 'tech_media'},
