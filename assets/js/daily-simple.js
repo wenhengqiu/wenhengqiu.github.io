@@ -1,4 +1,8 @@
-// Daily Simple JS - Clean Version
+// Daily Simple JS - Show articles by selected date
+
+// Current selected date (default: today)
+let currentDate = new Date().toISOString().split('T')[0];
+let allArticles = [];
 
 // Show loading state
 const grid = document.getElementById('news-grid');
@@ -14,34 +18,38 @@ if (grid) {
 // Load everything when DOM is ready
 document.addEventListener('DOMContentLoaded', async function() {
     console.log('DOM ready, loading data...');
-    await loadArticles();
-});
-
-// Load articles
-async function loadArticles() {
-    console.log('Loading articles...');
     
-    // Show loading
-    const grid = document.getElementById('news-grid');
-    if (grid) {
-        grid.innerHTML = '<div style="text-align:center;padding:40px;"><p>加载中...</p></div>';
+    // Set date picker to today
+    const datePicker = document.getElementById('date-picker');
+    if (datePicker) {
+        datePicker.value = currentDate;
+        datePicker.addEventListener('change', function() {
+            currentDate = this.value;
+            updateDisplay();
+        });
     }
     
-    let articles = [];
+    // Load all articles
+    await loadAllArticles();
+    updateDisplay();
+});
+
+// Load all articles from all categories
+async function loadAllArticles() {
+    console.log('Loading all articles...');
+    
+    allArticles = [];
     const categories = ['llm', 'autonomous', 'robotics', 'zhuoyu'];
     
     for (const cat of categories) {
         try {
-            // Try absolute path
             const url = `/data/articles/research/${cat}.json?t=${Date.now()}`;
-            console.log('Fetching:', url);
             const response = await fetch(url);
             if (response.ok) {
                 const data = await response.json();
-                console.log(`Loaded ${data.length} from ${cat}`);
                 data.forEach(article => {
                     article.category = cat;
-                    articles.push(article);
+                    allArticles.push(article);
                 });
             }
         } catch (e) {
@@ -49,22 +57,36 @@ async function loadArticles() {
         }
     }
     
-    console.log(`Total: ${articles.length} articles`);
+    console.log(`Total loaded: ${allArticles.length} articles`);
+}
+
+// Filter articles by current date
+function getArticlesByDate(date) {
+    return allArticles.filter(article => {
+        const articleDate = (article.published_at || '').split('T')[0];
+        return articleDate === date;
+    });
+}
+
+// Update display based on current date
+function updateDisplay() {
+    const todayArticles = getArticlesByDate(currentDate);
     
-    // If no articles, show error
-    if (articles.length === 0) {
-        if (grid) {
-            grid.innerHTML = `
-                <div style="text-align:center;padding:40px;color:#ff6b6b;">
-                    <p>无法加载文章数据</p>
-                    <p style="font-size:12px;color:#999;">请检查网络连接或刷新页面</p>
-                </div>
-            `;
-        }
-        return;
+    // Update stats (only count today's articles)
+    updateStats(todayArticles);
+    
+    // Render articles
+    renderArticles(todayArticles);
+    
+    // Update header date
+    const dateDisplay = document.getElementById('current-date');
+    if (dateDisplay) {
+        dateDisplay.textContent = currentDate;
     }
-    
-    // Update stats
+}
+
+// Update statistics
+function updateStats(articles) {
     const statTotal = document.getElementById('stat-total');
     const statLlm = document.getElementById('stat-llm');
     const statAuto = document.getElementById('stat-autonomous');
@@ -74,10 +96,6 @@ async function loadArticles() {
     if (statLlm) statLlm.textContent = articles.filter(a => a.category === 'llm').length;
     if (statAuto) statAuto.textContent = articles.filter(a => a.category === 'autonomous').length;
     if (statRobo) statRobo.textContent = articles.filter(a => a.category === 'robotics').length;
-    
-    // Save and render
-    window.articlesData = articles;
-    renderArticles(articles);
 }
 
 // Render articles
@@ -89,36 +107,20 @@ function renderArticles(articles) {
         grid.innerHTML = `
             <div style="text-align:center;padding:60px;">
                 <div style="font-size:48px;margin-bottom:20px;">📭</div>
-                <h3>暂无文章</h3>
-                <p>请稍后再试</p>
+                <h3>${currentDate} 暂无文章</h3>
+                <p style="color:#999;">请选择其他日期</p>
             </div>
         `;
         return;
     }
     
+    // Sort by quality score
+    articles.sort((a, b) => (b.quality_score || 0) - (a.quality_score || 0));
+    
     grid.innerHTML = articles.map(article => {
         const title = article.title || '无标题';
         const summary = article.summary || '';
-        
-        // 处理source字段（可能是字符串或对象）
-        let sourceName = '未知';
-        if (article.source) {
-            if (typeof article.source === 'object') {
-                sourceName = article.source.name || article.source.toString();
-            } else {
-                sourceName = String(article.source);
-            }
-        }
-        
-        // 处理日期
-        let dateStr = '';
-        if (article.published_at) {
-            dateStr = article.published_at.split('T')[0];
-        } else if (article.publish_date) {
-            dateStr = article.publish_date;
-        }
-        
-        // 如果URL为空，使用百度搜索
+        const source = typeof article.source === 'object' ? article.source?.name : (article.source || '未知');
         let url = article.url;
         if (!url || url === '') {
             const searchQuery = encodeURIComponent(title);
@@ -132,7 +134,7 @@ function renderArticles(articles) {
         <div class="news-card" onclick="window.open('${url}', '_blank')">
             <div class="card-header">
                 <span class="tag ${article.category}">${catName}</span>
-                <span style="font-size:13px;color:#999;">${sourceName} · ${dateStr}</span>
+                <span style="font-size:13px;color:#999;">${source}</span>
             </div>
             <h3 class="card-title">${title}</h3>
             <p class="card-summary">${summary}</p>
@@ -144,43 +146,23 @@ function renderArticles(articles) {
     }).join('');
 }
 
-// Filter by category
-document.addEventListener('click', function(e) {
-    const btn = e.target.closest('.filter-btn');
-    if (!btn) return;
-    
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    
-    const filter = btn.getAttribute('data-filter');
-    if (!window.articlesData) {
-        setTimeout(() => filterByCategory(filter), 500);
-        return;
-    }
-    
-    if (filter === 'all') {
-        renderArticles(window.articlesData);
-    } else {
-        const filtered = window.articlesData.filter(a => a.category === filter);
-        renderArticles(filtered);
-    }
-});
-
+// Filter by category (from stat cards)
 function filterByCategory(category) {
-    if (!window.articlesData) return;
+    const todayArticles = getArticlesByDate(currentDate);
+    let filtered = todayArticles;
     
-    if (category === 'all') {
-        renderArticles(window.articlesData);
-    } else {
-        const filtered = window.articlesData.filter(a => a.category === category);
-        renderArticles(filtered);
+    if (category !== 'all') {
+        filtered = todayArticles.filter(a => a.category === category);
     }
-}
-
-// Toggle AI Big News
-function toggleAIBigNews() {
-    const content = document.getElementById('ai-big-news-content');
-    if (content) {
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
+    
+    renderArticles(filtered);
+    
+    // Update stats to show filtered count
+    if (category === 'all') {
+        updateStats(todayArticles);
+    } else {
+        // Show only the count for this category
+        const statTotal = document.getElementById('stat-total');
+        if (statTotal) statTotal.textContent = filtered.length;
     }
 }
