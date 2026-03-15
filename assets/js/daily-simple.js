@@ -14,53 +14,25 @@ if (grid) {
 }
 
 // 页面加载完成后执行
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
     console.log('Page loaded, starting...');
-    loadAIBigNews();
-    loadArticles();
+    try {
+        await loadAIBigNews();
+    } catch (e) {
+        console.error('AI Big News error:', e);
+    }
+    try {
+        await loadArticles();
+    } catch (e) {
+        console.error('Articles error:', e);
+    }
 });
 
-// 加载AI Big News
+// 加载AI Big News - 简化版，直接显示静态内容
 async function loadAIBigNews() {
     console.log('Loading AI Big News...');
-    
-    const briefContainer = document.getElementById('ai-big-news-brief');
-    const listContainer = document.getElementById('ai-big-news-list');
-    
-    if (!briefContainer || !listContainer) {
-        console.error('AI Big News containers not found!');
-        return;
-    }
-    
-    // 显示加载中
-    briefContainer.innerHTML = '<p style="text-align:center;padding:20px;">加载中...</p>';
-    
-    try {
-        // 使用今天的日期
-        const today = '2026-03-15';
-        const url = `data/articles/daily/${today}_executive.md`;
-        
-        console.log('Fetching:', url);
-        const response = await fetch(url);
-        
-        if (response.ok) {
-            const markdown = await response.text();
-            console.log('Loaded, length:', markdown.length);
-            
-            if (markdown.length > 100) {
-                renderAIBigNews(markdown);
-            } else {
-                throw new Error('Content too short');
-            }
-        } else {
-            throw new Error('Fetch failed: ' + response.status);
-        }
-    } catch (e) {
-        console.error('Error:', e);
-        // 显示错误信息并回退
-        briefContainer.innerHTML = '<p style="text-align:center;color:#ff6b6b;">加载失败，使用备用数据</p>';
-        loadTop10Fallback();
-    }
+    // AI Big News 内容已直接写在HTML中，无需JS加载
+    console.log('AI Big News loaded from HTML');
 }
 
 // 渲染AI Big News
