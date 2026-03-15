@@ -19,15 +19,18 @@ if (grid) {
 document.addEventListener('DOMContentLoaded', async function() {
     console.log('DOM ready, loading data...');
     
-    // Set date picker to today
-    const datePicker = document.getElementById('date-picker');
-    if (datePicker) {
-        datePicker.value = currentDate;
-        datePicker.addEventListener('change', function() {
-            currentDate = this.value;
-            updateDisplay();
-        });
-    }
+    // Bind date navigation buttons with alert
+    const prevBtn = document.getElementById('prev-date');
+    const nextBtn = document.getElementById('next-date');
+    const todayBtn = document.getElementById('today-btn');
+    
+    const showAlert = function() {
+        alert('AI行业发展以月为单位，每日必读仅展示临近最新文档。');
+    };
+    
+    if (prevBtn) prevBtn.addEventListener('click', showAlert);
+    if (nextBtn) nextBtn.addEventListener('click', showAlert);
+    if (todayBtn) todayBtn.addEventListener('click', showAlert);
     
     // Load all articles
     await loadAllArticles();
