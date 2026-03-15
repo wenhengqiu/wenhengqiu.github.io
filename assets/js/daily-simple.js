@@ -13,14 +13,144 @@ if (grid) {
     `;
 }
 
-// 加载TOP10和文章
-loadTop10();
+// 加载AI Big News和文章
+loadAIBigNews();
 loadArticles();
 
-// 加载TOP10
-async function loadTop10() {
+// 加载AI Big News
+async function loadAIBigNews() {
     try {
-        // 加载所有文章
+        // 获取今天的日期
+        const today = new Date().toISOString().split('T')[0];
+        
+        // 尝试加载今天的AI Big News
+        const response = await fetch(`data/articles/daily/${today}_executive.md`);
+        
+        if (response.ok) {
+            const markdown = await response.text();
+            renderAIBigNews(markdown);
+        } else {
+            // 如果没有今天的，尝试加载最新的
+            const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+            const yResponse = await fetch(`data/articles/daily/${yesterday}_executive.md`);
+            
+            if (yResponse.ok) {
+                const markdown = await yResponse.text();
+                renderAIBigNews(markdown);
+            } else {
+                // 回退到加载高质量文章
+                loadTop10Fallback();
+            }
+        }
+    } catch (e) {
+        console.error('Error loading AI Big News:', e);
+        loadTop10Fallback();
+    }
+}
+
+// 渲染AI Big News
+function renderAIBigNews(markdown) {
+    // 解析Markdown
+    const lines = markdown.split('\n');
+    
+    let coreDynamics = '';
+    let trendJudgment = '';
+    let keyFocus = [];
+    
+    let inCoreDynamics = false;
+    let inTrendJudgment = false;
+    let inKeyFocus = false;
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        
+        if (line.includes('## 📋 核心动态')) {
+            inCoreDynamics = true;
+            inTrendJudgment = false;
+            inKeyFocus = false;
+            continue;
+        }
+        if (line.includes('## 🔮 趋势判断')) {
+            inCoreDynamics = false;
+            inTrendJudgment = true;
+            inKeyFocus = false;
+            continue;
+        }
+        if (line.includes('## 📌 重点关注')) {
+            inCoreDynamics = false;
+            inTrendJudgment = false;
+            inKeyFocus = true;
+            continue;
+        }
+        if (line.startsWith('## ') || line.startsWith('---')) {
+            inCoreDynamics = false;
+            inTrendJudgment = false;
+            inKeyFocus = false;
+            continue;
+        }
+        
+        if (inCoreDynamics && line.trim()) {
+            coreDynamics += line + '\n';
+        }
+        if (inTrendJudgment && line.trim()) {
+            trendJudgment += line + '\n';
+        }
+        if (inKeyFocus && line.trim().match(/^\d+\./)) {
+            // 解析重点关注条目
+            const match = line.match(/^\d+\.\s+\*\*(.+?)\*\s*—\s*\*(.+?)\*/);
+            if (match) {
+                const nextLine = lines[i + 1] || '';
+                const summaryMatch = nextLine.match(/^\s*>\s*(.+)/);
+                keyFocus.push({
+                    title: match[1],
+                    source: match[2],
+                    summary: summaryMatch ? summaryMatch[1] : ''
+                });
+            }
+        }
+    }
+    
+    // 渲染核心动态和趋势
+    const briefContainer = document.getElementById('ai-big-news-brief');
+    if (briefContainer) {
+        briefContainer.innerHTML = `
+            <div class="ai-big-news-core">
+                <h4>📋 核心动态</h4>
+                <p>${coreDynamics.replace(/\n/g, '<br>')}</p>
+            </div>
+            <div class="ai-big-news-trend">
+                <h4>🔮 趋势判断</h4>
+                <p><strong>${trendJudgment.replace(/\n/g, '')}</strong></p>
+            </div>
+        `;
+    }
+    
+    // 渲染重点关注
+    const listContainer = document.getElementById('ai-big-news-list');
+    if (listContainer) {
+        if (keyFocus.length === 0) {
+            // 如果没有解析到，显示简化版
+            listContainer.innerHTML = '<p class="ai-big-news-empty">今日暂无重点关注</p>';
+        } else {
+            listContainer.innerHTML = keyFocus.map((item, index) => `
+                <div class="ai-big-news-item">
+                    <div class="ai-big-news-rank">${index + 1}</div>
+                    <div class="ai-big-news-content">
+                        <div class="ai-big-news-meta">
+                            <span class="ai-big-news-source">${item.source}</span>
+                        </div>
+                        <h3 class="ai-big-news-title">${item.title}</h3>
+                        ${item.summary ? `<p class="ai-big-news-summary">${item.summary}</p>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+    }
+}
+
+// 回退到TOP10
+async function loadTop10Fallback() {
+    try {
         const categories = ['llm', 'autonomous', 'robotics', 'zhuoyu'];
         let allArticles = [];
         
@@ -39,65 +169,51 @@ async function loadTop10() {
             }
         }
         
-        // 按质量分排序取前10
         const top10 = allArticles
             .sort((a, b) => (b.quality_score || 0) - (a.quality_score || 0))
             .slice(0, 10);
         
-        renderTop10(top10);
+        renderTop10Fallback(top10);
     } catch (e) {
-        console.error('Error loading TOP10:', e);
+        console.error('Error loading TOP10 fallback:', e);
     }
 }
 
-// 渲染TOP10
-function renderTop10(articles) {
-    const container = document.getElementById('top10-list');
-    if (!container) return;
+function renderTop10Fallback(articles) {
+    const briefContainer = document.getElementById('ai-big-news-brief');
+    const listContainer = document.getElementById('ai-big-news-list');
     
-    if (articles.length === 0) {
-        container.innerHTML = '<p class="top10-empty">暂无文章</p>';
-        return;
-    }
-    
-    const categoryNames = {
-        'llm': 'AI',
-        'autonomous': '自动驾驶',
-        'robotics': '具身智能',
-        'zhuoyu': '卓驭科技'
-    };
-    
-    const categoryColors = {
-        'llm': '#1890ff',
-        'autonomous': '#52c41a',
-        'robotics': '#722ed1',
-        'zhuoyu': '#fa8c16'
-    };
-    
-    container.innerHTML = articles.map((article, index) => {
-        const rank = index + 1;
-        const title = article.title_zh || article.title || '无标题';
-        const summary = article.summary_zh || article.summary || '';
-        const shortSummary = summary.length > 60 ? summary.slice(0, 60) + '...' : summary;
-        const score = (article.quality_score || 0).toFixed(1);
-        const category = article.category || 'llm';
-        const categoryName = categoryNames[category] || category;
-        const categoryColor = categoryColors[category] || '#1890ff';
-        
-        return `
-            <div class="top10-item" onclick="window.open('${article.url}', '_blank')" style="cursor:pointer;">
-                <div class="top10-rank">${rank}</div>
-                <div class="top10-content">
-                    <div class="top10-meta">
-                        <span class="top10-category" style="background:${categoryColor}20;color:${categoryColor};padding:2px 8px;border-radius:4px;font-size:12px;margin-right:8px;">${categoryName}</span>
-                        <span class="top10-score" style="color:#ff6b6b;font-weight:600;">🔥${score}</span>
-                    </div>
-                    <h3 class="top10-title" style="margin:8px 0;font-size:16px;color:#333;">${title}</h3>
-                    <p class="top10-summary" style="margin:0;font-size:13px;color:#666;line-height:1.5;">${shortSummary}</p>
-                </div>
+    if (briefContainer) {
+        briefContainer.innerHTML = `
+            <div class="ai-big-news-core">
+                <h4>📋 今日精选</h4>
+                <p>今日共收录 ${articles.length} 篇高质量AI行业资讯，涵盖大模型、自动驾驶、具身智能等领域。</p>
             </div>
         `;
-    }).join('');
+    }
+    
+    if (listContainer) {
+        listContainer.innerHTML = articles.map((article, index) => {
+            const title = article.title_zh || article.title || '无标题';
+            const summary = article.summary_zh || article.summary || '';
+            const shortSummary = summary.length > 60 ? summary.slice(0, 60) + '...' : summary;
+            const score = (article.quality_score || 0).toFixed(1);
+            
+            return `
+                <div class="ai-big-news-item" onclick="window.open('${article.url}', '_blank')" style="cursor:pointer;">
+                    <div class="ai-big-news-rank">${index + 1}</div>
+                    <div class="ai-big-news-content">
+                        <div class="ai-big-news-meta">
+                            <span class="ai-big-news-score">🔥${score}</span>
+                        </div>
+                        <h3 class="ai-big-news-title">${title}</h3>
+                        <p class="ai-big-news-summary">${shortSummary}</p>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+}
 }
 
 // TOP10折叠/展开
@@ -298,4 +414,27 @@ if (cat) {
             btn.classList.add('active');
         }
     });
+}
+
+// AI Big News toggle
+function toggleAIBigNews() {
+    const content = document.getElementById('ai-big-news-content');
+    const toggle = document.getElementById('ai-big-news-toggle');
+    
+    if (content && toggle) {
+        if (content.style.display === 'none') {
+            content.style.display = 'block';
+            toggle.querySelector('.toggle-text').textContent = '收起';
+            toggle.querySelector('.toggle-icon').textContent = '▲';
+        } else {
+            content.style.display = 'none';
+            toggle.querySelector('.toggle-text').textContent = '展开';
+            toggle.querySelector('.toggle-icon').textContent = '▼';
+        }
+    }
+}
+
+// Keep old function for compatibility
+function toggleTop10() {
+    toggleAIBigNews();
 }

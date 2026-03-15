@@ -2186,3 +2186,103 @@
    耗时: 28.5 秒
 
 [2026-03-15 19:19:30] 等待1小时...
+[2026-03-15 20:19:30] 开始采集...
+============================================================
+🚀 Info-Getter 轻量版
+============================================================
+时间: 2026-03-15 20:19:30
+
+📥 开始采集文章...
+--------------------------------------------------
+
+🌐 机器之心
+   URL: https://www.jiqizhixin.com/rss
+   ❌ 获取失败: <urlopen error [Errno 54] Connection reset by peer>
+
+🌐 量子位
+   URL: https://www.qbitai.com/rss
+   ✅ 采集到 3 篇
+
+🌐 品玩
+   URL: https://www.pingwest.com/rss
+   ❌ 获取失败: HTTP Error 404: Not Found
+
+🌐 36氪
+   URL: https://36kr.com/feed
+   ✅ 采集到 3 篇
+
+🌐 雷锋网
+   URL: https://www.leiphone.com/rss
+   ❌ 获取失败: HTTP Error 404: Not Found
+
+🌐 OpenAI Blog
+   URL: https://openai.com/blog/rss.xml
+   ✅ 采集到 3 篇
+
+🌐 DeepMind
+   URL: https://deepmind.google/discover/blog/
+   ❌ 解析失败: not well-formed (invalid token): line 61, column 68
+   ✅ 采集到 0 篇
+
+🌐 Tesla Blog
+   URL: https://www.tesla.com/blog/rss.xml
+   ❌ 获取失败: HTTP Error 403: Forbidden
+
+🌐 Waymo
+   URL: https://waymo.com/blog/rss/
+   ❌ 获取失败: HTTP Error 404: Not Found
+
+🌐 TechCrunch AI
+   URL: https://techcrunch.com/category/artificial-intelligence/feed/
+   ✅ 采集到 3 篇
+
+🌐 The Verge AI
+   URL: https://www.theverge.com/ai-artificial-intelligence/rss/index.xml
+   ❌ 获取失败: HTTP Error 404: Not Found
+
+🌐 MIT Tech Review
+   URL: https://www.technologyreview.com/feed/
+   ✅ 采集到 3 篇
+
+📊 总计采集: 15 篇
+🌐 翻译文章...
+--------------------------------------------------
+   📝 Rakuten fixes issues twice as fast with ... → [译] Rakuten fixes issues twice as fast w
+   📝 Designing AI agents to resist prompt inj... → [译] Designing AI agents to resist prompt
+   📝 Wayfair boosts catalog accuracy and supp... → [译] Wayfair boosts catalog accuracy and 
+   📝 US Army announces contract with Anduril ... → [译] US Army announces contract with Andu
+   📝 Meta reportedly considering layoffs that... → [译] Meta reportedly considering layoffs 
+   📝 How to use the new ChatGPT app integrati... → [译] How to use the new ChatGPT app integ
+   📝 Why physical AI is becoming manufacturin... → [译] Why physical AI is becoming manufact
+   📝 The Download: how AI is used for militar... → [译] The Download: how AI is used for mil
+   📝 Future AI chips could be built on glass... → [译] Future AI chips could be built on gl
+
+✅ 翻译完成: 9 篇
+📤 发布文章...
+--------------------------------------------------
+   ✅ [0.9999999999999999] [译] Rakuten fixes issues twice as fast w...
+   ✅ [0.9999999999999999] [译] Designing AI agents to resist prompt...
+   ✅ [0.9999999999999999] [译] Wayfair boosts catalog accuracy and ...
+   ✅ [0.8999999999999999] [译] US Army announces contract with Andu...
+   ✅ [0.8999999999999999] [译] Meta reportedly considering layoffs ...
+   ✅ [0.8999999999999999] [译] How to use the new ChatGPT app integ...
+   ✅ [0.8999999999999999] [译] Why physical AI is becoming manufact...
+   ✅ [0.8999999999999999] [译] The Download: how AI is used for mil...
+   ✅ [0.8999999999999999] [译] Future AI chips could be built on gl...
+
+📊 发布成功: 9/15 篇
+
+📦 Git 提交...
+--------------------------------------------------
+   ⚠️ Git 操作失败: Command '['git', 'push']' returned non-zero exit status 128.
+
+============================================================
+🎉 运行完成!
+============================================================
+
+📈 统计:
+   采集: 15 篇
+   发布: 9 篇
+   耗时: 21.7 秒
+
+[2026-03-15 20:19:51] 等待1小时...
