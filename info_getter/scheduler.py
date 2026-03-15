@@ -38,12 +38,13 @@ class Scheduler:
     
     async def run_once(self):
         """执行一次采集任务"""
-        logger.info("🚀 开始采集任务")
+        logger.info("🚀 开始采集任务（仅中文）")
         start_time = datetime.now()
         
         # 时间范围：近一个月
         cutoff_date = datetime.now() - timedelta(days=30)
         logger.info(f"⏰ 采集时间范围: {cutoff_date.strftime('%Y-%m-%d')} 至今")
+        logger.info("📝 仅采集中文文章")
         
         try:
             # 1. RSS采集

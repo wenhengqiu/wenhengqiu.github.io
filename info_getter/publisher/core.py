@@ -564,6 +564,13 @@ class Publisher:
             )
             return result['passed'], result
         
+        # 0.1 检查是否为中文文章（标题包含中文字符）
+        has_chinese = any('\u4e00' <= char <= '\u9fff' for char in article.title)
+        if not has_chinese:
+            result['passed'] = False
+            result['reasons'].append("Not a Chinese article - rejected")
+            return result['passed'], result
+        
         # 1. 质量评分
         quality_score = self.evaluate_quality(article)
         result['quality_score'] = quality_score
