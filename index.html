@@ -106,19 +106,19 @@
 
                 <!-- Stats Bar -->
                 <section class="stats-bar">
-                    <div class="stat-card">
+                    <div class="stat-card" onclick="filterByCategory('all')" style="cursor:pointer;">
                         <div class="stat-value" id="stat-total">0</div>
                         <div class="stat-label">今日资讯</div>
                     </div>
-                    <div class="stat-card">
+                    <div class="stat-card" onclick="filterByCategory('llm')" style="cursor:pointer;">
                         <div class="stat-value" id="stat-llm">0</div>
                         <div class="stat-label">大模型</div>
                     </div>
-                    <div class="stat-card">
+                    <div class="stat-card" onclick="filterByCategory('autonomous')" style="cursor:pointer;">
                         <div class="stat-value" id="stat-autonomous">0</div>
                         <div class="stat-label">自动驾驶</div>
                     </div>
-                    <div class="stat-card">
+                    <div class="stat-card" onclick="filterByCategory('robotics')" style="cursor:pointer;">
                         <div class="stat-value" id="stat-robotics">0</div>
                         <div class="stat-label">具身智能</div>
                     </div>
@@ -126,12 +126,6 @@
 
                 <!-- Filter Bar -->
                 <section class="filter-bar">
-                    <div class="filter-group">
-                        <button class="filter-btn active" data-filter="all">全部</button>
-                        <button class="filter-btn" data-filter="llm">大模型</button>
-                        <button class="filter-btn" data-filter="autonomous">自动驾驶</button>
-                        <button class="filter-btn" data-filter="robotics">具身智能</button>
-                    </div>
                     <div class="date-picker">
                         <input type="date" id="date-picker" value="">
                     </div>
