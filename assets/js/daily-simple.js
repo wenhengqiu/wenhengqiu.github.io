@@ -19,25 +19,30 @@ loadArticles();
 
 // 加载AI Big News
 async function loadAIBigNews() {
+    console.log('Loading AI Big News...');
     try {
-        // 获取今天的日期
-        const today = new Date().toISOString().split('T')[0];
+        // 直接使用今天的日期（2026-03-15）
+        const today = '2026-03-15';
         
         // 尝试加载今天的AI Big News
-        const response = await fetch(`data/articles/daily/${today}_executive.md`);
+        const response = await fetch(`data/articles/daily/${today}_executive.md?t=${Date.now()}`);
         
         if (response.ok) {
             const markdown = await response.text();
+            console.log('Loaded AI Big News, length:', markdown.length);
             renderAIBigNews(markdown);
         } else {
+            console.log('Today not found, trying yesterday...');
             // 如果没有今天的，尝试加载最新的
-            const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
-            const yResponse = await fetch(`data/articles/daily/${yesterday}_executive.md`);
+            const yesterday = '2026-03-14';
+            const yResponse = await fetch(`data/articles/daily/${yesterday}_executive.md?t=${Date.now()}`);
             
             if (yResponse.ok) {
                 const markdown = await yResponse.text();
+                console.log('Loaded yesterday AI Big News');
                 renderAIBigNews(markdown);
             } else {
+                console.log('No daily report found, fallback to top10');
                 // 回退到加载高质量文章
                 loadTop10Fallback();
             }
@@ -50,6 +55,17 @@ async function loadAIBigNews() {
 
 // 渲染AI Big News
 function renderAIBigNews(markdown) {
+    console.log('Rendering AI Big News...');
+    
+    // 检查容器是否存在
+    const briefContainer = document.getElementById('ai-big-news-brief');
+    const listContainer = document.getElementById('ai-big-news-list');
+    
+    if (!briefContainer || !listContainer) {
+        console.error('AI Big News containers not found!');
+        return;
+    }
+    
     // 解析Markdown
     const lines = markdown.split('\n');
     
@@ -96,8 +112,8 @@ function renderAIBigNews(markdown) {
             trendJudgment += line + '\n';
         }
         if (inKeyFocus && line.trim().match(/^\d+\./)) {
-            // 解析重点关注条目
-            const match = line.match(/^\d+\.\s+\*\*(.+?)\*\s*—\s*\*(.+?)\*/);
+            // 解析重点关注条目 - 格式: 1. **标题** — *来源*
+            const match = line.match(/^\d+\.\s*\*\*(.+?)\*\*\s*—\s*\*(.+?)\*/);
             if (match) {
                 const nextLine = lines[i + 1] || '';
                 const summaryMatch = nextLine.match(/^\s*>\s*(.+)/);
@@ -110,42 +126,40 @@ function renderAIBigNews(markdown) {
         }
     }
     
+    console.log('Parsed:', {coreDynamics: coreDynamics.length, trendJudgment: trendJudgment.length, keyFocus: keyFocus.length});
+    
     // 渲染核心动态和趋势
-    const briefContainer = document.getElementById('ai-big-news-brief');
-    if (briefContainer) {
-        briefContainer.innerHTML = `
-            <div class="ai-big-news-core">
-                <h4>📋 核心动态</h4>
-                <p>${coreDynamics.replace(/\n/g, '<br>')}</p>
-            </div>
-            <div class="ai-big-news-trend">
-                <h4>🔮 趋势判断</h4>
-                <p><strong>${trendJudgment.replace(/\n/g, '')}</strong></p>
-            </div>
-        `;
-    }
+    briefContainer.innerHTML = `
+        <div class="ai-big-news-core">
+            <h4>📋 核心动态</h4>
+            <p>${coreDynamics.replace(/\n/g, '<br>')}</p>
+        </div>
+        <div class="ai-big-news-trend">
+            <h4>🔮 趋势判断</h4>
+            <p><strong>${trendJudgment.replace(/\n/g, '')}</strong></p>
+        </div>
+    `;
     
     // 渲染重点关注
-    const listContainer = document.getElementById('ai-big-news-list');
-    if (listContainer) {
-        if (keyFocus.length === 0) {
-            // 如果没有解析到，显示简化版
-            listContainer.innerHTML = '<p class="ai-big-news-empty">今日暂无重点关注</p>';
-        } else {
-            listContainer.innerHTML = keyFocus.map((item, index) => `
-                <div class="ai-big-news-item">
-                    <div class="ai-big-news-rank">${index + 1}</div>
-                    <div class="ai-big-news-content">
-                        <div class="ai-big-news-meta">
-                            <span class="ai-big-news-source">${item.source}</span>
-                        </div>
-                        <h3 class="ai-big-news-title">${item.title}</h3>
-                        ${item.summary ? `<p class="ai-big-news-summary">${item.summary}</p>` : ''}
+    if (keyFocus.length === 0) {
+        // 如果没有解析到，显示简化版
+        listContainer.innerHTML = '<p class="ai-big-news-empty">今日暂无重点关注</p>';
+    } else {
+        listContainer.innerHTML = keyFocus.map((item, index) => `
+            <div class="ai-big-news-item">
+                <div class="ai-big-news-rank">${index + 1}</div>
+                <div class="ai-big-news-content">
+                    <div class="ai-big-news-meta">
+                        <span class="ai-big-news-source">${item.source}</span>
                     </div>
+                    <h3 class="ai-big-news-title">${item.title}</h3>
+                    ${item.summary ? `<p class="ai-big-news-summary">${item.summary}</p>` : ''}
                 </div>
-            `).join('');
-        }
+            </div>
+        `).join('');
     }
+    
+    console.log('AI Big News rendered successfully');
 }
 
 // 回退到TOP10
