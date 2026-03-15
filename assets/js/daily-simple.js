@@ -32,10 +32,60 @@ document.addEventListener('DOMContentLoaded', async function() {
     if (nextBtn) nextBtn.addEventListener('click', showAlert);
     if (todayBtn) todayBtn.addEventListener('click', showAlert);
     
+    // Load AI Big News
+    await loadAIBigNews();
+    
     // Load all articles
     await loadAllArticles();
     updateDisplay();
 });
+
+// Load AI Big News
+async function loadAIBigNews() {
+    try {
+        const today = new Date().toISOString().split('T')[0];
+        const response = await fetch(`data/articles/daily/${today}_big_news.md?t=${Date.now()}`);
+        
+        if (response.ok) {
+            const markdown = await response.text();
+            parseAIBigNews(markdown);
+        }
+    } catch (e) {
+        console.error('Error loading AI Big News:', e);
+    }
+}
+
+// Parse AI Big News markdown
+function parseAIBigNews(markdown) {
+    // Extract sections
+    const llmMatch = markdown.match(/### 🤖 人工智能\n([\s\S]*?)(?=###|$)/);
+    const autoMatch = markdown.match(/### 🚗 自动驾驶\n([\s\S]*?)(?=###|$)/);
+    const robotMatch = markdown.match(/### 🤖 具身智能\n([\s\S]*?)(?=###|$)/);
+    
+    if (llmMatch) {
+        const lines = llmMatch[1].trim().split('\n').filter(l => l.trim());
+        const summaryEl = document.getElementById('ai-summary-llm');
+        const listEl = document.getElementById('ai-top3-llm');
+        if (summaryEl) summaryEl.textContent = lines[0]?.replace(/^\d+\.\s*\*\*/, '').replace(/\*\*.*$/, '').substring(0, 80) + '...' || '今日暂无动态';
+        if (listEl) listEl.innerHTML = lines.slice(0, 3).map(l => `<li>${l.replace(/^\d+\.\s*/, '').replace(/\*\*/g, '').split(' - ')[0].substring(0, 40)}...</li>`).join('');
+    }
+    
+    if (autoMatch) {
+        const lines = autoMatch[1].trim().split('\n').filter(l => l.trim());
+        const summaryEl = document.getElementById('ai-summary-auto');
+        const listEl = document.getElementById('ai-top3-auto');
+        if (summaryEl) summaryEl.textContent = lines[0]?.replace(/^\d+\.\s*\*\*/, '').replace(/\*\*.*$/, '').substring(0, 80) + '...' || '今日暂无动态';
+        if (listEl) listEl.innerHTML = lines.slice(0, 3).map(l => `<li>${l.replace(/^\d+\.\s*/, '').replace(/\*\*/g, '').split(' - ')[0].substring(0, 40)}...</li>`).join('');
+    }
+    
+    if (robotMatch) {
+        const lines = robotMatch[1].trim().split('\n').filter(l => l.trim());
+        const summaryEl = document.getElementById('ai-summary-robot');
+        const listEl = document.getElementById('ai-top3-robot');
+        if (summaryEl) summaryEl.textContent = lines[0]?.replace(/^\d+\.\s*\*\*/, '').replace(/\*\*.*$/, '').substring(0, 80) + '...' || '今日暂无动态';
+        if (listEl) listEl.innerHTML = lines.slice(0, 3).map(l => `<li>${l.replace(/^\d+\.\s*/, '').replace(/\*\*/g, '').split(' - ')[0].substring(0, 40)}...</li>`).join('');
+    }
+}
 
 // Load all articles from all categories
 async function loadAllArticles() {

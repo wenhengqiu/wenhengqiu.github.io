@@ -1320,3 +1320,48 @@ body {
     color: #444;
     margin-bottom: 4px;
 }
+
+/* AI Big News Categories */
+.ai-big-news-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.news-category {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 4px solid #4f46e5;
+}
+
+.news-category h3 {
+    font-size: 16px;
+    color: #4f46e5;
+    margin-bottom: 10px;
+}
+
+.news-category p {
+    font-size: 14px;
+    color: #475569;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.news-category ul {
+    margin: 0;
+    padding-left: 16px;
+}
+
+.news-category li {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+    .ai-big-news-content {
+        grid-template-columns: 1fr;
+    }
+}
