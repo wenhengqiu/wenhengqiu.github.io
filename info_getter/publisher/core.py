@@ -1,6 +1,6 @@
 """
 Info-Getter Publisher Module
-自动发布文章到 GitHub，支持 SimHash 去重和质量评分过滤
+自动发布文章到 GitHub 和 MongoDB，支持 SimHash 去重和质量评分过滤
 """
 
 import json
@@ -12,6 +12,14 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass, field
+
+# 导入MongoDB模块
+try:
+    from info_getter.db import get_db, InfoGetterDB
+    MONGODB_AVAILABLE = True
+except ImportError:
+    MONGODB_AVAILABLE = False
+    print("⚠️ MongoDB模块未安装，将仅保存到JSON文件")
 
 
 @dataclass
@@ -431,22 +439,35 @@ class Publisher:
     2. SimHash 去重检查
     3. 质量评分过滤（<0.6 不发布）- 优化后阈值
     4. Git 自动提交和推送
+    5. MongoDB 数据库存储
     """
     
     def __init__(
         self,
         data_dir: str,
-        quality_threshold: float = 0.6,  # 降低阈值，更注重行业价值
+        quality_threshold: float = 0.6,
         similarity_threshold: float = 0.85,
-        auto_git: bool = True
+        auto_git: bool = True,
+        use_mongodb: bool = True
     ):
         self.data_dir = Path(data_dir)
         self.quality_threshold = quality_threshold
         self.similarity_threshold = similarity_threshold
         self.auto_git = auto_git
+        self.use_mongodb = use_mongodb and MONGODB_AVAILABLE
         
         self.simhash = SimHash()
         self.scorer = QualityScorer()
+        
+        # 初始化MongoDB
+        self.db = None
+        if self.use_mongodb:
+            try:
+                self.db = get_db()
+                print("✅ MongoDB已连接")
+            except Exception as e:
+                print(f"⚠️ MongoDB连接失败: {e}，将仅保存到JSON文件")
+                self.use_mongodb = False
         
         # 确保数据目录存在
         self.data_dir.mkdir(parents=True, exist_ok=True)
@@ -644,6 +665,7 @@ class Publisher:
         }
         
         published_files = set()
+        mongodb_articles = []
         
         for article in articles:
             result = self.add_article(article, existing_articles)
@@ -654,12 +676,24 @@ class Publisher:
                 published_files.add(result['file'])
                 # 添加到现有文章列表，防止同一批次内重复
                 existing_articles.append(article)
+                # 收集成功发布的文章用于MongoDB
+                mongodb_articles.append(article.to_dict())
             else:
                 results['rejected'] += 1
                 if 'Duplicate' in result['reason']:
                     results['duplicates'] += 1
                 elif 'Quality' in result['reason']:
                     results['low_quality'] += 1
+        
+        # MongoDB 存储
+        if self.use_mongodb and mongodb_articles:
+            try:
+                db_result = self.db.save_articles(mongodb_articles)
+                results['mongodb'] = db_result
+                print(f"✅ MongoDB保存完成: 新增{db_result['success']}篇")
+            except Exception as e:
+                print(f"⚠️ MongoDB保存失败: {e}")
+                results['mongodb'] = {'error': str(e)}
         
         # Git 操作
         if self.auto_git and published_files:
