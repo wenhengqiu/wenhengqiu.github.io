@@ -315,13 +315,13 @@ function renderArticles(articles) {
     
     // 数据已保存在 loadArticles 中
     
-    // 渲染文章 - 优先显示中文翻译
+    // 渲染文章
     grid.innerHTML = articles.map(article => {
-        const url = article.original_url || article.url || '#';
-        // 优先使用中文标题和摘要
-        const title = article.title_zh || article.title || '无标题';
-        const summary = article.summary_zh || article.summary || '';
-        const sourceName = article.source?.name || article.source || '未知来源';
+        const url = article.url || '#';
+        // 使用标题和摘要（数据中没有title_zh字段）
+        const title = article.title || '无标题';
+        const summary = article.summary || '';
+        const sourceName = typeof article.source === 'object' ? article.source?.name : article.source || '未知来源';
         
         return `
         <div class="news-card" onclick="window.open('${url}', '_blank')" style="cursor:pointer;">
