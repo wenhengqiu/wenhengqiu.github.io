@@ -784,5 +784,35 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-16T00:21:58.513152"
+  },
+  {
+    "id": "MIT Tech Review_1773595348_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-16T01:22:28.078748"
+  },
+  {
+    "id": "MIT Tech Review_1773595348_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-16T01:22:28.078764"
+  },
+  {
+    "id": "MIT Tech Review_1773595348_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-16T01:22:28.078769"
   }
 ]
