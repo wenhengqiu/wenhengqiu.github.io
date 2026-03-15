@@ -48,10 +48,12 @@ class Scheduler:
             articles = await fetcher.fetch_all()
             logger.info(f"📥 RSS采集: {len(articles)} 篇文章")
             
-            # 2. Web爬虫采集（Playwright）
+            # 2. Web爬虫采集（Playwright + CDP浏览器）
             logger.info("🌐 启动Web爬虫...")
             try:
                 import subprocess
+                
+                # 2.1 Playwright爬虫
                 result = subprocess.run(
                     ['/Library/Developer/CommandLineTools/usr/bin/python3', 
                      'scripts/crawl_playwright.py'],
@@ -60,9 +62,56 @@ class Scheduler:
                     timeout=300
                 )
                 if result.returncode == 0:
-                    logger.info("✅ Web爬虫完成")
+                    logger.info("✅ Playwright爬虫完成")
                 else:
-                    logger.warning(f"⚠️ Web爬虫出错: {result.stderr[:200]}")
+                    logger.warning(f"⚠️ Playwright爬虫出错: {result.stderr[:200]}")
+                
+                # 2.2 CDP浏览器爬虫（卓驭科技等）
+                logger.info("🌐 启动CDP浏览器爬虫...")
+                result = subprocess.run(
+                    ['/Library/Developer/CommandLineTools/usr/bin/python3',
+                     '/Users/jarvis/.openclaw/workspace/skills/cdp-web-crawler/crawl_zhuoyu.py'],
+                    capture_output=True,
+                    text=True,
+                    timeout=300
+                )
+                if result.returncode == 0:
+                    logger.info("✅ CDP浏览器爬虫完成")
+                    
+                    # 加载爬取的文章并合并
+                    import json
+                    from pathlib import Path
+                    
+                    # 读取CDP爬虫结果
+                    cdp_result_file = Path('/tmp/zhuoyu_cdp_articles.json')
+                    if cdp_result_file.exists():
+                        with open(cdp_result_file, 'r', encoding='utf-8') as f:
+                            cdp_articles = json.load(f)
+                        
+                        # 转换为标准格式
+                        for item in cdp_articles:
+                            article = Article(
+                                id=f"cdp_{abs(hash(item['title'])) % 100000}",
+                                title=item['title'],
+                                title_zh=item['title'],
+                                summary='',
+                                summary_zh='',
+                                content='',
+                                category='zhuoyu',
+                                publish_date=datetime.now().isoformat(),
+                                display_date=datetime.now().strftime('%Y-%m-%d'),
+                                source={'name': item.get('source', 'CDP爬虫'), 'type': 'web_crawler'},
+                                url=item.get('url', ''),
+                                tags=[],
+                                quality_score=0.7,  # CDP爬取的文章给予较高质量分
+                                translated=False
+                            )
+                            articles.append(article)
+                        
+                        logger.info(f"📥 CDP爬虫添加 {len(cdp_articles)} 篇文章")
+                else:
+                    logger.warning(f"⚠️ CDP浏览器爬虫出错: {result.stderr[:200]}")
+                    
             except Exception as e:
                 logger.warning(f"⚠️ Web爬虫失败: {e}")
             
