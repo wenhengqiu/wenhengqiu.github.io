@@ -1,5 +1,23 @@
 [
   {
+    "id": "cdp_61516",
+    "title": "奔驰入股千里、一汽收购卓驭，智驾阵营进入抢位期？",
+    "title_zh": "奔驰入股千里、一汽收购卓驭，智驾阵营进入抢位期？",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "36氪",
+      "type": "web_crawler"
+    },
+    "category": "autonomous",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:47.665713",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.4
+  },
+  {
     "id": "cdp_85515",
     "title": "最前线｜卓驭科技发布中算力城市NOA，端到端智驾下探到10万元级",
     "title_zh": "最前线｜卓驭科技发布中算力城市NOA，端到端智驾下探到10万元级",
@@ -15,7 +33,97 @@
     "published_at": "2026-03-15T14:13:47.665675",
     "translated": false,
     "tags": [],
-    "classification_confidence": 0.5
+    "classification_confidence": 0.5714285714285714
+  },
+  {
+    "id": "cdp_944",
+    "title": "搭载卓驭端到端智驾2.0，极狐阿尔法T5 以10.98万起上市｜智驾前线",
+    "title_zh": "搭载卓驭端到端智驾2.0，极狐阿尔法T5 以10.98万起上市｜智驾前线",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "雷锋网",
+      "type": "web_crawler"
+    },
+    "category": "autonomous",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:38.011552",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.5161290322580645
+  },
+  {
+    "id": "cdp_19816",
+    "title": "卓驭端到端 4.0 落地红旗，数据驱动「泛化」战打响",
+    "title_zh": "卓驭端到端 4.0 落地红旗，数据驱动「泛化」战打响",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "雷锋网",
+      "type": "web_crawler"
+    },
+    "category": "autonomous",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:38.011547",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "cdp_5320",
+    "title": "2024年3月17日公布了智能驾驶平台产品「成行平台」的最新更新：在已大量量产的「7V+32TOPS」基础版配置上，推出「7V+100TOPS」及「10V+100TOPS」两个配置，可以实现“无高精地图依赖、无激光雷达依赖”的城市领航以及其他所有 L2 + 智能驾驶功能",
+    "title_zh": "2024年3月17日公布了智能驾驶平台产品「成行平台」的最新更新：在已大量量产的「7V+32TOPS」基础版配置上，推出「7V+100TOPS」及「10V+100TOPS」两个配置，可以实现“无高精地图依赖、无激光雷达依赖”的城市领航以及其他所有 L2 + 智能驾驶功能",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "autonomous",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326584",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.5161290322580645
+  },
+  {
+    "id": "cdp_85313",
+    "title": "大疆车载发布“成行平台”高算力配置:无高精地图依赖、无激光雷达...",
+    "title_zh": "大疆车载发布“成行平台”高算力配置:无高精地图依赖、无激光雷达...",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "autonomous",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:30.326578",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.43243243243243246
+  },
+  {
+    "id": "cdp_11521",
+    "title": "深圳市卓驭科技有限公司拥有涵盖销售、研发、制造、供应链、质量及各职能部门的完整建制组织，截止 2024 年底，覆盖感知、决策规划、高性能计算、功能安全、系统工程等专业领域。",
+    "title_zh": "深圳市卓驭科技有限公司拥有涵盖销售、研发、制造、供应链、质量及各职能部门的完整建制组织，截止 2024 年底，覆盖感知、决策规划、高性能计算、功能安全、系统工程等专业领域。",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "autonomous",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188507",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.43243243243243246
   },
   {
     "id": "cdp_48178",
@@ -33,7 +141,58 @@
     "published_at": "2026-03-15T14:13:14.188485",
     "translated": false,
     "tags": [],
-    "classification_confidence": 0.38461538461538464
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "cdp_60217",
+    "title": "卓驭端到端 4.0 落地红旗,数据驱动「泛化」战打响",
+    "title_zh": "卓驭端到端 4.0 落地红旗,数据驱动「泛化」战打响",
+    "summary": "",
+    "summary_zh": "",
+    "url": "",
+    "source": {
+      "name": "百度搜索",
+      "type": "web_crawler"
+    },
+    "category": "autonomous",
+    "quality_score": 0.7,
+    "published_at": "2026-03-15T14:13:14.188481",
+    "translated": false,
+    "tags": [],
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "36氪_1773544557_0",
+    "title": "AWE首秀亮王牌：慕思，凭什么让一众科技大佬集体“躺平”？",
+    "summary": "\n \n \n  <p>智能家居发展十余年，各类智能单品早已走进千家万户，但一个困局却始终未能突破：单品“智能化”多流于表面，且彼此孤立，难以串联成一个真正懂生活、主动服务人真实需求的“智能之家”。</p>\n  <p>比如用于交流的语音助手，虽能随叫随应，但也会成为某一刻的噪音；又如守护安全的摄像头，并不能感知被褥之下人体的真实状态；即便是可掌控全屋智能的手机，却也不是24小时被人贴身操控。</p>\n",
+    "url": "https://36kr.com/p/3722669939931524?f=rss",
+    "source": "36氪",
+    "category": "autonomous",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:15:57.299058",
+    "classification_confidence": 0.4
+  },
+  {
+    "id": "zhuoyu_002",
+    "title": "卓驭端到端4.0落地红旗，数据驱动「泛化」战打响",
+    "title_zh": "卓驭端到端4.0落地红旗，数据驱动「泛化」战打响",
+    "summary": "业界许多方案中还有不少是规则代码在起作用。而端到端4.0是真正让数据说话。卓驭科技产品总监蒋卓键表示，所谓100%端味，意味着从感知到决策再到控制的完整链条中，以往依赖的大量人工预设规则已被拿掉。",
+    "summary_zh": "业界许多方案中还有不少是规则代码在起作用。而端到端4.0是真正让数据说话。卓驭科技产品总监蒋卓键表示，所谓100%端味，意味着从感知到决策再到控制的完整链条中，以往依赖的大量人工预设规则已被拿掉。",
+    "url": "https://www.leiphone.com/category/transportation",
+    "source": {
+      "name": "雷峰网",
+      "type": "tech_media"
+    },
+    "category": "autonomous",
+    "quality_score": 0.9,
+    "published_at": "2025-03-13T21:17:00",
+    "translated": false,
+    "tags": [
+      "端到端",
+      "红旗",
+      "4.0"
+    ],
+    "classification_confidence": 0.45161290322580644
   },
   {
     "id": "xpeng_001",
@@ -55,7 +214,7 @@
       "XNGP",
       "城市NGP"
     ],
-    "classification_confidence": 0.5
+    "classification_confidence": 0.5263157894736842
   },
   {
     "id": "tesla_001",
@@ -77,7 +236,7 @@
       "FSD",
       "end-to-end"
     ],
-    "classification_confidence": 0.7333333333333333
+    "classification_confidence": 0.7272727272727273
   },
   {
     "id": "waymo_001",
@@ -99,7 +258,7 @@
       "robotaxi",
       "expansion"
     ],
-    "classification_confidence": 0.5555555555555556
+    "classification_confidence": 0.5714285714285714
   },
   {
     "id": "mobileye_001",
@@ -121,7 +280,7 @@
       "EyeQ6",
       "ADAS"
     ],
-    "classification_confidence": 0.5555555555555556
+    "classification_confidence": 0.5714285714285714
   },
   {
     "id": "apollo_001",
@@ -143,6 +302,6 @@
       "Apollo",
       "RT6"
     ],
-    "classification_confidence": 0.6363636363636364
+    "classification_confidence": 0.64
   }
 ]

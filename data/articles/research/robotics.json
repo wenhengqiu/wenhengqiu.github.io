@@ -1,5 +1,659 @@
 [
   {
+    "id": "MIT Tech Review_1773569940_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T18:19:00.461290",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773569940_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T18:19:00.461281",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773569940_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T18:19:00.461256",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773569937_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T18:18:57.177318",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773569937_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T18:18:57.177296",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "OpenAI Blog_1773569930_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "robotics",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T18:18:50.666189",
+    "classification_confidence": 0.26666666666666666
+  },
+  {
+    "id": "MIT Tech Review_1773566318_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:38.333628",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773566318_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:38.333618",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773566318_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:38.333594",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773566315_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:35.774981",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773566315_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T17:18:35.774958",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "OpenAI Blog_1773566309_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "robotics",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T17:18:29.318860",
+    "classification_confidence": 0.26666666666666666
+  },
+  {
+    "id": "MIT Tech Review_1773562699_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:19.177959",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773562699_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:19.177950",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773562699_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:19.177926",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773562696_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:16.185731",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773562696_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T16:18:16.185709",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "OpenAI Blog_1773562682_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "robotics",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T16:18:02.714013",
+    "classification_confidence": 0.26666666666666666
+  },
+  {
+    "id": "MIT Tech Review_1773559071_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:51.879123",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773559071_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:51.879113",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773559071_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:51.879089",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773559067_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:47.366445",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773559067_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T15:17:47.366423",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "OpenAI Blog_1773559060_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "robotics",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T15:17:40.848072",
+    "classification_confidence": 0.26666666666666666
+  },
+  {
+    "id": "MIT Tech Review_1773555449_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:29.279606",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773555449_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:29.279596",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773555449_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:29.279572",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773555446_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:26.223344",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773555446_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T14:17:26.223322",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "OpenAI Blog_1773555439_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "robotics",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T14:17:19.307991",
+    "classification_confidence": 0.26666666666666666
+  },
+  {
+    "id": "deepmind_81097",
+    "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "robotics",
+    "published_at": "2026-03-15T14:09:49.535373",
+    "summary": "",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "deepmind_81097",
+    "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "robotics",
+    "published_at": "2026-03-15T14:09:49.524640",
+    "summary": "",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "deepmind_31613",
+    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+    "url": "https://deepmind.google/blog/10-years-of-alphago/",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "robotics",
+    "published_at": "2026-03-15T14:09:49.472230",
+    "summary": "",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "deepmind_31613",
+    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+    "url": "https://deepmind.google/blog/10-years-of-alphago/",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "robotics",
+    "published_at": "2026-03-15T14:09:49.458791",
+    "summary": "",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "deepmind_31613",
+    "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+    "url": "https://deepmind.google/blog/10-years-of-alphago/",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "robotics",
+    "published_at": "2026-03-15T14:09:49.447063",
+    "summary": "",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "deepmind_33032",
+    "title": "Project Genie: Experimenting with infinite, interactive worlds",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "robotics",
+    "published_at": "2026-03-15T14:09:49.426333",
+    "summary": "",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "deepmind_33032",
+    "title": "Project Genie: Experimenting with infinite, interactive worlds",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "robotics",
+    "published_at": "2026-03-15T14:09:49.411206",
+    "summary": "",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "deepmind_33032",
+    "title": "Project Genie: Experimenting with infinite, interactive worlds",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie",
+    "source": {
+      "name": "DeepMind Blog",
+      "type": "official"
+    },
+    "category": "robotics",
+    "published_at": "2026-03-15T14:09:49.398237",
+    "summary": "",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773551826_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:06.417484",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773551826_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:06.417474",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773551826_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:06.417450",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773551823_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:03.394658",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773551823_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T13:17:03.394636",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "OpenAI Blog_1773551817_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "robotics",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T13:16:57.034814",
+    "classification_confidence": 0.26666666666666666
+  },
+  {
+    "id": "MIT Tech Review_1773548206_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:46.254591",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773548206_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:46.254582",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773548206_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:46.254556",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773548203_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:43.295197",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773548203_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:43.295175",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "OpenAI Blog_1773548196_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "robotics",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T12:16:36.090653",
+    "classification_confidence": 0.26666666666666666
+  },
+  {
+    "id": "36氪_1773548189_0",
+    "title": "工业级AI视频厂商再融资，掌握120TB独家数据，营收破亿 | 硬氪首发",
+    "summary": "\n \n \n  <p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，重庆达瓦合志影像科技有限公司（下称“达瓦科技”）宣布完成近亿元的新一轮融资。本轮融资由一村资本、宝捷会创新基金领投，老股东启赋资本、重庆永川国资平台持续跟投。</p>\n  <p>达瓦科技成立于2023年，总部位于重庆，是国内首个实现商业化闭环的专业级AI内容",
+    "url": "https://36kr.com/p/3723669408987782?f=rss",
+    "source": "36氪",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T12:16:29.652469",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773544581_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:21.012966",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773544581_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:21.012957",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "MIT Tech Review_1773544581_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:21.012932",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773544577_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:17.957577",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "TechCrunch AI_1773544577_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:16:17.957556",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
+    "id": "OpenAI Blog_1773544570_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "robotics",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T11:16:10.778924",
+    "classification_confidence": 0.26666666666666666
+  },
+  {
+    "id": "36氪_1773544557_2",
+    "title": "腾讯龙虾团队答疑：龙虾的热度确实高过能力，但它是普通人拥抱 AI 浪潮的第一步",
+    "summary": "\n \n \n  <p><strong>文｜王毓婵</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>最近一周，一向以风格稳重著称的腾讯一反常态，不仅借着一场“免费帮装虾”的线下活动迅速推高了大众对“龙虾”的热情，而且在短期内推出了大量“龙虾”产品。</p>\n  <p>目前已经上线的，有被称为腾讯版“免部署小龙虾”的办公工具WorkBuddy；支持一",
+    "url": "https://36kr.com/p/3721355722684804?f=rss",
+    "source": "36氪",
+    "category": "robotics",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T11:15:57.299126",
+    "classification_confidence": 0.3076923076923077
+  },
+  {
     "id": "36氪_1773544557_1",
     "title": "中国最大家电展上，一批想帮你做家务的机器人来了！",
     "summary": "\n \n \n  <p><strong>文｜邱晓芬</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>2026年，挤进具身智能机器人赛道的主力军，是一众家电企业。</p>\n  <p>3月12日-15日，中国最大的家电及消费电子博览会（AWE 2026）在上海举办。和往年不同的是，此次展会的亮点已经从过去的家电，变成了具身智能机器人。</p>\n  <p",
@@ -8,7 +662,18 @@
     "category": "robotics",
     "quality_score": 0.9,
     "published_at": "2026-03-15T11:15:57.299099",
-    "classification_confidence": 0.6111111111111112
+    "classification_confidence": 0.5714285714285714
+  },
+  {
+    "id": "量子位_1773544554_0",
+    "title": "360发布安全龙虾系列产品：以模治模构建智能体安全体系",
+    "summary": "",
+    "url": "https://www.qbitai.com/2026/03/387921.html",
+    "source": "量子位",
+    "category": "robotics",
+    "quality_score": 0.8,
+    "published_at": "2026-03-15T11:15:54.471066",
+    "classification_confidence": 0.3076923076923077
   },
   {
     "id": "tesla_optimus_001",
@@ -30,7 +695,7 @@
       "Optimus",
       "人形机器人"
     ],
-    "classification_confidence": 0.65
+    "classification_confidence": 0.6086956521739131
   },
   {
     "id": "figure_001",
@@ -52,7 +717,7 @@
       "人形机器人",
       "Figure 02"
     ],
-    "classification_confidence": 0.75
+    "classification_confidence": 0.7096774193548387
   },
   {
     "id": "zhiyuan_001",
@@ -74,7 +739,7 @@
       "远征A2",
       "人形机器人"
     ],
-    "classification_confidence": 0.78125
+    "classification_confidence": 0.7428571428571429
   },
   {
     "id": "unitree_001",
@@ -96,7 +761,7 @@
       "G1",
       "人形机器人"
     ],
-    "classification_confidence": 0.6818181818181818
+    "classification_confidence": 0.64
   },
   {
     "id": "boston_001",
@@ -118,6 +783,6 @@
       "Atlas",
       "人形机器人"
     ],
-    "classification_confidence": 0.75
+    "classification_confidence": 0.7096774193548387
   }
 ]

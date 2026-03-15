@@ -8,7 +8,7 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-15T18:18:57.177327",
-    "classification_confidence": 0.5909090909090909
+    "classification_confidence": 0.56
   },
   {
     "id": "OpenAI Blog_1773569930_1",
@@ -19,7 +19,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T18:18:50.666184",
-    "classification_confidence": 0.55
+    "classification_confidence": 0.5217391304347826
   },
   {
     "id": "OpenAI Blog_1773569930_0",
@@ -30,7 +30,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T18:18:50.666169",
-    "classification_confidence": 0.35714285714285715
+    "classification_confidence": 0.35294117647058826
   },
   {
     "id": "TechCrunch AI_1773566315_2",
@@ -41,7 +41,7 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-15T17:18:35.774989",
-    "classification_confidence": 0.5909090909090909
+    "classification_confidence": 0.56
   },
   {
     "id": "OpenAI Blog_1773566309_1",
@@ -52,7 +52,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T17:18:29.318855",
-    "classification_confidence": 0.55
+    "classification_confidence": 0.5217391304347826
   },
   {
     "id": "OpenAI Blog_1773566309_0",
@@ -63,7 +63,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T17:18:29.318839",
-    "classification_confidence": 0.35714285714285715
+    "classification_confidence": 0.35294117647058826
   },
   {
     "id": "TechCrunch AI_1773562696_2",
@@ -74,7 +74,7 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-15T16:18:16.185740",
-    "classification_confidence": 0.5909090909090909
+    "classification_confidence": 0.56
   },
   {
     "id": "OpenAI Blog_1773562682_1",
@@ -85,7 +85,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T16:18:02.714008",
-    "classification_confidence": 0.55
+    "classification_confidence": 0.5217391304347826
   },
   {
     "id": "OpenAI Blog_1773562682_0",
@@ -96,7 +96,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T16:18:02.713993",
-    "classification_confidence": 0.35714285714285715
+    "classification_confidence": 0.35294117647058826
   },
   {
     "id": "量子位_1773562674_0",
@@ -107,7 +107,7 @@
     "category": "llm",
     "quality_score": 0.8,
     "published_at": "2026-03-15T16:17:54.728281",
-    "classification_confidence": 0.5909090909090909
+    "classification_confidence": 0.56
   },
   {
     "id": "TechCrunch AI_1773559067_2",
@@ -118,7 +118,7 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-15T15:17:47.366453",
-    "classification_confidence": 0.5909090909090909
+    "classification_confidence": 0.56
   },
   {
     "id": "OpenAI Blog_1773559060_1",
@@ -129,7 +129,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T15:17:40.848068",
-    "classification_confidence": 0.55
+    "classification_confidence": 0.5217391304347826
   },
   {
     "id": "OpenAI Blog_1773559060_0",
@@ -140,7 +140,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T15:17:40.848056",
-    "classification_confidence": 0.35714285714285715
+    "classification_confidence": 0.35294117647058826
   },
   {
     "id": "TechCrunch AI_1773555446_2",
@@ -151,7 +151,7 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-15T14:17:26.223353",
-    "classification_confidence": 0.5909090909090909
+    "classification_confidence": 0.56
   },
   {
     "id": "OpenAI Blog_1773555439_1",
@@ -162,7 +162,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T14:17:19.307986",
-    "classification_confidence": 0.55
+    "classification_confidence": 0.5217391304347826
   },
   {
     "id": "OpenAI Blog_1773555439_0",
@@ -173,7 +173,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T14:17:19.307971",
-    "classification_confidence": 0.35714285714285715
+    "classification_confidence": 0.35294117647058826
   },
   {
     "id": "deepmind_788",
@@ -186,7 +186,7 @@
     "category": "llm",
     "published_at": "2026-03-15T14:09:49.510592",
     "summary": "",
-    "classification_confidence": 0.4375
+    "classification_confidence": 0.42105263157894735
   },
   {
     "id": "deepmind_788",
@@ -199,7 +199,7 @@
     "category": "llm",
     "published_at": "2026-03-15T14:09:49.496592",
     "summary": "",
-    "classification_confidence": 0.4375
+    "classification_confidence": 0.42105263157894735
   },
   {
     "id": "deepmind_788",
@@ -212,7 +212,7 @@
     "category": "llm",
     "published_at": "2026-03-15T14:09:49.484746",
     "summary": "",
-    "classification_confidence": 0.4375
+    "classification_confidence": 0.42105263157894735
   },
   {
     "id": "TechCrunch AI_1773551823_2",
@@ -223,7 +223,7 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-15T13:17:03.394667",
-    "classification_confidence": 0.5909090909090909
+    "classification_confidence": 0.56
   },
   {
     "id": "OpenAI Blog_1773551817_1",
@@ -234,7 +234,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T13:16:57.034809",
-    "classification_confidence": 0.55
+    "classification_confidence": 0.5217391304347826
   },
   {
     "id": "OpenAI Blog_1773551817_0",
@@ -245,7 +245,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T13:16:57.034794",
-    "classification_confidence": 0.35714285714285715
+    "classification_confidence": 0.35294117647058826
   },
   {
     "id": "TechCrunch AI_1773548203_2",
@@ -256,7 +256,7 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-15T12:16:43.295206",
-    "classification_confidence": 0.5909090909090909
+    "classification_confidence": 0.56
   },
   {
     "id": "OpenAI Blog_1773548196_1",
@@ -267,7 +267,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T12:16:36.090647",
-    "classification_confidence": 0.55
+    "classification_confidence": 0.5217391304347826
   },
   {
     "id": "OpenAI Blog_1773548196_0",
@@ -278,7 +278,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T12:16:36.090631",
-    "classification_confidence": 0.35714285714285715
+    "classification_confidence": 0.35294117647058826
   },
   {
     "id": "TechCrunch AI_1773544577_2",
@@ -289,7 +289,7 @@
     "category": "llm",
     "quality_score": 0.9,
     "published_at": "2026-03-15T11:16:17.957586",
-    "classification_confidence": 0.5909090909090909
+    "classification_confidence": 0.56
   },
   {
     "id": "OpenAI Blog_1773544570_1",
@@ -300,7 +300,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T11:16:10.778919",
-    "classification_confidence": 0.55
+    "classification_confidence": 0.5217391304347826
   },
   {
     "id": "OpenAI Blog_1773544570_0",
@@ -311,7 +311,7 @@
     "category": "llm",
     "quality_score": 1.0,
     "published_at": "2026-03-15T11:16:10.778904",
-    "classification_confidence": 0.35714285714285715
+    "classification_confidence": 0.35294117647058826
   },
   {
     "id": "量子位_1773544554_2",
@@ -322,7 +322,7 @@
     "category": "llm",
     "quality_score": 0.8,
     "published_at": "2026-03-15T11:15:54.471098",
-    "classification_confidence": 0.4375
+    "classification_confidence": 0.42105263157894735
   },
   {
     "id": "量子位_1773544554_1",
@@ -333,6 +333,6 @@
     "category": "llm",
     "quality_score": 0.8,
     "published_at": "2026-03-15T11:15:54.471088",
-    "classification_confidence": 0.4375
+    "classification_confidence": 0.42105263157894735
   }
 ]
