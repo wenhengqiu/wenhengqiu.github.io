@@ -399,21 +399,26 @@
                 return new Date(b.publish_date) - new Date(a.publish_date);
             });
             
-            list.innerHTML = articles.map(article => `
+            list.innerHTML = articles.map(article => {
+                // 使用url字段，如果不存在则使用original_url
+                const url = article.url || article.original_url || '#';
+                const sourceName = typeof article.source === 'object' ? article.source?.name : article.source;
+                
+                return `
                 <div class="article-item">
                     <div class="article-item-icon">${getCategoryIcon(article.category)}</div>
                     <div class="article-item-content">
-                        <h4><a href="${article.original_url}" target="_blank" rel="noopener noreferrer" class="article-title-link">${article.title}</a></h4>
-                        <p>${article.summary}</p>
+                        <h4><a href="${url}" target="_blank" rel="noopener noreferrer" class="article-title-link">${article.title}</a></h4>
+                        <p>${article.summary || ''}</p>
                         <div class="article-item-meta">
-                            <span>🏢 ${article.companies?.join(', ') || article.source?.name}</span>
-                            <span>📅 ${article.display_date}</span>
+                            <span>🏢 ${article.companies?.join(', ') || sourceName || '未知'}</span>
+                            <span>📅 ${article.display_date || article.published_at?.split('T')[0] || '未知日期'}</span>
                             ${article.importance === 'high' ? '<span style="color:#ff6b6b">🔥 重要</span>' : ''}
-                            <a href="${article.original_url}" target="_blank" rel="noopener noreferrer" class="article-link">🔗 阅读原文</a>
+                            <a href="${url}" target="_blank" rel="noopener noreferrer" class="article-link">🔗 阅读原文</a>
                         </div>
                     </div>
                 </div>
-            `).join('');
+            `}).join('');
         }
         
         // Get category icon
