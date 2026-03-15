@@ -334,5 +334,135 @@
     "quality_score": 0.8,
     "published_at": "2026-03-15T11:15:54.471088",
     "classification_confidence": 0.42105263157894735
+  },
+  {
+    "id": "量子位_1773573543_1",
+    "title": "360发布安全龙虾系列产品：以模治模构建智能体安全体系",
+    "summary": "",
+    "url": "https://www.qbitai.com/2026/03/387921.html",
+    "source": "量子位",
+    "category": "llm",
+    "quality_score": 0.8,
+    "published_at": "2026-03-15T19:19:03.339479"
+  },
+  {
+    "id": "36氪_1773573546_0",
+    "title": "工业级AI视频厂商再融资，掌握120TB独家数据，营收破亿 | 硬氪首发",
+    "summary": "\n \n \n  <p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，重庆达瓦合志影像科技有限公司（下称“达瓦科技”）宣布完成近亿元的新一轮融资。本轮融资由一村资本、宝捷会创新基金领投，老股东启赋资本、重庆永川国资平台持续跟投。</p>\n  <p>达瓦科技成立于2023年，总部位于重庆，是国内首个实现商业化闭环的专业级AI内容",
+    "url": "https://36kr.com/p/3723669408987782?f=rss",
+    "source": "36氪",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T19:19:06.264286"
+  },
+  {
+    "id": "36氪_1773573546_1",
+    "title": "AWE首秀亮王牌：慕思，凭什么让一众科技大佬集体“躺平”？",
+    "summary": "\n \n \n  <p>智能家居发展十余年，各类智能单品早已走进千家万户，但一个困局却始终未能突破：单品“智能化”多流于表面，且彼此孤立，难以串联成一个真正懂生活、主动服务人真实需求的“智能之家”。</p>\n  <p>比如用于交流的语音助手，虽能随叫随应，但也会成为某一刻的噪音；又如守护安全的摄像头，并不能感知被褥之下人体的真实状态；即便是可掌控全屋智能的手机，却也不是24小时被人贴身操控。</p>\n",
+    "url": "https://36kr.com/p/3722669939931524?f=rss",
+    "source": "36氪",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T19:19:06.264324"
+  },
+  {
+    "id": "36氪_1773573546_2",
+    "title": "中国最大家电展上，一批想帮你做家务的机器人来了！",
+    "summary": "\n \n \n  <p><strong>文｜邱晓芬</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>2026年，挤进具身智能机器人赛道的主力军，是一众家电企业。</p>\n  <p>3月12日-15日，中国最大的家电及消费电子博览会（AWE 2026）在上海举办。和往年不同的是，此次展会的亮点已经从过去的家电，变成了具身智能机器人。</p>\n  <p",
+    "url": "https://36kr.com/p/3722882943334789?f=rss",
+    "source": "36氪",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T19:19:06.264359"
+  },
+  {
+    "id": "OpenAI Blog_1773573557_0",
+    "title": "[译] Rakuten fixes issues twice as fast with ",
+    "summary": "[译文摘要] Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and sa",
+    "url": "https://openai.com/index/rakuten",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T19:19:17.986578"
+  },
+  {
+    "id": "OpenAI Blog_1773573557_1",
+    "title": "[译] Designing AI agents to resist prompt inj",
+    "summary": "[译文摘要] How ChatGPT defends against prompt injection and social engineering by constrain",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T19:19:17.986593"
+  },
+  {
+    "id": "OpenAI Blog_1773573557_2",
+    "title": "[译] Wayfair boosts catalog accuracy and supp",
+    "summary": "[译文摘要] Wayfair uses OpenAI models to improve ecommerce support and product catalog accu",
+    "url": "https://openai.com/index/wayfair",
+    "source": "OpenAI Blog",
+    "category": "llm",
+    "quality_score": 1.0,
+    "published_at": "2026-03-15T19:19:17.986598"
+  },
+  {
+    "id": "TechCrunch AI_1773573565_0",
+    "title": "[译] US Army announces contract with Anduril ",
+    "summary": "[译文摘要] The Army described this as a single enterprise contract consolidating more than ",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T19:19:25.955766"
+  },
+  {
+    "id": "TechCrunch AI_1773573565_1",
+    "title": "[译] Meta reportedly considering layoffs that",
+    "summary": "[译文摘要] These layoffs could help Facebook's parent company offset its aggressive spendin",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T19:19:25.955794"
+  },
+  {
+    "id": "TechCrunch AI_1773573565_2",
+    "title": "[译] How to use the new ChatGPT app integrati",
+    "summary": "[译文摘要] Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in Chat",
+    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "source": "TechCrunch AI",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T19:19:25.955804"
+  },
+  {
+    "id": "MIT Tech Review_1773573569_0",
+    "title": "[译] Why physical AI is becoming manufacturin",
+    "summary": "[译文摘要] For decades, manufacturers have pursued automation to drive efficiency, reduce c",
+    "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T19:19:29.045226"
+  },
+  {
+    "id": "MIT Tech Review_1773573569_1",
+    "title": "[译] The Download: how AI is used for militar",
+    "summary": "[译文摘要] This is today&#8217;s edition of The Download, our weekday newsletter that provi",
+    "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T19:19:29.045247"
+  },
+  {
+    "id": "MIT Tech Review_1773573569_2",
+    "title": "[译] Future AI chips could be built on glass",
+    "summary": "[译文摘要] Human-made glass is thousands of years old. But it’s now poised to find its way ",
+    "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "source": "MIT Tech Review",
+    "category": "llm",
+    "quality_score": 0.9,
+    "published_at": "2026-03-15T19:19:29.045255"
   }
 ]
