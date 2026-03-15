@@ -7,7 +7,7 @@ Info-Getter 调度模块
 import asyncio
 import json
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Dict
 
@@ -41,12 +41,29 @@ class Scheduler:
         logger.info("🚀 开始采集任务")
         start_time = datetime.now()
         
+        # 时间范围：近一个月
+        cutoff_date = datetime.now() - timedelta(days=30)
+        logger.info(f"⏰ 采集时间范围: {cutoff_date.strftime('%Y-%m-%d')} 至今")
+        
         try:
             # 1. RSS采集
             from info_getter.fetcher.core import Fetcher
             fetcher = Fetcher(self.config)
             articles = await fetcher.fetch_all()
-            logger.info(f"📥 RSS采集: {len(articles)} 篇文章")
+            logger.info(f"📥 RSS原始采集: {len(articles)} 篇文章")
+            
+            # 筛选近一个月的文章
+            recent_articles = []
+            for article in articles:
+                try:
+                    if article.published_at and article.published_at >= cutoff_date:
+                        recent_articles.append(article)
+                except:
+                    # 如果没有日期，也保留
+                    recent_articles.append(article)
+            
+            articles = recent_articles
+            logger.info(f"📅 近一个月文章: {len(articles)} 篇")
             
             # 2. Web爬虫采集（Playwright + CDP浏览器）
             logger.info("🌐 启动Web爬虫...")
