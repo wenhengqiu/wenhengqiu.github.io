@@ -20,44 +20,7 @@ loadArticles();
 // 加载AI Big News
 async function loadAIBigNews() {
     console.log('Loading AI Big News...');
-    try {
-        // 直接使用今天的日期（2026-03-15）
-        const today = '2026-03-15';
-        
-        // 尝试加载今天的AI Big News
-        const response = await fetch(`data/articles/daily/${today}_executive.md?t=${Date.now()}`);
-        
-        if (response.ok) {
-            const markdown = await response.text();
-            console.log('Loaded AI Big News, length:', markdown.length);
-            renderAIBigNews(markdown);
-        } else {
-            console.log('Today not found, trying yesterday...');
-            // 如果没有今天的，尝试加载最新的
-            const yesterday = '2026-03-14';
-            const yResponse = await fetch(`data/articles/daily/${yesterday}_executive.md?t=${Date.now()}`);
-            
-            if (yResponse.ok) {
-                const markdown = await yResponse.text();
-                console.log('Loaded yesterday AI Big News');
-                renderAIBigNews(markdown);
-            } else {
-                console.log('No daily report found, fallback to top10');
-                // 回退到加载高质量文章
-                loadTop10Fallback();
-            }
-        }
-    } catch (e) {
-        console.error('Error loading AI Big News:', e);
-        loadTop10Fallback();
-    }
-}
-
-// 渲染AI Big News
-function renderAIBigNews(markdown) {
-    console.log('Rendering AI Big News...');
     
-    // 检查容器是否存在
     const briefContainer = document.getElementById('ai-big-news-brief');
     const listContainer = document.getElementById('ai-big-news-list');
     
@@ -66,71 +29,101 @@ function renderAIBigNews(markdown) {
         return;
     }
     
-    // 简单解析 - 提取各个部分
-    const coreMatch = markdown.match(/## 📋 核心动态\n\n([\s\S]*?)(?=\n## 🔮|$)/);
-    const trendMatch = markdown.match(/## 🔮 趋势判断\n\n([\s\S]*?)(?=\n## 📌|$)/);
-    const focusMatch = markdown.match(/## 📌 重点关注\n\n([\s\S]*?)(?=\n---|$)/);
+    // 显示加载中
+    briefContainer.innerHTML = '<p style="text-align:center;padding:20px;">加载中...</p>';
     
-    // 渲染核心动态
-    if (coreMatch) {
-        briefContainer.innerHTML = `
-            <div class="ai-big-news-core">
-                <h4>📋 核心动态</h4>
-                <p>${coreMatch[1].trim().replace(/\n/g, '<br>')}</p>
-            </div>
-        `;
-    }
-    
-    // 渲染趋势判断
-    if (trendMatch) {
-        briefContainer.innerHTML += `
-            <div class="ai-big-news-trend">
-                <h4>🔮 趋势判断</h4>
-                <p><strong>${trendMatch[1].trim()}</strong></p>
-            </div>
-        `;
-    }
-    
-    // 渲染重点关注
-    if (focusMatch) {
-        const focusLines = focusMatch[1].trim().split('\n');
-        let focusHTML = '';
-        let currentItem = null;
+    try {
+        // 使用今天的日期
+        const today = '2026-03-15';
+        const url = `data/articles/daily/${today}_executive.md`;
         
-        for (let i = 0; i < focusLines.length; i++) {
-            const line = focusLines[i];
+        console.log('Fetching:', url);
+        const response = await fetch(url);
+        
+        if (response.ok) {
+            const markdown = await response.text();
+            console.log('Loaded, length:', markdown.length);
             
-            // 匹配标题行: 1. **标题** — *来源*
-            const titleMatch = line.match(/^\d+\.\s*\*\*(.+?)\*\*\s*—\s*\*(.+?)\*/);
-            if (titleMatch) {
-                if (currentItem) {
-                    focusHTML += renderFocusItem(currentItem);
-                }
-                currentItem = {
-                    rank: line.match(/^\d+/)[0],
-                    title: titleMatch[1],
-                    source: titleMatch[2],
-                    summary: ''
-                };
+            if (markdown.length > 100) {
+                renderAIBigNews(markdown);
+            } else {
+                throw new Error('Content too short');
             }
-            // 匹配摘要行: > 摘要内容
-            else if (line.match(/^\s*>\s*/)) {
-                if (currentItem) {
-                    currentItem.summary = line.replace(/^\s*>\s*/, '');
-                }
-            }
+        } else {
+            throw new Error('Fetch failed: ' + response.status);
         }
-        
-        if (currentItem) {
-            focusHTML += renderFocusItem(currentItem);
-        }
-        
-        listContainer.innerHTML = focusHTML || '<p class="ai-big-news-empty">暂无重点关注</p>';
-    } else {
-        listContainer.innerHTML = '<p class="ai-big-news-empty">暂无重点关注</p>';
+    } catch (e) {
+        console.error('Error:', e);
+        // 显示错误信息并回退
+        briefContainer.innerHTML = '<p style="text-align:center;color:#ff6b6b;">加载失败，使用备用数据</p>';
+        loadTop10Fallback();
+    }
+}
+
+// 渲染AI Big News
+function renderAIBigNews(markdown) {
+    console.log('Rendering AI Big News...');
+    
+    const briefContainer = document.getElementById('ai-big-news-brief');
+    const listContainer = document.getElementById('ai-big-news-list');
+    
+    if (!briefContainer || !listContainer) {
+        console.error('Containers not found!');
+        return;
     }
     
-    console.log('AI Big News rendered successfully');
+    // 提取核心动态 - 更宽松的正则
+    let coreText = '';
+    const coreStart = markdown.indexOf('## 📋 核心动态');
+    const trendStart = markdown.indexOf('## 🔮 趋势判断');
+    if (coreStart >= 0 && trendStart > coreStart) {
+        coreText = markdown.substring(coreStart + 20, trendStart).trim();
+    }
+    
+    // 提取趋势判断
+    let trendText = '';
+    const focusStart = markdown.indexOf('## 📌 重点关注');
+    if (trendStart >= 0 && focusStart > trendStart) {
+        trendText = markdown.substring(trendStart + 20, focusStart).trim();
+    }
+    
+    // 提取重点关注
+    let focusText = '';
+    const endStart = markdown.indexOf('---', focusStart);
+    if (focusStart >= 0) {
+        const endPos = endStart > focusStart ? endStart : markdown.length;
+        focusText = markdown.substring(focusStart + 20, endPos).trim();
+    }
+    
+    console.log('Extracted:', {core: coreText.length, trend: trendText.length, focus: focusText.length});
+    
+    // 渲染简报
+    let briefHTML = '';
+    if (coreText) {
+        briefHTML += `<div class="ai-big-news-core"><h4>📋 核心动态</h4><p>${coreText.replace(/\n/g, '<br>')}</p></div>`;
+    }
+    if (trendText) {
+        briefHTML += `<div class="ai-big-news-trend"><h4>🔮 趋势判断</h4><p><strong>${trendText}</strong></p></div>`;
+    }
+    briefContainer.innerHTML = briefHTML || '<p>暂无简报内容</p>';
+    
+    // 渲染重点关注（简化版）
+    if (focusText) {
+        // 简单按行分割显示
+        const lines = focusText.split('\n').filter(l => l.trim());
+        let focusHTML = '<div class="ai-big-news-focus">';
+        lines.forEach((line, idx) => {
+            if (line.match(/^\d+\./)) {
+                focusHTML += `<div class="ai-big-news-item"><div class="ai-big-news-rank">${idx + 1}</div><div class="ai-big-news-content">${line.replace(/^\d+\.\s*/, '')}</div></div>`;
+            }
+        });
+        focusHTML += '</div>';
+        listContainer.innerHTML = focusHTML || '<p>暂无重点关注</p>';
+    } else {
+        listContainer.innerHTML = '<p>暂无重点关注</p>';
+    }
+    
+    console.log('Rendered successfully');
 }
 
 function renderFocusItem(item) {
