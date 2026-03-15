@@ -101,17 +101,19 @@ function renderArticles(articles) {
         const title = article.title || '无标题';
         const summary = article.summary || '';
         const source = typeof article.source === 'object' ? article.source?.name : (article.source || '未知');
+        const categoryNames = {llm: 'AI', autonomous: '自动驾驶', robotics: '具身智能', zhuoyu: '卓驭科技'};
+        const catName = categoryNames[article.category] || article.category;
         
         return `
         <div class="news-card" onclick="window.open('${url}', '_blank')">
             <div class="card-header">
-                <span class="tag ${article.category}">${article.category}</span>
-                <span>${source}</span>
+                <span class="tag ${article.category}">${catName}</span>
+                <span style="font-size:13px;color:#999;">${source}</span>
             </div>
             <h3 class="card-title">${title}</h3>
             <p class="card-summary">${summary}</p>
-            <div style="margin-top:10px;text-align:right;">
-                <span style="color:#1890ff;font-size:14px;">阅读原文 →</span>
+            <div style="text-align:right;">
+                <span style="color:#667eea;font-size:13px;font-weight:500;">阅读全文 →</span>
             </div>
         </div>
         `;

@@ -539,21 +539,21 @@ body {
     margin-bottom: 32px;
 }
 
-/* News Card */
+/* News Card - Improved */
 .news-card {
-    background: var(--lighter);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    box-shadow: 0 2px 12px var(--shadow);
-    transition: var(--transition);
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
+    border: 1px solid #f0f0f0;
 }
 
 .news-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 30px var(--shadow-lg);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    border-color: #e0e0e0;
 }
 
 .news-card.hidden {
@@ -561,32 +561,23 @@ body {
 }
 
 .card-header {
-    padding: 16px 20px 12px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 12px;
-}
-
-.card-tags {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 12px;
 }
 
 .tag {
-    padding: 4px 10px;
-    border-radius: 12px;
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
-.tag.llm { background: #e3f2fd; color: #1976d2; }
-.tag.autonomous { background: #fff3e0; color: #f57c00; }
-.tag.robotics { background: #e8f5e9; color: #388e3c; }
-.tag.company { background: #f3e5f5; color: #7b1fa2; }
-.tag.product { background: #fce4ec; color: #c2185b; }
+.tag.llm { background: #e8f4fd; color: #0969da; }
+.tag.autonomous { background: #fff4e6; color: #d46b08; }
+.tag.robotics { background: #e6f7ff; color: #0958d9; }
+.tag.zhuoyu { background: #f6ffed; color: #389e0d; }
 .tag.research { background: #e0f2f1; color: #00796b; }
 
 .card-time {
@@ -601,11 +592,11 @@ body {
 }
 
 .card-title {
-    font-size: 1.05rem;
+    font-size: 16px;
     font-weight: 600;
-    color: var(--dark);
+    color: #1a1a2e;
     line-height: 1.5;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -613,13 +604,14 @@ body {
 }
 
 .card-summary {
-    font-size: 0.9rem;
-    color: var(--text-light);
-    line-height: 1.6;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    margin-bottom: 12px;
 }
 
 .card-footer {
