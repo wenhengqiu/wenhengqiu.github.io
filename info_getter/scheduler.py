@@ -42,11 +42,29 @@ class Scheduler:
         start_time = datetime.now()
         
         try:
-            # 1. 采集文章
+            # 1. RSS采集
             from info_getter.fetcher.core import Fetcher
             fetcher = Fetcher(self.config)
             articles = await fetcher.fetch_all()
-            logger.info(f"📥 采集到 {len(articles)} 篇文章")
+            logger.info(f"📥 RSS采集: {len(articles)} 篇文章")
+            
+            # 2. Web爬虫采集（Playwright）
+            logger.info("🌐 启动Web爬虫...")
+            try:
+                import subprocess
+                result = subprocess.run(
+                    ['/Library/Developer/CommandLineTools/usr/bin/python3', 
+                     'scripts/crawl_playwright.py'],
+                    capture_output=True,
+                    text=True,
+                    timeout=300
+                )
+                if result.returncode == 0:
+                    logger.info("✅ Web爬虫完成")
+                else:
+                    logger.warning(f"⚠️ Web爬虫出错: {result.stderr[:200]}")
+            except Exception as e:
+                logger.warning(f"⚠️ Web爬虫失败: {e}")
             
             # 2. 翻译文章并转换为PRD v6.1格式
             from info_getter.translator.core import Translator
