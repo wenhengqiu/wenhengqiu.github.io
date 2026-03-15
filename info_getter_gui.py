@@ -18,7 +18,7 @@ class InfoGetterGUI:
         self.root = root
         self.root.title("Info-Getter Dashboard")
         self.root.geometry("1200x800")
-        self.root.configure(bg='#f5f5f5')
+        self.root.configure(bg='#f8fafc')
         
         # 数据路径
         self.data_dir = Path('/Users/jarvis/.openclaw/workspace/dataloop-website/data/articles/research')
@@ -48,12 +48,12 @@ class InfoGetterGUI:
         action_menu.add_command(label="清理旧数据", command=self.clean_old_data)
     
     def create_sidebar(self):
-        sidebar = tk.Frame(self.root, bg='#001529', width=200)
+        sidebar = tk.Frame(self.root, bg='#ffffff', width=200, highlightbackground='#e2e8f0', highlightthickness=1)
         sidebar.pack(side=tk.LEFT, fill=tk.Y)
         sidebar.pack_propagate(False)
         
         # Logo
-        logo = tk.Label(sidebar, text="🤖 Info-Getter", bg='#001529', fg='white', 
+        logo = tk.Label(sidebar, text="🤖 Info-Getter", bg='#ffffff', fg='#4f46e5', 
                        font=('Arial', 16, 'bold'), pady=20)
         logo.pack()
         
@@ -68,14 +68,14 @@ class InfoGetterGUI:
         ]
         
         for text, command in menus:
-            btn = tk.Button(sidebar, text=text, bg='#001529', fg='white',
+            btn = tk.Button(sidebar, text=text, bg='#ffffff', fg='#475569',
                           font=('Arial', 12), bd=0, pady=15, cursor='hand2',
-                          activebackground='#1890ff', activeforeground='white',
+                          activebackground='#f1f5f9', activeforeground='#4f46e5',
                           command=command)
             btn.pack(fill=tk.X, padx=10, pady=2)
     
     def create_main_content(self):
-        self.main_frame = tk.Frame(self.root, bg='#f5f5f5')
+        self.main_frame = tk.Frame(self.root, bg='#f8fafc')
         self.main_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=20, pady=20)
         
         # 默认显示仪表盘
@@ -89,20 +89,20 @@ class InfoGetterGUI:
         self.clear_main_frame()
         
         # 标题
-        title = tk.Label(self.main_frame, text="📊 仪表盘", bg='#f5f5f5', 
+        title = tk.Label(self.main_frame, text="📊 仪表盘", bg='#f8fafc', fg='#1e293b',
                         font=('Arial', 24, 'bold'))
         title.pack(anchor='w', pady=(0, 20))
         
         # 统计卡片
-        stats_frame = tk.Frame(self.main_frame, bg='#f5f5f5')
+        stats_frame = tk.Frame(self.main_frame, bg='#f8fafc')
         stats_frame.pack(fill=tk.X, pady=10)
         
         stats = self.get_stats()
         stat_data = [
-            ("今日采集", stats['today'], '#1890ff'),
-            ("本周采集", stats['week'], '#52c41a'),
-            ("总计文章", stats['total'], '#722ed1'),
-            ("信息源", stats['sources'], '#fa8c16'),
+            ("今日采集", stats['today'], '#4f46e5'),
+            ("本周采集", stats['week'], '#10b981'),
+            ("总计文章", stats['total'], '#8b5cf6'),
+            ("信息源", stats['sources'], '#f59e0b'),
         ]
         
         for label, value, color in stat_data:
@@ -113,29 +113,29 @@ class InfoGetterGUI:
                                font=('Arial', 32, 'bold'), pady=10)
             val_label.pack()
             
-            text_label = tk.Label(card, text=label, bg='white', fg='#666',
+            text_label = tk.Label(card, text=label, bg='white', fg='#64748b',
                                 font=('Arial', 12))
             text_label.pack(pady=(0, 10))
         
         # 系统状态
-        status_frame = tk.Frame(self.main_frame, bg='white', bd=1, relief='solid')
+        status_frame = tk.Frame(self.main_frame, bg='white', bd=1, relief='solid', highlightbackground='#e2e8f0', highlightthickness=1)
         status_frame.pack(fill=tk.X, pady=20)
         
         status_inner = tk.Frame(status_frame, bg='white', padx=20, pady=15)
         status_inner.pack(fill=tk.X)
         
-        tk.Label(status_inner, text="系统状态:", bg='white', 
+        tk.Label(status_inner, text="系统状态:", bg='white', fg='#1e293b',
                 font=('Arial', 12)).pack(side=tk.LEFT)
         
-        self.status_dot = tk.Label(status_inner, text="🟢", bg='white', font=('Arial', 12))
+        self.status_dot = tk.Label(status_inner, text="●", bg='white', fg='#10b981', font=('Arial', 14))
         self.status_dot.pack(side=tk.LEFT, padx=5)
         
         self.status_text = tk.Label(status_inner, text="运行中", bg='white',
-                                   font=('Arial', 12), fg='#52c41a')
+                                   font=('Arial', 12), fg='#10b981')
         self.status_text.pack(side=tk.LEFT)
         
         tk.Label(status_inner, text=f"最后更新: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-                bg='white', font=('Arial', 10), fg='#999').pack(side=tk.RIGHT)
+                bg='white', font=('Arial', 10), fg='#94a3b8').pack(side=tk.RIGHT)
         
         # 最新文章
         articles_frame = tk.Frame(self.main_frame, bg='white', bd=1, relief='solid')
