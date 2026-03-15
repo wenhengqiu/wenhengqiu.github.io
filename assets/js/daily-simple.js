@@ -88,6 +88,14 @@ function updateDisplay() {
     }
 }
 
+// Store total counts
+let totalCounts = {
+    total: 0,
+    llm: 0,
+    autonomous: 0,
+    robotics: 0
+};
+
 // Update statistics
 function updateStats(articles) {
     const statTotal = document.getElementById('stat-total');
@@ -95,10 +103,19 @@ function updateStats(articles) {
     const statAuto = document.getElementById('stat-autonomous');
     const statRobo = document.getElementById('stat-robotics');
     
-    if (statTotal) statTotal.textContent = articles.length;
-    if (statLlm) statLlm.textContent = articles.filter(a => a.category === 'llm').length;
-    if (statAuto) statAuto.textContent = articles.filter(a => a.category === 'autonomous').length;
-    if (statRobo) statRobo.textContent = articles.filter(a => a.category === 'robotics').length;
+    // Calculate counts
+    totalCounts = {
+        total: articles.length,
+        llm: articles.filter(a => a.category === 'llm').length,
+        autonomous: articles.filter(a => a.category === 'autonomous').length,
+        robotics: articles.filter(a => a.category === 'robotics').length
+    };
+    
+    // Display counts (今日资讯始终显示总数)
+    if (statTotal) statTotal.textContent = totalCounts.total;
+    if (statLlm) statLlm.textContent = totalCounts.llm;
+    if (statAuto) statAuto.textContent = totalCounts.autonomous;
+    if (statRobo) statRobo.textContent = totalCounts.robotics;
 }
 
 // Render articles
@@ -160,12 +177,20 @@ function filterByCategory(category) {
     
     renderArticles(filtered);
     
-    // Update stats to show filtered count
-    if (category === 'all') {
-        updateStats(todayArticles);
-    } else {
-        // Show only the count for this category
-        const statTotal = document.getElementById('stat-total');
-        if (statTotal) statTotal.textContent = filtered.length;
+    // Update active state for stat cards
+    document.querySelectorAll('.stat-card').forEach(card => {
+        card.classList.remove('active');
+    });
+    
+    // Add active class to clicked card
+    const cardMap = {
+        'all': 0,
+        'llm': 1,
+        'autonomous': 2,
+        'robotics': 3
+    };
+    const cards = document.querySelectorAll('.stat-card');
+    if (cards[cardMap[category]]) {
+        cards[cardMap[category]].classList.add('active');
     }
 }
