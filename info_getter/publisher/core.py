@@ -548,6 +548,22 @@ class Publisher:
             'reasons': []
         }
         
+        # 0. 检查关键字段是否为空
+        required_fields = {
+            'id': article.id,
+            'title': article.title,
+            'url': article.url,
+            'category': article.category
+        }
+        
+        empty_fields = [k for k, v in required_fields.items() if not v or v.strip() == '']
+        if empty_fields:
+            result['passed'] = False
+            result['reasons'].append(
+                f"Required fields empty: {', '.join(empty_fields)} - Article rejected"
+            )
+            return result['passed'], result
+        
         # 1. 质量评分
         quality_score = self.evaluate_quality(article)
         result['quality_score'] = quality_score
