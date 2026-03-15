@@ -402,17 +402,32 @@
             list.innerHTML = articles.map(article => {
                 // 使用url字段，如果不存在则使用original_url
                 const url = article.url || article.original_url || '#';
-                const sourceName = typeof article.source === 'object' ? article.source?.name : article.source;
+                
+                // 处理source字段
+                let sourceName = '未知';
+                if (article.source) {
+                    sourceName = typeof article.source === 'object' ? (article.source.name || '未知') : String(article.source);
+                }
+                
+                // 处理日期
+                let dateStr = '未知日期';
+                if (article.display_date) {
+                    dateStr = article.display_date;
+                } else if (article.published_at) {
+                    dateStr = article.published_at.split('T')[0];
+                } else if (article.publish_date) {
+                    dateStr = article.publish_date;
+                }
                 
                 return `
                 <div class="article-item">
                     <div class="article-item-icon">${getCategoryIcon(article.category)}</div>
                     <div class="article-item-content">
-                        <h4><a href="${url}" target="_blank" rel="noopener noreferrer" class="article-title-link">${article.title}</a></h4>
+                        <h4><a href="${url}" target="_blank" rel="noopener noreferrer" class="article-title-link">${article.title || '无标题'}</a></h4>
                         <p>${article.summary || ''}</p>
                         <div class="article-item-meta">
-                            <span>🏢 ${article.companies?.join(', ') || sourceName || '未知'}</span>
-                            <span>📅 ${article.display_date || article.published_at?.split('T')[0] || '未知日期'}</span>
+                            <span>🏢 ${sourceName}</span>
+                            <span>📅 ${dateStr}</span>
                             ${article.importance === 'high' ? '<span style="color:#ff6b6b">🔥 重要</span>' : ''}
                             <a href="${url}" target="_blank" rel="noopener noreferrer" class="article-link">🔗 阅读原文</a>
                         </div>

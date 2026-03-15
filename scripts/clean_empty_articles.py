@@ -31,11 +31,18 @@ def clean_empty_articles():
             has_title = article.get('title') and str(article.get('title')).strip() != ''
             has_url = article.get('url') and str(article.get('url')).strip() != ''
             has_category = article.get('category') and str(article.get('category')).strip() != ''
+            has_summary = article.get('summary') and str(article.get('summary')).strip() != '' and str(article.get('summary')).strip() != 'nan'
             
-            if has_id and has_title and has_url and has_category:
+            if has_id and has_title and has_url and has_category and has_summary:
                 filtered.append(article)
             else:
-                print(f"  删除: {article.get('title', 'N/A')[:40]}... (缺少关键字段)")
+                missing = []
+                if not has_id: missing.append('id')
+                if not has_title: missing.append('title')
+                if not has_url: missing.append('url')
+                if not has_category: missing.append('category')
+                if not has_summary: missing.append('summary')
+                print(f"  删除: {article.get('title', 'N/A')[:40]}... (缺少: {', '.join(missing)})")
                 total_removed += 1
         
         removed = original_count - len(filtered)

@@ -99,7 +99,24 @@ function renderArticles(articles) {
     grid.innerHTML = articles.map(article => {
         const title = article.title || '无标题';
         const summary = article.summary || '';
-        const source = typeof article.source === 'object' ? article.source?.name : (article.source || '未知');
+        
+        // 处理source字段（可能是字符串或对象）
+        let sourceName = '未知';
+        if (article.source) {
+            if (typeof article.source === 'object') {
+                sourceName = article.source.name || article.source.toString();
+            } else {
+                sourceName = String(article.source);
+            }
+        }
+        
+        // 处理日期
+        let dateStr = '';
+        if (article.published_at) {
+            dateStr = article.published_at.split('T')[0];
+        } else if (article.publish_date) {
+            dateStr = article.publish_date;
+        }
         
         // 如果URL为空，使用百度搜索
         let url = article.url;
@@ -115,7 +132,7 @@ function renderArticles(articles) {
         <div class="news-card" onclick="window.open('${url}', '_blank')">
             <div class="card-header">
                 <span class="tag ${article.category}">${catName}</span>
-                <span style="font-size:13px;color:#999;">${source}</span>
+                <span style="font-size:13px;color:#999;">${sourceName} · ${dateStr}</span>
             </div>
             <h3 class="card-title">${title}</h3>
             <p class="card-summary">${summary}</p>
