@@ -157,44 +157,44 @@ class SimHash:
 
 
 class QualityScorer:
-    """文章质量评分器"""
+    """文章质量评分器 - 优化版，更注重行业价值"""
     
     def __init__(self):
-        self.min_content_length = 100  # 最小内容长度
-        self.min_summary_length = 20   # 最小摘要长度
+        self.min_content_length = 100
+        self.min_summary_length = 30
     
     def score(self, article: Article) -> float:
         """
-        计算文章质量分数 (0-1)
+        计算文章质量分数 (0-1) - 行业价值导向
         
         评分维度：
-        1. 内容完整性 (30%)
-        2. 摘要质量 (20%)
-        3. 标题质量 (20%)
-        4. 元数据完整性 (20%)
-        5. 标签丰富度 (10%)
+        1. 行业相关性 (25%) - 核心指标
+        2. 信息价值 (25%) - 技术深度/独家性
+        3. 来源权威性 (20%) - 官方/顶级媒体加分
+        4. 时效性 (15%) - 24h内最新信息
+        5. 内容质量 (15%) - 标题/摘要/完整性
         """
         scores = []
         
-        # 1. 内容完整性 (30%)
-        content_score = self._score_content(article.content)
-        scores.append((content_score, 0.3))
+        # 1. 行业相关性 (25%) - 关键词匹配度
+        relevance_score = self._score_relevance(article)
+        scores.append((relevance_score, 0.25))
         
-        # 2. 摘要质量 (20%)
-        summary_score = self._score_summary(article.summary)
-        scores.append((summary_score, 0.2))
+        # 2. 信息价值 (25%) - 技术突破/产品发布/融资动态
+        value_score = self._score_information_value(article)
+        scores.append((value_score, 0.25))
         
-        # 3. 标题质量 (20%)
-        title_score = self._score_title(article.title)
-        scores.append((title_score, 0.2))
+        # 3. 来源权威性 (20%) - 官方博客/顶级媒体
+        authority_score = self._score_source_authority(article)
+        scores.append((authority_score, 0.20))
         
-        # 4. 元数据完整性 (20%)
-        metadata_score = self._score_metadata(article)
-        scores.append((metadata_score, 0.2))
+        # 4. 时效性 (15%) - 24小时内最高
+        freshness_score = self._score_freshness(article.publish_date)
+        scores.append((freshness_score, 0.15))
         
-        # 5. 标签丰富度 (10%)
-        tags_score = self._score_tags(article.tags)
-        scores.append((tags_score, 0.1))
+        # 5. 内容质量 (15%) - 标题/摘要质量
+        content_score = self._score_content_quality(article)
+        scores.append((content_score, 0.15))
         
         # 加权平均
         total_weight = sum(w for _, w in scores)
@@ -235,23 +235,165 @@ class QualityScorer:
         else:
             return 1.0
     
-    def _score_title(self, title: str) -> float:
-        """评分标题质量"""
-        if not title:
-            return 0.0
+    def _score_relevance(self, article: Article) -> float:
+        """评分行业相关性 - 关键词匹配度"""
+        title = article.title or ""
+        summary = article.summary or ""
+        category = article.category or ""
         
-        title = title.strip()
-        length = len(title)
+        # 行业关键词库
+        industry_keywords = {
+            'ai': ['GPT', 'LLM', '大模型', 'Claude', 'Gemini', 'Transformer', 
+                   'OpenAI', 'DeepMind', 'Anthropic', 'AGI', '多模态', '推理'],
+            'robotics': ['人形机器人', '具身智能', 'Figure AI', 'Optimus', 
+                        '宇树', '智元', '波士顿动力', '灵巧手', '运动控制'],
+            'autonomous': ['FSD', '自动驾驶', 'NOA', '城市NOA', '端到端', 
+                          '感知', '决策', '规控', '激光雷达', '纯视觉'],
+            'zhuoyu': ['卓驭', '成行平台', '大疆车载', '双目视觉', 
+                      '沈劭劼', '中算力', '7V', '10V']
+        }
         
-        # 标题长度适中
-        if length < 5 or length > 100:
+        keywords = industry_keywords.get(category, [])
+        if not keywords:
             return 0.5
         
-        # 包含关键词加分
-        score = 0.7
-        if any(kw in title for kw in ['发布', '推出', '宣布', '获得', '完成']):
+        # 计算关键词匹配数
+        text = title + " " + summary
+        matches = sum(1 for kw in keywords if kw.lower() in text.lower())
+        
+        # 匹配度评分
+        if matches >= 3:
+            return 1.0
+        elif matches == 2:
+            return 0.8
+        elif matches == 1:
+            return 0.6
+        else:
+            return 0.3
+    
+    def _score_information_value(self, article: Article) -> float:
+        """评分信息价值 - 技术突破/产品发布/融资动态"""
+        title = article.title or ""
+        summary = article.summary or ""
+        text = title + " " + summary
+        
+        score = 0.5  # 基础分
+        
+        # 技术突破类 +0.3
+        tech_breakthrough = ['突破', '首次', '创新', '里程碑', 'SOTA', 'state-of-the-art',
+                            '新架构', '新算法', '性能提升', '准确率', '刷新记录']
+        if any(kw in text for kw in tech_breakthrough):
+            score += 0.3
+        
+        # 产品发布类 +0.25
+        product_launch = ['发布', '推出', '上市', '量产', '交付', '新品', '新一代',
+                         '升级', 'v2', 'v3', '版本', '正式上线']
+        if any(kw in text for kw in product_launch):
+            score += 0.25
+        
+        # 融资/合作类 +0.2
+        funding = ['融资', '估值', '投资', '战略合作', '达成合作', '签约',
+                  '亿元', '亿美元', '独角兽']
+        if any(kw in text for kw in funding):
+            score += 0.2
+        
+        # 数据/评测类 +0.15
+        data_eval = ['测试', '评测', '对比', '数据', '报告', '调研',
+                    '市场份额', '用户增长', '营收']
+        if any(kw in text for kw in data_eval):
+            score += 0.15
+        
+        # 包含具体数字（版本号、数据）+0.1
+        if re.search(r'\d+\.\d+|\d+%|\d+亿|\d+万', text):
             score += 0.1
-        if re.search(r'[\d\.]+', title):  # 包含数字/版本号
+        
+        return min(score, 1.0)
+    
+    def _score_source_authority(self, article: Article) -> float:
+        """评分来源权威性"""
+        source = article.source
+        if isinstance(source, dict):
+            source_name = source.get('name', '').lower()
+            source_type = source.get('type', 'tech_media')
+        else:
+            source_name = str(source).lower()
+            source_type = 'tech_media'
+        
+        # 官方博客 (1.0)
+        official_sources = ['openai', 'deepmind', 'google ai', 'anthropic', 
+                           'meta ai', 'nvidia', 'tesla', 'waymo', 'figure ai',
+                           'boston dynamics', 'mobileye', '百度apollo', '华为']
+        if any(s in source_name for s in official_sources):
+            return 1.0
+        
+        # 顶级媒体 (0.9)
+        top_media = ['mit', 'ieee', 'arxiv', 'nature', 'science',
+                    'techcrunch', 'the verge', 'wired', 'mit tech review']
+        if any(s in source_name for s in top_media):
+            return 0.9
+        
+        # 知名中文媒体 (0.8)
+        cn_media = ['机器之心', '量子位', '新智元', '品玩', '36氪', '虎嗅']
+        if any(s in source_name for s in cn_media):
+            return 0.8
+        
+        # 普通媒体 (0.6)
+        if source_type == 'tech_media':
+            return 0.6
+        
+        # 社区/个人 (0.4)
+        return 0.4
+    
+    def _score_freshness(self, publish_date: str) -> float:
+        """评分时效性 - 24小时内最高"""
+        from datetime import datetime, timedelta
+        
+        try:
+            pub_date = datetime.fromisoformat(publish_date.replace('Z', '+00:00'))
+            now = datetime.now(pub_date.tzinfo)
+            delta = now - pub_date
+            hours = delta.total_seconds() / 3600
+            
+            if hours < 24:
+                return 1.0  # 24小时内
+            elif hours < 48:
+                return 0.9  # 48小时内
+            elif hours < 72:
+                return 0.8  # 72小时内
+            elif hours < 168:  # 7天
+                return 0.7 - (hours - 72) / 168 * 0.3
+            else:
+                return 0.4  # 超过7天
+        except:
+            return 0.5
+    
+    def _score_content_quality(self, article: Article) -> float:
+        """评分内容质量 - 标题/摘要/完整性"""
+        title = article.title or ""
+        summary = article.summary or ""
+        
+        score = 0.5
+        
+        # 标题质量
+        title_len = len(title)
+        if 10 <= title_len <= 60:
+            score += 0.15  # 长度适中
+        
+        # 标题包含行业关键词
+        if any(kw in title for kw in ['AI', 'GPT', '自动驾驶', '机器人', '大模型']):
+            score += 0.1
+        
+        # 摘要质量
+        summary_len = len(summary)
+        if summary_len >= 100:
+            score += 0.15  # 摘要详细
+        elif summary_len >= 50:
+            score += 0.1
+        
+        # 元数据完整
+        required = [article.id, article.title, article.category, 
+                   article.publish_date, article.url]
+        if all(required):
             score += 0.1
         
         return min(score, 1.0)
@@ -287,14 +429,14 @@ class Publisher:
     功能：
     1. 读取现有 JSON 文件
     2. SimHash 去重检查
-    3. 质量评分过滤（<0.7 不发布）
+    3. 质量评分过滤（<0.6 不发布）- 优化后阈值
     4. Git 自动提交和推送
     """
     
     def __init__(
         self,
         data_dir: str,
-        quality_threshold: float = 0.7,
+        quality_threshold: float = 0.6,  # 降低阈值，更注重行业价值
         similarity_threshold: float = 0.85,
         auto_git: bool = True
     ):
