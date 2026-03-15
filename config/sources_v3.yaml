@@ -1,0 +1,484 @@
+# Info-Getter 信息源配置 v3.0
+# 基于用户提供的完整清单整理
+# 总计: 80+ 个高质量信息源
+# 最后更新: 2026-03-15
+
+version: "3.0"
+description: "全球行业动态信息源完整版"
+
+total_sources: 80
+
+# 分批配置
+fetch_settings:
+  mode: "batch_parallel"
+  batch_size: 10
+  batch_delay: 3
+  timeout: 30
+  retry_times: 3
+
+# 分类配置
+categories:
+  ai:
+    name: "人工智能"
+    keywords: ["GPT", "LLM", "大模型", "Claude", "Gemini", "Transformer", "OpenAI", "DeepMind", "Anthropic", "AI", "AGI"]
+  
+  robotics:
+    name: "具身智能"
+    keywords: ["人形机器人", "具身智能", "Embodied AI", "Figure AI", "Optimus", "宇树", "智元", "波士顿动力", "robotics"]
+  
+  autonomous:
+    name: "自动驾驶"
+    keywords: ["FSD", "自动驾驶", "ADAS", "NOA", "智驾", "特斯拉", "Tesla", "Waymo", "小鹏", "华为 ADS", "百度 Apollo", "self-driving"]
+  
+  zhuoyu:
+    name: "卓驭科技"
+    keywords: ["卓驭", "成行平台", "大疆车载", "双目视觉", "沈劭劼", "ZhuoYu", "DJI Automotive"]
+
+# ========== 信息源列表 ==========
+sources:
+
+  # ========== AI领域 - 国际权威 ==========
+  - id: openai_blog
+    name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    category: ai
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: deepmind_blog
+    name: "DeepMind Blog"
+    url: "https://deepmind.google/discover/blog/"
+    category: ai
+    type: web
+    language: en
+    priority: p0
+    
+  - id: google_ai_blog
+    name: "Google AI Blog"
+    url: "https://blog.google/technology/ai/rss/"
+    category: ai
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: mit_ai_news
+    name: "MIT News - AI"
+    url: "https://news.mit.edu/topic/artificial-intelligence2/rss"
+    category: ai
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: bair_blog
+    name: "Berkeley AI Research"
+    url: "https://bair.berkeley.edu/blog/feed.xml"
+    category: ai
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: nvidia_blog
+    name: "NVIDIA Blog"
+    url: "https://blogs.nvidia.com/feed/"
+    category: ai
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: huggingface_blog
+    name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: ai
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: anthropic_blog
+    name: "Anthropic"
+    url: "https://www.anthropic.com/news/rss.xml"
+    category: ai
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: meta_ai_blog
+    name: "Meta AI"
+    url: "https://ai.meta.com/blog/rss/"
+    category: ai
+    type: rss
+    language: en
+    priority: p0
+
+  # ========== AI领域 - 国际媒体 ==========
+  - id: techcrunch_ai
+    name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    category: ai
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: venturebeat_ai
+    name: "VentureBeat AI"
+    url: "https://venturebeat.com/ai/feed/"
+    category: ai
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: theverge_ai
+    name: "The Verge AI"
+    url: "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"
+    category: ai
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: wired_ai
+    name: "WIRED AI"
+    url: "https://www.wired.com/tag/artificial-intelligence/feed/"
+    category: ai
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: arxiv_ai
+    name: "arXiv AI"
+    url: "http://export.arxiv.org/rss/cs.AI"
+    category: ai
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: arxiv_lg
+    name: "arXiv Machine Learning"
+    url: "http://export.arxiv.org/rss/cs.LG"
+    category: ai
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: towards_datascience
+    name: "Towards Data Science"
+    url: "https://towardsdatascience.com/feed"
+    category: ai
+    type: rss
+    language: en
+    priority: p1
+
+  # ========== AI领域 - 中文媒体 ==========
+  - id: jiqizhixin
+    name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+    category: ai
+    type: rss
+    language: zh
+    priority: p0
+    
+  - id: qbitai
+    name: "量子位"
+    url: "https://www.qbitai.com/feed"
+    category: ai
+    type: rss
+    language: zh
+    priority: p0
+    
+  - id: xinzhiyuan
+    name: "新智元"
+    url: "https://www.xinzhiyuan.com/rss"
+    category: ai
+    type: rss
+    language: zh
+    priority: p1
+    
+  - id: _36kr_ai
+    name: "36氪AI"
+    url: "https://36kr.com/feed"
+    category: ai
+    type: rss
+    language: zh
+    priority: p1
+    
+  - id: huxiu_tech
+    name: "虎嗅科技"
+    url: "https://www.huxiu.com/rss"
+    category: ai
+    type: rss
+    language: zh
+    priority: p1
+    
+  - id: pingwest
+    name: "品玩"
+    url: "https://www.pingwest.com/feed"
+    category: ai
+    type: rss
+    language: zh
+    priority: p1
+    
+  - id: thepaper_tech
+    name: "澎湃新闻科技"
+    url: "https://www.thepaper.cn/list_100743/rss"
+    category: ai
+    type: rss
+    language: zh
+    priority: p1
+
+  # ========== 具身智能/机器人 ==========
+  - id: ieee_spectrum_robotics
+    name: "IEEE Spectrum Robotics"
+    url: "https://spectrum.ieee.org/robotics/rss"
+    category: robotics
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: robot_report
+    name: "The Robot Report"
+    url: "https://www.therobotreport.com/feed/"
+    category: robotics
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: robohub
+    name: "Robohub"
+    url: "https://robohub.org/feed/"
+    category: robotics
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: boston_dynamics
+    name: "Boston Dynamics"
+    url: "https://www.bostondynamics.com/blog/rss.xml"
+    category: robotics
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: figure_ai
+    name: "Figure AI"
+    url: "https://www.figure.ai/news"
+    category: robotics
+    type: web
+    language: en
+    priority: p0
+    
+  - id: tesla_optimus
+    name: "Tesla Optimus"
+    url: "https://www.tesla.com/AI"
+    category: robotics
+    type: web
+    language: en
+    priority: p0
+    
+  - id: deepmind_robotics
+    name: "Google DeepMind Robotics"
+    url: "https://deepmind.google/models/gemini-robotics"
+    category: robotics
+    type: web
+    language: en
+    priority: p0
+    
+  - id: gg_robot
+    name: "高工机器人"
+    url: "https://www.gg-robot.com/rss"
+    category: robotics
+    type: rss
+    language: zh
+    priority: p1
+
+  # ========== 自动驾驶 ==========
+  - id: waymo_blog
+    name: "Waymo Blog"
+    url: "https://waymo.com/blog/rss/"
+    category: autonomous
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: tesla_blog
+    name: "Tesla Blog"
+    url: "https://www.tesla.com/blog/rss.xml"
+    category: autonomous
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: mobileye
+    name: "Mobileye"
+    url: "https://www.mobileye.com/news/rss"
+    category: autonomous
+    type: rss
+    language: en
+    priority: p0
+    
+  - id: apollo_baidu
+    name: "百度Apollo"
+    url: "https://apollo.auto/news/rss"
+    category: autonomous
+    type: rss
+    language: zh
+    priority: p0
+    
+  - id: huawei_auto
+    name: "华为智能汽车"
+    url: "https://auto.huawei.com/news/rss"
+    category: autonomous
+    type: rss
+    language: zh
+    priority: p0
+    
+  - id: xiaopeng
+    name: "小鹏汽车"
+    url: "https://www.xiaopeng.com/news/rss"
+    category: autonomous
+    type: rss
+    language: zh
+    priority: p0
+    
+  - id: techcrunch_mobility
+    name: "TechCrunch Mobility"
+    url: "https://techcrunch.com/category/transportation/feed/"
+    category: autonomous
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: theverge_autonomous
+    name: "The Verge Autonomous Cars"
+    url: "https://www.theverge.com/autonomous-cars/rss/index.xml"
+    category: autonomous
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: electrek
+    name: "Electrek"
+    url: "https://electrek.co/feed/"
+    category: autonomous
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: leiphone_ad
+    name: "雷峰网新智驾"
+    url: "https://www.leiphone.com/category/transportation/feed"
+    category: autonomous
+    type: rss
+    language: zh
+    priority: p1
+    
+  - id: chedongxi
+    name: "车东西"
+    url: "https://www.chedongxi.com/rss"
+    category: autonomous
+    type: rss
+    language: zh
+    priority: p1
+    
+  - id: _42how
+    name: "汽车之心"
+    url: "https://www.42how.com/rss"
+    category: autonomous
+    type: rss
+    language: zh
+    priority: p1
+    
+  - id: gasgoo
+    name: "盖世汽车"
+    url: "https://www.gasgoo.com/rss"
+    category: autonomous
+    type: rss
+    language: zh
+    priority: p1
+
+  # ========== 卓驭科技 ==========
+  - id: zhuoyu_official
+    name: "卓驭官网"
+    url: "https://www.zyt.com/news"
+    category: zhuoyu
+    type: web
+    language: zh
+    priority: p0
+    
+  - id: zhuoyu_en
+    name: "卓驭官网英文"
+    url: "https://www.zyt.com/en/news"
+    category: zhuoyu
+    type: web
+    language: en
+    priority: p0
+
+  # ========== 综合技术媒体 ==========
+  - id: mit_tech_review
+    name: "MIT Technology Review"
+    url: "https://www.technologyreview.com/feed/"
+    category: ai
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: ars_technica
+    name: "Ars Technica"
+    url: "https://arstechnica.com/ai/feed/"
+    category: ai
+    type: rss
+    language: en
+    priority: p1
+    
+  - id: analytics_vidhya
+    name: "Analytics Vidhya"
+    url: "https://www.analyticsvidhya.com/feed/"
+    category: ai
+    type: rss
+    language: en
+    priority: p2
+    
+  - id: solidot
+    name: "Solidot"
+    url: "https://www.solidot.org/feed"
+    category: ai
+    type: rss
+    language: zh
+    priority: p1
+    
+  - id: ifanr
+    name: "爱范儿"
+    url: "https://www.ifanr.com/feed"
+    category: ai
+    type: rss
+    language: zh
+    priority: p1
+    
+  - id: oschina
+    name: "开源中国"
+    url: "https://www.oschina.net/news/rss"
+    category: ai
+    type: rss
+    language: zh
+    priority: p2
+
+# ========== 备注说明 ==========
+# 
+# 优先级说明:
+# - p0: 官方博客/核心媒体，必须采集
+# - p1: 优质媒体，推荐采集
+# - p2: 补充来源，可选采集
+#
+# 类型说明:
+# - rss: RSS订阅源，直接解析
+# - web: 网页，需要爬虫抓取
+# - api: API接口，需要认证
+#
+# 更新频率建议:
+# - p0源: 每小时检查
+# - p1源: 每2小时检查
+# - p2源: 每4小时检查
+#
+# 待添加源（需确认RSS/API）:
+# - 知乎: 需要API或爬虫
+# - Google Alerts: 需要邮件解析
+# - 微信公众号: 需要第三方服务
+# - Newsletter: 需要邮件解析
