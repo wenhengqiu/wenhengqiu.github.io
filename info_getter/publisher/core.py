@@ -578,9 +578,9 @@ class Publisher:
             
             result['commits'].append(commit_msg)
             
-            # 推送
+            # 推送到 user-pages remote
             push_proc = subprocess.run(
-                ['git', 'push'],
+                ['git', 'push', 'user-pages', 'master'],
                 cwd=repo_root, capture_output=True, text=True
             )
             
